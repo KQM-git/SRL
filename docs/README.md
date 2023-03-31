@@ -10,7 +10,7 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-<!-- **Most Recent Characters:** [Mika](/characters/cryo/mika.md) | [Dehya](/characters/pyro/dehya.md) -->
+**Most Recent Characters:** [Mika](/characters/ice/herta)
 
 **Damage Formula:** [Page](/combat-mechanics/damage/damage-formula)
 
