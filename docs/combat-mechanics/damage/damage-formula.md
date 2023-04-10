@@ -65,16 +65,11 @@ For all relevant DMG%'s.
 ## Enemy Defense
 
 $$
-\text{DEF Multiplier} = 100\% - \frac
-    {\text{DEF}_{\text{Enemy}}}
-    {\text{DEF}_{\text{Enemy}} + 200 + 10 * \text{Level}_{\text{Character}} }
+\text{DEF Multiplier} = \frac
+    {\text{Level}_{\text{Character}} + 20}
+    {(\text{Level}_{\text{Enemy}} + 20) + (\text{Level}_{\text{Character}} + 20)}
 $$
 
-with
-
-$$
-\text{DEF}_{\text{Enemy}} = 200 + 10 * \text{Level}_{\text{Enemy}}
-$$
 
 ## Enemy Resistance
 
