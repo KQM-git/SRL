@@ -221,7 +221,7 @@ const config = {
             port: 443,
             protocol: 'https'
           }],
-          apiKey: 'VXstnBtIuOWIUb1VRaY6hKcdWv47QzBK'
+          apiKey: 'g5CAwtRMy61YRcTvtNhANtMbhTvWveA9'
         }
       }
     }),
