@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import { CharacterStats } from '@site/src/data/types'
+import { CharacterStats, LightconeStats } from '@site/src/data/types'
 import { stat } from '@site/src/utils/stats/stat'
 import { Stat } from '@site/src/utils/stats/common'
 
@@ -12,7 +12,7 @@ export default function StatsTable({
   baseLevels,
   getStatsAt
 }: {
-  stats: (CharacterStats)[],
+  stats: (CharacterStats | LightconeStats)[],
   baseLevels: { a: number, lv: number }[],
   getStatsAt: (lvl: number, asc: number) => Record<string, Stat>
 }) {

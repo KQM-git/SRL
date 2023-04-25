@@ -1,5 +1,7 @@
 {
   "name": "Herta",
+  "damageType": "Ice",
+  "baseType": "Erudition",
   "star": 4,
   "stats": [
     {
