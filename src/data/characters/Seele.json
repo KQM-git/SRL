@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Extirpating Slash",
+      "desc": "When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%."
+    },
+    {
+      "name": "Dancing Butterfly",
+      "desc": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s)."
+    },
+    {
+      "name": "Dazzling Tumult",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Flitting Phantasm",
+      "desc": "Seele regenerates 15 Energy when she defeats an enemy."
+    },
+    {
+      "name": "Piercing Shards",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Shattering Shambles",
+      "desc": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.\nWhen Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed."
+    }
   ]
 }

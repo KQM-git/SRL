@@ -77,13 +77,7 @@
     ],
     "refinements": {
       "name": "Stasis",
-      "values": [
-        "Increases the wearer's DEF by **16%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **16%**.",
-        "Increases the wearer's DEF by **20%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **20%**.",
-        "Increases the wearer's DEF by **24%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **24%**.",
-        "Increases the wearer's DEF by **28%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **28%**.",
-        "Increases the wearer's DEF by **32%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **32%**."
-      ]
+      "desc": "Increases the wearer's DEF by **16%**/**20%**/**24%**/**28%**/**32%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **16%**/**20%**/**24%**/**28%**/**32%**."
     }
   },
   "Defense": {
@@ -164,13 +158,7 @@
     ],
     "refinements": {
       "name": "Revitalization",
-      "values": [
-        "When the wearer unleashes their Ultimate, they restore HP by **18%** of their Max HP.",
-        "When the wearer unleashes their Ultimate, they restore HP by **21%** of their Max HP.",
-        "When the wearer unleashes their Ultimate, they restore HP by **24%** of their Max HP.",
-        "When the wearer unleashes their Ultimate, they restore HP by **27%** of their Max HP.",
-        "When the wearer unleashes their Ultimate, they restore HP by **30%** of their Max HP."
-      ]
+      "desc": "When the wearer unleashes their Ultimate, they restore HP by **18%**/**21%**/**24%**/**27%**/**30%** of their Max HP."
     }
   },
   "Pioneering": {
@@ -251,13 +239,7 @@
     ],
     "refinements": {
       "name": "IPC",
-      "values": [
-        "When the wearer Breaks an enemy's Weakness, the wearer restores HP by **12%** of their Max HP.",
-        "When the wearer Breaks an enemy's Weakness, the wearer restores HP by **14%** of their Max HP.",
-        "When the wearer Breaks an enemy's Weakness, the wearer restores HP by **16%** of their Max HP.",
-        "When the wearer Breaks an enemy's Weakness, the wearer restores HP by **18%** of their Max HP.",
-        "When the wearer Breaks an enemy's Weakness, the wearer restores HP by **20%** of their Max HP."
-      ]
+      "desc": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by **12%**/**14%**/**16%**/**18%**/**20%** of their Max HP."
     }
   },
   "Day One of My New Life": {
@@ -338,13 +320,7 @@
     ],
     "refinements": {
       "name": "At This Very Moment",
-      "values": [
-        "Increases the wearer's DEF by **16%**. After entering battle, increases DMG RES of all allies by **8%**. Effects of the same type cannot stack.",
-        "Increases the wearer's DEF by **18%**. After entering battle, increases DMG RES of all allies by **9%**. Effects of the same type cannot stack.",
-        "Increases the wearer's DEF by **20%**. After entering battle, increases DMG RES of all allies by **10%**. Effects of the same type cannot stack.",
-        "Increases the wearer's DEF by **22%**. After entering battle, increases DMG RES of all allies by **11%**. Effects of the same type cannot stack.",
-        "Increases the wearer's DEF by **24%**. After entering battle, increases DMG RES of all allies by **12%**. Effects of the same type cannot stack."
-      ]
+      "desc": "Increases the wearer's DEF by **16%**/**18%**/**20%**/**22%**/**24%**. After entering battle, increases DMG RES of all allies by **8%**/**9%**/**10%**/**11%**/**12%**. Effects of the same type cannot stack."
     }
   },
   "Landau's Choice": {
@@ -425,13 +401,7 @@
     ],
     "refinements": {
       "name": "Time Fleets Away",
-      "values": [
-        "The wearer is more likely to be attacked, but DMG taken is reduced by **16%**.",
-        "The wearer is more likely to be attacked, but DMG taken is reduced by **18%**.",
-        "The wearer is more likely to be attacked, but DMG taken is reduced by **20%**.",
-        "The wearer is more likely to be attacked, but DMG taken is reduced by **22%**.",
-        "The wearer is more likely to be attacked, but DMG taken is reduced by **24%**."
-      ]
+      "desc": "The wearer is more likely to be attacked, but DMG taken is reduced by **16%**/**18%**/**20%**/**22%**/**24%**."
     }
   },
   "This Is Me!": {
@@ -512,13 +482,7 @@
     ],
     "refinements": {
       "name": "New Chapter",
-      "values": [
-        "Increases the wearer's DEF by **16%**. Increases the DMG of the wearer when they use their Ultimate by **60%** of the wearer's DEF. This effect can only apply 1 time per enemy target.",
-        "Increases the wearer's DEF by **20%**. Increases the DMG of the wearer when they use their Ultimate by **75%** of the wearer's DEF. This effect can only apply 1 time per enemy target.",
-        "Increases the wearer's DEF by **24%**. Increases the DMG of the wearer when they use their Ultimate by **90%** of the wearer's DEF. This effect can only apply 1 time per enemy target.",
-        "Increases the wearer's DEF by **28%**. Increases the DMG of the wearer when they use their Ultimate by **105%** of the wearer's DEF. This effect can only apply 1 time per enemy target.",
-        "Increases the wearer's DEF by **32%**. Increases the DMG of the wearer when they use their Ultimate by **120%** of the wearer's DEF. This effect can only apply 1 time per enemy target."
-      ]
+      "desc": "Increases the wearer's DEF by **16%**/**20%**/**24%**/**28%**/**32%**. Increases the DMG of the wearer when they use their Ultimate by **60%**/**75%**/**90%**/**105%**/**120%** of the wearer's DEF. This effect can only apply 1 time per enemy target."
     }
   },
   "Trend of the Universal Market": {
@@ -599,13 +563,7 @@
     ],
     "refinements": {
       "name": "A New Round of Shuffling",
-      "values": [
-        "Increases the wearer's DEF by **16%**. When the wearer is attacked, there is a **100%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **40%** of the wearer's DEF for 2 turn(s).",
-        "Increases the wearer's DEF by **20%**. When the wearer is attacked, there is a **105%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **50%** of the wearer's DEF for 2 turn(s).",
-        "Increases the wearer's DEF by **24%**. When the wearer is attacked, there is a **110%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **60%** of the wearer's DEF for 2 turn(s).",
-        "Increases the wearer's DEF by **28%**. When the wearer is attacked, there is a **115%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **70%** of the wearer's DEF for 2 turn(s).",
-        "Increases the wearer's DEF by **32%**. When the wearer is attacked, there is a **120%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **80%** of the wearer's DEF for 2 turn(s)."
-      ]
+      "desc": "Increases the wearer's DEF by **16%**/**20%**/**24%**/**28%**/**32%**. When the wearer is attacked, there is a **100%**/**105%**/**110%**/**115%**/**120%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **40%**/**50%**/**60%**/**70%**/**80%** of the wearer's DEF for 2 turn(s)."
     }
   },
   "We Are Wildfire": {
@@ -686,13 +644,7 @@
     ],
     "refinements": {
       "name": "Teary-Eyed",
-      "values": [
-        "At the start of the battle, the DMG dealt to all allies decreases by **8%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **30%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **10%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **35%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **12%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **40%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **14%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **45%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **16%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **50%** of the respective HP difference between the characters' Max HP and current HP."
-      ]
+      "desc": "At the start of the battle, the DMG dealt to all allies decreases by **8%**/**10%**/**12%**/**14%**/**16%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **30%**/**35%**/**40%**/**45%**/**50%** of the respective HP difference between the characters' Max HP and current HP."
     }
   },
   "Moment of Victory": {
@@ -773,13 +725,7 @@
     ],
     "refinements": {
       "name": "Verdict",
-      "values": [
-        "Increases the wearer's DEF by **24%** and Effect Hit Rate by **24%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **24%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **28%** and Effect Hit Rate by **28%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **28%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **32%** and Effect Hit Rate by **32%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **32%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **36%** and Effect Hit Rate by **36%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **36%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **40%** and Effect Hit Rate by **40%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **40%** until the end of the wearer's turn."
-      ]
+      "desc": "Increases the wearer's DEF by **24%**/**28%**/**32%**/**36%**/**40%** and Effect Hit Rate by **24%**/**28%**/**32%**/**36%**/**40%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **24%**/**28%**/**32%**/**36%**/**40%** until the end of the wearer's turn."
     }
   },
   "Texture of Memories": {
@@ -860,13 +806,7 @@
     ],
     "refinements": {
       "name": "Treasure",
-      "values": [
-        "Increases the wearer's Effect RES by **8%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **16%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **12%**.",
-        "Increases the wearer's Effect RES by **10%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **20%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **15%**.",
-        "Increases the wearer's Effect RES by **12%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **24%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **18%**.",
-        "Increases the wearer's Effect RES by **14%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **28%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **21%**.",
-        "Increases the wearer's Effect RES by **16%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **32%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **24%**."
-      ]
+      "desc": "Increases the wearer's Effect RES by **8%**/**10%**/**12%**/**14%**/**16%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **16%**/**20%**/**24%**/**28%**/**32%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **12%**/**15%**/**18%**/**21%**/**24%**."
     }
   }
 }

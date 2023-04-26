@@ -32,7 +32,7 @@ export default function LightconeStats({ lightcone, lightcones }: { lightcone: s
       <tbody>
         {lc.refinements && <tr>
           <td style={({ minWidth: "120px" })}>{lc.refinements.name}</td>
-          <td><ReactMarkdown className="react-md">{lc.refinements.values.map(x => `- ${x}`).join("\n")}</ReactMarkdown></td>
+          <td><ReactMarkdown className="react-md">{lc.refinements.desc}</ReactMarkdown></td>
         </tr>}
         {Object.entries(max).map(([name, { explain, value }]) => <tr key={name}>
           <td style={({ minWidth: "120px" })}>{name}</td>

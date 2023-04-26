@@ -77,13 +77,7 @@
     ],
     "refinements": {
       "name": "Havoc",
-      "values": [
-        "Increases the wearer's Basic ATK and Skill DMG by **20%**.",
-        "Increases the wearer's Basic ATK and Skill DMG by **25%**.",
-        "Increases the wearer's Basic ATK and Skill DMG by **30%**.",
-        "Increases the wearer's Basic ATK and Skill DMG by **35%**.",
-        "Increases the wearer's Basic ATK and Skill DMG by **40%**."
-      ]
+      "desc": "Increases the wearer's Basic ATK and Skill DMG by **20%**/**25%**/**30%**/**35%**/**40%**."
     }
   },
   "Mutual Demise": {
@@ -164,13 +158,7 @@
     ],
     "refinements": {
       "name": "Legion",
-      "values": [
-        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **12%**.",
-        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **15%**.",
-        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **18%**.",
-        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **21%**.",
-        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **24%**."
-      ]
+      "desc": "If the wearer's current HP is lower than 80%, CRIT Rate increases by **12%**/**15%**/**18%**/**21%**/**24%**."
     }
   },
   "Shattered Home": {
@@ -251,13 +239,7 @@
     ],
     "refinements": {
       "name": "Eradication",
-      "values": [
-        "Deals **20%** increased DMG to any enemies whose HP is above 50%.",
-        "Deals **25%** increased DMG to any enemies whose HP is above 50%.",
-        "Deals **30%** increased DMG to any enemies whose HP is above 50%.",
-        "Deals **35%** increased DMG to any enemies whose HP is above 50%.",
-        "Deals **40%** increased DMG to any enemies whose HP is above 50%."
-      ]
+      "desc": "Deals **20%**/**25%**/**30%**/**35%**/**40%** increased DMG to any enemies whose HP is above 50%."
     }
   },
   "A Secret Vow": {
@@ -338,13 +320,7 @@
     ],
     "refinements": {
       "name": "Spare No Effort",
-      "values": [
-        "Increases DMG dealt by the wearer by **20%**. The wearer also deals an extra **20%** of DMG to enemies with a higher HP percentage than the wearer.",
-        "Increases DMG dealt by the wearer by **25%**. The wearer also deals an extra **25%** of DMG to enemies with a higher HP percentage than the wearer.",
-        "Increases DMG dealt by the wearer by **30%**. The wearer also deals an extra **30%** of DMG to enemies with a higher HP percentage than the wearer.",
-        "Increases DMG dealt by the wearer by **35%**. The wearer also deals an extra **35%** of DMG to enemies with a higher HP percentage than the wearer.",
-        "Increases DMG dealt by the wearer by **40%**. The wearer also deals an extra **40%** of DMG to enemies with a higher HP percentage than the wearer."
-      ]
+      "desc": "Increases DMG dealt by the wearer by **20%**/**25%**/**30%**/**35%**/**40%**. The wearer also deals an extra **20%**/**25%**/**30%**/**35%**/**40%** of DMG to enemies with a higher HP percentage than the wearer."
     }
   },
   "Nowhere to Run": {
@@ -425,13 +401,7 @@
     ],
     "refinements": {
       "name": "Desperate Times",
-      "values": [
-        "Increases the wearer's ATK by **24%**. Whenever the wearer defeats an enemy, they restore HP equal to **12%** of their ATK.",
-        "Increases the wearer's ATK by **30%**. Whenever the wearer defeats an enemy, they restore HP equal to **15%** of their ATK.",
-        "Increases the wearer's ATK by **36%**. Whenever the wearer defeats an enemy, they restore HP equal to **18%** of their ATK.",
-        "Increases the wearer's ATK by **42%**. Whenever the wearer defeats an enemy, they restore HP equal to **21%** of their ATK.",
-        "Increases the wearer's ATK by **48%**. Whenever the wearer defeats an enemy, they restore HP equal to **24%** of their ATK."
-      ]
+      "desc": "Increases the wearer's ATK by **24%**/**30%**/**36%**/**42%**/**48%**. Whenever the wearer defeats an enemy, they restore HP equal to **12%**/**15%**/**18%**/**21%**/**24%** of their ATK."
     }
   },
   "The Moles Welcome You": {
@@ -512,13 +482,7 @@
     ],
     "refinements": {
       "name": "Fantastic Adventure",
-      "values": [
-        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **12%**.",
-        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **15%**.",
-        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **18%**.",
-        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **21%**.",
-        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **24%**."
-      ]
+      "desc": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **12%**/**15%**/**18%**/**21%**/**24%**."
     }
   },
   "Under the Blue Sky": {
@@ -599,13 +563,7 @@
     ],
     "refinements": {
       "name": "Rye Under the Sun",
-      "values": [
-        "Increases the wearer's ATK by **16%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **12%** for 3 turn(s).",
-        "Increases the wearer's ATK by **20%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **15%** for 3 turn(s).",
-        "Increases the wearer's ATK by **24%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **18%** for 3 turn(s).",
-        "Increases the wearer's ATK by **28%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **21%** for 3 turn(s).",
-        "Increases the wearer's ATK by **32%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **24%** for 3 turn(s)."
-      ]
+      "desc": "Increases the wearer's ATK by **16%**/**20%**/**24%**/**28%**/**32%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **12%**/**15%**/**18%**/**21%**/**24%** for 3 turn(s)."
     }
   },
   "Woof! Walk Time!": {
@@ -686,13 +644,7 @@
     ],
     "refinements": {
       "name": "Run!",
-      "values": [
-        "Increases the wearer's ATK by **10%**, and increases their DMG to enemies afflicted with Burn or Bleed by **16%**. This also applies to DoT.",
-        "Increases the wearer's ATK by **13%**, and increases their DMG to enemies afflicted with Burn or Bleed by **20%**. This also applies to DoT.",
-        "Increases the wearer's ATK by **15%**, and increases their DMG to enemies afflicted with Burn or Bleed by **24%**. This also applies to DoT.",
-        "Increases the wearer's ATK by **18%**, and increases their DMG to enemies afflicted with Burn or Bleed by **28%**. This also applies to DoT.",
-        "Increases the wearer's ATK by **20%**, and increases their DMG to enemies afflicted with Burn or Bleed by **32%**. This also applies to DoT."
-      ]
+      "desc": "Increases the wearer's ATK by **10%**/**13%**/**15%**/**18%**/**20%**, and increases their DMG to enemies afflicted with Burn or Bleed by **16%**/**20%**/**24%**/**28%**/**32%**. This also applies to DoT."
     }
   },
   "On the Fall of an Aeon": {
@@ -773,13 +725,7 @@
     ],
     "refinements": {
       "name": "Moth to Flames",
-      "values": [
-        "Whenever the wearer attacks, their ATK is increased by **8%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **12%** for 2 turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **10%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **15%** for 2 turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **12%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **18%** for 2 turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **14%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **21%** for 2 turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **16%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **24%** for 2 turn(s)."
-      ]
+      "desc": "Whenever the wearer attacks, their ATK is increased by **8%**/**10%**/**12%**/**14%**/**16%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **12%**/**15%**/**18%**/**21%**/**24%** for 2 turn(s)."
     }
   },
   "Something Irreplaceable": {
@@ -860,13 +806,7 @@
     ],
     "refinements": {
       "name": "Kinship",
-      "values": [
-        "Increases the wearer's ATK by **24%**. When the wearer defeats an enemy or is hit, immediately restores HP equal to **8%** of the wearer's ATK. At the same time, the wearer's DMG is increased by **24%** until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-        "Increases the wearer's ATK by **28%**. When the wearer defeats an enemy or is hit, immediately restores HP equal to **9%** of the wearer's ATK. At the same time, the wearer's DMG is increased by **28%** until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-        "Increases the wearer's ATK by **32%**. When the wearer defeats an enemy or is hit, immediately restores HP equal to **10%** of the wearer's ATK. At the same time, the wearer's DMG is increased by **32%** until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-        "Increases the wearer's ATK by **36%**. When the wearer defeats an enemy or is hit, immediately restores HP equal to **11%** of the wearer's ATK. At the same time, the wearer's DMG is increased by **36%** until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-        "Increases the wearer's ATK by **40%**. When the wearer defeats an enemy or is hit, immediately restores HP equal to **12%** of the wearer's ATK. At the same time, the wearer's DMG is increased by **40%** until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn."
-      ]
+      "desc": "Increases the wearer's ATK by **24%**/**28%**/**32%**/**36%**/**40%**. When the wearer defeats an enemy or is hit, immediately restores HP equal to **8%**/**9%**/**10%**/**11%**/**12%** of the wearer's ATK. At the same time, the wearer's DMG is increased by **24%**/**28%**/**32%**/**36%**/**40%** until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn."
     }
   }
 }

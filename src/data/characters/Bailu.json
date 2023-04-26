@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After using Technique, at the start of the next battle, all allies are granted Invigoration for 2 turn(s)."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Ambrosial Aqua",
+      "desc": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra Energy for this target."
+    },
+    {
+      "name": "Sylphic Slumber",
+      "desc": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s)."
+    },
+    {
+      "name": "Omniscient Opulence",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Evil Excision",
+      "desc": "Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s)."
+    },
+    {
+      "name": "Waning Worries",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Drooling Drop of Draconic Divinity",
+      "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
+    }
   ]
 }

@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "The Higher You Fly, the Harder You Fall",
+      "desc": "When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%."
+    },
+    {
+      "name": "Quell the Venom Octet, Quench the Vice O'Flame",
+      "desc": "Reduces Talent cooldown by 1 turn."
+    },
+    {
+      "name": "Seen and Unseen",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Roaring Dragon and Soaring Sun",
+      "desc": "When Dan Heng uses his Ultimate to defeat an enemy, his next action is Advanced Forward by 100%."
+    },
+    {
+      "name": "A Drop of Rain Feeds a Torrent",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "The Troubled Soul Lies in Wait",
+      "desc": "The Slow state triggered by Skill reduces the enemy's SPD by an extra 8%."
+    }
   ]
 }

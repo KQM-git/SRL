@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "Tingyun immediately regenerates 50 Energy upon using her Technique."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Windfall of Lucky Springs",
+      "desc": "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn."
+    },
+    {
+      "name": "Gainfully Gives, Givingly Gains",
+      "desc": "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn."
+    },
+    {
+      "name": "Halcyon Bequest",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Jovial Versatility",
+      "desc": "The DMG multiplier provided by Benediction increases by 20%."
+    },
+    {
+      "name": "Sauntering Coquette",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Peace Brings Wealth to All",
+      "desc": "Ultimate regenerates 10 more Energy for the target ally."
+    }
   ]
 }

@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Kick You When You're Down",
+      "desc": "If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK."
+    },
+    {
+      "name": "Keep the Ball Rolling",
+      "desc": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s)."
+    },
+    {
+      "name": "That's the Kind of Girl I Am",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Hit Where It Hurts",
+      "desc": "When Talent is triggered, DMG increases by 10%."
+    },
+    {
+      "name": "Cuss Big or Cuss Nothing",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "No One Can Betray Me",
+      "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
+    }
   ]
 }

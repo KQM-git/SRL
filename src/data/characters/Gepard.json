@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s)."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Due Diligence",
+      "desc": "When using Skill, increases the base chance to Freeze enemies by 35%."
+    },
+    {
+      "name": "Lingering Cold",
+      "desc": "After an enemy Frozen by Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s)."
+    },
+    {
+      "name": "Never Surrender",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Faith Moves Mountains",
+      "desc": "When Gepard is in battle, all allies' Effect RES increases by 20%."
+    },
+    {
+      "name": "Cold Iron Fist",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Unyielding Resolve",
+      "desc": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP."
+    }
   ]
 }

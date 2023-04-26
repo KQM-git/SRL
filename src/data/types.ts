@@ -4,6 +4,7 @@ export interface Character {
     star: number
     stats: CharacterStats[]
     skills: Skill[]
+    eidolons: Eidolon[]
 }
 
 export interface CharacterStats {
@@ -29,6 +30,11 @@ export interface Skill {
     desc: string // TODO - expand per level
 }
 
+export interface Eidolon {
+    name: string
+    desc: string
+}
+
 // Lightcones
 
 export interface Lightcone {
@@ -52,5 +58,5 @@ export interface LightconeStats {
 
 export interface LightconeRefinements {
     name: string
-    values: string[]
+    desc: string
 }

@@ -140,5 +140,31 @@
       "type": "Technique",
       "desc": "Immediately attacks the enemy. After entering battle, there is a 100% **base chance** to Freeze a random enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Memory of You",
+      "desc": "Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy."
+    },
+    {
+      "name": "Memory of It",
+      "desc": "Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s)."
+    },
+    {
+      "name": "Memory of Everything",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Never Forfeit Again",
+      "desc": "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF."
+    },
+    {
+      "name": "Never Forget Again",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Just Like This, Always...",
+      "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
+    }
   ]
 }

@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% **base chance** to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Childhood",
+      "desc": "After \"Victory Rush\" is triggered, Himeko's SPD increases by 20% for 2 turn(s)."
+    },
+    {
+      "name": "Convergence",
+      "desc": "Deals 15% more DMG to enemies whose HP percentage is 50% or less."
+    },
+    {
+      "name": "Poised",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Dedication",
+      "desc": "When Himeko's Skill inflicts Weakness Break on an enemy, she gains 1 extra point(s) of Charge."
+    },
+    {
+      "name": "Aspiration",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Trailblaze!",
+      "desc": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy."
+    }
   ]
 }

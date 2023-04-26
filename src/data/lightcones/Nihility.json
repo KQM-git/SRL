@@ -77,13 +77,7 @@
     ],
     "refinements": {
       "name": "Mechanism",
-      "values": [
-        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **60%** of ATK to the target enemy.",
-        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **75%** of ATK to the target enemy.",
-        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **90%** of ATK to the target enemy.",
-        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **105%** of ATK to the target enemy.",
-        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **120%** of ATK to the target enemy."
-      ]
+      "desc": "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **60%**/**75%**/**90%**/**105%**/**120%** of ATK to the target enemy."
     }
   },
   "Loop": {
@@ -164,13 +158,7 @@
     ],
     "refinements": {
       "name": "Pursuit",
-      "values": [
-        "Increases DMG dealt from its wearer to Slowed enemies by **24%**.",
-        "Increases DMG dealt from its wearer to Slowed enemies by **30%**.",
-        "Increases DMG dealt from its wearer to Slowed enemies by **36%**.",
-        "Increases DMG dealt from its wearer to Slowed enemies by **42%**.",
-        "Increases DMG dealt from its wearer to Slowed enemies by **48%**."
-      ]
+      "desc": "Increases DMG dealt from its wearer to Slowed enemies by **24%**/**30%**/**36%**/**42%**/**48%**."
     }
   },
   "Void": {
@@ -251,13 +239,7 @@
     ],
     "refinements": {
       "name": "Fallen",
-      "values": [
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **20%** for 3 turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **25%** for 3 turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **30%** for 3 turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **35%** for 3 turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **40%** for 3 turn(s)."
-      ]
+      "desc": "At the start of the battle, the wearer's Effect Hit Rate increases by **20%**/**25%**/**30%**/**35%**/**40%** for 3 turn(s)."
     }
   },
   "Eyes of the Prey": {
@@ -338,13 +320,7 @@
     ],
     "refinements": {
       "name": "Self-Confidence",
-      "values": [
-        "Increases the wearer's Effect Hit Rate by **20%** and increases DoT by **24%**.",
-        "Increases the wearer's Effect Hit Rate by **25%** and increases DoT by **30%**.",
-        "Increases the wearer's Effect Hit Rate by **30%** and increases DoT by **36%**.",
-        "Increases the wearer's Effect Hit Rate by **35%** and increases DoT by **42%**.",
-        "Increases the wearer's Effect Hit Rate by **40%** and increases DoT by **48%**."
-      ]
+      "desc": "Increases the wearer's Effect Hit Rate by **20%**/**25%**/**30%**/**35%**/**40%** and increases DoT by **24%**/**30%**/**36%**/**42%**/**48%**."
     }
   },
   "Fermata": {
@@ -425,13 +401,7 @@
     ],
     "refinements": {
       "name": "Semibreve Rest",
-      "values": [
-        "Increases the Break Effect dealt by the wearer by **16%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **16%**. This also applies to DoT.",
-        "Increases the Break Effect dealt by the wearer by **20%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **20%**. This also applies to DoT.",
-        "Increases the Break Effect dealt by the wearer by **24%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **24%**. This also applies to DoT.",
-        "Increases the Break Effect dealt by the wearer by **28%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **28%**. This also applies to DoT.",
-        "Increases the Break Effect dealt by the wearer by **32%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **32%**. This also applies to DoT."
-      ]
+      "desc": "Increases the Break Effect dealt by the wearer by **16%**/**20%**/**24%**/**28%**/**32%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **16%**/**20%**/**24%**/**28%**/**32%**. This also applies to DoT."
     }
   },
   "Good Night and Sleep Well": {
@@ -512,13 +482,7 @@
     ],
     "refinements": {
       "name": "Toiler",
-      "values": [
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **12%**, stacking up to 3 time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **15%**, stacking up to 3 time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **18%**, stacking up to 3 time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **21%**, stacking up to 3 time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **24%**, stacking up to 3 time(s). This effect also applies to DoT."
-      ]
+      "desc": "For every debuff the target enemy has, the DMG dealt by the wearer increases by **12%**/**15%**/**18%**/**21%**/**24%**, stacking up to 3 time(s). This effect also applies to DoT."
     }
   },
   "Resolution Shines As Pearls of Sweat": {
@@ -599,13 +563,7 @@
     ],
     "refinements": {
       "name": "Glance Back",
-      "values": [
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **60%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **12%** for 1 turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **70%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **13%** for 1 turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **80%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **14%** for 1 turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **90%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **15%** for 1 turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **100%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **16%** for 1 turn(s)."
-      ]
+      "desc": "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **60%**/**70%**/**80%**/**90%**/**100%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **12%**/**13%**/**14%**/**15%**/**16%** for 1 turn(s)."
     }
   },
   "We Will Meet Again": {
@@ -686,13 +644,7 @@
     ],
     "refinements": {
       "name": "A Discourse in Arms",
-      "values": [
-        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **48%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **60%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **72%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **84%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **96%** of the wearer's ATK to a random enemy that has been attacked."
-      ]
+      "desc": "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **48%**/**60%**/**72%**/**84%**/**96%** of the wearer's ATK to a random enemy that has been attacked."
     }
   },
   "In the Name of the World": {
@@ -773,13 +725,7 @@
     ],
     "refinements": {
       "name": "Inheritor",
-      "values": [
-        "Increases the wearer's DMG to debuffed enemies by **24%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **18%**, and ATK increases by **24%**.",
-        "Increases the wearer's DMG to debuffed enemies by **28%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **21%**, and ATK increases by **28%**.",
-        "Increases the wearer's DMG to debuffed enemies by **32%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **24%**, and ATK increases by **32%**.",
-        "Increases the wearer's DMG to debuffed enemies by **36%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **27%**, and ATK increases by **36%**.",
-        "Increases the wearer's DMG to debuffed enemies by **40%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **30%**, and ATK increases by **40%**."
-      ]
+      "desc": "Increases the wearer's DMG to debuffed enemies by **24%**/**28%**/**32%**/**36%**/**40%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **18%**/**21%**/**24%**/**27%**/**30%**, and ATK increases by **24%**/**28%**/**32%**/**36%**/**40%**."
     }
   }
 }

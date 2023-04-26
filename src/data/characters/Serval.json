@@ -140,5 +140,31 @@
       "type": "Technique",
       "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% **base chance** for all enemies to become Shocked for 3 turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Echo Chamber",
+      "desc": "Basic ATK deals Lightning DMG equal to 60% of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK."
+    },
+    {
+      "name": "Encore!",
+      "desc": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy."
+    },
+    {
+      "name": "Listen, the Heartbeat of the Gears",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Make Some Noise!",
+      "desc": "Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill."
+    },
+    {
+      "name": "Belobog's Loudest Roar!",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "This Song Rocks to Heaven!",
+      "desc": "Serval deals 30% more DMG to Shocked enemies."
+    }
   ]
 }

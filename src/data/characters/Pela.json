@@ -140,5 +140,31 @@
       "type": "Technique",
       "desc": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% **base chance** of lowering the DEF of all enemies by 20% for 2 turn(s)."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Victory Report",
+      "desc": "When Pela defeats an enemy, Pela regenerates 5 Energy."
+    },
+    {
+      "name": "Adamant Charge",
+      "desc": "Using Skill to remove buff(s) increases SPD by 10% for 2 turn(s)."
+    },
+    {
+      "name": "Suppressive Force",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Full Analysis",
+      "desc": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s)."
+    },
+    {
+      "name": "Absolute Jeopardy",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Feeble Pursuit",
+      "desc": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy."
+    }
   ]
 }

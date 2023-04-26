@@ -58,6 +58,31 @@ TODO
 
 ## Eidolon
 
-:::danger
-TODO
-:::
+import Eidolon from '@site/src/components/char/Eidolon'
+
+<Tabs>
+<TabItem value='E1' label='E1'>
+<Eidolon char={char} eidolon={1} />
+
+</TabItem>
+<TabItem value='E2' label='E2'>
+<Eidolon char={char} eidolon={2} />
+
+</TabItem>
+<TabItem value='E3' label='E3'>
+<Eidolon char={char} eidolon={3} />
+
+</TabItem>
+<TabItem value='E4' label='E4'>
+<Eidolon char={char} eidolon={4} />
+
+</TabItem>
+<TabItem value='E5' label='E5'>
+<Eidolon char={char} eidolon={5} />
+
+</TabItem>
+<TabItem value='E6' label='E6'>
+<Eidolon char={char} eidolon={6} />
+
+</TabItem>
+</Tabs>

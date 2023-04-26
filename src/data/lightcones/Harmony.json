@@ -77,13 +77,7 @@
     ],
     "refinements": {
       "name": "Concerted",
-      "values": [
-        "After entering battle, increases the ATK of all allies by **8%**. Effects of the same type cannot stack.",
-        "After entering battle, increases the ATK of all allies by **9%**. Effects of the same type cannot stack.",
-        "After entering battle, increases the ATK of all allies by **10%**. Effects of the same type cannot stack.",
-        "After entering battle, increases the ATK of all allies by **11%**. Effects of the same type cannot stack.",
-        "After entering battle, increases the ATK of all allies by **12%**. Effects of the same type cannot stack."
-      ]
+      "desc": "After entering battle, increases the ATK of all allies by **8%**/**9%**/**10%**/**11%**/**12%**. Effects of the same type cannot stack."
     }
   },
   "Mediation": {
@@ -164,13 +158,7 @@
     ],
     "refinements": {
       "name": "Family",
-      "values": [
-        "Upon battle entry, all allies receive **12** increased SPD for 1 turn(s).",
-        "Upon battle entry, all allies receive **14** increased SPD for 1 turn(s).",
-        "Upon battle entry, all allies receive **16** increased SPD for 1 turn(s).",
-        "Upon battle entry, all allies receive **18** increased SPD for 1 turn(s).",
-        "Upon battle entry, all allies receive **20** increased SPD for 1 turn(s)."
-      ]
+      "desc": "Upon battle entry, all allies receive **12**/**14**/**16**/**18**/**20** increased SPD for 1 turn(s)."
     }
   },
   "Meshing Cogs": {
@@ -251,13 +239,7 @@
     ],
     "refinements": {
       "name": "Fleet Triumph",
-      "values": [
-        "After the wearer uses attacks or gets hit, additionally regenerates **4** Energy. This effect can only be triggered 1 time per turn.",
-        "After the wearer uses attacks or gets hit, additionally regenerates **5** Energy. This effect can only be triggered 1 time per turn.",
-        "After the wearer uses attacks or gets hit, additionally regenerates **6** Energy. This effect can only be triggered 1 time per turn.",
-        "After the wearer uses attacks or gets hit, additionally regenerates **7** Energy. This effect can only be triggered 1 time per turn.",
-        "After the wearer uses attacks or gets hit, additionally regenerates **8** Energy. This effect can only be triggered 1 time per turn."
-      ]
+      "desc": "After the wearer uses attacks or gets hit, additionally regenerates **4**/**5**/**6**/**7**/**8** Energy. This effect can only be triggered 1 time per turn."
     }
   },
   "Carve the Moon, Weave the Clouds": {
@@ -338,13 +320,7 @@
     ],
     "refinements": {
       "name": "Secret",
-      "values": [
-        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **10%**, all allies' CRIT DMG increases by **12%**, or all allies' Energy Regeneration Rate increases by **6%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **13%**, all allies' CRIT DMG increases by **15%**, or all allies' Energy Regeneration Rate increases by **8%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **15%**, all allies' CRIT DMG increases by **18%**, or all allies' Energy Regeneration Rate increases by **9%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **18%**, all allies' CRIT DMG increases by **21%**, or all allies' Energy Regeneration Rate increases by **11%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **20%**, all allies' CRIT DMG increases by **24%**, or all allies' Energy Regeneration Rate increases by **12%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
-      ]
+      "desc": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **10%**/**13%**/**15%**/**18%**/**20%**, all allies' CRIT DMG increases by **12%**/**15%**/**18%**/**21%**/**24%**, or all allies' Energy Regeneration Rate increases by **6%**/**8%**/**9%**/**11%**/**12%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
     }
   },
   "Dance! Dance! Dance!": {
@@ -425,13 +401,7 @@
     ],
     "refinements": {
       "name": "Cannot Stop It!",
-      "values": [
-        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **16%**.",
-        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **18%**.",
-        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **20%**.",
-        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **22%**.",
-        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **24%**."
-      ]
+      "desc": "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **16%**/**18%**/**20%**/**22%**/**24%**."
     }
   },
   "Memories of the Past": {
@@ -512,13 +482,7 @@
     ],
     "refinements": {
       "name": "Old Photo",
-      "values": [
-        "Increases the wearer's Break Effect by **28%**. When the wearer attacks, additionally regenerates **4** Energy. This effect can only be triggered 1 time per turn.",
-        "Increases the wearer's Break Effect by **35%**. When the wearer attacks, additionally regenerates **5** Energy. This effect can only be triggered 1 time per turn.",
-        "Increases the wearer's Break Effect by **42%**. When the wearer attacks, additionally regenerates **6** Energy. This effect can only be triggered 1 time per turn.",
-        "Increases the wearer's Break Effect by **49%**. When the wearer attacks, additionally regenerates **7** Energy. This effect can only be triggered 1 time per turn.",
-        "Increases the wearer's Break Effect by **56%**. When the wearer attacks, additionally regenerates **8** Energy. This effect can only be triggered 1 time per turn."
-      ]
+      "desc": "Increases the wearer's Break Effect by **28%**/**35%**/**42%**/**49%**/**56%**. When the wearer attacks, additionally regenerates **4**/**5**/**6**/**7**/**8** Energy. This effect can only be triggered 1 time per turn."
     }
   },
   "Past and Future": {
@@ -599,13 +563,7 @@
     ],
     "refinements": {
       "name": "Kites From the Past",
-      "values": [
-        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **16%** increased DMG for 1 turn(s).",
-        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **20%** increased DMG for 1 turn(s).",
-        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **24%** increased DMG for 1 turn(s).",
-        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **28%** increased DMG for 1 turn(s).",
-        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **32%** increased DMG for 1 turn(s)."
-      ]
+      "desc": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **16%**/**20%**/**24%**/**28%**/**32%** increased DMG for 1 turn(s)."
     }
   },
   "Planetary Rendezvous": {
@@ -686,13 +644,7 @@
     ],
     "refinements": {
       "name": "Departure",
-      "values": [
-        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **12%**.",
-        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **15%**.",
-        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **18%**.",
-        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **21%**.",
-        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **24%**."
-      ]
+      "desc": "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **12%**/**15%**/**18%**/**21%**/**24%**."
     }
   },
   "But the Battle Isn't Over": {
@@ -773,13 +725,7 @@
     ],
     "refinements": {
       "name": "Heir",
-      "values": [
-        "Increases the wearer's Energy Regeneration Rate by **10%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **30%** more DMG for 1 turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **12%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **35%** more DMG for 1 turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **14%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **40%** more DMG for 1 turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **16%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **45%** more DMG for 1 turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **18%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **50%** more DMG for 1 turn(s)."
-      ]
+      "desc": "Increases the wearer's Energy Regeneration Rate by **10%**/**12%**/**14%**/**16%**/**18%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **30%**/**35%**/**40%**/**45%**/**50%** more DMG for 1 turn(s)."
     }
   }
 }

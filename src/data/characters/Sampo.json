@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a 100% **fixed chance** to delay all enemies' action by 25%."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Rising Love",
+      "desc": "When using Skill, deals DMG for 1 extra time(s) to a random enemy."
+    },
+    {
+      "name": "Infectious Enthusiasm",
+      "desc": "Defeating an enemy with Wind Shear has a 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to the Talent's Wind Shear."
+    },
+    {
+      "name": "Big Money!",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "The Deeper the Love, the Stronger the Hate",
+      "desc": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG."
+    },
+    {
+      "name": "Huuuuge Money!",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Increased Spending",
+      "desc": "Talent's Wind Shear DMG multiplier increases by 15%."
+    }
   ]
 }

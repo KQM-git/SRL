@@ -140,5 +140,31 @@
       "type": "Technique",
       "desc": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Cut With Ease",
+      "desc": "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point."
+    },
+    {
+      "name": "Refine in Toil",
+      "desc": "After triggering Sword Stance, the DMG taken by Sushang is reduced by 20% for 1 turn."
+    },
+    {
+      "name": "Rise From Fame",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Cleave With Heart",
+      "desc": "Sushang's Break Effect increases by 40%."
+    },
+    {
+      "name": "Prevail via Taixu",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Dwell Like Water",
+      "desc": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost."
+    }
   ]
 }

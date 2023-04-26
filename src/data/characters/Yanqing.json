@@ -141,5 +141,31 @@
       "type": "Technique",
       "desc": "After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP is 50% or higher."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Svelte Saber",
+      "desc": "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to 60% of his ATK."
+    },
+    {
+      "name": "Supine Serenade",
+      "desc": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%."
+    },
+    {
+      "name": "Sword Savant",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Searing Sting",
+      "desc": "When the current HP percentage is 80% or higher, Ice RES PEN increases by 12%."
+    },
+    {
+      "name": "Surging Strife",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Swift Swoop",
+      "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn."
+    }
   ]
 }

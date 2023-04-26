@@ -77,13 +77,7 @@
     ],
     "refinements": {
       "name": "Prosperity",
-      "values": [
-        "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by **12%**.",
-        "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by **15%**.",
-        "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by **18%**.",
-        "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by **21%**.",
-        "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by **24%**."
-      ]
+      "desc": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by **12%**/**15%**/**18%**/**21%**/**24%**."
     }
   },
   "Fine Fruit": {
@@ -164,13 +158,7 @@
     ],
     "refinements": {
       "name": "Savor",
-      "values": [
-        "At the start of the battle, immediately regenerates **6** Energy for all allies.",
-        "At the start of the battle, immediately regenerates **8** Energy for all allies.",
-        "At the start of the battle, immediately regenerates **9** Energy for all allies.",
-        "At the start of the battle, immediately regenerates **11** Energy for all allies.",
-        "At the start of the battle, immediately regenerates **12** Energy for all allies."
-      ]
+      "desc": "At the start of the battle, immediately regenerates **6**/**8**/**9**/**11**/**12** Energy for all allies."
     }
   },
   "Multiplication": {
@@ -251,13 +239,7 @@
     ],
     "refinements": {
       "name": "Denizens of Abundance",
-      "values": [
-        "After the wearer uses their Basic ATK, their next action will be Advanced Forward by **12%**.",
-        "After the wearer uses their Basic ATK, their next action will be Advanced Forward by **14%**.",
-        "After the wearer uses their Basic ATK, their next action will be Advanced Forward by **16%**.",
-        "After the wearer uses their Basic ATK, their next action will be Advanced Forward by **18%**.",
-        "After the wearer uses their Basic ATK, their next action will be Advanced Forward by **20%**."
-      ]
+      "desc": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by **12%**/**14%**/**16%**/**18%**/**20%**."
     }
   },
   "Perfect Timing": {
@@ -338,13 +320,7 @@
     ],
     "refinements": {
       "name": "Refraction of Sightline",
-      "values": [
-        "Increases the wearer's Effect RES by **16%** and increases Outgoing Healing by an amount that is equal to **33%** of Effect RES. Outgoing Healing can be increased this way by up to **15%**.",
-        "Increases the wearer's Effect RES by **20%** and increases Outgoing Healing by an amount that is equal to **36%** of Effect RES. Outgoing Healing can be increased this way by up to **18%**.",
-        "Increases the wearer's Effect RES by **24%** and increases Outgoing Healing by an amount that is equal to **39%** of Effect RES. Outgoing Healing can be increased this way by up to **21%**.",
-        "Increases the wearer's Effect RES by **28%** and increases Outgoing Healing by an amount that is equal to **42%** of Effect RES. Outgoing Healing can be increased this way by up to **24%**.",
-        "Increases the wearer's Effect RES by **32%** and increases Outgoing Healing by an amount that is equal to **45%** of Effect RES. Outgoing Healing can be increased this way by up to **27%**."
-      ]
+      "desc": "Increases the wearer's Effect RES by **16%**/**20%**/**24%**/**28%**/**32%** and increases Outgoing Healing by an amount that is equal to **33%**/**36%**/**39%**/**42%**/**45%** of Effect RES. Outgoing Healing can be increased this way by up to **15%**/**18%**/**21%**/**24%**/**27%**."
     }
   },
   "Post-Op Conversation": {
@@ -425,13 +401,7 @@
     ],
     "refinements": {
       "name": "Mutual Healing",
-      "values": [
-        "Increases the wearer's Energy Regeneration Rate by **8%** and increases Outgoing Healing when they use their Ultimate by **12%**.",
-        "Increases the wearer's Energy Regeneration Rate by **10%** and increases Outgoing Healing when they use their Ultimate by **15%**.",
-        "Increases the wearer's Energy Regeneration Rate by **12%** and increases Outgoing Healing when they use their Ultimate by **18%**.",
-        "Increases the wearer's Energy Regeneration Rate by **14%** and increases Outgoing Healing when they use their Ultimate by **21%**.",
-        "Increases the wearer's Energy Regeneration Rate by **16%** and increases Outgoing Healing when they use their Ultimate by **24%**."
-      ]
+      "desc": "Increases the wearer's Energy Regeneration Rate by **8%**/**10%**/**12%**/**14%**/**16%** and increases Outgoing Healing when they use their Ultimate by **12%**/**15%**/**18%**/**21%**/**24%**."
     }
   },
   "Quid Pro Quo": {
@@ -512,13 +482,7 @@
     ],
     "refinements": {
       "name": "Enjoy With Rapture",
-      "values": [
-        "At the start of the wearer's turn, regenerates **8** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-        "At the start of the wearer's turn, regenerates **10** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-        "At the start of the wearer's turn, regenerates **12** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-        "At the start of the wearer's turn, regenerates **14** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-        "At the start of the wearer's turn, regenerates **16** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%."
-      ]
+      "desc": "At the start of the wearer's turn, regenerates **8**/**10**/**12**/**14**/**16** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%."
     }
   },
   "Shared Feeling": {
@@ -599,13 +563,7 @@
     ],
     "refinements": {
       "name": "Cure and Repair",
-      "values": [
-        "Increases the wearer's Outgoing Healing by **10%**. When using Skill, regenerates **2** Energy for all allies.",
-        "Increases the wearer's Outgoing Healing by **13%**. When using Skill, regenerates **3** Energy for all allies.",
-        "Increases the wearer's Outgoing Healing by **15%**. When using Skill, regenerates **3** Energy for all allies.",
-        "Increases the wearer's Outgoing Healing by **18%**. When using Skill, regenerates **4** Energy for all allies.",
-        "Increases the wearer's Outgoing Healing by **20%**. When using Skill, regenerates **4** Energy for all allies."
-      ]
+      "desc": "Increases the wearer's Outgoing Healing by **10%**/**13%**/**15%**/**18%**/**20%**. When using Skill, regenerates **2**/**3**/**3**/**4**/**4** Energy for all allies."
     }
   },
   "Warmth Shortens Cold Nights": {
@@ -686,13 +644,7 @@
     ],
     "refinements": {
       "name": "Tiny Light",
-      "values": [
-        "Increases the wearer's Max HP by **16%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **#2[f1]%** of their respective Max HP.",
-        "Increases the wearer's Max HP by **20%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **#2[f1]%** of their respective Max HP.",
-        "Increases the wearer's Max HP by **24%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **#2[f1]%** of their respective Max HP.",
-        "Increases the wearer's Max HP by **28%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **#2[f1]%** of their respective Max HP.",
-        "Increases the wearer's Max HP by **32%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **#2[f1]%** of their respective Max HP."
-      ]
+      "desc": "Increases the wearer's Max HP by **16%**/**20%**/**24%**/**28%**/**32%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **#2[f1]%**/**#2[f1]%**/**#2[f1]%**/**#2[f1]%**/**#2[f1]%** of their respective Max HP."
     }
   },
   "Time Waits for No One": {
@@ -773,13 +725,7 @@
     ],
     "refinements": {
       "name": "Morn, Noon, Dusk, and Night",
-      "values": [
-        "Increases the wearer's Max HP by **18%** and Outgoing Healing by **12%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **36%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **21%** and Outgoing Healing by **14%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **42%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **24%** and Outgoing Healing by **16%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **48%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **27%** and Outgoing Healing by **18%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **54%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **30%** and Outgoing Healing by **20%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **60%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn."
-      ]
+      "desc": "Increases the wearer's Max HP by **18%**/**21%**/**24%**/**27%**/**30%** and Outgoing Healing by **12%**/**14%**/**16%**/**18%**/**20%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **36%**/**42%**/**48%**/**54%**/**60%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn."
     }
   }
 }

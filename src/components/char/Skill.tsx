@@ -4,9 +4,6 @@ import ReactMarkdown from 'react-markdown'
 import MDXContent from '@theme/MDXContent'
 import Admonition from '@theme/Admonition'
 
-
-
-
 import { Character } from '@site/src/data/types'
 import { cleanup, getTalents } from '@site/src/utils/skill'
 

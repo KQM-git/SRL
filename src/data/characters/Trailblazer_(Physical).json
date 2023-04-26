@@ -153,5 +153,31 @@
       "type": "Ultimate",
       "desc": "Deals Physical DMG equal to **180%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **108%** of Trailblazer's ATK to enemies adjacent to it."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "A Falling Star",
+      "desc": "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer regenerates 10 extra Energy. This effect can only be triggered once per attack."
+    },
+    {
+      "name": "An Unwilling Host",
+      "desc": "Attacking enemies with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK."
+    },
+    {
+      "name": "A Leading Whisper",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "A Destructing Glance",
+      "desc": "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%."
+    },
+    {
+      "name": "A Surviving Hope",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "A Trailblazing Will",
+      "desc": "The Trailblazer's Talent is also triggered when they defeat an enemy."
+    }
   ]
 }

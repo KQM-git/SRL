@@ -140,5 +140,31 @@
       "type": "Technique",
       "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% **base chance** to Weaken all enemies.\nWhile Weakened, enemies deal 30% less DMG to allies for 1 turn(s)."
     }
+  ],
+  "eidolons": [
+    {
+      "name": "Pharmacology Expertise",
+      "desc": "After being attacked, if the current HP percentage is 30% or lower, heals self for 1 time to restore HP by an amount equal to 15% of Max HP plus 400. This effect can only be triggered 1 time per battle."
+    },
+    {
+      "name": "Clinical Research",
+      "desc": "When Natasha uses her Ultimate, grant continuous healing for 1 turn(s) to allies whose HP is at 30% or lower. And at the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160."
+    },
+    {
+      "name": "The Right Cure",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+    },
+    {
+      "name": "Miracle Cure",
+      "desc": "After being attacked, regenerates 5 extra Energy."
+    },
+    {
+      "name": "Preventive Treatment",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+    },
+    {
+      "name": "Doctor's Grace",
+      "desc": "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
+    }
   ]
 }
