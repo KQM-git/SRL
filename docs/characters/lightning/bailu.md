@@ -1,5 +1,7 @@
 ---
-description: The High Elder of the Vidyadhara, who is also known as the "Healer Lady" on the Luofu. She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.
+description: |-
+  The High Elder of the Vidyadhara, who is also known as the "Healer Lady" on the Luofu.
+  She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.
 ---
 
 import char from '@site/src/data/characters/Bailu.json'

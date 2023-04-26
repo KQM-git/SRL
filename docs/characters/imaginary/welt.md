@@ -1,5 +1,8 @@
 ---
-description: A seasoned member of the Express Crew. The passion buried in his heart burns anew as he enjoys this fresh adventure. Occationally, he would sketch the experiences in a notebook.
+description: |-
+  A seasoned member of the Express Crew.
+  The passion buried in his heart burns anew as he enjoys this fresh adventure.
+  Occasionally, he would sketch the experiences in a notebook.
 ---
 
 import char from '@site/src/data/characters/Welt.json'

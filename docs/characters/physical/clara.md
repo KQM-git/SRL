@@ -1,5 +1,8 @@
 ---
-description: A vagrant girl who lives with robots. She is introverted, gentle, and has a pure heart. She wishes for all Underworlders to become a family.
+description: |-
+  A vagrant girl who lives with robots.
+  She is introverted, gentle, and has a pure heart.
+  She wishes for all Underworlders to become a family.
 ---
 
 import char from '@site/src/data/characters/Clara.json'

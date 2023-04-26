@@ -1,5 +1,7 @@
 ---
-description: Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian. Always slacks off and is about to be demoted to a "door guardian".
+description: |-
+  Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian.
+  Always slacks off and is about to be demoted to a "door guardian."
 ---
 
 import char from '@site/src/data/characters/Qingque.json'

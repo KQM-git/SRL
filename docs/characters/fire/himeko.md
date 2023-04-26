@@ -1,5 +1,8 @@
 ---
-description: The one who repaired the Astral Express. To witness the vast starry sky, she decided to travel with the Astral Express. Her hobby is brewing hand-made coffee.
+description: |-
+  The one who repaired the Astral Express.
+  To witness the vast starry sky, she decided to travel with the Astral Express.
+  Her hobby is brewing hand-made coffee.
 ---
 
 import char from '@site/src/data/characters/Himeko.json'

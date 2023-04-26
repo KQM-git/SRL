@@ -1,5 +1,7 @@
 ---
-description: A resident of the Underworld and the backbone of Wildfire. She goes by the alias Babochka. She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.
+description: |-
+  A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka."
+  She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.
 ---
 
 import char from '@site/src/data/characters/Seele.json'

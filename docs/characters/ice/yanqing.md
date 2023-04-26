@@ -1,5 +1,7 @@
 ---
-description: General Jing Yuan's retainer. A gifted swordsman who hasn't even come of age. No one can best Yanqing when he holds a sword in hand.
+description: |-
+  General Jing Yuan's retainer. A gifted swordsman who hasn't even come of age.
+  No one can best Yanqing when he holds a sword in hand.
 ---
 
 import char from '@site/src/data/characters/Yanqing.json'

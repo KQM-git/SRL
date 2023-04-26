@@ -1,5 +1,7 @@
 ---
-description: A merchant who freely travels between the Overworld and the Underworld. He acts like he is everyone's friend, is enthusiastically huourous, and is good at bantering.
+description: |-
+  A merchant who freely travels between the Overworld and the Underworld.
+  He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering.
 ---
 
 import char from '@site/src/data/characters/Sampo.json'

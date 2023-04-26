@@ -1,5 +1,7 @@
 ---
-description: A secretarial officer for the Silvermane Guards. She has a serious personality and is revered by other members of the Silvermane Guards.
+description: |-
+  A secretarial officer for the Silvermane Guards.
+  She has a serious personality and is revered by other members of the Silvermane Guards.
 ---
 
 import char from '@site/src/data/characters/Pela.json'

@@ -252,11 +252,11 @@
     "refinements": {
       "name": "Fallen",
       "values": [
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **20%** for **3** turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **25%** for **3** turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **30%** for **3** turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **35%** for **3** turn(s).",
-        "At the start of the battle, the wearer's Effect Hit Rate increases by **40%** for **3** turn(s)."
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **20%** for 3 turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **25%** for 3 turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **30%** for 3 turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **35%** for 3 turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **40%** for 3 turn(s)."
       ]
     }
   },
@@ -513,11 +513,11 @@
     "refinements": {
       "name": "Toiler",
       "values": [
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **12%**, stacking up to **3** time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **15%**, stacking up to **3** time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **18%**, stacking up to **3** time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **21%**, stacking up to **3** time(s). This effect also applies to DoT.",
-        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **24%**, stacking up to **3** time(s). This effect also applies to DoT."
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **12%**, stacking up to 3 time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **15%**, stacking up to 3 time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **18%**, stacking up to 3 time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **21%**, stacking up to 3 time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **24%**, stacking up to 3 time(s). This effect also applies to DoT."
       ]
     }
   },
@@ -600,11 +600,11 @@
     "refinements": {
       "name": "Glance Back",
       "values": [
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **60%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **12%** for **1** turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **70%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **13%** for **1** turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **80%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **14%** for **1** turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **90%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **15%** for **1** turn(s).",
-        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **100%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **16%** for **1** turn(s)."
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **60%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **12%** for 1 turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **70%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **13%** for 1 turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **80%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **14%** for 1 turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **90%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **15%** for 1 turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **100%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **16%** for 1 turn(s)."
       ]
     }
   },

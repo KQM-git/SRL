@@ -165,11 +165,11 @@
     "refinements": {
       "name": "Legion",
       "values": [
-        "If the wearer's current HP is lower than **80%**, CRIT Rate increases by **12%**.",
-        "If the wearer's current HP is lower than **80%**, CRIT Rate increases by **15%**.",
-        "If the wearer's current HP is lower than **80%**, CRIT Rate increases by **18%**.",
-        "If the wearer's current HP is lower than **80%**, CRIT Rate increases by **21%**.",
-        "If the wearer's current HP is lower than **80%**, CRIT Rate increases by **24%**."
+        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **12%**.",
+        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **15%**.",
+        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **18%**.",
+        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **21%**.",
+        "If the wearer's current HP is lower than 80%, CRIT Rate increases by **24%**."
       ]
     }
   },
@@ -252,11 +252,11 @@
     "refinements": {
       "name": "Eradication",
       "values": [
-        "Deals **20%** increased DMG to any enemies whose HP is above **50%**.",
-        "Deals **25%** increased DMG to any enemies whose HP is above **50%**.",
-        "Deals **30%** increased DMG to any enemies whose HP is above **50%**.",
-        "Deals **35%** increased DMG to any enemies whose HP is above **50%**.",
-        "Deals **40%** increased DMG to any enemies whose HP is above **50%**."
+        "Deals **20%** increased DMG to any enemies whose HP is above 50%.",
+        "Deals **25%** increased DMG to any enemies whose HP is above 50%.",
+        "Deals **30%** increased DMG to any enemies whose HP is above 50%.",
+        "Deals **35%** increased DMG to any enemies whose HP is above 50%.",
+        "Deals **40%** increased DMG to any enemies whose HP is above 50%."
       ]
     }
   },
@@ -600,11 +600,11 @@
     "refinements": {
       "name": "Rye Under the Sun",
       "values": [
-        "Increases the wearer's ATK by **16%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **12%** for **3** turn(s).",
-        "Increases the wearer's ATK by **20%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **15%** for **3** turn(s).",
-        "Increases the wearer's ATK by **24%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **18%** for **3** turn(s).",
-        "Increases the wearer's ATK by **28%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **21%** for **3** turn(s).",
-        "Increases the wearer's ATK by **32%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **24%** for **3** turn(s)."
+        "Increases the wearer's ATK by **16%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **12%** for 3 turn(s).",
+        "Increases the wearer's ATK by **20%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **15%** for 3 turn(s).",
+        "Increases the wearer's ATK by **24%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **18%** for 3 turn(s).",
+        "Increases the wearer's ATK by **28%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **21%** for 3 turn(s).",
+        "Increases the wearer's ATK by **32%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **24%** for 3 turn(s)."
       ]
     }
   },
@@ -774,11 +774,11 @@
     "refinements": {
       "name": "Moth to Flames",
       "values": [
-        "Whenever the wearer attacks, their ATK is increased by **8%** in this battle, up to **4** time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **12%** for **2** turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **10%** in this battle, up to **4** time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **15%** for **2** turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **12%** in this battle, up to **4** time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **18%** for **2** turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **14%** in this battle, up to **4** time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **21%** for **2** turn(s).",
-        "Whenever the wearer attacks, their ATK is increased by **16%** in this battle, up to **4** time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **24%** for **2** turn(s)."
+        "Whenever the wearer attacks, their ATK is increased by **8%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **12%** for 2 turn(s).",
+        "Whenever the wearer attacks, their ATK is increased by **10%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **15%** for 2 turn(s).",
+        "Whenever the wearer attacks, their ATK is increased by **12%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **18%** for 2 turn(s).",
+        "Whenever the wearer attacks, their ATK is increased by **14%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **21%** for 2 turn(s).",
+        "Whenever the wearer attacks, their ATK is increased by **16%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **24%** for 2 turn(s)."
       ]
     }
   },

@@ -78,11 +78,11 @@
     "refinements": {
       "name": "Stasis",
       "values": [
-        "Increases the wearer's DEF by **16%**. If the wearer's current HP is lower than **50%**, increases their DEF by a further **16%**.",
-        "Increases the wearer's DEF by **20%**. If the wearer's current HP is lower than **50%**, increases their DEF by a further **20%**.",
-        "Increases the wearer's DEF by **24%**. If the wearer's current HP is lower than **50%**, increases their DEF by a further **24%**.",
-        "Increases the wearer's DEF by **28%**. If the wearer's current HP is lower than **50%**, increases their DEF by a further **28%**.",
-        "Increases the wearer's DEF by **32%**. If the wearer's current HP is lower than **50%**, increases their DEF by a further **32%**."
+        "Increases the wearer's DEF by **16%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **16%**.",
+        "Increases the wearer's DEF by **20%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **20%**.",
+        "Increases the wearer's DEF by **24%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **24%**.",
+        "Increases the wearer's DEF by **28%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **28%**.",
+        "Increases the wearer's DEF by **32%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **32%**."
       ]
     }
   },
@@ -600,11 +600,11 @@
     "refinements": {
       "name": "A New Round of Shuffling",
       "values": [
-        "Increases the wearer's DEF by **16%**. When the wearer is attacked, there is a **100%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **40%** of the wearer's DEF for **2** turn(s).",
-        "Increases the wearer's DEF by **20%**. When the wearer is attacked, there is a **105%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **50%** of the wearer's DEF for **2** turn(s).",
-        "Increases the wearer's DEF by **24%**. When the wearer is attacked, there is a **110%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **60%** of the wearer's DEF for **2** turn(s).",
-        "Increases the wearer's DEF by **28%**. When the wearer is attacked, there is a **115%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **70%** of the wearer's DEF for **2** turn(s).",
-        "Increases the wearer's DEF by **32%**. When the wearer is attacked, there is a **120%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **80%** of the wearer's DEF for **2** turn(s)."
+        "Increases the wearer's DEF by **16%**. When the wearer is attacked, there is a **100%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **40%** of the wearer's DEF for 2 turn(s).",
+        "Increases the wearer's DEF by **20%**. When the wearer is attacked, there is a **105%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **50%** of the wearer's DEF for 2 turn(s).",
+        "Increases the wearer's DEF by **24%**. When the wearer is attacked, there is a **110%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **60%** of the wearer's DEF for 2 turn(s).",
+        "Increases the wearer's DEF by **28%**. When the wearer is attacked, there is a **115%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **70%** of the wearer's DEF for 2 turn(s).",
+        "Increases the wearer's DEF by **32%**. When the wearer is attacked, there is a **120%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **80%** of the wearer's DEF for 2 turn(s)."
       ]
     }
   },
@@ -687,11 +687,11 @@
     "refinements": {
       "name": "Teary-Eyed",
       "values": [
-        "At the start of the battle, the DMG dealt to all allies decreases by **8%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **30%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **10%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **35%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **12%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **40%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **14%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **45%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of the battle, the DMG dealt to all allies decreases by **16%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **50%** of the respective HP difference between the characters' Max HP and current HP."
+        "At the start of the battle, the DMG dealt to all allies decreases by **8%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **30%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **10%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **35%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **12%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **40%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **14%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **45%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **16%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **50%** of the respective HP difference between the characters' Max HP and current HP."
       ]
     }
   },
@@ -861,11 +861,11 @@
     "refinements": {
       "name": "Treasure",
       "values": [
-        "Increases the wearer's Effect RES by **8%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **16%** of their Max HP for **2** turn(s). This effect can only be triggered once every **3** turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **12%**.",
-        "Increases the wearer's Effect RES by **10%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **20%** of their Max HP for **2** turn(s). This effect can only be triggered once every **3** turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **15%**.",
-        "Increases the wearer's Effect RES by **12%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **24%** of their Max HP for **2** turn(s). This effect can only be triggered once every **3** turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **18%**.",
-        "Increases the wearer's Effect RES by **14%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **28%** of their Max HP for **2** turn(s). This effect can only be triggered once every **3** turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **21%**.",
-        "Increases the wearer's Effect RES by **16%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **32%** of their Max HP for **2** turn(s). This effect can only be triggered once every **3** turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **24%**."
+        "Increases the wearer's Effect RES by **8%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **16%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **12%**.",
+        "Increases the wearer's Effect RES by **10%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **20%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **15%**.",
+        "Increases the wearer's Effect RES by **12%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **24%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **18%**.",
+        "Increases the wearer's Effect RES by **14%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **28%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **21%**.",
+        "Increases the wearer's Effect RES by **16%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **32%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **24%**."
       ]
     }
   }

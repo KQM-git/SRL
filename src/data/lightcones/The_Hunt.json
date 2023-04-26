@@ -78,11 +78,11 @@
     "refinements": {
       "name": "Alliance",
       "values": [
-        "When the wearer defeats an enemy, increases SPD by **10%** for **2** turn(s).",
-        "When the wearer defeats an enemy, increases SPD by **12%** for **2** turn(s).",
-        "When the wearer defeats an enemy, increases SPD by **14%** for **2** turn(s).",
-        "When the wearer defeats an enemy, increases SPD by **16%** for **2** turn(s).",
-        "When the wearer defeats an enemy, increases SPD by **18%** for **2** turn(s)."
+        "When the wearer defeats an enemy, increases SPD by **10%** for 2 turn(s).",
+        "When the wearer defeats an enemy, increases SPD by **12%** for 2 turn(s).",
+        "When the wearer defeats an enemy, increases SPD by **14%** for 2 turn(s).",
+        "When the wearer defeats an enemy, increases SPD by **16%** for 2 turn(s).",
+        "When the wearer defeats an enemy, increases SPD by **18%** for 2 turn(s)."
       ]
     }
   },
@@ -165,11 +165,11 @@
     "refinements": {
       "name": "Crisis",
       "values": [
-        "At the start of the battle, the wearer's CRIT Rate increases by **12%** for **3** turn(s).",
-        "At the start of the battle, the wearer's CRIT Rate increases by **15%** for **3** turn(s).",
-        "At the start of the battle, the wearer's CRIT Rate increases by **18%** for **3** turn(s).",
-        "At the start of the battle, the wearer's CRIT Rate increases by **21%** for **3** turn(s).",
-        "At the start of the battle, the wearer's CRIT Rate increases by **24%** for **3** turn(s)."
+        "At the start of the battle, the wearer's CRIT Rate increases by **12%** for 3 turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **15%** for 3 turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **18%** for 3 turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **21%** for 3 turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **24%** for 3 turn(s)."
       ]
     }
   },
@@ -252,11 +252,11 @@
     "refinements": {
       "name": "War Cry",
       "values": [
-        "When the wearer defeats an enemy, increases ATK by **24%** for **3** turn(s).",
-        "When the wearer defeats an enemy, increases ATK by **30%** for **3** turn(s).",
-        "When the wearer defeats an enemy, increases ATK by **36%** for **3** turn(s).",
-        "When the wearer defeats an enemy, increases ATK by **42%** for **3** turn(s).",
-        "When the wearer defeats an enemy, increases ATK by **48%** for **3** turn(s)."
+        "When the wearer defeats an enemy, increases ATK by **24%** for 3 turn(s).",
+        "When the wearer defeats an enemy, increases ATK by **30%** for 3 turn(s).",
+        "When the wearer defeats an enemy, increases ATK by **36%** for 3 turn(s).",
+        "When the wearer defeats an enemy, increases ATK by **42%** for 3 turn(s).",
+        "When the wearer defeats an enemy, increases ATK by **48%** for 3 turn(s)."
       ]
     }
   },
@@ -687,11 +687,11 @@
     "refinements": {
       "name": "Answers of Their Own",
       "values": [
-        "For each time the wearer hits the same target, DMG dealt increases by **8%**, stacking up to **5** time(s). This effect will be dispelled when the wearer changes targets.",
-        "For each time the wearer hits the same target, DMG dealt increases by **10%**, stacking up to **5** time(s). This effect will be dispelled when the wearer changes targets.",
-        "For each time the wearer hits the same target, DMG dealt increases by **12%**, stacking up to **5** time(s). This effect will be dispelled when the wearer changes targets.",
-        "For each time the wearer hits the same target, DMG dealt increases by **14%**, stacking up to **5** time(s). This effect will be dispelled when the wearer changes targets.",
-        "For each time the wearer hits the same target, DMG dealt increases by **16%**, stacking up to **5** time(s). This effect will be dispelled when the wearer changes targets."
+        "For each time the wearer hits the same target, DMG dealt increases by **8%**, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+        "For each time the wearer hits the same target, DMG dealt increases by **10%**, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+        "For each time the wearer hits the same target, DMG dealt increases by **12%**, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+        "For each time the wearer hits the same target, DMG dealt increases by **14%**, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+        "For each time the wearer hits the same target, DMG dealt increases by **16%**, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets."
       ]
     }
   },
@@ -774,11 +774,11 @@
     "refinements": {
       "name": "Chase",
       "values": [
-        "Increases the wearer's CRIT rate by **8%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **8%**. When the wearer defeats an enemy, their ATK is increased by **20%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **10%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **10%**. When the wearer defeats an enemy, their ATK is increased by **25%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **12%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **12%**. When the wearer defeats an enemy, their ATK is increased by **30%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **14%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **14%**. When the wearer defeats an enemy, their ATK is increased by **35%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **16%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **16%**. When the wearer defeats an enemy, their ATK is increased by **40%** for **2** turn(s)."
+        "Increases the wearer's CRIT rate by **8%**, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra **8%**. When the wearer defeats an enemy, their ATK is increased by **20%** for 2 turn(s).",
+        "Increases the wearer's CRIT rate by **10%**, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra **10%**. When the wearer defeats an enemy, their ATK is increased by **25%** for 2 turn(s).",
+        "Increases the wearer's CRIT rate by **12%**, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra **12%**. When the wearer defeats an enemy, their ATK is increased by **30%** for 2 turn(s).",
+        "Increases the wearer's CRIT rate by **14%**, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra **14%**. When the wearer defeats an enemy, their ATK is increased by **35%** for 2 turn(s).",
+        "Increases the wearer's CRIT rate by **16%**, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra **16%**. When the wearer defeats an enemy, their ATK is increased by **40%** for 2 turn(s)."
       ]
     }
   },
@@ -861,11 +861,11 @@
     "refinements": {
       "name": "Flowers and Butterflies",
       "values": [
-        "Increases the wearer's CRIT Rate by **18%**. While the wearer is in battle, for every **10** SPD that exceeds **100**, the DMG of the wearer's Basic ATK and Skill is increased by **6%** and the CRIT DMG of their Ultimate is increased by **12%**. This effect can stack up to **6** time(s).",
-        "Increases the wearer's CRIT Rate by **21%**. While the wearer is in battle, for every **10** SPD that exceeds **100**, the DMG of the wearer's Basic ATK and Skill is increased by **7%** and the CRIT DMG of their Ultimate is increased by **14%**. This effect can stack up to **6** time(s).",
-        "Increases the wearer's CRIT Rate by **24%**. While the wearer is in battle, for every **10** SPD that exceeds **100**, the DMG of the wearer's Basic ATK and Skill is increased by **8%** and the CRIT DMG of their Ultimate is increased by **16%**. This effect can stack up to **6** time(s).",
-        "Increases the wearer's CRIT Rate by **27%**. While the wearer is in battle, for every **10** SPD that exceeds **100**, the DMG of the wearer's Basic ATK and Skill is increased by **9%** and the CRIT DMG of their Ultimate is increased by **18%**. This effect can stack up to **6** time(s).",
-        "Increases the wearer's CRIT Rate by **30%**. While the wearer is in battle, for every **10** SPD that exceeds **100**, the DMG of the wearer's Basic ATK and Skill is increased by **10%** and the CRIT DMG of their Ultimate is increased by **20%**. This effect can stack up to **6** time(s)."
+        "Increases the wearer's CRIT Rate by **18%**. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by **6%** and the CRIT DMG of their Ultimate is increased by **12%**. This effect can stack up to 6 time(s).",
+        "Increases the wearer's CRIT Rate by **21%**. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by **7%** and the CRIT DMG of their Ultimate is increased by **14%**. This effect can stack up to 6 time(s).",
+        "Increases the wearer's CRIT Rate by **24%**. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by **8%** and the CRIT DMG of their Ultimate is increased by **16%**. This effect can stack up to 6 time(s).",
+        "Increases the wearer's CRIT Rate by **27%**. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by **9%** and the CRIT DMG of their Ultimate is increased by **18%**. This effect can stack up to 6 time(s).",
+        "Increases the wearer's CRIT Rate by **30%**. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by **10%** and the CRIT DMG of their Ultimate is increased by **20%**. This effect can stack up to 6 time(s)."
       ]
     }
   },
@@ -948,11 +948,11 @@
     "refinements": {
       "name": "Sweet Dreams",
       "values": [
-        "Increases the wearer's CRIT DMG by **30%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **36%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **35%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **42%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **40%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **48%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **45%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **54%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **50%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **60%** for **1** turn(s). This effect can only trigger once every **3** turn(s)."
+        "Increases the wearer's CRIT DMG by **30%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **36%** for 1 turn(s). This effect can only trigger once every 3 turn(s).",
+        "Increases the wearer's CRIT DMG by **35%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **42%** for 1 turn(s). This effect can only trigger once every 3 turn(s).",
+        "Increases the wearer's CRIT DMG by **40%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **48%** for 1 turn(s). This effect can only trigger once every 3 turn(s).",
+        "Increases the wearer's CRIT DMG by **45%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **54%** for 1 turn(s). This effect can only trigger once every 3 turn(s).",
+        "Increases the wearer's CRIT DMG by **50%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **60%** for 1 turn(s). This effect can only trigger once every 3 turn(s)."
       ]
     }
   }

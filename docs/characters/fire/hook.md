@@ -1,5 +1,7 @@
 ---
-description: Boss (self-proclaimed) of an Underworld adventure squad. The Moles. She loves freedom and sees life as a series of adventures.
+description: |-
+  Boss (self-proclaimed) of an Underworld adventure squad, The Moles.
+  She loves freedom and sees life as a series of adventures.
 ---
 
 import char from '@site/src/data/characters/Hook.json'

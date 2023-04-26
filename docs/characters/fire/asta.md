@@ -1,5 +1,7 @@
 ---
-description: The lead researcher of Herta Space Station and a lady from a renowned family. She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.
+description: |-
+  The lead researcher of Herta Space Station and a lady from a renowned family.
+  She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.
 ---
 
 import char from '@site/src/data/characters/Asta.json'

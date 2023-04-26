@@ -1,5 +1,7 @@
 ---
-description: Member 83 of the Genius Society. The real master of the space station. An incredibly intelligent yet unsympathetic scientist.
+description: |-
+  Member 83 of the Genius Society. The real master of the space station.
+  An incredibly intelligent yet unsympathetic scientist.
 ---
 
 import char from '@site/src/data/characters/Herta.json'

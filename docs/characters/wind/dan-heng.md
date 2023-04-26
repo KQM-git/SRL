@@ -1,5 +1,7 @@
 ---
-description: A cold and reserved young man who is reticent about his past. To avoid his kin, he decided to travel with the Astral Express.
+description: |-
+  A cold and reserved young man who is reticent about his past.
+  To avoid his kin, he decided to travel with the Astral Express.
 ---
 
 import char from '@site/src/data/characters/Dan_Heng.json'

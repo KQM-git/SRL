@@ -252,11 +252,11 @@
     "refinements": {
       "name": "Genius",
       "values": [
-        "When the wearer uses their Ultimate, increases ATK by **24%** for **2** turn(s).",
-        "When the wearer uses their Ultimate, increases ATK by **30%** for **2** turn(s).",
-        "When the wearer uses their Ultimate, increases ATK by **36%** for **2** turn(s).",
-        "When the wearer uses their Ultimate, increases ATK by **42%** for **2** turn(s).",
-        "When the wearer uses their Ultimate, increases ATK by **48%** for **2** turn(s)."
+        "When the wearer uses their Ultimate, increases ATK by **24%** for 2 turn(s).",
+        "When the wearer uses their Ultimate, increases ATK by **30%** for 2 turn(s).",
+        "When the wearer uses their Ultimate, increases ATK by **36%** for 2 turn(s).",
+        "When the wearer uses their Ultimate, increases ATK by **42%** for 2 turn(s).",
+        "When the wearer uses their Ultimate, increases ATK by **48%** for 2 turn(s)."
       ]
     }
   },
@@ -339,11 +339,11 @@
     "refinements": {
       "name": "Each Now Has a Role to Play",
       "values": [
-        "Increases the wearer's ATK by **16%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **24%** for **3** turn(s).",
-        "Increases the wearer's ATK by **20%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **30%** for **3** turn(s).",
-        "Increases the wearer's ATK by **24%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **36%** for **3** turn(s).",
-        "Increases the wearer's ATK by **28%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **42%** for **3** turn(s).",
-        "Increases the wearer's ATK by **32%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **48%** for **3** turn(s)."
+        "Increases the wearer's ATK by **16%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **24%** for 3 turn(s).",
+        "Increases the wearer's ATK by **20%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **30%** for 3 turn(s).",
+        "Increases the wearer's ATK by **24%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **36%** for 3 turn(s).",
+        "Increases the wearer's ATK by **28%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **42%** for 3 turn(s).",
+        "Increases the wearer's ATK by **32%**. When the wearer defeats an enemy, the wearer's CRIT DMG increases by **48%** for 3 turn(s)."
       ]
     }
   },
@@ -513,11 +513,11 @@
     "refinements": {
       "name": "The Maiden in the Painting",
       "values": [
-        "Increases DMG dealt by the wearer's follow-up attacks by **24%**. If the current HP of the target enemy is below or equal to **50%**, increases DMG dealt by follow-up attacks by an extra **24%**.",
-        "Increases DMG dealt by the wearer's follow-up attacks by **30%**. If the current HP of the target enemy is below or equal to **50%**, increases DMG dealt by follow-up attacks by an extra **30%**.",
-        "Increases DMG dealt by the wearer's follow-up attacks by **36%**. If the current HP of the target enemy is below or equal to **50%**, increases DMG dealt by follow-up attacks by an extra **36%**.",
-        "Increases DMG dealt by the wearer's follow-up attacks by **42%**. If the current HP of the target enemy is below or equal to **50%**, increases DMG dealt by follow-up attacks by an extra **42%**.",
-        "Increases DMG dealt by the wearer's follow-up attacks by **48%**. If the current HP of the target enemy is below or equal to **50%**, increases DMG dealt by follow-up attacks by an extra **48%**."
+        "Increases DMG dealt by the wearer's follow-up attacks by **24%**. If the current HP of the target enemy is below or equal to 50%, increases DMG dealt by follow-up attacks by an extra **24%**.",
+        "Increases DMG dealt by the wearer's follow-up attacks by **30%**. If the current HP of the target enemy is below or equal to 50%, increases DMG dealt by follow-up attacks by an extra **30%**.",
+        "Increases DMG dealt by the wearer's follow-up attacks by **36%**. If the current HP of the target enemy is below or equal to 50%, increases DMG dealt by follow-up attacks by an extra **36%**.",
+        "Increases DMG dealt by the wearer's follow-up attacks by **42%**. If the current HP of the target enemy is below or equal to 50%, increases DMG dealt by follow-up attacks by an extra **42%**.",
+        "Increases DMG dealt by the wearer's follow-up attacks by **48%**. If the current HP of the target enemy is below or equal to 50%, increases DMG dealt by follow-up attacks by an extra **48%**."
       ]
     }
   },
@@ -600,11 +600,11 @@
     "refinements": {
       "name": "Get Ready",
       "values": [
-        "Increases the wearer's DMG by **12%**. For every defeated enemy, the wearer's ATK increases by **4%**, stacking up to **3** time(s).",
-        "Increases the wearer's DMG by **15%**. For every defeated enemy, the wearer's ATK increases by **5%**, stacking up to **3** time(s).",
-        "Increases the wearer's DMG by **18%**. For every defeated enemy, the wearer's ATK increases by **6%**, stacking up to **3** time(s).",
-        "Increases the wearer's DMG by **21%**. For every defeated enemy, the wearer's ATK increases by **7%**, stacking up to **3** time(s).",
-        "Increases the wearer's DMG by **24%**. For every defeated enemy, the wearer's ATK increases by **8%**, stacking up to **3** time(s)."
+        "Increases the wearer's DMG by **12%**. For every defeated enemy, the wearer's ATK increases by **4%**, stacking up to 3 time(s).",
+        "Increases the wearer's DMG by **15%**. For every defeated enemy, the wearer's ATK increases by **5%**, stacking up to 3 time(s).",
+        "Increases the wearer's DMG by **18%**. For every defeated enemy, the wearer's ATK increases by **6%**, stacking up to 3 time(s).",
+        "Increases the wearer's DMG by **21%**. For every defeated enemy, the wearer's ATK increases by **7%**, stacking up to 3 time(s).",
+        "Increases the wearer's DMG by **24%**. For every defeated enemy, the wearer's ATK increases by **8%**, stacking up to 3 time(s)."
       ]
     }
   },
@@ -687,11 +687,11 @@
     "refinements": {
       "name": "A Storm Is Coming",
       "values": [
-        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to **160** Energy.",
-        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to **160** Energy.",
-        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to **160** Energy.",
-        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to **160** Energy.",
-        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to **160** Energy."
+        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to 160 Energy.",
+        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to 160 Energy.",
+        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to 160 Energy.",
+        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to 160 Energy.",
+        "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%** per point of Energy, up to 160 Energy."
       ]
     }
   },

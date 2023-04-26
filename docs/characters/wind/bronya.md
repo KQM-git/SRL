@@ -1,5 +1,7 @@
 ---
-description: Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also has the determination and integrity of a soldier.
+description: |-
+  Heir apparent to the Supreme Guardian of Belobog.
+  She possesses pride befitting of a princess, but also the determination and integrity of a soldier.
 ---
 
 import char from '@site/src/data/characters/Bronya.json'

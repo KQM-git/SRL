@@ -1,5 +1,7 @@
 ---
-description: Amicassador of the Sky-Faring Commision of the Xianzhou Luofu. She travels with business delegates, forging trade relationships and alliances with many worlds.
+description: |-
+  Amicassador of the Sky-Faring Commission of the Xianzhou Luofu.
+  She travels with business delegates, forging trade relationships and alliances with many worlds.
 ---
 
 import char from '@site/src/data/characters/Tingyun.json'

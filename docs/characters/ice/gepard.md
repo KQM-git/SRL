@@ -1,5 +1,7 @@
 ---
-description: A captain in the Silvermane Guards and an outstanding warrior of Belobog. He is meticulous and vigilant to the core and is always true to himself.
+description: |-
+  A captain in the Silvermane Guards and an outstanding warrior of Belobog.
+  He is meticulous and vigilant to the core and is always true to himself.
 ---
 
 import char from '@site/src/data/characters/Gepard.json'

@@ -1,5 +1,7 @@
 ---
-description: A doctor from the Underworld and a caregiver of children. Alongside her kindess and caring she also has a hidden dangerous side.
+description: |-
+  A doctor from the Underworld and a caregiver of children.
+  Alongside her kindness and caring, she also has a hidden dangerous side.
 ---
 
 import char from '@site/src/data/characters/Natasha.json'
