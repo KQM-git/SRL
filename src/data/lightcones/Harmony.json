@@ -1,0 +1,785 @@
+{
+  "Chorus": {
+    "name": "Chorus",
+    "baseType": "Harmony",
+    "stars": 3,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 38.4,
+        "hpAdd": 5.76,
+        "attackBase": 14.4,
+        "attackAdd": 2.16,
+        "defenseBase": 12,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 84.48,
+        "hpAdd": 5.76,
+        "attackBase": 31.68,
+        "attackAdd": 2.16,
+        "defenseBase": 26.4,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 145.92,
+        "hpAdd": 5.76,
+        "attackBase": 54.72,
+        "attackAdd": 2.16,
+        "defenseBase": 45.6,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 207.36,
+        "hpAdd": 5.76,
+        "attackBase": 77.76,
+        "attackAdd": 2.16,
+        "defenseBase": 64.8,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 268.8,
+        "hpAdd": 5.76,
+        "attackBase": 100.8,
+        "attackAdd": 2.16,
+        "defenseBase": 84,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 330.24,
+        "hpAdd": 5.76,
+        "attackBase": 123.84,
+        "attackAdd": 2.16,
+        "defenseBase": 103.2,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 391.68,
+        "hpAdd": 5.76,
+        "attackBase": 146.88,
+        "attackAdd": 2.16,
+        "defenseBase": 122.4,
+        "defenseAdd": 1.8
+      }
+    ],
+    "refinements": {
+      "name": "Concerted",
+      "values": [
+        "After entering battle, increases the ATK of all allies by **8%**. Effects of the same type cannot stack.",
+        "After entering battle, increases the ATK of all allies by **9%**. Effects of the same type cannot stack.",
+        "After entering battle, increases the ATK of all allies by **10%**. Effects of the same type cannot stack.",
+        "After entering battle, increases the ATK of all allies by **11%**. Effects of the same type cannot stack.",
+        "After entering battle, increases the ATK of all allies by **12%**. Effects of the same type cannot stack."
+      ]
+    }
+  },
+  "Mediation": {
+    "name": "Mediation",
+    "baseType": "Harmony",
+    "stars": 3,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 38.4,
+        "hpAdd": 5.76,
+        "attackBase": 14.4,
+        "attackAdd": 2.16,
+        "defenseBase": 12,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 84.48,
+        "hpAdd": 5.76,
+        "attackBase": 31.68,
+        "attackAdd": 2.16,
+        "defenseBase": 26.4,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 145.92,
+        "hpAdd": 5.76,
+        "attackBase": 54.72,
+        "attackAdd": 2.16,
+        "defenseBase": 45.6,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 207.36,
+        "hpAdd": 5.76,
+        "attackBase": 77.76,
+        "attackAdd": 2.16,
+        "defenseBase": 64.8,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 268.8,
+        "hpAdd": 5.76,
+        "attackBase": 100.8,
+        "attackAdd": 2.16,
+        "defenseBase": 84,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 330.24,
+        "hpAdd": 5.76,
+        "attackBase": 123.84,
+        "attackAdd": 2.16,
+        "defenseBase": 103.2,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 391.68,
+        "hpAdd": 5.76,
+        "attackBase": 146.88,
+        "attackAdd": 2.16,
+        "defenseBase": 122.4,
+        "defenseAdd": 1.8
+      }
+    ],
+    "refinements": {
+      "name": "Family",
+      "values": [
+        "Upon battle entry, all allies receive **12** increased SPD for **1** turn(s).",
+        "Upon battle entry, all allies receive **14** increased SPD for **1** turn(s).",
+        "Upon battle entry, all allies receive **16** increased SPD for **1** turn(s).",
+        "Upon battle entry, all allies receive **18** increased SPD for **1** turn(s).",
+        "Upon battle entry, all allies receive **20** increased SPD for **1** turn(s)."
+      ]
+    }
+  },
+  "Meshing Cogs": {
+    "name": "Meshing Cogs",
+    "baseType": "Harmony",
+    "stars": 3,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 38.4,
+        "hpAdd": 5.76,
+        "attackBase": 14.4,
+        "attackAdd": 2.16,
+        "defenseBase": 12,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 84.48,
+        "hpAdd": 5.76,
+        "attackBase": 31.68,
+        "attackAdd": 2.16,
+        "defenseBase": 26.4,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 145.92,
+        "hpAdd": 5.76,
+        "attackBase": 54.72,
+        "attackAdd": 2.16,
+        "defenseBase": 45.6,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 207.36,
+        "hpAdd": 5.76,
+        "attackBase": 77.76,
+        "attackAdd": 2.16,
+        "defenseBase": 64.8,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 268.8,
+        "hpAdd": 5.76,
+        "attackBase": 100.8,
+        "attackAdd": 2.16,
+        "defenseBase": 84,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 330.24,
+        "hpAdd": 5.76,
+        "attackBase": 123.84,
+        "attackAdd": 2.16,
+        "defenseBase": 103.2,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 391.68,
+        "hpAdd": 5.76,
+        "attackBase": 146.88,
+        "attackAdd": 2.16,
+        "defenseBase": 122.4,
+        "defenseAdd": 1.8
+      }
+    ],
+    "refinements": {
+      "name": "Fleet Triumph",
+      "values": [
+        "After the wearer uses attacks or gets hit, additionally regenerates **4** Energy. This effect can only be triggered 1 time per turn.",
+        "After the wearer uses attacks or gets hit, additionally regenerates **5** Energy. This effect can only be triggered 1 time per turn.",
+        "After the wearer uses attacks or gets hit, additionally regenerates **6** Energy. This effect can only be triggered 1 time per turn.",
+        "After the wearer uses attacks or gets hit, additionally regenerates **7** Energy. This effect can only be triggered 1 time per turn.",
+        "After the wearer uses attacks or gets hit, additionally regenerates **8** Energy. This effect can only be triggered 1 time per turn."
+      ]
+    }
+  },
+  "Carve the Moon, Weave the Clouds": {
+    "name": "Carve the Moon, Weave the Clouds",
+    "baseType": "Harmony",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 21.6,
+        "attackAdd": 3.24,
+        "defenseBase": 15,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 47.52,
+        "attackAdd": 3.24,
+        "defenseBase": 33,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 82.08,
+        "attackAdd": 3.24,
+        "defenseBase": 57,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 116.64,
+        "attackAdd": 3.24,
+        "defenseBase": 81,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 151.2,
+        "attackAdd": 3.24,
+        "defenseBase": 105,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 185.76,
+        "attackAdd": 3.24,
+        "defenseBase": 129,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 220.32,
+        "attackAdd": 3.24,
+        "defenseBase": 153,
+        "defenseAdd": 2.25
+      }
+    ],
+    "refinements": {
+      "name": "Secret",
+      "values": [
+        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **10%**, increase all allies' CRIT DMG by **12%**, or increase all allies' Energy Regeneration Rate by **6%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **13%**, increase all allies' CRIT DMG by **15%**, or increase all allies' Energy Regeneration Rate by **8%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **15%**, increase all allies' CRIT DMG by **18%**, or increase all allies' Energy Regeneration Rate by **9%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **18%**, increase all allies' CRIT DMG by **21%**, or increase all allies' Energy Regeneration Rate by **11%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **20%**, increase all allies' CRIT DMG by **24%**, or increase all allies' Energy Regeneration Rate by **12%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
+      ]
+    }
+  },
+  "Dance! Dance! Dance!": {
+    "name": "Dance! Dance! Dance!",
+    "baseType": "Harmony",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 19.2,
+        "attackAdd": 2.88,
+        "defenseBase": 18,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 42.24,
+        "attackAdd": 2.88,
+        "defenseBase": 39.6,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 72.96,
+        "attackAdd": 2.88,
+        "defenseBase": 68.4,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 103.68,
+        "attackAdd": 2.88,
+        "defenseBase": 97.2,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 134.4,
+        "attackAdd": 2.88,
+        "defenseBase": 126,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 165.12,
+        "attackAdd": 2.88,
+        "defenseBase": 154.8,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 195.84,
+        "attackAdd": 2.88,
+        "defenseBase": 183.6,
+        "defenseAdd": 2.7
+      }
+    ],
+    "refinements": {
+      "name": "Cannot Stop It!",
+      "values": [
+        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **16%**.",
+        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **18%**.",
+        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **20%**.",
+        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **22%**.",
+        "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **24%**."
+      ]
+    }
+  },
+  "Memories of the Past": {
+    "name": "Memories of the Past",
+    "baseType": "Harmony",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 19.2,
+        "attackAdd": 2.88,
+        "defenseBase": 18,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 42.24,
+        "attackAdd": 2.88,
+        "defenseBase": 39.6,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 72.96,
+        "attackAdd": 2.88,
+        "defenseBase": 68.4,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 103.68,
+        "attackAdd": 2.88,
+        "defenseBase": 97.2,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 134.4,
+        "attackAdd": 2.88,
+        "defenseBase": 126,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 165.12,
+        "attackAdd": 2.88,
+        "defenseBase": 154.8,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 195.84,
+        "attackAdd": 2.88,
+        "defenseBase": 183.6,
+        "defenseAdd": 2.7
+      }
+    ],
+    "refinements": {
+      "name": "Old Photo",
+      "values": [
+        "Increases the wearer's Break Effect by **28%**. When the wearer attacks, additionally regenerates **4** Energy. This effect can only be triggered 1 time per turn.",
+        "Increases the wearer's Break Effect by **35%**. When the wearer attacks, additionally regenerates **5** Energy. This effect can only be triggered 1 time per turn.",
+        "Increases the wearer's Break Effect by **42%**. When the wearer attacks, additionally regenerates **6** Energy. This effect can only be triggered 1 time per turn.",
+        "Increases the wearer's Break Effect by **49%**. When the wearer attacks, additionally regenerates **7** Energy. This effect can only be triggered 1 time per turn.",
+        "Increases the wearer's Break Effect by **56%**. When the wearer attacks, additionally regenerates **8** Energy. This effect can only be triggered 1 time per turn."
+      ]
+    }
+  },
+  "Past and Future": {
+    "name": "Past and Future",
+    "baseType": "Harmony",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 19.2,
+        "attackAdd": 2.88,
+        "defenseBase": 18,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 42.24,
+        "attackAdd": 2.88,
+        "defenseBase": 39.6,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 72.96,
+        "attackAdd": 2.88,
+        "defenseBase": 68.4,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 103.68,
+        "attackAdd": 2.88,
+        "defenseBase": 97.2,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 134.4,
+        "attackAdd": 2.88,
+        "defenseBase": 126,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 165.12,
+        "attackAdd": 2.88,
+        "defenseBase": 154.8,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 195.84,
+        "attackAdd": 2.88,
+        "defenseBase": 183.6,
+        "defenseAdd": 2.7
+      }
+    ],
+    "refinements": {
+      "name": "Kites From the Past",
+      "values": [
+        "When the wearer uses their Skill, the next ally taking action deals **16%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, the next ally taking action deals **20%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, the next ally taking action deals **24%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, the next ally taking action deals **28%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, the next ally taking action deals **32%** increased DMG for **1** turn(s)."
+      ]
+    }
+  },
+  "Planetary Rendezvous": {
+    "name": "Planetary Rendezvous",
+    "baseType": "Harmony",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 48,
+        "hpAdd": 7.2,
+        "attackBase": 19.2,
+        "attackAdd": 2.88,
+        "defenseBase": 15,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 105.6,
+        "hpAdd": 7.2,
+        "attackBase": 42.24,
+        "attackAdd": 2.88,
+        "defenseBase": 33,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 182.4,
+        "hpAdd": 7.2,
+        "attackBase": 72.96,
+        "attackAdd": 2.88,
+        "defenseBase": 57,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 259.2,
+        "hpAdd": 7.2,
+        "attackBase": 103.68,
+        "attackAdd": 2.88,
+        "defenseBase": 81,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 336,
+        "hpAdd": 7.2,
+        "attackBase": 134.4,
+        "attackAdd": 2.88,
+        "defenseBase": 105,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 412.8,
+        "hpAdd": 7.2,
+        "attackBase": 165.12,
+        "attackAdd": 2.88,
+        "defenseBase": 129,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 489.6,
+        "hpAdd": 7.2,
+        "attackBase": 195.84,
+        "attackAdd": 2.88,
+        "defenseBase": 153,
+        "defenseAdd": 2.25
+      }
+    ],
+    "refinements": {
+      "name": "Departure",
+      "values": [
+        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **12%**.",
+        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **15%**.",
+        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **18%**.",
+        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **21%**.",
+        "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **24%**."
+      ]
+    }
+  },
+  "But the Battle Isn't Over": {
+    "name": "But the Battle Isn't Over",
+    "baseType": "Harmony",
+    "stars": 5,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 52.8,
+        "hpAdd": 7.92,
+        "attackBase": 24,
+        "attackAdd": 3.6,
+        "defenseBase": 21,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 116.16,
+        "hpAdd": 7.92,
+        "attackBase": 52.8,
+        "attackAdd": 3.6,
+        "defenseBase": 46.2,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 200.64,
+        "hpAdd": 7.92,
+        "attackBase": 91.2,
+        "attackAdd": 3.6,
+        "defenseBase": 79.8,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 285.12,
+        "hpAdd": 7.92,
+        "attackBase": 129.6,
+        "attackAdd": 3.6,
+        "defenseBase": 113.4,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 369.6,
+        "hpAdd": 7.92,
+        "attackBase": 168,
+        "attackAdd": 3.6,
+        "defenseBase": 147,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 454.08,
+        "hpAdd": 7.92,
+        "attackBase": 206.4,
+        "attackAdd": 3.6,
+        "defenseBase": 180.6,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 538.56,
+        "hpAdd": 7.92,
+        "attackBase": 244.8,
+        "attackAdd": 3.6,
+        "defenseBase": 214.2,
+        "defenseAdd": 3.15
+      }
+    ],
+    "refinements": {
+      "name": "Heir",
+      "values": [
+        "Increases the wearer's Energy Regeneration Rate by **10%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **30%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **12%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **35%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **14%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **40%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **16%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **45%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **18%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **50%** more DMG for **1** turn(s)."
+      ]
+    }
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "Hidden Shadow": {
+    "name": "Hidden Shadow",
+    "baseType": "Nihility",
+    "stars": 3,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 38.4,
+        "hpAdd": 5.76,
+        "attackBase": 14.4,
+        "attackAdd": 2.16,
+        "defenseBase": 12,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 84.48,
+        "hpAdd": 5.76,
+        "attackBase": 31.68,
+        "attackAdd": 2.16,
+        "defenseBase": 26.4,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 145.92,
+        "hpAdd": 5.76,
+        "attackBase": 54.72,
+        "attackAdd": 2.16,
+        "defenseBase": 45.6,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 207.36,
+        "hpAdd": 5.76,
+        "attackBase": 77.76,
+        "attackAdd": 2.16,
+        "defenseBase": 64.8,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 268.8,
+        "hpAdd": 5.76,
+        "attackBase": 100.8,
+        "attackAdd": 2.16,
+        "defenseBase": 84,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 330.24,
+        "hpAdd": 5.76,
+        "attackBase": 123.84,
+        "attackAdd": 2.16,
+        "defenseBase": 103.2,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 391.68,
+        "hpAdd": 5.76,
+        "attackBase": 146.88,
+        "attackAdd": 2.16,
+        "defenseBase": 122.4,
+        "defenseAdd": 1.8
+      }
+    ],
+    "refinements": {
+      "name": "Mechanism",
+      "values": [
+        "After using Skill, the wearer's next Basic ATK deals **60%** of ATK as additional DMG to the enemy target.",
+        "After using Skill, the wearer's next Basic ATK deals **75%** of ATK as additional DMG to the enemy target.",
+        "After using Skill, the wearer's next Basic ATK deals **90%** of ATK as additional DMG to the enemy target.",
+        "After using Skill, the wearer's next Basic ATK deals **105%** of ATK as additional DMG to the enemy target.",
+        "After using Skill, the wearer's next Basic ATK deals **120%** of ATK as additional DMG to the enemy target."
+      ]
+    }
+  },
+  "Loop": {
+    "name": "Loop",
+    "baseType": "Nihility",
+    "stars": 3,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 38.4,
+        "hpAdd": 5.76,
+        "attackBase": 14.4,
+        "attackAdd": 2.16,
+        "defenseBase": 12,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 84.48,
+        "hpAdd": 5.76,
+        "attackBase": 31.68,
+        "attackAdd": 2.16,
+        "defenseBase": 26.4,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 145.92,
+        "hpAdd": 5.76,
+        "attackBase": 54.72,
+        "attackAdd": 2.16,
+        "defenseBase": 45.6,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 207.36,
+        "hpAdd": 5.76,
+        "attackBase": 77.76,
+        "attackAdd": 2.16,
+        "defenseBase": 64.8,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 268.8,
+        "hpAdd": 5.76,
+        "attackBase": 100.8,
+        "attackAdd": 2.16,
+        "defenseBase": 84,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 330.24,
+        "hpAdd": 5.76,
+        "attackBase": 123.84,
+        "attackAdd": 2.16,
+        "defenseBase": 103.2,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 391.68,
+        "hpAdd": 5.76,
+        "attackBase": 146.88,
+        "attackAdd": 2.16,
+        "defenseBase": 122.4,
+        "defenseAdd": 1.8
+      }
+    ],
+    "refinements": {
+      "name": "Pursuit",
+      "values": [
+        "Increases DMG dealt from its wearer to Slowed enemies by **24%**.",
+        "Increases DMG dealt from its wearer to Slowed enemies by **30%**.",
+        "Increases DMG dealt from its wearer to Slowed enemies by **36%**.",
+        "Increases DMG dealt from its wearer to Slowed enemies by **42%**.",
+        "Increases DMG dealt from its wearer to Slowed enemies by **48%**."
+      ]
+    }
+  },
+  "Void": {
+    "name": "Void",
+    "baseType": "Nihility",
+    "stars": 3,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 38.4,
+        "hpAdd": 5.76,
+        "attackBase": 14.4,
+        "attackAdd": 2.16,
+        "defenseBase": 12,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 84.48,
+        "hpAdd": 5.76,
+        "attackBase": 31.68,
+        "attackAdd": 2.16,
+        "defenseBase": 26.4,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 145.92,
+        "hpAdd": 5.76,
+        "attackBase": 54.72,
+        "attackAdd": 2.16,
+        "defenseBase": 45.6,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 207.36,
+        "hpAdd": 5.76,
+        "attackBase": 77.76,
+        "attackAdd": 2.16,
+        "defenseBase": 64.8,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 268.8,
+        "hpAdd": 5.76,
+        "attackBase": 100.8,
+        "attackAdd": 2.16,
+        "defenseBase": 84,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 330.24,
+        "hpAdd": 5.76,
+        "attackBase": 123.84,
+        "attackAdd": 2.16,
+        "defenseBase": 103.2,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 391.68,
+        "hpAdd": 5.76,
+        "attackBase": 146.88,
+        "attackAdd": 2.16,
+        "defenseBase": 122.4,
+        "defenseAdd": 1.8
+      }
+    ],
+    "refinements": {
+      "name": "Fallen",
+      "values": [
+        "At the beginning of battle, increases the wearer's Effect Hit Rate by **20%** for **3** turn(s).",
+        "At the beginning of battle, increases the wearer's Effect Hit Rate by **25%** for **3** turn(s).",
+        "At the beginning of battle, increases the wearer's Effect Hit Rate by **30%** for **3** turn(s).",
+        "At the beginning of battle, increases the wearer's Effect Hit Rate by **35%** for **3** turn(s).",
+        "At the beginning of battle, increases the wearer's Effect Hit Rate by **40%** for **3** turn(s)."
+      ]
+    }
+  },
+  "Eyes of the Prey": {
+    "name": "Eyes of the Prey",
+    "baseType": "Nihility",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 21.6,
+        "attackAdd": 3.24,
+        "defenseBase": 15,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 47.52,
+        "attackAdd": 3.24,
+        "defenseBase": 33,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 82.08,
+        "attackAdd": 3.24,
+        "defenseBase": 57,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 116.64,
+        "attackAdd": 3.24,
+        "defenseBase": 81,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 151.2,
+        "attackAdd": 3.24,
+        "defenseBase": 105,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 185.76,
+        "attackAdd": 3.24,
+        "defenseBase": 129,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 220.32,
+        "attackAdd": 3.24,
+        "defenseBase": 153,
+        "defenseAdd": 2.25
+      }
+    ],
+    "refinements": {
+      "name": "Self-Confidence",
+      "values": [
+        "Increases the wearer's Effect Hit Rate by **20%** and increases DoT by **24%**.",
+        "Increases the wearer's Effect Hit Rate by **25%** and increases DoT by **30%**.",
+        "Increases the wearer's Effect Hit Rate by **30%** and increases DoT by **36%**.",
+        "Increases the wearer's Effect Hit Rate by **35%** and increases DoT by **42%**.",
+        "Increases the wearer's Effect Hit Rate by **40%** and increases DoT by **48%**."
+      ]
+    }
+  },
+  "Fermata": {
+    "name": "Fermata",
+    "baseType": "Nihility",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 21.6,
+        "attackAdd": 3.24,
+        "defenseBase": 15,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 47.52,
+        "attackAdd": 3.24,
+        "defenseBase": 33,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 82.08,
+        "attackAdd": 3.24,
+        "defenseBase": 57,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 116.64,
+        "attackAdd": 3.24,
+        "defenseBase": 81,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 151.2,
+        "attackAdd": 3.24,
+        "defenseBase": 105,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 185.76,
+        "attackAdd": 3.24,
+        "defenseBase": 129,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 220.32,
+        "attackAdd": 3.24,
+        "defenseBase": 153,
+        "defenseAdd": 2.25
+      }
+    ],
+    "refinements": {
+      "name": "Semibreve Rest",
+      "values": [
+        "Increases the Break Effect dealt by the wearer by **16%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **16%**. This also applies to DoT.",
+        "Increases the Break Effect dealt by the wearer by **20%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **20%**. This also applies to DoT.",
+        "Increases the Break Effect dealt by the wearer by **24%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **24%**. This also applies to DoT.",
+        "Increases the Break Effect dealt by the wearer by **28%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **28%**. This also applies to DoT.",
+        "Increases the Break Effect dealt by the wearer by **32%**, and increases their DMG to enemies afflicted with Shock or Wind Shear by **32%**. This also applies to DoT."
+      ]
+    }
+  },
+  "Good Night and Sleep Well": {
+    "name": "Good Night and Sleep Well",
+    "baseType": "Nihility",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 21.6,
+        "attackAdd": 3.24,
+        "defenseBase": 15,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 47.52,
+        "attackAdd": 3.24,
+        "defenseBase": 33,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 82.08,
+        "attackAdd": 3.24,
+        "defenseBase": 57,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 116.64,
+        "attackAdd": 3.24,
+        "defenseBase": 81,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 151.2,
+        "attackAdd": 3.24,
+        "defenseBase": 105,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 185.76,
+        "attackAdd": 3.24,
+        "defenseBase": 129,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 220.32,
+        "attackAdd": 3.24,
+        "defenseBase": 153,
+        "defenseAdd": 2.25
+      }
+    ],
+    "refinements": {
+      "name": "Toiler",
+      "values": [
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **12%**, stacking up to **3** time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **15%**, stacking up to **3** time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **18%**, stacking up to **3** time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **21%**, stacking up to **3** time(s). This effect also applies to DoT.",
+        "For every debuff the target enemy has, the DMG dealt by the wearer increases by **24%**, stacking up to **3** time(s). This effect also applies to DoT."
+      ]
+    }
+  },
+  "Resolution Shines As Pearls of Sweat": {
+    "name": "Resolution Shines As Pearls of Sweat",
+    "baseType": "Nihility",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 21.6,
+        "attackAdd": 3.24,
+        "defenseBase": 15,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 47.52,
+        "attackAdd": 3.24,
+        "defenseBase": 33,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 82.08,
+        "attackAdd": 3.24,
+        "defenseBase": 57,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 116.64,
+        "attackAdd": 3.24,
+        "defenseBase": 81,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 151.2,
+        "attackAdd": 3.24,
+        "defenseBase": 105,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 185.76,
+        "attackAdd": 3.24,
+        "defenseBase": 129,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 220.32,
+        "attackAdd": 3.24,
+        "defenseBase": 153,
+        "defenseAdd": 2.25
+      }
+    ],
+    "refinements": {
+      "name": "Glance Back",
+      "values": [
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **60%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **12%** for **1** turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **70%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **13%** for **1** turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **80%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **14%** for **1** turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **90%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **15%** for **1** turn(s).",
+        "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a **100%** base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by **16%** for **1** turn(s)."
+      ]
+    }
+  },
+  "We Will Meet Again": {
+    "name": "We Will Meet Again",
+    "baseType": "Nihility",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 38.4,
+        "hpAdd": 5.76,
+        "attackBase": 24,
+        "attackAdd": 3.6,
+        "defenseBase": 15,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 84.48,
+        "hpAdd": 5.76,
+        "attackBase": 52.8,
+        "attackAdd": 3.6,
+        "defenseBase": 33,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 145.92,
+        "hpAdd": 5.76,
+        "attackBase": 91.2,
+        "attackAdd": 3.6,
+        "defenseBase": 57,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 207.36,
+        "hpAdd": 5.76,
+        "attackBase": 129.6,
+        "attackAdd": 3.6,
+        "defenseBase": 81,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 268.8,
+        "hpAdd": 5.76,
+        "attackBase": 168,
+        "attackAdd": 3.6,
+        "defenseBase": 105,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 330.24,
+        "hpAdd": 5.76,
+        "attackBase": 206.4,
+        "attackAdd": 3.6,
+        "defenseBase": 129,
+        "defenseAdd": 2.25
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 391.68,
+        "hpAdd": 5.76,
+        "attackBase": 244.8,
+        "attackAdd": 3.6,
+        "defenseBase": 153,
+        "defenseAdd": 2.25
+      }
+    ],
+    "refinements": {
+      "name": "A Discourse in Arms",
+      "values": [
+        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **48%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **60%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **72%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **84%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **96%** of the wearer's ATK to a random enemy that has been attacked."
+      ]
+    }
+  },
+  "In the Name of the World": {
+    "name": "In the Name of the World",
+    "baseType": "Nihility",
+    "stars": 5,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 48,
+        "hpAdd": 7.2,
+        "attackBase": 26.4,
+        "attackAdd": 3.96,
+        "defenseBase": 21,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 105.6,
+        "hpAdd": 7.2,
+        "attackBase": 58.08,
+        "attackAdd": 3.96,
+        "defenseBase": 46.2,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 182.4,
+        "hpAdd": 7.2,
+        "attackBase": 100.32,
+        "attackAdd": 3.96,
+        "defenseBase": 79.8,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 259.2,
+        "hpAdd": 7.2,
+        "attackBase": 142.56,
+        "attackAdd": 3.96,
+        "defenseBase": 113.4,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 336,
+        "hpAdd": 7.2,
+        "attackBase": 184.8,
+        "attackAdd": 3.96,
+        "defenseBase": 147,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 412.8,
+        "hpAdd": 7.2,
+        "attackBase": 227.04,
+        "attackAdd": 3.96,
+        "defenseBase": 180.6,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 489.6,
+        "hpAdd": 7.2,
+        "attackBase": 269.28,
+        "attackAdd": 3.96,
+        "defenseBase": 214.2,
+        "defenseAdd": 3.15
+      }
+    ],
+    "refinements": {
+      "name": "Inheritor",
+      "values": [
+        "Increases the wearer's DMG to debuffed enemies by **24%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **18%**, and ATK increases by **24%**.",
+        "Increases the wearer's DMG to debuffed enemies by **28%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **21%**, and ATK increases by **28%**.",
+        "Increases the wearer's DMG to debuffed enemies by **32%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **24%**, and ATK increases by **32%**.",
+        "Increases the wearer's DMG to debuffed enemies by **36%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **27%**, and ATK increases by **36%**.",
+        "Increases the wearer's DMG to debuffed enemies by **40%**. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by **30%**, and ATK increases by **40%**."
+      ]
+    }
+  }
+}
