@@ -141,7 +141,7 @@ const config = {
             label: 'Newsletter',
           },
           {
-            href: 'https://keqingmains.com/',
+            href: 'https://hsr.keqingmains.com/',
             label: 'KeqingMains',
             position: 'right',
           },

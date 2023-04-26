@@ -21,7 +21,7 @@ import CharStatsTable from '@site/src/components/char/CharStatsTable'
 
 <CharStatsTable char={char} />
 
-## Skill Issues
+## Abilities
 
 :::danger
 TODO

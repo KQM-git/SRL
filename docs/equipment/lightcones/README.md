@@ -2,9 +2,9 @@
 sidebar_position: 1000
 ---
 
-# Lightcones
+# Light Cones
 
-## Lightcone Pages
+## Light Cone Pages
 
 import DocCardList from '@theme/DocCardList';
 
