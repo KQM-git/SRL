@@ -687,11 +687,11 @@
     "refinements": {
       "name": "Teary-Eyed",
       "values": [
-        "At the start of battle, decreases the DMG dealt to all allies by **8%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **30%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of battle, decreases the DMG dealt to all allies by **10%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **35%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of battle, decreases the DMG dealt to all allies by **12%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **40%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of battle, decreases the DMG dealt to all allies by **14%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **45%** of the respective HP difference between the characters' Max HP and current HP.",
-        "At the start of battle, decreases the DMG dealt to all allies by **16%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **50%** of the respective HP difference between the characters' Max HP and current HP."
+        "At the start of the battle, the DMG dealt to all allies decreases by **8%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **30%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **10%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **35%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **12%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **40%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **14%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **45%** of the respective HP difference between the characters' Max HP and current HP.",
+        "At the start of the battle, the DMG dealt to all allies decreases by **16%** for **5** turn(s). At the same time, immediately restores HP to all allies equal to **50%** of the respective HP difference between the characters' Max HP and current HP."
       ]
     }
   },
@@ -774,11 +774,11 @@
     "refinements": {
       "name": "Verdict",
       "values": [
-        "Increases the wearer's DEF by **24%** and Effect Hit Rate by **24%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional **24%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **28%** and Effect Hit Rate by **28%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional **28%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **32%** and Effect Hit Rate by **32%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional **32%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **36%** and Effect Hit Rate by **36%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional **36%** until the end of the wearer's turn.",
-        "Increases the wearer's DEF by **40%** and Effect Hit Rate by **40%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional **40%** until the end of the wearer's turn."
+        "Increases the wearer's DEF by **24%** and Effect Hit Rate by **24%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **24%** until the end of the wearer's turn.",
+        "Increases the wearer's DEF by **28%** and Effect Hit Rate by **28%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **28%** until the end of the wearer's turn.",
+        "Increases the wearer's DEF by **32%** and Effect Hit Rate by **32%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **32%** until the end of the wearer's turn.",
+        "Increases the wearer's DEF by **36%** and Effect Hit Rate by **36%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **36%** until the end of the wearer's turn.",
+        "Increases the wearer's DEF by **40%** and Effect Hit Rate by **40%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **40%** until the end of the wearer's turn."
       ]
     }
   },

@@ -165,11 +165,11 @@
     "refinements": {
       "name": "Savor",
       "values": [
-        "At the beginning of the battle, immediately regenerates **6** Energy for all allies.",
-        "At the beginning of the battle, immediately regenerates **8** Energy for all allies.",
-        "At the beginning of the battle, immediately regenerates **9** Energy for all allies.",
-        "At the beginning of the battle, immediately regenerates **11** Energy for all allies.",
-        "At the beginning of the battle, immediately regenerates **12** Energy for all allies."
+        "At the start of the battle, immediately regenerates **6** Energy for all allies.",
+        "At the start of the battle, immediately regenerates **8** Energy for all allies.",
+        "At the start of the battle, immediately regenerates **9** Energy for all allies.",
+        "At the start of the battle, immediately regenerates **11** Energy for all allies.",
+        "At the start of the battle, immediately regenerates **12** Energy for all allies."
       ]
     }
   },
@@ -513,11 +513,11 @@
     "refinements": {
       "name": "Enjoy With Rapture",
       "values": [
-        "At the start of the wearer's turn, regenerates **8** Energy for a randomly chosen ally whose current Energy is lower than **50%**.",
-        "At the start of the wearer's turn, regenerates **10** Energy for a randomly chosen ally whose current Energy is lower than **50%**.",
-        "At the start of the wearer's turn, regenerates **12** Energy for a randomly chosen ally whose current Energy is lower than **50%**.",
-        "At the start of the wearer's turn, regenerates **14** Energy for a randomly chosen ally whose current Energy is lower than **50%**.",
-        "At the start of the wearer's turn, regenerates **16** Energy for a randomly chosen ally whose current Energy is lower than **50%**."
+        "At the start of the wearer's turn, regenerates **8** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than **50%**.",
+        "At the start of the wearer's turn, regenerates **10** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than **50%**.",
+        "At the start of the wearer's turn, regenerates **12** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than **50%**.",
+        "At the start of the wearer's turn, regenerates **14** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than **50%**.",
+        "At the start of the wearer's turn, regenerates **16** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than **50%**."
       ]
     }
   },
@@ -774,11 +774,11 @@
     "refinements": {
       "name": "Morn, Noon, Dusk, and Night",
       "values": [
-        "Increases the wearer's Max HP by **18%** and Outgoing Healing by **12%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to **36%** of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **21%** and Outgoing Healing by **14%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to **42%** of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **24%** and Outgoing Healing by **16%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to **48%** of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **27%** and Outgoing Healing by **18%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to **54%** of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
-        "Increases the wearer's Max HP by **30%** and Outgoing Healing by **20%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to **60%** of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn."
+        "Increases the wearer's Max HP by **18%** and Outgoing Healing by **12%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **36%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
+        "Increases the wearer's Max HP by **21%** and Outgoing Healing by **14%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **42%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
+        "Increases the wearer's Max HP by **24%** and Outgoing Healing by **16%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **48%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
+        "Increases the wearer's Max HP by **27%** and Outgoing Healing by **18%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **54%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
+        "Increases the wearer's Max HP by **30%** and Outgoing Healing by **20%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **60%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn."
       ]
     }
   }

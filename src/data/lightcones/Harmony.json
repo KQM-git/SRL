@@ -339,11 +339,11 @@
     "refinements": {
       "name": "Secret",
       "values": [
-        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **10%**, increase all allies' CRIT DMG by **12%**, or increase all allies' Energy Regeneration Rate by **6%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **13%**, increase all allies' CRIT DMG by **15%**, or increase all allies' Energy Regeneration Rate by **8%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **15%**, increase all allies' CRIT DMG by **18%**, or increase all allies' Energy Regeneration Rate by **9%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **18%**, increase all allies' CRIT DMG by **21%**, or increase all allies' Energy Regeneration Rate by **11%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-        "One of the following effects is applied randomly at the start of combat and whenever the wearer's turn begins: Increase all allies' ATK by **20%**, increase all allies' CRIT DMG by **24%**, or increase all allies' Energy Regeneration Rate by **12%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
+        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **10%**, all allies' CRIT DMG increases by **12%**, or all allies' Energy Regeneration Rate increases by **6%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **13%**, all allies' CRIT DMG increases by **15%**, or all allies' Energy Regeneration Rate increases by **8%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **15%**, all allies' CRIT DMG increases by **18%**, or all allies' Energy Regeneration Rate increases by **9%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **18%**, all allies' CRIT DMG increases by **21%**, or all allies' Energy Regeneration Rate increases by **11%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+        "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **20%**, all allies' CRIT DMG increases by **24%**, or all allies' Energy Regeneration Rate increases by **12%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
       ]
     }
   },
@@ -600,11 +600,11 @@
     "refinements": {
       "name": "Kites From the Past",
       "values": [
-        "When the wearer uses their Skill, the next ally taking action deals **16%** increased DMG for **1** turn(s).",
-        "When the wearer uses their Skill, the next ally taking action deals **20%** increased DMG for **1** turn(s).",
-        "When the wearer uses their Skill, the next ally taking action deals **24%** increased DMG for **1** turn(s).",
-        "When the wearer uses their Skill, the next ally taking action deals **28%** increased DMG for **1** turn(s).",
-        "When the wearer uses their Skill, the next ally taking action deals **32%** increased DMG for **1** turn(s)."
+        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **16%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **20%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **24%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **28%** increased DMG for **1** turn(s).",
+        "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **32%** increased DMG for **1** turn(s)."
       ]
     }
   },
@@ -774,11 +774,11 @@
     "refinements": {
       "name": "Heir",
       "values": [
-        "Increases the wearer's Energy Regeneration Rate by **10%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **30%** more DMG for **1** turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **12%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **35%** more DMG for **1** turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **14%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **40%** more DMG for **1** turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **16%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **45%** more DMG for **1** turn(s).",
-        "Increases the wearer's Energy Regeneration Rate by **18%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action deals **50%** more DMG for **1** turn(s)."
+        "Increases the wearer's Energy Regeneration Rate by **10%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **30%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **12%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **35%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **14%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **40%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **16%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **45%** more DMG for **1** turn(s).",
+        "Increases the wearer's Energy Regeneration Rate by **18%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **50%** more DMG for **1** turn(s)."
       ]
     }
   }

@@ -424,7 +424,7 @@
       }
     ],
     "refinements": {
-      "name": "Crisis",
+      "name": "Desperate Times",
       "values": [
         "Increases the wearer's ATK by **24%**. Whenever the wearer defeats an enemy, they restore HP equal to **12%** of their ATK.",
         "Increases the wearer's ATK by **30%**. Whenever the wearer defeats an enemy, they restore HP equal to **15%** of their ATK.",
@@ -513,11 +513,11 @@
     "refinements": {
       "name": "Fantastic Adventure",
       "values": [
-        "For every Basic ATK, Skill, and Ultimate used by the wearer to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **12%**.",
-        "For every Basic ATK, Skill, and Ultimate used by the wearer to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **15%**.",
-        "For every Basic ATK, Skill, and Ultimate used by the wearer to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **18%**.",
-        "For every Basic ATK, Skill, and Ultimate used by the wearer to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **21%**.",
-        "For every Basic ATK, Skill, and Ultimate used by the wearer to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **24%**."
+        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **12%**.",
+        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **15%**.",
+        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **18%**.",
+        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **21%**.",
+        "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **24%**."
       ]
     }
   },

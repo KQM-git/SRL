@@ -165,11 +165,11 @@
     "refinements": {
       "name": "Crisis",
       "values": [
-        "At the beginning of the battle, increases the wearer's CRIT Rate by **12%** for **3** turn(s).",
-        "At the beginning of the battle, increases the wearer's CRIT Rate by **15%** for **3** turn(s).",
-        "At the beginning of the battle, increases the wearer's CRIT Rate by **18%** for **3** turn(s).",
-        "At the beginning of the battle, increases the wearer's CRIT Rate by **21%** for **3** turn(s).",
-        "At the beginning of the battle, increases the wearer's CRIT Rate by **24%** for **3** turn(s)."
+        "At the start of the battle, the wearer's CRIT Rate increases by **12%** for **3** turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **15%** for **3** turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **18%** for **3** turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **21%** for **3** turn(s).",
+        "At the start of the battle, the wearer's CRIT Rate increases by **24%** for **3** turn(s)."
       ]
     }
   },
@@ -774,11 +774,11 @@
     "refinements": {
       "name": "Chase",
       "values": [
-        "Increases the wearer's CRIT rate by **8%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an additional **8%**. When the wearer defeats an enemy, their ATK is increased by **20%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **10%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an additional **10%**. When the wearer defeats an enemy, their ATK is increased by **25%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **12%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an additional **12%**. When the wearer defeats an enemy, their ATK is increased by **30%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **14%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an additional **14%**. When the wearer defeats an enemy, their ATK is increased by **35%** for **2** turn(s).",
-        "Increases the wearer's CRIT rate by **16%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an additional **16%**. When the wearer defeats an enemy, their ATK is increased by **40%** for **2** turn(s)."
+        "Increases the wearer's CRIT rate by **8%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **8%**. When the wearer defeats an enemy, their ATK is increased by **20%** for **2** turn(s).",
+        "Increases the wearer's CRIT rate by **10%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **10%**. When the wearer defeats an enemy, their ATK is increased by **25%** for **2** turn(s).",
+        "Increases the wearer's CRIT rate by **12%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **12%**. When the wearer defeats an enemy, their ATK is increased by **30%** for **2** turn(s).",
+        "Increases the wearer's CRIT rate by **14%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **14%**. When the wearer defeats an enemy, their ATK is increased by **35%** for **2** turn(s).",
+        "Increases the wearer's CRIT rate by **16%**, and increases their CRIT rate against enemies with HP less than or equal to **50%** by an extra **16%**. When the wearer defeats an enemy, their ATK is increased by **40%** for **2** turn(s)."
       ]
     }
   },
@@ -948,11 +948,11 @@
     "refinements": {
       "name": "Sweet Dreams",
       "values": [
-        "Increases the wearer's CRIT DMG by **30%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **36%** for **1** turn(s). This effect can only trigger once per every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **35%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **42%** for **1** turn(s). This effect can only trigger once per every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **40%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **48%** for **1** turn(s). This effect can only trigger once per every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **45%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **54%** for **1** turn(s). This effect can only trigger once per every **3** turn(s).",
-        "Increases the wearer's CRIT DMG by **50%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **60%** for **1** turn(s). This effect can only trigger once per every **3** turn(s)."
+        "Increases the wearer's CRIT DMG by **30%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **36%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
+        "Increases the wearer's CRIT DMG by **35%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **42%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
+        "Increases the wearer's CRIT DMG by **40%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **48%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
+        "Increases the wearer's CRIT DMG by **45%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **54%** for **1** turn(s). This effect can only trigger once every **3** turn(s).",
+        "Increases the wearer's CRIT DMG by **50%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **60%** for **1** turn(s). This effect can only trigger once every **3** turn(s)."
       ]
     }
   }

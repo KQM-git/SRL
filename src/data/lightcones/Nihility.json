@@ -78,11 +78,11 @@
     "refinements": {
       "name": "Mechanism",
       "values": [
-        "After using Skill, the wearer's next Basic ATK deals **60%** of ATK as additional DMG to the enemy target.",
-        "After using Skill, the wearer's next Basic ATK deals **75%** of ATK as additional DMG to the enemy target.",
-        "After using Skill, the wearer's next Basic ATK deals **90%** of ATK as additional DMG to the enemy target.",
-        "After using Skill, the wearer's next Basic ATK deals **105%** of ATK as additional DMG to the enemy target.",
-        "After using Skill, the wearer's next Basic ATK deals **120%** of ATK as additional DMG to the enemy target."
+        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **60%** of ATK to the target enemy.",
+        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **75%** of ATK to the target enemy.",
+        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **90%** of ATK to the target enemy.",
+        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **105%** of ATK to the target enemy.",
+        "After using Skill, the wearer's next Basic ATK deals Additional DMG equal to **120%** of ATK to the target enemy."
       ]
     }
   },
@@ -252,11 +252,11 @@
     "refinements": {
       "name": "Fallen",
       "values": [
-        "At the beginning of battle, increases the wearer's Effect Hit Rate by **20%** for **3** turn(s).",
-        "At the beginning of battle, increases the wearer's Effect Hit Rate by **25%** for **3** turn(s).",
-        "At the beginning of battle, increases the wearer's Effect Hit Rate by **30%** for **3** turn(s).",
-        "At the beginning of battle, increases the wearer's Effect Hit Rate by **35%** for **3** turn(s).",
-        "At the beginning of battle, increases the wearer's Effect Hit Rate by **40%** for **3** turn(s)."
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **20%** for **3** turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **25%** for **3** turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **30%** for **3** turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **35%** for **3** turn(s).",
+        "At the start of the battle, the wearer's Effect Hit Rate increases by **40%** for **3** turn(s)."
       ]
     }
   },
@@ -687,11 +687,11 @@
     "refinements": {
       "name": "A Discourse in Arms",
       "values": [
-        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **48%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **60%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **72%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **84%** of the wearer's ATK to a random enemy that has been attacked.",
-        "After the wearer uses Basic ATK or Skill, deals additional DMG equal to **96%** of the wearer's ATK to a random enemy that has been attacked."
+        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **48%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **60%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **72%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **84%** of the wearer's ATK to a random enemy that has been attacked.",
+        "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to **96%** of the wearer's ATK to a random enemy that has been attacked."
       ]
     }
   },
