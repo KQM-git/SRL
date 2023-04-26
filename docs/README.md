@@ -13,12 +13,12 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 As Star Rail has only just released, our theorycrafting team is still in the process of getting game data set up on the SRL. Below you will see a list of what we are working on porting over:
 
 * Characters - WIP
-  * Base Stats
+  * Base Stats - complete
   * Abilities
   * Traces
   * Eidolons
 * Equipment - WIP
-  * Light Cones
+  * Light Cones - complete
   * Relics
 
 ## Submissions
