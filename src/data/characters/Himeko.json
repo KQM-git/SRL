@@ -109,5 +109,37 @@
       "speedBase": 96,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Sawblade Tuning",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Fire DMG equal to **50%** of Himeko's ATK to a single enemy."
+    },
+    {
+      "name": "Molten Detonation",
+      "tag": "Blast",
+      "type": "Skill",
+      "desc": "Deals Fire DMG equal to **100%** of Himeko's ATK to a single enemy and Fire DMG equal to **40%** of Himeko's ATK to enemies adjacent to it."
+    },
+    {
+      "name": "Heavenly Flare",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Fire DMG equal to **138%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated."
+    },
+    {
+      "name": "Victory Rush",
+      "tag": "AoE",
+      "type": "Talent",
+      "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **70%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge."
+    },
+    {
+      "name": "Incomplete Combustion",
+      "tag": "Impair",
+      "type": "Technique",
+      "desc": "After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% **base chance** to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."
+    }
   ]
 }

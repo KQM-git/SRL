@@ -109,5 +109,37 @@
       "speedBase": 102,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Dazzling Blades",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Wind DMG equal to **50%** of Sampo's ATK to a single enemy."
+    },
+    {
+      "name": "Ricochet Love",
+      "tag": "Bounce",
+      "type": "Skill",
+      "desc": "Deals Wind DMG equal to **28%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **28%** of Sampo's ATK to a random enemy."
+    },
+    {
+      "name": "Surprise Present",
+      "tag": "Impair",
+      "type": "Ultimate",
+      "desc": "Deals Wind DMG equal to **96%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **20%** for 2 turn(s)."
+    },
+    {
+      "name": "Windtorn Dagger",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **20%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
+    },
+    {
+      "name": "Shining Bright",
+      "tag": "Impair",
+      "type": "Technique",
+      "desc": "After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a 100% **fixed chance** to delay all enemies' action by 25%."
+    }
   ]
 }

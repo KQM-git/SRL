@@ -109,5 +109,36 @@
       "speedBase": 107,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Cloudfencer Art: Starshine",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Physical DMG equal to **50%** of Sushang's ATK to a single enemy."
+    },
+    {
+      "name": "Cloudfencer Art: Mountainfall",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Deals Physical DMG equal to **105%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **50%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger."
+    },
+    {
+      "name": "Shape of Taixu: Dawn Herald",
+      "tag": "Single Target",
+      "type": "Ultimate",
+      "desc": "Deals Physical DMG equal to **192%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **18%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG."
+    },
+    {
+      "name": "Dancing Blade",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **#1[f2]%** for 2 turn(s)."
+    },
+    {
+      "name": "Cloudfencer Art: Warcry",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies."
+    }
   ]
 }

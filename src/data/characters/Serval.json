@@ -109,5 +109,36 @@
       "speedBase": 104,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Roaring Thunderclap",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Lightning DMG equal to **50%** of Serval's ATK to a single enemy."
+    },
+    {
+      "name": "Lightning Flash",
+      "tag": "Blast",
+      "type": "Skill",
+      "desc": "Deals Lightning DMG equal to **70%** of Serval's ATK to a single enemy and Lightning DMG equal to **30%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **40%** of Serval's ATK at the beginning of each turn."
+    },
+    {
+      "name": "Here Comes the Mechanical Fever",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Lightning DMG equal to **108%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."
+    },
+    {
+      "name": "Galvanic Chords",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "After Serval attacks, deals **Additional** Lightning DMG equal to **36%** of Serval's ATK to all Shocked enemies."
+    },
+    {
+      "name": "Good Night, Belobog",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% **base chance** for all enemies to become Shocked for 3 turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn."
+    }
   ]
 }

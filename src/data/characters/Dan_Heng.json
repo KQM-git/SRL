@@ -109,5 +109,37 @@
       "speedBase": 110,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Cloudlancer Art: North Wind",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Wind DMG equal to **50%** of Dan Heng's ATK to a single enemy."
+    },
+    {
+      "name": "Cloudlancer Art: Torrent",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Deals Wind DMG equal to **130%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s)."
+    },
+    {
+      "name": "Ethereal Dream",
+      "tag": "Single Target",
+      "type": "Ultimate",
+      "desc": "Deals Wind DMG equal to **240%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **72%**."
+    },
+    {
+      "name": "Superiority of Reach",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **18%**. This effect can be triggered again after 2 turn(s)."
+    },
+    {
+      "name": "Splitting Spearhead",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."
+    }
   ]
 }

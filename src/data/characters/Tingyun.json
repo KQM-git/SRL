@@ -109,5 +109,37 @@
       "speedBase": 112,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Dislodged",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Tingyun deals Lightning DMG equal to **50%** of her ATK to a single enemy."
+    },
+    {
+      "name": "Soothing Melody",
+      "tag": "Support",
+      "type": "Skill",
+      "desc": "Grants a single ally with Benediction to increase their ATK by **25%**, up to **15%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **20%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
+    },
+    {
+      "name": "Amidst the Rejoicing Clouds",
+      "tag": "Support",
+      "type": "Ultimate",
+      "desc": "Regenerates 50 Energy for a single ally and increases the target's DMG by **20%** for 2 turn(s)."
+    },
+    {
+      "name": "Violet Sparknado",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **30%** of that ally's ATK to the same enemy."
+    },
+    {
+      "name": "Gentle Breeze",
+      "tag": "Support",
+      "type": "Technique",
+      "desc": "Tingyun immediately regenerates 50 Energy upon using her Technique."
+    }
   ]
 }

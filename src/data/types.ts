@@ -3,6 +3,7 @@ export interface Character {
     name: string
     star: number
     stats: CharacterStats[]
+    skills: Skill[]
 }
 
 export interface CharacterStats {
@@ -19,6 +20,13 @@ export interface CharacterStats {
     aggro: number
     speedBase: number
     speedAdd: number
+}
+
+export interface Skill {
+    name: string
+    tag: string
+    type: string
+    desc: string // TODO - expand per level
 }
 
 // Lightcones

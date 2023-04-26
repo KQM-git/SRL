@@ -109,5 +109,36 @@
       "speedBase": 105,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Frost Shot",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Ice DMG equal to **50%** of Pela's ATK as to a single enemy."
+    },
+    {
+      "name": "Frostbite",
+      "tag": "Impair",
+      "type": "Skill",
+      "desc": "Removes 1 **buff(s)** and deals Ice DMG equal to **105%** of Pela's ATK as to a single enemy."
+    },
+    {
+      "name": "Zone Suppression",
+      "tag": "Impair",
+      "type": "Ultimate",
+      "desc": "Deals Ice DMG equal to **60%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **30%** for 2 turn(s)."
+    },
+    {
+      "name": "Data Collecting",
+      "tag": "Support",
+      "type": "Talent",
+      "desc": "If the enemy is **debuffed** after Pela's attack, Pela will restore **#1[f1]** extra Energy. This effect can only be triggered 1 time per attack."
+    },
+    {
+      "name": "Preemptive Strike",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% **base chance** of lowering the DEF of all enemies by 20% for 2 turn(s)."
+    }
   ]
 }

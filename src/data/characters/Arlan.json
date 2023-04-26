@@ -109,5 +109,36 @@
       "speedBase": 102,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Lightning Rush",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Lightning DMG equal to **50%** of Arlan's ATK to a single enemy."
+    },
+    {
+      "name": "Shackle Breaker",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **120%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
+    },
+    {
+      "name": "Frenzied Punishment",
+      "tag": "Blast",
+      "type": "Ultimate",
+      "desc": "Deals Lightning DMG equal to **192%** of Arlan's ATK to a single enemy and Lightning DMG equal to **96%** of Arlan's ATK to enemies adjacent to it."
+    },
+    {
+      "name": "Pain and Anger",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **36%** more DMG."
+    },
+    {
+      "name": "Swift Harvest",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies."
+    }
   ]
 }

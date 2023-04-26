@@ -109,5 +109,42 @@
       "speedBase": 94,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Hehe! Don't Get Burned!",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Fire DMG equal to **50%** of Hook's ATK to a single enemy."
+    },
+    {
+      "name": "Hey! Remember Hook?",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Deals Fire DMG equal to **120%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **25%** of Hook's ATK at the beginning of each turn."
+    },
+    {
+      "name": "Boom! Here Comes the Fire!",
+      "tag": "Single Target",
+      "type": "Ultimate",
+      "desc": "Deals Fire DMG equal to **240%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it."
+    },
+    {
+      "name": "Ha! Oil to the Flames!",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **50%** of Hook's ATK and regenerates 5 extra Energy."
+    },
+    {
+      "name": "Ack! Look at This Mess!",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% **base chance** to inflict Burn on every enemy for 3 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn."
+    },
+    {
+      "name": "Hey! Remember Hook?",
+      "tag": "Blast",
+      "type": "Skill",
+      "desc": "Deals Fire DMG equal to **140%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **40%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **25%** of Hook's ATK at the beginning of each turn."
+    }
   ]
 }

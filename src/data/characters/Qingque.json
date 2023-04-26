@@ -109,5 +109,43 @@
       "speedBase": 98,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Flower Pick",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **50%** of Qingque's ATK to a single enemy."
+    },
+    {
+      "name": "A Scoop of Moon",
+      "tag": "Enhance",
+      "type": "Skill",
+      "desc": "Immediately draws 2 jade tile(s) and increases DMG by **14%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used."
+    },
+    {
+      "name": "A Quartet? Woo-hoo!",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Quantum DMG equal to **120%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit."
+    },
+    {
+      "name": "Celestial Jade",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **36%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\"."
+    },
+    {
+      "name": "Game Solitaire",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "After using Technique, Qingque draws 2 jade tile(s) when the battle starts."
+    },
+    {
+      "name": "Cherry on Top!",
+      "tag": "Blast",
+      "type": "Basic ATK",
+      "desc": "Deals Quantum DMG equal to **120%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **50%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points."
+    }
   ]
 }

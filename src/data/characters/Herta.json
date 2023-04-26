@@ -109,5 +109,37 @@
       "speedBase": 100,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "What Are You Looking At?",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Ice DMG equal to **50%** of Herta's ATK to a single enemy."
+    },
+    {
+      "name": "One-Time Offer",
+      "tag": "AoE",
+      "type": "Skill",
+      "desc": "Deals Ice DMG equal to **50%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%."
+    },
+    {
+      "name": "It's Magic, I Added Some Magic",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Ice DMG equal to **120%** of Herta's ATK to all enemies."
+    },
+    {
+      "name": "Fine, I'll Do It Myself",
+      "tag": "AoE",
+      "type": "Talent",
+      "desc": "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **25%** of Herta's ATK to all enemies."
+    },
+    {
+      "name": "It Can Still Be Optimized",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle."
+    }
   ]
 }

@@ -109,5 +109,36 @@
       "speedBase": 101,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Frigid Cold Arrow",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Ice DMG equal to **50%** of March 7th's ATK to a single enemy."
+    },
+    {
+      "name": "The Power of Cuteness",
+      "tag": "Defense",
+      "type": "Skill",
+      "desc": "Provides a single ally with a Shield that can absorb DMG equal to **38%** of March 7th's DEF plus **190** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally."
+    },
+    {
+      "name": "Glacial Cascade",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Ice DMG equal to **90%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **30%** of March 7th's ATK at the beginning of each turn."
+    },
+    {
+      "name": "Girl Power",
+      "tag": "Single Target",
+      "type": "Talent",
+      "desc": "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **50%** of her ATK. This effect can be triggered 2 time(s) each turn."
+    },
+    {
+      "name": "Freezing Beauty",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, there is a 100% **base chance** to Freeze a random enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."
+    }
   ]
 }

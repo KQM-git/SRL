@@ -109,5 +109,37 @@
       "speedBase": 92,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Fist of Conviction",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Ice DMG equal to **50%** of Gepard's ATK to a single enemy."
+    },
+    {
+      "name": "Daunting Smite",
+      "tag": "Impair",
+      "type": "Skill",
+      "desc": "Deals Ice DMG equal to **100%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **30%** of Gepard's ATK at the beginning of each turn."
+    },
+    {
+      "name": "Enduring Bulwark",
+      "tag": "Defense",
+      "type": "Ultimate",
+      "desc": "Applies a Shield to all allies, absorbing DMG equal to **30%** of Gepard's DEF plus **150** for 3 turn(s)."
+    },
+    {
+      "name": "Unyielding Will",
+      "tag": "Restore",
+      "type": "Talent",
+      "desc": "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **25%** of his Max HP. This effect can only trigger once per battle."
+    },
+    {
+      "name": "Comradery",
+      "tag": "Defense",
+      "type": "Technique",
+      "desc": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s)."
+    }
   ]
 }

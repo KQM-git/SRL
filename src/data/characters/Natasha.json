@@ -109,5 +109,36 @@
       "speedBase": 98,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Behind the Kindness",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Physical DMG equal to **50%** of Natasha's ATK to a single enemy."
+    },
+    {
+      "name": "Love, Heal, and Choose",
+      "tag": "Restore",
+      "type": "Skill",
+      "desc": "Restores a single ally for **#1[f1]%** of Natasha's Max HP plus **70**. Restores the ally for another **#2[f1]%** of Natasha's Max HP plus **48** at the beginning of each turn for 2 turn(s)."
+    },
+    {
+      "name": "Gift of Rebirth",
+      "tag": "Restore",
+      "type": "Ultimate",
+      "desc": "Heals all allies for **#1[f1]%** of Natasha's Max HP plus **92**."
+    },
+    {
+      "name": "Innervation",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **25%**. This effect also works on continuous healing."
+    },
+    {
+      "name": "Hypnosis Research",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% **base chance** to Weaken all enemies.\nWhile Weakened, enemies deal 30% less DMG to allies for 1 turn(s)."
+    }
   ]
 }

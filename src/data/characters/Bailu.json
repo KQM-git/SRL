@@ -109,5 +109,37 @@
       "speedBase": 98,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Diagnostic Kick",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Lightning DMG equal to **50%** of Bailu's ATK to a single enemy."
+    },
+    {
+      "name": "Singing Among Clouds",
+      "tag": "Restore",
+      "type": "Skill",
+      "desc": "Heals a single ally for **#1[f1]%** of Bailu's Max HP plus **78**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
+    },
+    {
+      "name": "Felicitous Thunderleap",
+      "tag": "Restore",
+      "type": "Ultimate",
+      "desc": "Heals all allies for **#1[f1]%** of Bailu's Max HP plus **90**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack."
+    },
+    {
+      "name": "Gourdful of Elixir",
+      "tag": "Restore",
+      "type": "Talent",
+      "desc": "After an ally with Invigoration is hit, restores the ally's HP for **#1[f1]%** of Bailu's Max HP plus **36**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **12%** of Bailu's Max HP plus **120** HP. This effect can be triggered 1 time per battle."
+    },
+    {
+      "name": "Saunter in the Rain",
+      "tag": "Support",
+      "type": "Technique",
+      "desc": "After using Technique, at the start of the next battle, all allies are granted Invigoration for 2 turn(s)."
+    }
   ]
 }

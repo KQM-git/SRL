@@ -109,5 +109,37 @@
       "speedBase": 99,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Windrider Bullet",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Wind DMG equal to **50%** of Bronya's ATK to a single enemy."
+    },
+    {
+      "name": "Combat Redeployment",
+      "tag": "Support",
+      "type": "Skill",
+      "desc": "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **33%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again."
+    },
+    {
+      "name": "The Belobog March",
+      "tag": "Support",
+      "type": "Ultimate",
+      "desc": "Increases the ATK of all allies by **33%**, and increases their CRIT DMG equal to **#2[f1]%** of Bronya's CRIT DMG plus **#3[f1]%** for 2 turn(s)."
+    },
+    {
+      "name": "Leading the Way",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **15%**."
+    },
+    {
+      "name": "Banner of Command",
+      "tag": "Support",
+      "type": "Technique",
+      "desc": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s)."
+    }
   ]
 }

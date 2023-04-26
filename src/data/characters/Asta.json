@@ -109,5 +109,36 @@
       "speedBase": 106,
       "speedAdd": 0
     }
+  ],
+  "skills": [
+    {
+      "name": "Spectrum Beam",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Fire DMG equal to **50%** of Asta's ATK to a single enemy."
+    },
+    {
+      "name": "Meteor Storm",
+      "tag": "Bounce",
+      "type": "Skill",
+      "desc": "Deals Fire DMG equal to **25%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **25%** of Asta's ATK to a random enemy."
+    },
+    {
+      "name": "Astral Blessing",
+      "tag": "Support",
+      "type": "Ultimate",
+      "desc": "Increases SPD of all allies by **36** for 2 turn(s)."
+    },
+    {
+      "name": "Astrometry",
+      "tag": "Support",
+      "type": "Talent",
+      "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **#1[f1]%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+    },
+    {
+      "name": "Miracle Flash",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies."
+    }
   ]
 }
