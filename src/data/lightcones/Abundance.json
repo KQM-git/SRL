@@ -644,7 +644,7 @@
     ],
     "refinements": {
       "name": "Tiny Light",
-      "desc": "Increases the wearer's Max HP by **16%**/**20%**/**24%**/**28%**/**32%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **#2[f1]%**/**#2[f1]%**/**#2[f1]%**/**#2[f1]%**/**#2[f1]%** of their respective Max HP."
+      "desc": "Increases the wearer's Max HP by **16%**/**20%**/**24%**/**28%**/**32%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **2.0%**/**2.5%**/**3.0%**/**3.5%**/**4.0%** of their respective Max HP."
     }
   },
   "Time Waits for No One": {

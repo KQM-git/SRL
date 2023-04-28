@@ -644,7 +644,7 @@
     ],
     "refinements": {
       "name": "A Storm Is Coming",
-      "desc": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **#1[f2]%**/**#1[f2]%**/**#1[f2]%**/**#1[f2]%**/**#1[f2]%** per point of Energy, up to 160 Energy."
+      "desc": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by **0.20%**/**0.25%**/**0.30%**/**0.35%**/**0.40%** per point of Energy, up to 160 Energy."
     }
   },
   "Before Dawn": {
@@ -806,7 +806,7 @@
     ],
     "refinements": {
       "name": "Meteor Swarm",
-      "desc": "For every enemy on the field, increases the wearer's ATK by **#2[f1]%**/**#2[f1]%**/**#2[f1]%**/**#2[f1]%**/**#2[f1]%**, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by **30%**/**35%**/**40%**/**45%**/**50%** for 1 turn."
+      "desc": "For every enemy on the field, increases the wearer's ATK by **9.0%**/**10.5%**/**12.0%**/**13.5%**/**15.0%**, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by **30%**/**35%**/**40%**/**45%**/**50%** for 1 turn."
     }
   }
 }
