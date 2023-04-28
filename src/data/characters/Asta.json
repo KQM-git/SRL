@@ -133,7 +133,7 @@
       "name": "Astrometry",
       "tag": "Support",
       "type": "Talent",
-      "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **#1[f1]%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+      "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **7.0%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
     },
     {
       "name": "Miracle Flash",
@@ -165,6 +165,86 @@
     {
       "name": "Galaxy Dreams in Calm and Comfort",
       "desc": "Charging stack(s) lost in each turn is reduced by 1."
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Sparks",
+      "desc": "Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s).\nBurned enemies take Fire DoT equal to 50% of DMG dealt by Asta's Basic ATK at the start of each turn.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 5.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Fire",
+              "desc": "Fire DMG increases by 3.2%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ignite",
+      "desc": "When Asta is on the field, all allies' Fire DMG increases by 18%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Fire",
+          "desc": "Fire DMG increases by 4.8%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 7.5%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Constellation",
+      "desc": "Asta's DEF increases by 6% for every current Charging stack she possesses.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by 4.0%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 10.0%",
+              "minLevel": 75
+            },
+            {
+              "name": "DMG Boost: Fire",
+              "desc": "Fire DMG increases by 6.4%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Fire",
+      "desc": "Fire DMG increases by 3.2%",
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by 2.7%",
+          "minAsc": 3
+        },
+        {
+          "name": "DMG Boost: Fire",
+          "desc": "Fire DMG increases by 4.8%",
+          "minAsc": 5
+        }
+      ]
     }
   ]
 }

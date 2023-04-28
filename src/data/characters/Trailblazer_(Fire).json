@@ -133,7 +133,7 @@
       "name": "Treasure of the Architects",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **#1[f1]%** of the Trailblazer's DEF plus **20**. The Shield lasts for 2 turn(s)."
+      "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **4.0%** of the Trailblazer's DEF plus **20**. The Shield lasts for 2 turn(s)."
     },
     {
       "name": "Call of the Guardian",
@@ -172,6 +172,46 @@
     {
       "name": "City-Forging Bulwarks",
       "desc": "After the Trailblazer use enhanced Basic ATK or Ultimate, their DEF increases by 10%. Stacks up to 3 time(s)."
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Action Beats Overthinking",
+      "desc": "When the Trailblazer is protected by a Shield at the beginning of the turn, increases their ATK by 15% and regenerates 5 Energy until the action is over.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by 6.0%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 8.0%",
+              "minLevel": 75
+            },
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 10.0%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DEF Boost",
+      "desc": "DEF increases by 5.0%"
+    },
+    {
+      "name": "HP Boost",
+      "desc": "Max HP increases by 4.0%",
+      "minAsc": 3
+    },
+    {
+      "name": "DEF Boost",
+      "desc": "DEF increases by 7.5%",
+      "minAsc": 5
     }
   ]
 }

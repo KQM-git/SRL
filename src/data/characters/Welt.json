@@ -167,5 +167,87 @@
       "name": "Prospect of Glory",
       "desc": "When using Skill, deals DMG for 1 extra time to a random enemy."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Retribution",
+      "desc": "When using Ultimate, there is a 100% base chance to increase the DMG received by the targets by 12% for 2 turn(s).",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DMG Boost: Imaginary",
+          "desc": "Imaginary DMG increases by 3.2%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "Effect RES Boost",
+                  "desc": "Effect RES increases by 4.0%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Judgment",
+      "desc": "Using Ultimate additionally regenerates 10 Energy.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DMG Boost: Imaginary",
+              "desc": "Imaginary DMG increases by 4.8%",
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Punishment",
+      "desc": "Deals 20% more DMG to enemies inflicted with Weakness Break.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by 6.0%",
+          "minAsc": 6
+        },
+        {
+          "name": "DMG Boost: Imaginary",
+          "desc": "Imaginary DMG increases by 6.4%",
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%",
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 8.0%",
+          "minLevel": 80
+        }
+      ]
+    }
   ]
 }

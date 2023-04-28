@@ -179,5 +179,87 @@
       "name": "A Trailblazing Will",
       "desc": "The Trailblazer's Talent is also triggered when they defeat an enemy."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Ready for Battle",
+      "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by 4.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "DEF Boost",
+                  "desc": "DEF increases by 5.0%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perseverance",
+      "desc": "Each Talent stack increases the Trailblazer's DEF by 10%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by 6.0%",
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fighting Will",
+      "desc": "When using Skill or Ultimate \"Blowout: RIP Home Run\", DMG dealt to the target enemy is increased by 25%.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 7.5%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by 8.0%",
+              "minLevel": 75
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 8.0%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%"
+    }
   ]
 }

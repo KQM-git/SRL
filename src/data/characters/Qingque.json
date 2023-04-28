@@ -173,5 +173,81 @@
       "name": "Prevail Beyond the Tiles",
       "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Tile Battle",
+      "desc": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DMG Boost: Quantum",
+          "desc": "Quantum DMG increases by 3.2%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3
+            },
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 5.0%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bide Time",
+      "desc": "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DMG Boost: Quantum",
+              "desc": "Quantum DMG increases by 4.8%",
+              "minAsc": 5
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 6.0%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Winning Hand",
+      "desc": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 7.5%",
+          "minAsc": 6
+        },
+        {
+          "name": "DMG Boost: Quantum",
+          "desc": "Quantum DMG increases by 6.4%",
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%"
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 8.0%",
+      "minLevel": 80
+    }
   ]
 }

@@ -167,5 +167,81 @@
       "name": "Trailblaze!",
       "desc": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Starfire",
+      "desc": "After using an attack, there is a 50% base chance to inflict Burn on enemies for 2 turn(s).\nWhen afflicted with Burn, enemies take Fire DoT equal to 30% of Himeko's ATK at the start of each turn.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 4.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Fire",
+              "desc": "Fire DMG increases by 3.2%",
+              "minAsc": 3
+            },
+            {
+              "name": "Effect RES Boost",
+              "desc": "Effect RES increases by 4.0%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Magma",
+      "desc": "Skill deals 20% more DMG to enemies currently afflicted with Burn.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Fire",
+          "desc": "Fire DMG increases by 4.8%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 6.0%",
+              "minAsc": 5
+            },
+            {
+              "name": "DMG Boost: Fire",
+              "desc": "Fire DMG increases by 4.8%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Benchmark",
+      "desc": "When current HP percentage is 80% or higher, CRIT Rate increases by 15%.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by 6.0%",
+          "minAsc": 6
+        },
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 8.0%",
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Fire",
+      "desc": "Fire DMG increases by 3.2%"
+    },
+    {
+      "name": "DMG Boost: Fire",
+      "desc": "Fire DMG increases by 6.4%",
+      "minLevel": 80
+    }
   ]
 }

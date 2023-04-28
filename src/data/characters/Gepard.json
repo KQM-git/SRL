@@ -167,5 +167,45 @@
       "name": "Unyielding Resolve",
       "desc": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Fighting Spirit",
+      "desc": "Gepard's ATK increases by 35% of his current DEF. This effect will refresh at the start of each turn.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 7.5%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "Effect RES Boost",
+              "desc": "Effect RES increases by 8.0%",
+              "minLevel": 75
+            },
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by 6.4%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Ice",
+      "desc": "Ice DMG increases by 3.2%"
+    },
+    {
+      "name": "DEF Boost",
+      "desc": "DEF increases by 5.0%",
+      "minAsc": 3
+    },
+    {
+      "name": "DMG Boost: Ice",
+      "desc": "Ice DMG increases by 4.8%",
+      "minAsc": 5
+    }
   ]
 }

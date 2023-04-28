@@ -166,5 +166,81 @@
       "name": "This Song Rocks to Heaven!",
       "desc": "Serval deals 30% more DMG to Shocked enemies."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Rock 'n' Roll",
+      "desc": "Skill has a 20% increased base chance to Shock enemies.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by 4.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by 2.7%",
+              "minAsc": 3
+            },
+            {
+              "name": "Effect RES Boost",
+              "desc": "Effect RES increases by 4.0%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "String Vibration",
+      "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by 4.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "Effect Hit Rate Boost",
+              "desc": "Effect Hit Rate increases by 6.0%",
+              "minAsc": 5
+            },
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by 4.0%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mania",
+      "desc": "Upon defeating an enemy, ATK is increased by 20% for 2 turn(s).",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by 6.0%",
+          "minAsc": 6
+        },
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by 8.0%",
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "CRIT Rate Boost",
+      "desc": "CRIT Rate increases by 2.7%"
+    },
+    {
+      "name": "CRIT Rate Boost",
+      "desc": "CRIT Rate increases by 5.3%",
+      "minLevel": 80
+    }
   ]
 }

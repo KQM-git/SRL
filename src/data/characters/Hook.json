@@ -172,5 +172,87 @@
       "name": "Always Ready to Punch and Kick",
       "desc": "Hook deals 20% more DMG to enemies afflicted with Burn."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Innocence",
+      "desc": "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by 4.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "CRIT DMG Boost",
+                  "desc": "CRIT DMG increases by 5.3%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Naivete",
+      "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by 6.0%",
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Playing With Fire",
+      "desc": "When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "CRIT DMG Boost",
+          "desc": "CRIT DMG increases by 8.0%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by 8.0%",
+              "minLevel": 75
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 8.0%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%"
+    }
   ]
 }

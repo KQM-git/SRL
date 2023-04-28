@@ -121,19 +121,19 @@
       "name": "Singing Among Clouds",
       "tag": "Restore",
       "type": "Skill",
-      "desc": "Heals a single ally for **#1[f1]%** of Bailu's Max HP plus **78**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
+      "desc": "Heals a single ally for **7.8%** of Bailu's Max HP plus **78**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
     },
     {
       "name": "Felicitous Thunderleap",
       "tag": "Restore",
       "type": "Ultimate",
-      "desc": "Heals all allies for **#1[f1]%** of Bailu's Max HP plus **90**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack."
+      "desc": "Heals all allies for **9.0%** of Bailu's Max HP plus **90**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack."
     },
     {
       "name": "Gourdful of Elixir",
       "tag": "Restore",
       "type": "Talent",
-      "desc": "After an ally with Invigoration is hit, restores the ally's HP for **#1[f1]%** of Bailu's Max HP plus **36**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **12%** of Bailu's Max HP plus **120** HP. This effect can be triggered 1 time per battle."
+      "desc": "After an ally with Invigoration is hit, restores the ally's HP for **3.6%** of Bailu's Max HP plus **36**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **12%** of Bailu's Max HP plus **120** HP. This effect can be triggered 1 time per battle."
     },
     {
       "name": "Saunter in the Rain",
@@ -166,6 +166,86 @@
     {
       "name": "Drooling Drop of Draconic Divinity",
       "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Qihuang Analects",
+      "desc": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 5.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by 4.0%",
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "Effect RES Boost",
+                  "desc": "Effect RES increases by 4.0%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vidyadhara Ichor Lines",
+      "desc": "Invigoration can trigger 1 more time(s).",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 7.5%",
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "HP Boost",
+                  "desc": "Max HP increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aquatic Benediction",
+      "desc": "Characters with Invigoration receive 10% less DMG.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by 6.0%",
+          "minAsc": 6
+        },
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 10.0%",
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "HP Boost",
+      "desc": "Max HP increases by 4.0%"
+    },
+    {
+      "name": "HP Boost",
+      "desc": "Max HP increases by 8.0%",
+      "minLevel": 80
     }
   ]
 }

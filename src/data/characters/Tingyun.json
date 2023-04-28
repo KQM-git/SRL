@@ -167,5 +167,85 @@
       "name": "Peace Brings Wealth to All",
       "desc": "Ultimate regenerates 10 more Energy for the target ally."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Nourished Joviality",
+      "desc": "Tingyun's SPD increases by 20% for 1 turn after using Skill.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 5.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knell Subdual",
+      "desc": "Increases Basic ATK DMG by 40%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 7.5%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jubilant Passage",
+      "desc": "Tingyun immediately regenerates 5 Energy at the start of her turn.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DMG Boost: Lightning",
+          "desc": "Lightning DMG increases by 4.8%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 10.0%",
+              "minLevel": 75
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 8.0%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%",
+      "children": [
+        {
+          "name": "DMG Boost: Lightning",
+          "desc": "Lightning DMG increases by 3.2%",
+          "minAsc": 3
+        },
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 5
+        }
+      ]
+    }
   ]
 }

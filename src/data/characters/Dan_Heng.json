@@ -167,5 +167,83 @@
       "name": "The Troubled Soul Lies in Wait",
       "desc": "The Slow state triggered by Skill reduces the enemy's SPD by an extra 8%."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Hidden Dragon",
+      "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 4.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Wind",
+              "desc": "Wind DMG increases by 3.2%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faster Than Light",
+      "desc": "After launching an attack, there is a 50% fixed chance to increase own SPD by 20% for 2 turn(s).",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Wind",
+          "desc": "Wind DMG increases by 4.8%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 6.0%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "High Gale",
+      "desc": "Basic ATK deals 40% more DMG to Slowed enemies.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 7.5%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 8.0%",
+              "minLevel": 75
+            },
+            {
+              "name": "DMG Boost: Wind",
+              "desc": "Wind DMG increases by 6.4%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Wind",
+      "desc": "Wind DMG increases by 3.2%"
+    },
+    {
+      "name": "DEF Boost",
+      "desc": "DEF increases by 5.0%",
+      "minAsc": 3
+    },
+    {
+      "name": "DMG Boost: Wind",
+      "desc": "Wind DMG increases by 4.8%",
+      "minAsc": 5
+    }
   ]
 }

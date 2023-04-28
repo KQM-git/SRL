@@ -167,5 +167,87 @@
       "name": "Increased Spending",
       "desc": "Talent's Wind Shear DMG multiplier increases by 15%."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Trap",
+      "desc": "Extends the duration of Wind Shear caused by Talent by 1 turn(s).",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by 4.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "Effect RES Boost",
+                  "desc": "Effect RES increases by 4.0%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Defensive Position",
+      "desc": "Using Ultimate additionally regenerates 10 Energy.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "Effect Hit Rate Boost",
+              "desc": "Effect Hit Rate increases by 6.0%",
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spice Up",
+      "desc": "Enemies with Wind Shear effect deal 15% less DMG to Sampo.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by 6.0%",
+          "minAsc": 6
+        },
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by 8.0%",
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%",
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 8.0%",
+          "minLevel": 80
+        }
+      ]
+    }
   ]
 }

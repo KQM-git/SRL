@@ -167,5 +167,83 @@
       "name": "Shattering Shambles",
       "desc": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.\nWhen Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Nightshade",
+      "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT DMG Boost",
+          "desc": "CRIT DMG increases by 5.3%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lacerate",
+      "desc": "While Seele is in the buffed state, her Quantum RES PEN increases by 20%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT DMG Boost",
+              "desc": "CRIT DMG increases by 8.0%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rippling Waves",
+      "desc": "After using a Basic ATK, Seele's next action will be Advanced Forward by 20%.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 7.5%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "CRIT DMG Boost",
+              "desc": "CRIT DMG increases by 10.7%",
+              "minLevel": 75
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 8.0%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%"
+    },
+    {
+      "name": "DEF Boost",
+      "desc": "DEF increases by 5.0%",
+      "minAsc": 3
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 6.0%",
+      "minAsc": 5
+    }
   ]
 }

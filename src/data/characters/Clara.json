@@ -166,5 +166,87 @@
       "name": "Long Company",
       "desc": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Kinship",
+      "desc": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DMG Boost: Physical",
+          "desc": "Physical DMG increases by 3.2%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "HP Boost",
+                  "desc": "Max HP increases by 4.0%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Under Protection",
+      "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by 6.0%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DMG Boost: Physical",
+              "desc": "Physical DMG increases by 4.8%",
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revenge",
+      "desc": "Increases Svarog's Counter DMG by 30%.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by 6.0%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "DMG Boost: Physical",
+              "desc": "Physical DMG increases by 6.4%",
+              "minLevel": 75
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 8.0%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by 4.0%"
+    }
   ]
 }

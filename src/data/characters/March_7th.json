@@ -166,5 +166,45 @@
       "name": "Just Like This, Always...",
       "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Ice Spell",
+      "desc": "Increases Ultimate's base chance to Freeze enemies by 15%.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DMG Boost: Ice",
+          "desc": "Ice DMG increases by 4.8%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by 6.4%",
+              "minLevel": 75
+            },
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 10.0%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Ice",
+      "desc": "Ice DMG increases by 3.2%"
+    },
+    {
+      "name": "Effect RES Boost",
+      "desc": "Effect RES increases by 4.0%",
+      "minAsc": 3
+    },
+    {
+      "name": "DEF Boost",
+      "desc": "DEF increases by 7.5%",
+      "minAsc": 5
+    }
   ]
 }

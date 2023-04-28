@@ -127,7 +127,7 @@
       "name": "The Belobog March",
       "tag": "Support",
       "type": "Ultimate",
-      "desc": "Increases the ATK of all allies by **33%**, and increases their CRIT DMG equal to **#2[f1]%** of Bronya's CRIT DMG plus **#3[f1]%** for 2 turn(s)."
+      "desc": "Increases the ATK of all allies by **33%**, and increases their CRIT DMG equal to **12.0%** of Bronya's CRIT DMG plus **12.0%** for 2 turn(s)."
     },
     {
       "name": "Leading the Way",
@@ -166,6 +166,86 @@
     {
       "name": "Piercing Rainbow",
       "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s)."
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Command",
+      "desc": "The CRIT Rate for Basic ATK increases to 100%.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT DMG Boost",
+          "desc": "CRIT DMG increases by 5.3%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Wind",
+              "desc": "Wind DMG increases by 3.2%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Battlefield",
+      "desc": "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Wind",
+          "desc": "Wind DMG increases by 4.8%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT DMG Boost",
+              "desc": "CRIT DMG increases by 8.0%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Military Might",
+      "desc": "When Bronya is on the field, all allies deal 10% more DMG.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by 6.0%",
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "CRIT DMG Boost",
+              "desc": "CRIT DMG increases by 10.7%",
+              "minLevel": 75
+            },
+            {
+              "name": "DMG Boost: Wind",
+              "desc": "Wind DMG increases by 6.4%",
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Wind",
+      "desc": "Wind DMG increases by 3.2%",
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by 4.0%",
+          "minAsc": 3
+        },
+        {
+          "name": "DMG Boost: Wind",
+          "desc": "Wind DMG increases by 4.8%",
+          "minAsc": 5
+        }
+      ]
     }
   ]
 }

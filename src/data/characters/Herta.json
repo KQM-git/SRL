@@ -167,5 +167,81 @@
       "name": "No One Can Betray Me",
       "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
     }
+  ],
+  "skillTree": [
+    {
+      "name": "Efficiency",
+      "desc": "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 5.0%",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by 3.2%",
+              "minAsc": 3
+            },
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by 2.7%",
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puppet",
+      "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Ice",
+          "desc": "Ice DMG increases by 4.8%",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 7.5%",
+              "minAsc": 5
+            },
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by 4.8%",
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Icing",
+      "desc": "When Ultimate is used, deals 20% more DMG to Frozen enemies.",
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by 4.0%",
+          "minAsc": 6
+        },
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by 10.0%",
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Ice",
+      "desc": "Ice DMG increases by 3.2%"
+    },
+    {
+      "name": "DMG Boost: Ice",
+      "desc": "Ice DMG increases by 6.4%",
+      "minLevel": 80
+    }
   ]
 }
