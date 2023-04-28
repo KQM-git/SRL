@@ -1,0 +1,58 @@
+{
+  "Knight of Purity Palace": {
+    "name": "Knight of Purity Palace",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases DEF by 15%."
+      },
+      {
+        "count": 4,
+        "desc": "Increases the max DMG that can be absorbed by the Shield created by the wearer by 20%."
+      }
+    ],
+    "pieces": 4
+  },
+  "Musketeer of Wild Wheat": {
+    "name": "Musketeer of Wild Wheat",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK increases by 12%."
+      },
+      {
+        "count": 4,
+        "desc": "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%."
+      }
+    ],
+    "pieces": 4
+  },
+  "Passerby of Wandering Cloud": {
+    "name": "Passerby of Wandering Cloud",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Outgoing Healing by 10%."
+      },
+      {
+        "count": 4,
+        "desc": "At the start of the battle, immediately regenerates 1 Skill Point."
+      }
+    ],
+    "pieces": 4
+  },
+  "Thief of Shooting Meteor": {
+    "name": "Thief of Shooting Meteor",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Break Effect by 16%."
+      },
+      {
+        "count": 4,
+        "desc": "Increases the wearer's Break Effect by 16%. When the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy."
+      }
+    ],
+    "pieces": 4
+  }
+}

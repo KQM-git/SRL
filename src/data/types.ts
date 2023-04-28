@@ -60,3 +60,14 @@ export interface LightconeRefinements {
     name: string
     desc: string
 }
+
+// Relics
+
+export interface Relic {
+    name: string
+    bonuses: RelicBonus[]
+}
+export interface RelicBonus {
+    count: number
+    desc: string
+}
