@@ -4,7 +4,7 @@ hide_table_of_contents: true
 
 # Portrait Cards
 
-A tool for making team portraits to use on KeqingMains guides. Based on muakasan's [Genshin Team Portrait Generator](https://github.com/muakasan/genshin-portraits).
+A tool for making team portraits to use on KeqingMains guides. Based on muakasan's [Genshin Team Portrait Generator](https://github.com/muakasan/genshin-portraits). Adapted from tibot's [KQM Portrait Cards Tool](https://library.keqingmains.com/resources/tools/portraits).
 
 :::info
 Recommended to use a Chromium based browser due to [imageSmoothingQuality](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality#browser_compatibility) support.
@@ -30,5 +30,5 @@ import lightconeIcons from '@site/src/data/lightcone_icons.json'
 
 ## Credits
 
-* Element Icons: [/u/SnooDogs3804](https://www.reddit.com/r/Genshin_Impact/comments/jk3vho/hi_i_made_some_5000x5000_transparent_element/)
+* Tibot, Muakasan, Artesians
 * Fill Slot Icon: [Free SVG](https://freesvg.org/user-icon-picture)
