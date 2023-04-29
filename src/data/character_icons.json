@@ -1,40 +1,41 @@
 {
-    "Fire": [
-      "Asta",
-      "Himeko",
-      "Hook",
-      "Caelus (Fire)",
-      "Stelle (Fire)"
-    ],
-    "Ice": [
-      "Gepard",
-      "Herta",
-      "March 7th",
-      "Pela",
-      "Yanqing"
-    ],
-    "Imaginary": [
-      "Welt"
-    ],
-    "Lightning": [
-      "Arlan",
-      "Bailu",
-      "Serval",
-      "Tingyun"
-    ],
-    "Physical": [
-      "Clara",
-      "Natasha",
-      "Caelus (Physical)",
-      "Stelle (Phsical)"
-    ],
-    "Quantum": [
-      "Qingque",
-      "Seele"
-    ],
-    "Wind": [
-      "Bronya",
-      "Dan Heng",
-      "Sampo"
-    ]
-  }
+  "Fire": [
+    "Asta",
+    "Himeko",
+    "Hook",
+    "Caelus (Fire)",
+    "Stelle (Fire)"
+  ],
+  "Ice": [
+    "Gepard",
+    "Herta",
+    "March 7th",
+    "Pela",
+    "Yanqing"
+  ],
+  "Imaginary": [
+    "Welt"
+  ],
+  "Lightning": [
+    "Arlan",
+    "Bailu",
+    "Serval",
+    "Tingyun"
+  ],
+  "Physical": [
+    "Clara",
+    "Natasha",
+    "Sushang",
+    "Caelus (Physical)",
+    "Stelle (Physical)"
+  ],
+  "Quantum": [
+    "Qingque",
+    "Seele"
+  ],
+  "Wind": [
+    "Bronya",
+    "Dan Heng",
+    "Sampo"
+  ]
+}

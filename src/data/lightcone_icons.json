@@ -1,23 +1,84 @@
 {
-    "Destruction": [
-      "Data Bank"
-    ],
-    "The Hunt": [
-      "Data Bank"
-    ],
-    "Erudition": [
-      "Data Bank"
-    ],
-    "Harmony": [
-      "Data Bank"
-    ],
-    "Nihility": [
-      "Data Bank"
-    ],
-    "Preservation": [
-      "Data Bank"
-    ],
-    "Abundance": [
-      "Data Bank"
-    ]
-  }
+  "Abundance": [
+    "Cornucopia",
+    "Fine Fruit",
+    "Multiplication",
+    "Perfect Timing",
+    "Post-Op Conversation",
+    "Quid Pro Quo",
+    "Shared Feeling",
+    "Warmth Shortens Cold Nights",
+    "Time Waits for No One"
+  ],
+  "Destruction": [
+    "Collapsing Sky",
+    "Mutual Demise",
+    "Shattered Home",
+    "A Secret Vow",
+    "Nowhere to Run",
+    "The Moles Welcome You",
+    "Under the Blue Sky",
+    "Woof! Walk Time!",
+    "On the Fall of an Aeon",
+    "Something Irreplaceable"
+  ],
+  "Erudition": [
+    "Data Bank",
+    "Passkey",
+    "Sagacity",
+    "Geniuses' Repose",
+    "Make the World Clamor",
+    "The Birth of the Self",
+    "The Seriousness of Breakfast",
+    "Today Is Another Peaceful Day",
+    "Before Dawn",
+    "Night on the Milky Way"
+  ],
+  "Harmony": [
+    "Chorus",
+    "Mediation",
+    "Meshing Cogs",
+    "Carve the Moon, Weave the Clouds",
+    "Dance! Dance! Dance!",
+    "Memories of the Past",
+    "Past and Future",
+    "Planetary Rendezvous",
+    "But the Battle Isn't Over"
+  ],
+  "Nihility": [
+    "Hidden Shadow",
+    "Loop",
+    "Void",
+    "Eyes of the Prey",
+    "Fermata",
+    "Good Night and Sleep Well",
+    "Resolution Shines As Pearls of Sweat",
+    "We Will Meet Again",
+    "In the Name of the World"
+  ],
+  "Preservation": [
+    "Amber",
+    "Defense",
+    "Pioneering",
+    "Day One of My New Life",
+    "Landau's Choice",
+    "This Is Me!",
+    "Trend of the Universal Market",
+    "We Are Wildfire",
+    "Moment of Victory",
+    "Texture of Memories"
+  ],
+  "The Hunt": [
+    "Adversarial",
+    "Arrows",
+    "Darting Arrow",
+    "Only Silence Remains",
+    "Return to Darkness",
+    "River Flows in Spring",
+    "Subscribe for More!",
+    "Swordplay",
+    "Cruising in the Stellar Sea",
+    "In the Night",
+    "Sleep Like the Dead"
+  ]
+}
