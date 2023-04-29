@@ -10,6 +10,34 @@ import Relic from '@site/src/components/relics/Relic'
 
 ## Cavern Relics
 
+# Band of Sizzling Thunder
+
+<Relic relic="Band of Sizzling Thunder" />
+
+# Champion of Streetwise Boxing
+
+<Relic relic="Champion of Streetwise Boxing" />
+
+# Eagle of Twilight Line
+
+<Relic relic="Eagle of Twilight Line" />
+
+# Firesmith of Lava-Forging
+
+<Relic relic="Firesmith of Lava-Forging" />
+
+# Genius of Brilliant Stars
+
+<Relic relic="Genius of Brilliant Stars" />
+
+# Guard of Wuthering Snow
+
+<Relic relic="Guard of Wuthering Snow" />
+
+# Hunter of Glacial Forest
+
+<Relic relic="Hunter of Glacial Forest" />
+
 # Knight of Purity Palace
 
 <Relic relic="Knight of Purity Palace" />
@@ -26,9 +54,9 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Thief of Shooting Meteor" />
 
-:::danger
-TODO: not complete
-:::
+# Wastelander of Banditry Desert
+
+<Relic relic="Wastelander of Banditry Desert" />
 
 ## Planar Ornaments
 

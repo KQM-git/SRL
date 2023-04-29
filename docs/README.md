@@ -19,7 +19,9 @@ As Star Rail has only just released, our theorycrafting team is still in the pro
   * Eidolons - complete
 * Equipment - WIP
   * Light Cones - complete
-  * Relics
+  * Relics - WIP
+    * Cavern Relics - complete
+    * Planar Relics - WIP
 
 ## Submissions
 
