@@ -13,7 +13,3 @@ export function getTalents(char: Character, skill: string) {
 
   return char.skills.filter(x => x.type == skillType)
 }
-
-export function cleanup(text: string) {
-  return text.replace(/\n/g, "  \n").replace(/·/g, "- ")
-}

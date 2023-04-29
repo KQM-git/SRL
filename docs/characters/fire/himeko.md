@@ -53,9 +53,25 @@ import Skill from '@site/src/components/char/Skill'
 
 ## Traces
 
-:::danger
-TODO
-:::
+import Trace from '@site/src/components/char/Trace'
+
+<Tabs>
+<TabItem value='a2' label='A2'>
+<Trace char={char} trace='a2' />
+
+</TabItem>
+<TabItem value='a4' label='A4'>
+<Trace char={char} trace='a4' />
+
+</TabItem>
+<TabItem value='a6' label='A6'>
+<Trace char={char} trace='a6' />
+
+</TabItem>
+<TabItem value='misc' label='Misc'>
+<Trace char={char} trace='misc' />
+</TabItem>
+</Tabs>
 
 ## Eidolon
 

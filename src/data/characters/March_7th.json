@@ -194,7 +194,47 @@
     },
     {
       "name": "DMG Boost: Ice",
-      "desc": "Ice DMG increases by 3.2%"
+      "desc": "Ice DMG increases by 3.2%",
+      "children": [
+        {
+          "name": "Purify",
+          "desc": "Skill removes 1 debuff from an ally.",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 5.0%",
+              "minAsc": 2,
+              "children": [
+                {
+                  "name": "DMG Boost: Ice",
+                  "desc": "Ice DMG increases by 3.2%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reinforce",
+          "desc": "The duration of the Shield generated from Skill is extended for 1 turn(s).",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by 4.8%",
+              "minAsc": 4,
+              "children": [
+                {
+                  "name": "Effect RES Boost",
+                  "desc": "Effect RES increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Effect RES Boost",

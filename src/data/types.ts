@@ -5,6 +5,7 @@ export interface Character {
     stats: CharacterStats[]
     skills: Skill[]
     eidolons: Eidolon[]
+    skillTree: CharacterTrace[]
 }
 
 export interface CharacterStats {
@@ -33,6 +34,14 @@ export interface Skill {
 export interface Eidolon {
     name: string
     desc: string
+}
+
+export interface CharacterTrace {
+    name: string
+    desc: string
+    minAsc?: number
+    minLevel?: number
+    children?: CharacterTrace[]
 }
 
 // Lightcones

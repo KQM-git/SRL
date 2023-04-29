@@ -201,7 +201,47 @@
     },
     {
       "name": "DEF Boost",
-      "desc": "DEF increases by 5.0%"
+      "desc": "DEF increases by 5.0%",
+      "children": [
+        {
+          "name": "The Strong Defend the Weak",
+          "desc": "After using the Skill, the DMG taken by all allies reduces by 15% for 1 turn(s).",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by 4.0%",
+              "minAsc": 2,
+              "children": [
+                {
+                  "name": "DEF Boost",
+                  "desc": "DEF increases by 5.0%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unwavering Gallantry",
+          "desc": "Using Enhanced Basic ATK restores the Trailblazer's HP by 5% of their Max HP.",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by 7.5%",
+              "minAsc": 4,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "HP Boost",

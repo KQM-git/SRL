@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import MDXContent from '@theme/MDXContent'
 
 import { Character } from '@site/src/data/types'
-import { cleanup } from '@site/src/utils/skill'
+import { cleanup } from '@site/src/utils/cleanup'
 
 export default function Eidolon({ char, eidolon }: {
   char: Character

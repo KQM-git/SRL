@@ -195,7 +195,47 @@
     },
     {
       "name": "DMG Boost: Ice",
-      "desc": "Ice DMG increases by 3.2%"
+      "desc": "Ice DMG increases by 3.2%",
+      "children": [
+        {
+          "name": "Integrity",
+          "desc": "Gepard has a higher chance to be attacked by enemies.",
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "Effect RES Boost",
+              "desc": "Effect RES increases by 4.0%",
+              "minAsc": 2,
+              "children": [
+                {
+                  "name": "DMG Boost: Ice",
+                  "desc": "Ice DMG increases by 3.2%",
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Commander",
+          "desc": "When \"Unyielding Will\" is triggered, Gepard's Energy will be restored to 100%.",
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by 4.8%",
+              "minAsc": 4,
+              "children": [
+                {
+                  "name": "Effect RES Boost",
+                  "desc": "Effect RES increases by 6.0%",
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "DEF Boost",

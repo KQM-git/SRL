@@ -15,7 +15,7 @@ As Star Rail has only just released, our theorycrafting team is still in the pro
 * Characters - WIP
   * Base Stats - complete
   * Abilities - partial (only level 1)
-  * Traces
+  * Traces - complete
   * Eidolons - complete
 * Equipment - WIP
   * Light Cones - complete
