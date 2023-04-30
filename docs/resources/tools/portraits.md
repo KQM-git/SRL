@@ -30,5 +30,5 @@ import lightconeIcons from '@site/src/data/lightcone_icons.json'
 
 ## Credits
 
-* Tibot, Muakasan, Artesians
+* Tibot, Muakasan, Artesians, Aluminum
 * Fill Slot Icon: [Free SVG](https://freesvg.org/user-icon-picture)
