@@ -10,56 +10,84 @@ import Relic from '@site/src/components/relics/Relic'
 
 ## Cavern Relics
 
-# Band of Sizzling Thunder
+### Band of Sizzling Thunder
 
 <Relic relic="Band of Sizzling Thunder" />
 
-# Champion of Streetwise Boxing
+### Champion of Streetwise Boxing
 
 <Relic relic="Champion of Streetwise Boxing" />
 
-# Eagle of Twilight Line
+### Eagle of Twilight Line
 
 <Relic relic="Eagle of Twilight Line" />
 
-# Firesmith of Lava-Forging
+### Firesmith of Lava-Forging
 
 <Relic relic="Firesmith of Lava-Forging" />
 
-# Genius of Brilliant Stars
+### Genius of Brilliant Stars
 
 <Relic relic="Genius of Brilliant Stars" />
 
-# Guard of Wuthering Snow
+### Guard of Wuthering Snow
 
 <Relic relic="Guard of Wuthering Snow" />
 
-# Hunter of Glacial Forest
+### Hunter of Glacial Forest
 
 <Relic relic="Hunter of Glacial Forest" />
 
-# Knight of Purity Palace
+### Knight of Purity Palace
 
 <Relic relic="Knight of Purity Palace" />
 
-# Musketeer of Wild Wheat
+### Musketeer of Wild Wheat
 
 <Relic relic="Musketeer of Wild Wheat" />
 
-# Passerby of Wandering Cloud
+### Passerby of Wandering Cloud
 
 <Relic relic="Passerby of Wandering Cloud" />
 
-# Thief of Shooting Meteor
+### Thief of Shooting Meteor
 
 <Relic relic="Thief of Shooting Meteor" />
 
-# Wastelander of Banditry Desert
+### Wastelander of Banditry Desert
 
 <Relic relic="Wastelander of Banditry Desert" />
 
 ## Planar Ornaments
 
-:::danger
-TODO: not complete
-:::
+### Belobog of the Architects
+
+<Relic relic="Belobog of the Architects" />
+
+### Celestial Differentiator
+
+<Relic relic="Celestial Differentiator" />
+
+### Fleet of the Ageless
+
+<Relic relic="Fleet of the Ageless" />
+
+### Inert Salsotto
+
+<Relic relic="Inert Salsotto" />
+
+### Pan-Galactic Commercial Enterprise
+
+<Relic relic="Pan-Galactic Commercial Enterprise" />
+
+### Space Sealing Station
+
+<Relic relic="Space Sealing Station" />
+
+### Sprightly Vonwacq
+
+<Relic relic="Sprightly Vonwacq" />
+
+### Talia: Kingdom of Banditry
+
+<Relic relic="Talia: Kingdom of Banditry" />

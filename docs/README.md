@@ -14,14 +14,14 @@ As Star Rail has only just released, our theorycrafting team is still in the pro
 
 * Characters - WIP
   * Base Stats - complete
-  * Abilities - partial (only level 1)
+  * Abilities - partial (only level 1-4/6 (for EL2))
   * Traces - complete
   * Eidolons - complete
 * Equipment - WIP
   * Light Cones - complete
-  * Relics - WIP
+  * Relics - complete
     * Cavern Relics - complete
-    * Planar Relics - WIP
+    * Planar Relics - complete
 
 ## Submissions
 

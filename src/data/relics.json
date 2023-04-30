@@ -166,5 +166,85 @@
       }
     ],
     "pieces": 4
+  },
+  "Belobog of the Architects": {
+    "name": "Belobog of the Architects",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF."
+      }
+    ],
+    "pieces": 2
+  },
+  "Celestial Differentiator": {
+    "name": "Celestial Differentiator",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack."
+      }
+    ],
+    "pieces": 2
+  },
+  "Fleet of the Ageless": {
+    "name": "Fleet of the Ageless",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%."
+      }
+    ],
+    "pieces": 2
+  },
+  "Inert Salsotto": {
+    "name": "Inert Salsotto",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%."
+      }
+    ],
+    "pieces": 2
+  },
+  "Pan-Galactic Commercial Enterprise": {
+    "name": "Pan-Galactic Commercial Enterprise",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of the current Effect Hit Rate, up to a maximum of 25%."
+      }
+    ],
+    "pieces": 2
+  },
+  "Space Sealing Station": {
+    "name": "Space Sealing Station",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by an extra 12%."
+      }
+    ],
+    "pieces": 2
+  },
+  "Sprightly Vonwacq": {
+    "name": "Sprightly Vonwacq",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 40% immediately upon entering battle."
+      }
+    ],
+    "pieces": 2
+  },
+  "Talia: Kingdom of Banditry": {
+    "name": "Talia: Kingdom of Banditry",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's Break Effect by 16%. When the wearer's SPD reaches 145 or higher, the wearer's Break effect increases by an extra 20%."
+      }
+    ],
+    "pieces": 2
   }
 }
