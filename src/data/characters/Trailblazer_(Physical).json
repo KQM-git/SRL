@@ -115,43 +115,85 @@
       "name": "Farewell Hit",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Physical DMG equal to **50%** of the Trailblazer's ATK to a single enemy."
+      "desc": [
+        "Deals Physical DMG equal to **50%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **60%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **70%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **80%** of the Trailblazer's ATK to a single enemy."
+      ]
     },
     {
       "name": "RIP Home Run",
       "tag": "Blast",
       "type": "Skill",
-      "desc": "Deals Physical DMG equal to **63%** of the Trailblazer's ATK to a single enemy and enemies adjacent to it."
+      "desc": [
+        "Deals Physical DMG equal to **63%** of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+        "Deals Physical DMG equal to **69%** of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+        "Deals Physical DMG equal to **75%** of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+        "Deals Physical DMG equal to **81%** of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+        "Deals Physical DMG equal to **88%** of the Trailblazer's ATK to a single enemy and enemies adjacent to it.",
+        "Deals Physical DMG equal to **94%** of the Trailblazer's ATK to a single enemy and enemies adjacent to it."
+      ]
     },
     {
       "name": "Stardust Ace",
       "tag": "Enhance",
       "type": "Ultimate",
-      "desc": "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to **300%** of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to **180%** of the Trailblazer's ATK to a single enemy, and Physical DMG equal to **108%** of the Trailblazer's ATK to enemies adjacent to it."
+      "desc": [
+        "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to **300%** of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to **180%** of the Trailblazer's ATK to a single enemy, and Physical DMG equal to **108%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to **315%** of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to **189%** of the Trailblazer's ATK to a single enemy, and Physical DMG equal to **113%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to **330%** of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to **198%** of the Trailblazer's ATK to a single enemy, and Physical DMG equal to **119%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to **345%** of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to **207%** of the Trailblazer's ATK to a single enemy, and Physical DMG equal to **124%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to **360%** of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to **216%** of the Trailblazer's ATK to a single enemy, and Physical DMG equal to **130%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Choose between two attack modes to deliver a full strike.\nBlowout: Farewell Hit deals Physical DMG equal to **375%** of the Trailblazer's ATK to a single enemy.\nBlowout: RIP Home Run deals Physical DMG equal to **225%** of the Trailblazer's ATK to a single enemy, and Physical DMG equal to **135%** of the Trailblazer's ATK to enemies adjacent to it."
+      ]
     },
     {
       "name": "Perfect Pickoff",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "Each time after this character inflicts Weakness Break on an enemy, ATK increases by **10%**. This effect stacks up to 2 time(s)."
+      "desc": [
+        "Each time after this character inflicts Weakness Break on an enemy, ATK increases by **10%**. This effect stacks up to 2 time(s).",
+        "Each time after this character inflicts Weakness Break on an enemy, ATK increases by **11%**. This effect stacks up to 2 time(s).",
+        "Each time after this character inflicts Weakness Break on an enemy, ATK increases by **12%**. This effect stacks up to 2 time(s).",
+        "Each time after this character inflicts Weakness Break on an enemy, ATK increases by **13%**. This effect stacks up to 2 time(s).",
+        "Each time after this character inflicts Weakness Break on an enemy, ATK increases by **14%**. This effect stacks up to 2 time(s).",
+        "Each time after this character inflicts Weakness Break on an enemy, ATK increases by **15%**. This effect stacks up to 2 time(s)."
+      ]
     },
     {
       "name": "Immortal Third Strike",
       "tag": "Restore",
       "type": "Technique",
-      "desc": "Immediately heals all allies for 15% of their respective Max HP after using this Technique."
+      "desc": [
+        "Immediately heals all allies for 15% of their respective Max HP after using this Technique."
+      ]
     },
     {
       "name": "Blowout: Farewell Hit",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": "Deals Physical DMG equal to **300%** of the Trailblazer's ATK to a single enemy."
+      "desc": [
+        "Deals Physical DMG equal to **300%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **315%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **330%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **345%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **360%** of the Trailblazer's ATK to a single enemy.",
+        "Deals Physical DMG equal to **375%** of the Trailblazer's ATK to a single enemy."
+      ]
     },
     {
       "name": "Blowout: RIP Home Run",
       "tag": "Blast",
       "type": "Ultimate",
-      "desc": "Deals Physical DMG equal to **180%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **108%** of Trailblazer's ATK to enemies adjacent to it."
+      "desc": [
+        "Deals Physical DMG equal to **180%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **108%** of Trailblazer's ATK to enemies adjacent to it.",
+        "Deals Physical DMG equal to **189%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **113%** of Trailblazer's ATK to enemies adjacent to it.",
+        "Deals Physical DMG equal to **198%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **119%** of Trailblazer's ATK to enemies adjacent to it.",
+        "Deals Physical DMG equal to **207%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **124%** of Trailblazer's ATK to enemies adjacent to it.",
+        "Deals Physical DMG equal to **216%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **130%** of Trailblazer's ATK to enemies adjacent to it.",
+        "Deals Physical DMG equal to **225%** of Trailblazer's ATK to a single enemy and Physical DMG equal to **135%** of Trailblazer's ATK to enemies adjacent to it."
+      ]
     }
   ],
   "eidolons": [

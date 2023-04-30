@@ -115,31 +115,59 @@
       "name": "Dazzling Blades",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Wind DMG equal to **50%** of Sampo's ATK to a single enemy."
+      "desc": [
+        "Deals Wind DMG equal to **50%** of Sampo's ATK to a single enemy.",
+        "Deals Wind DMG equal to **60%** of Sampo's ATK to a single enemy.",
+        "Deals Wind DMG equal to **70%** of Sampo's ATK to a single enemy.",
+        "Deals Wind DMG equal to **80%** of Sampo's ATK to a single enemy."
+      ]
     },
     {
       "name": "Ricochet Love",
       "tag": "Bounce",
       "type": "Skill",
-      "desc": "Deals Wind DMG equal to **28%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **28%** of Sampo's ATK to a random enemy."
+      "desc": [
+        "Deals Wind DMG equal to **28%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **28%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **31%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **31%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **34%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **34%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **36%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **36%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **39%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **39%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **42%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **42%** of Sampo's ATK to a random enemy."
+      ]
     },
     {
       "name": "Surprise Present",
       "tag": "Impair",
       "type": "Ultimate",
-      "desc": "Deals Wind DMG equal to **96%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **20%** for 2 turn(s)."
+      "desc": [
+        "Deals Wind DMG equal to **96%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **20%** for 2 turn(s).",
+        "Deals Wind DMG equal to **102%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **21%** for 2 turn(s).",
+        "Deals Wind DMG equal to **109%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **22%** for 2 turn(s).",
+        "Deals Wind DMG equal to **115%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **23%** for 2 turn(s).",
+        "Deals Wind DMG equal to **122%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **24%** for 2 turn(s).",
+        "Deals Wind DMG equal to **128%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **25%** for 2 turn(s)."
+      ]
     },
     {
       "name": "Windtorn Dagger",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **20%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
+      "desc": [
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **20%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **22%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **24%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **26%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **28%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **31%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
+      ]
     },
     {
       "name": "Shining Bright",
       "tag": "Impair",
       "type": "Technique",
-      "desc": "After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a 100% **fixed chance** to delay all enemies' action by 25%."
+      "desc": [
+        "After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a 100% **fixed chance** to delay all enemies' action by 25%."
+      ]
     }
   ],
   "eidolons": [

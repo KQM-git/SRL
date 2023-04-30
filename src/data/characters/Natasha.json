@@ -115,30 +115,58 @@
       "name": "Behind the Kindness",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Physical DMG equal to **50%** of Natasha's ATK to a single enemy."
+      "desc": [
+        "Deals Physical DMG equal to **50%** of Natasha's ATK to a single enemy.",
+        "Deals Physical DMG equal to **60%** of Natasha's ATK to a single enemy.",
+        "Deals Physical DMG equal to **70%** of Natasha's ATK to a single enemy.",
+        "Deals Physical DMG equal to **80%** of Natasha's ATK to a single enemy."
+      ]
     },
     {
       "name": "Love, Heal, and Choose",
       "tag": "Restore",
       "type": "Skill",
-      "desc": "Restores a single ally for **7.0%** of Natasha's Max HP plus **70**. Restores the ally for another **4.8%** of Natasha's Max HP plus **48** at the beginning of each turn for 2 turn(s)."
+      "desc": [
+        "Restores a single ally for **7.0%** of Natasha's Max HP plus **70**. Restores the ally for another **4.8%** of Natasha's Max HP plus **48** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **7.4%** of Natasha's Max HP plus **112**. Restores the ally for another **5.1%** of Natasha's Max HP plus **77** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **7.9%** of Natasha's Max HP plus **144**. Restores the ally for another **5.4%** of Natasha's Max HP plus **98** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **8.3%** of Natasha's Max HP plus **175**. Restores the ally for another **5.7%** of Natasha's Max HP plus **120** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **8.8%** of Natasha's Max HP plus **196**. Restores the ally for another **6.0%** of Natasha's Max HP plus **134** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **9.1%** of Natasha's Max HP plus **217**. Restores the ally for another **6.2%** of Natasha's Max HP plus **149** at the beginning of each turn for 2 turn(s)."
+      ]
     },
     {
       "name": "Gift of Rebirth",
       "tag": "Restore",
       "type": "Ultimate",
-      "desc": "Heals all allies for **9.2%** of Natasha's Max HP plus **92**."
+      "desc": [
+        "Heals all allies for **9.2%** of Natasha's Max HP plus **92**.",
+        "Heals all allies for **9.8%** of Natasha's Max HP plus **147**.",
+        "Heals all allies for **10.3%** of Natasha's Max HP plus **189**.",
+        "Heals all allies for **10.9%** of Natasha's Max HP plus **230**.",
+        "Heals all allies for **11.5%** of Natasha's Max HP plus **258**.",
+        "Heals all allies for **12.0%** of Natasha's Max HP plus **285**."
+      ]
     },
     {
       "name": "Innervation",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **25%**. This effect also works on continuous healing."
+      "desc": [
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **25%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **28%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **30%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **33%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **35%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **38%**. This effect also works on continuous healing."
+      ]
     },
     {
       "name": "Hypnosis Research",
       "type": "Technique",
-      "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% **base chance** to Weaken all enemies.\nWhile Weakened, enemies deal 30% less DMG to allies for 1 turn(s)."
+      "desc": [
+        "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% **base chance** to Weaken all enemies.\nWhile Weakened, enemies deal 30% less DMG to allies for 1 turn(s)."
+      ]
     }
   ],
   "eidolons": [

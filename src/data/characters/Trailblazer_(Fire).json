@@ -115,37 +115,70 @@
       "name": "Ice-Breaking Light",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Fire DMG equal to **50%** of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will."
+      "desc": [
+        "Deals Fire DMG equal to **50%** of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
+        "Deals Fire DMG equal to **60%** of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
+        "Deals Fire DMG equal to **70%** of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will.",
+        "Deals Fire DMG equal to **80%** of the Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will."
+      ]
     },
     {
       "name": "Ever-Burning Amber",
       "tag": "Defense",
       "type": "Skill",
-      "desc": "Increases the Trailblazer's DMG Reduction by **40%** and gains 1 stack of Magma Will, with a 100% **base chance** to Taunt all enemies for 1 turn(s)."
+      "desc": [
+        "Increases the Trailblazer's DMG Reduction by **40%** and gains 1 stack of Magma Will, with a 100% **base chance** to Taunt all enemies for 1 turn(s).",
+        "Increases the Trailblazer's DMG Reduction by **41%** and gains 1 stack of Magma Will, with a 100% **base chance** to Taunt all enemies for 1 turn(s).",
+        "Increases the Trailblazer's DMG Reduction by **42%** and gains 1 stack of Magma Will, with a 100% **base chance** to Taunt all enemies for 1 turn(s).",
+        "Increases the Trailblazer's DMG Reduction by **43%** and gains 1 stack of Magma Will, with a 100% **base chance** to Taunt all enemies for 1 turn(s).",
+        "Increases the Trailblazer's DMG Reduction by **44%** and gains 1 stack of Magma Will, with a 100% **base chance** to Taunt all enemies for 1 turn(s).",
+        "Increases the Trailblazer's DMG Reduction by **45%** and gains 1 stack of Magma Will, with a 100% **base chance** to Taunt all enemies for 1 turn(s)."
+      ]
     },
     {
       "name": "War-Flaming Lance",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": "Deals Fire DMG equal to **50%** of the Trailblazer's ATK plus **75%** of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."
+      "desc": [
+        "Deals Fire DMG equal to **50%** of the Trailblazer's ATK plus **75%** of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+        "Deals Fire DMG equal to **55%** of the Trailblazer's ATK plus **83%** of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+        "Deals Fire DMG equal to **60%** of the Trailblazer's ATK plus **90%** of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+        "Deals Fire DMG equal to **65%** of the Trailblazer's ATK plus **98%** of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+        "Deals Fire DMG equal to **70%** of the Trailblazer's ATK plus **105%** of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+        "Deals Fire DMG equal to **75%** of the Trailblazer's ATK plus **113%** of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."
+      ]
     },
     {
       "name": "Treasure of the Architects",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **4.0%** of the Trailblazer's DEF plus **20**. The Shield lasts for 2 turn(s)."
+      "desc": [
+        "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **4.0%** of the Trailblazer's DEF plus **20**. The Shield lasts for 2 turn(s).",
+        "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **4.3%** of the Trailblazer's DEF plus **32**. The Shield lasts for 2 turn(s).",
+        "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **4.5%** of the Trailblazer's DEF plus **41**. The Shield lasts for 2 turn(s).",
+        "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **4.8%** of the Trailblazer's DEF plus **50**. The Shield lasts for 2 turn(s).",
+        "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **5.0%** of the Trailblazer's DEF plus **56**. The Shield lasts for 2 turn(s).",
+        "Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s).\nWhen Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it.\nWhen the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to **5.2%** of the Trailblazer's DEF plus **62**. The Shield lasts for 2 turn(s)."
+      ]
     },
     {
       "name": "Call of the Guardian",
       "tag": "Defense",
       "type": "Technique",
-      "desc": "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."
+      "desc": [
+        "After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."
+      ]
     },
     {
       "name": "Ice-Breaking Light",
       "tag": "Blast",
       "type": "Basic ATK",
-      "desc": "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to **90%** of the Trailblazer's ATK to a single enemy and Fire DMG to equal to **36%** of the Trailblazer's ATK to enemies adjacent to it."
+      "desc": [
+        "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to **90%** of the Trailblazer's ATK to a single enemy and Fire DMG to equal to **36%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to **99%** of the Trailblazer's ATK to a single enemy and Fire DMG to equal to **40%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to **108%** of the Trailblazer's ATK to a single enemy and Fire DMG to equal to **43%** of the Trailblazer's ATK to enemies adjacent to it.",
+        "Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to **117%** of the Trailblazer's ATK to a single enemy and Fire DMG to equal to **47%** of the Trailblazer's ATK to enemies adjacent to it."
+      ]
     }
   ],
   "eidolons": [

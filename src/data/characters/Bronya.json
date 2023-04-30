@@ -115,31 +115,59 @@
       "name": "Windrider Bullet",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Wind DMG equal to **50%** of Bronya's ATK to a single enemy."
+      "desc": [
+        "Deals Wind DMG equal to **50%** of Bronya's ATK to a single enemy.",
+        "Deals Wind DMG equal to **60%** of Bronya's ATK to a single enemy.",
+        "Deals Wind DMG equal to **70%** of Bronya's ATK to a single enemy.",
+        "Deals Wind DMG equal to **80%** of Bronya's ATK to a single enemy."
+      ]
     },
     {
       "name": "Combat Redeployment",
       "tag": "Support",
       "type": "Skill",
-      "desc": "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **33%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again."
+      "desc": [
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **33%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **36%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **40%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **43%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **46%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **50%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again."
+      ]
     },
     {
       "name": "The Belobog March",
       "tag": "Support",
       "type": "Ultimate",
-      "desc": "Increases the ATK of all allies by **33%**, and increases their CRIT DMG equal to **12.0%** of Bronya's CRIT DMG plus **12.0%** for 2 turn(s)."
+      "desc": [
+        "Increases the ATK of all allies by **33%**, and increases their CRIT DMG equal to **12.0%** of Bronya's CRIT DMG plus **12.0%** for 2 turn(s).",
+        "Increases the ATK of all allies by **35%**, and increases their CRIT DMG equal to **12.4%** of Bronya's CRIT DMG plus **12.8%** for 2 turn(s).",
+        "Increases the ATK of all allies by **37%**, and increases their CRIT DMG equal to **12.8%** of Bronya's CRIT DMG plus **13.6%** for 2 turn(s).",
+        "Increases the ATK of all allies by **40%**, and increases their CRIT DMG equal to **13.2%** of Bronya's CRIT DMG plus **14.4%** for 2 turn(s).",
+        "Increases the ATK of all allies by **42%**, and increases their CRIT DMG equal to **13.6%** of Bronya's CRIT DMG plus **15.2%** for 2 turn(s).",
+        "Increases the ATK of all allies by **44%**, and increases their CRIT DMG equal to **14.0%** of Bronya's CRIT DMG plus **16.0%** for 2 turn(s)."
+      ]
     },
     {
       "name": "Leading the Way",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **15%**."
+      "desc": [
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **15%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **17%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **18%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **20%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **21%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **23%**."
+      ]
     },
     {
       "name": "Banner of Command",
       "tag": "Support",
       "type": "Technique",
-      "desc": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s)."
+      "desc": [
+        "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s)."
+      ]
     }
   ],
   "eidolons": [

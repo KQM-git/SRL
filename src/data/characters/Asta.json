@@ -115,30 +115,58 @@
       "name": "Spectrum Beam",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Fire DMG equal to **50%** of Asta's ATK to a single enemy."
+      "desc": [
+        "Deals Fire DMG equal to **50%** of Asta's ATK to a single enemy.",
+        "Deals Fire DMG equal to **60%** of Asta's ATK to a single enemy.",
+        "Deals Fire DMG equal to **70%** of Asta's ATK to a single enemy.",
+        "Deals Fire DMG equal to **80%** of Asta's ATK to a single enemy."
+      ]
     },
     {
       "name": "Meteor Storm",
       "tag": "Bounce",
       "type": "Skill",
-      "desc": "Deals Fire DMG equal to **25%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **25%** of Asta's ATK to a random enemy."
+      "desc": [
+        "Deals Fire DMG equal to **25%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **25%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **28%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **28%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **30%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **30%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **33%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **33%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **35%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **35%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **38%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **38%** of Asta's ATK to a random enemy."
+      ]
     },
     {
       "name": "Astral Blessing",
       "tag": "Support",
       "type": "Ultimate",
-      "desc": "Increases SPD of all allies by **36** for 2 turn(s)."
+      "desc": [
+        "Increases SPD of all allies by **36** for 2 turn(s).",
+        "Increases SPD of all allies by **37** for 2 turn(s).",
+        "Increases SPD of all allies by **39** for 2 turn(s).",
+        "Increases SPD of all allies by **40** for 2 turn(s).",
+        "Increases SPD of all allies by **42** for 2 turn(s).",
+        "Increases SPD of all allies by **43** for 2 turn(s)."
+      ]
     },
     {
       "name": "Astrometry",
       "tag": "Support",
       "type": "Talent",
-      "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **7.0%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+      "desc": [
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **7.0%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **7.7%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **8.4%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **9.1%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **9.8%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **10.5%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+      ]
     },
     {
       "name": "Miracle Flash",
       "type": "Technique",
-      "desc": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies."
+      "desc": [
+        "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies."
+      ]
     }
   ],
   "eidolons": [

@@ -115,30 +115,58 @@
       "name": "Lightning Rush",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Lightning DMG equal to **50%** of Arlan's ATK to a single enemy."
+      "desc": [
+        "Deals Lightning DMG equal to **50%** of Arlan's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **60%** of Arlan's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **70%** of Arlan's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **80%** of Arlan's ATK to a single enemy."
+      ]
     },
     {
       "name": "Shackle Breaker",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **120%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
+      "desc": [
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **120%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **132%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **144%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **156%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **168%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **180%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
+      ]
     },
     {
       "name": "Frenzied Punishment",
       "tag": "Blast",
       "type": "Ultimate",
-      "desc": "Deals Lightning DMG equal to **192%** of Arlan's ATK to a single enemy and Lightning DMG equal to **96%** of Arlan's ATK to enemies adjacent to it."
+      "desc": [
+        "Deals Lightning DMG equal to **192%** of Arlan's ATK to a single enemy and Lightning DMG equal to **96%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **205%** of Arlan's ATK to a single enemy and Lightning DMG equal to **102%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **218%** of Arlan's ATK to a single enemy and Lightning DMG equal to **109%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **230%** of Arlan's ATK to a single enemy and Lightning DMG equal to **115%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **243%** of Arlan's ATK to a single enemy and Lightning DMG equal to **122%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **256%** of Arlan's ATK to a single enemy and Lightning DMG equal to **128%** of Arlan's ATK to enemies adjacent to it."
+      ]
     },
     {
       "name": "Pain and Anger",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **36%** more DMG."
+      "desc": [
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **36%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **40%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **43%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **47%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **50%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **54%** more DMG."
+      ]
     },
     {
       "name": "Swift Harvest",
       "type": "Technique",
-      "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies."
+      "desc": [
+        "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies."
+      ]
     }
   ],
   "eidolons": [

@@ -132,6 +132,11 @@ div[role="tabpanel"] {
   font-size: 1.25rem;
   font-weight: 700;
 }
+.char-skill-tag {
+  font-size: 1rem;
+  font-weight: 100;
+  font-style: italic;
+}
 
 /* Char trace */
 .char-trace {

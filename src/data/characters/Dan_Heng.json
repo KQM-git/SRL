@@ -115,31 +115,59 @@
       "name": "Cloudlancer Art: North Wind",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Wind DMG equal to **50%** of Dan Heng's ATK to a single enemy."
+      "desc": [
+        "Deals Wind DMG equal to **50%** of Dan Heng's ATK to a single enemy.",
+        "Deals Wind DMG equal to **60%** of Dan Heng's ATK to a single enemy.",
+        "Deals Wind DMG equal to **70%** of Dan Heng's ATK to a single enemy.",
+        "Deals Wind DMG equal to **80%** of Dan Heng's ATK to a single enemy."
+      ]
     },
     {
       "name": "Cloudlancer Art: Torrent",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": "Deals Wind DMG equal to **130%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s)."
+      "desc": [
+        "Deals Wind DMG equal to **130%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **143%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **156%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **169%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **182%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **195%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s)."
+      ]
     },
     {
       "name": "Ethereal Dream",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": "Deals Wind DMG equal to **240%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **72%**."
+      "desc": [
+        "Deals Wind DMG equal to **240%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **72%**.",
+        "Deals Wind DMG equal to **256%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **77%**.",
+        "Deals Wind DMG equal to **272%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **82%**.",
+        "Deals Wind DMG equal to **288%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **86%**.",
+        "Deals Wind DMG equal to **304%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **91%**.",
+        "Deals Wind DMG equal to **320%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **96%**."
+      ]
     },
     {
       "name": "Superiority of Reach",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **18%**. This effect can be triggered again after 2 turn(s)."
+      "desc": [
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **18%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **20%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **22%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **23%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **25%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **27%**. This effect can be triggered again after 2 turn(s)."
+      ]
     },
     {
       "name": "Splitting Spearhead",
       "tag": "Enhance",
       "type": "Technique",
-      "desc": "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."
+      "desc": [
+        "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."
+      ]
     }
   ],
   "eidolons": [

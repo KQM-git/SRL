@@ -115,31 +115,59 @@
       "name": "Dislodged",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Tingyun deals Lightning DMG equal to **50%** of her ATK to a single enemy."
+      "desc": [
+        "Tingyun deals Lightning DMG equal to **50%** of her ATK to a single enemy.",
+        "Tingyun deals Lightning DMG equal to **60%** of her ATK to a single enemy.",
+        "Tingyun deals Lightning DMG equal to **70%** of her ATK to a single enemy.",
+        "Tingyun deals Lightning DMG equal to **80%** of her ATK to a single enemy."
+      ]
     },
     {
       "name": "Soothing Melody",
       "tag": "Support",
       "type": "Skill",
-      "desc": "Grants a single ally with Benediction to increase their ATK by **25%**, up to **15%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **20%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
+      "desc": [
+        "Grants a single ally with Benediction to increase their ATK by **25%**, up to **15%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **20%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **28%**, up to **16%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **22%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **30%**, up to **17%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **24%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **33%**, up to **18%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **26%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **35%**, up to **19%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **28%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **38%**, up to **20%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **30%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
+      ]
     },
     {
       "name": "Amidst the Rejoicing Clouds",
       "tag": "Support",
       "type": "Ultimate",
-      "desc": "Regenerates 50 Energy for a single ally and increases the target's DMG by **20%** for 2 turn(s)."
+      "desc": [
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **20%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **23%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **26%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **29%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **32%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **35%** for 2 turn(s)."
+      ]
     },
     {
       "name": "Violet Sparknado",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **30%** of that ally's ATK to the same enemy."
+      "desc": [
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **30%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **33%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **36%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **39%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **42%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **45%** of that ally's ATK to the same enemy."
+      ]
     },
     {
       "name": "Gentle Breeze",
       "tag": "Support",
       "type": "Technique",
-      "desc": "Tingyun immediately regenerates 50 Energy upon using her Technique."
+      "desc": [
+        "Tingyun immediately regenerates 50 Energy upon using her Technique."
+      ]
     }
   ],
   "eidolons": [

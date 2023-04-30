@@ -115,31 +115,59 @@
       "name": "Gravity Suppression",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Imaginary DMG equal to **50%** of Welt's ATK to a single enemy."
+      "desc": [
+        "Deals Imaginary DMG equal to **50%** of Welt's ATK to a single enemy.",
+        "Deals Imaginary DMG equal to **60%** of Welt's ATK to a single enemy.",
+        "Deals Imaginary DMG equal to **70%** of Welt's ATK to a single enemy.",
+        "Deals Imaginary DMG equal to **80%** of Welt's ATK to a single enemy."
+      ]
     },
     {
       "name": "Edge of the Void",
       "tag": "Bounce",
       "type": "Skill",
-      "desc": "Deals Imaginary DMG equal to **36%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **36%** of Welt's ATK to a random enemy. On hit, there is a **65%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s)."
+      "desc": [
+        "Deals Imaginary DMG equal to **36%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **36%** of Welt's ATK to a random enemy. On hit, there is a **65%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
+        "Deals Imaginary DMG equal to **40%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **40%** of Welt's ATK to a random enemy. On hit, there is a **66%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
+        "Deals Imaginary DMG equal to **43%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **43%** of Welt's ATK to a random enemy. On hit, there is a **67%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
+        "Deals Imaginary DMG equal to **47%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **47%** of Welt's ATK to a random enemy. On hit, there is a **68%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
+        "Deals Imaginary DMG equal to **50%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **50%** of Welt's ATK to a random enemy. On hit, there is a **69%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
+        "Deals Imaginary DMG equal to **54%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **54%** of Welt's ATK to a random enemy. On hit, there is a **70%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s)."
+      ]
     },
     {
       "name": "Synthetic Black Hole",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": "Deals Imaginary DMG equal to **90%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **32%** and SPD reduced by 10%."
+      "desc": [
+        "Deals Imaginary DMG equal to **90%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **32%** and SPD reduced by 10%.",
+        "Deals Imaginary DMG equal to **96%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **33%** and SPD reduced by 10%.",
+        "Deals Imaginary DMG equal to **102%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **34%** and SPD reduced by 10%.",
+        "Deals Imaginary DMG equal to **108%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **34%** and SPD reduced by 10%.",
+        "Deals Imaginary DMG equal to **114%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **35%** and SPD reduced by 10%.",
+        "Deals Imaginary DMG equal to **120%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **36%** and SPD reduced by 10%."
+      ]
     },
     {
       "name": "Time Distortion",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **30%** of his ATK to the enemy."
+      "desc": [
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **30%** of his ATK to the enemy.",
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **33%** of his ATK to the enemy.",
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **36%** of his ATK to the enemy.",
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **39%** of his ATK to the enemy.",
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **42%** of his ATK to the enemy.",
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **45%** of his ATK to the enemy."
+      ]
     },
     {
       "name": "Gravitational Imprisonment",
       "tag": "Impair",
       "type": "Technique",
-      "desc": "After using Welt's Technique, create a dimension that lasts for 15 second(s). Enemies in this dimension have their Movement SPD reduced by 50%. After entering battle with enemies in the dimension, there is a 100% **base chance** to Imprison the enemies for 1 turn.\nImprisoned enemies have their **actions delayed** by 20% and SPD reduced by 10%. Only 1 dimension created by allies can exist at the same time."
+      "desc": [
+        "After using Welt's Technique, create a dimension that lasts for 15 second(s). Enemies in this dimension have their Movement SPD reduced by 50%. After entering battle with enemies in the dimension, there is a 100% **base chance** to Imprison the enemies for 1 turn.\nImprisoned enemies have their **actions delayed** by 20% and SPD reduced by 10%. Only 1 dimension created by allies can exist at the same time."
+      ]
     }
   ],
   "eidolons": [

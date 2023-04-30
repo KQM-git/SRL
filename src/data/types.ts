@@ -28,7 +28,7 @@ export interface Skill {
     name: string
     tag: string
     type: string
-    desc: string // TODO - expand per level
+    desc: string[]
 }
 
 export interface Eidolon {

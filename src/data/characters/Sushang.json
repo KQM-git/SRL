@@ -115,30 +115,58 @@
       "name": "Cloudfencer Art: Starshine",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Physical DMG equal to **50%** of Sushang's ATK to a single enemy."
+      "desc": [
+        "Deals Physical DMG equal to **50%** of Sushang's ATK to a single enemy.",
+        "Deals Physical DMG equal to **60%** of Sushang's ATK to a single enemy.",
+        "Deals Physical DMG equal to **70%** of Sushang's ATK to a single enemy.",
+        "Deals Physical DMG equal to **80%** of Sushang's ATK to a single enemy."
+      ]
     },
     {
       "name": "Cloudfencer Art: Mountainfall",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": "Deals Physical DMG equal to **105%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **50%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger."
+      "desc": [
+        "Deals Physical DMG equal to **105%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **50%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **116%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **55%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **126%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **60%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **137%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **65%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **147%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **70%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **158%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **75%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger."
+      ]
     },
     {
       "name": "Shape of Taixu: Dawn Herald",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": "Deals Physical DMG equal to **192%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **18%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG."
+      "desc": [
+        "Deals Physical DMG equal to **192%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **18%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **205%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **19%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **218%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **20%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **230%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **22%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **243%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **23%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **256%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **24%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG."
+      ]
     },
     {
       "name": "Dancing Blade",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **15.00%** for 2 turn(s)."
+      "desc": [
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **15.00%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **15.50%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **16.00%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **16.50%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **17.00%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **17.50%** for 2 turn(s)."
+      ]
     },
     {
       "name": "Cloudfencer Art: Warcry",
       "type": "Technique",
-      "desc": "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies."
+      "desc": [
+        "Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies."
+      ]
     }
   ],
   "eidolons": [

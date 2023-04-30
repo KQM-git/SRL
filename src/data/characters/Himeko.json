@@ -115,31 +115,59 @@
       "name": "Sawblade Tuning",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Fire DMG equal to **50%** of Himeko's ATK to a single enemy."
+      "desc": [
+        "Deals Fire DMG equal to **50%** of Himeko's ATK to a single enemy.",
+        "Deals Fire DMG equal to **60%** of Himeko's ATK to a single enemy.",
+        "Deals Fire DMG equal to **70%** of Himeko's ATK to a single enemy.",
+        "Deals Fire DMG equal to **80%** of Himeko's ATK to a single enemy."
+      ]
     },
     {
       "name": "Molten Detonation",
       "tag": "Blast",
       "type": "Skill",
-      "desc": "Deals Fire DMG equal to **100%** of Himeko's ATK to a single enemy and Fire DMG equal to **40%** of Himeko's ATK to enemies adjacent to it."
+      "desc": [
+        "Deals Fire DMG equal to **100%** of Himeko's ATK to a single enemy and Fire DMG equal to **40%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **110%** of Himeko's ATK to a single enemy and Fire DMG equal to **44%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **120%** of Himeko's ATK to a single enemy and Fire DMG equal to **48%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **130%** of Himeko's ATK to a single enemy and Fire DMG equal to **52%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **140%** of Himeko's ATK to a single enemy and Fire DMG equal to **56%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **150%** of Himeko's ATK to a single enemy and Fire DMG equal to **60%** of Himeko's ATK to enemies adjacent to it."
+      ]
     },
     {
       "name": "Heavenly Flare",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": "Deals Fire DMG equal to **138%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated."
+      "desc": [
+        "Deals Fire DMG equal to **138%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **147%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **156%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **166%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **175%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **184%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated."
+      ]
     },
     {
       "name": "Victory Rush",
       "tag": "AoE",
       "type": "Talent",
-      "desc": "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **70%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge."
+      "desc": [
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **70%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **77%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **84%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **91%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **98%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **105%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge."
+      ]
     },
     {
       "name": "Incomplete Combustion",
       "tag": "Impair",
       "type": "Technique",
-      "desc": "After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% **base chance** to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."
+      "desc": [
+        "After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% **base chance** to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."
+      ]
     }
   ],
   "eidolons": [

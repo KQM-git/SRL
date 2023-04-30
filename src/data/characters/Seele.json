@@ -115,31 +115,59 @@
       "name": "Thwack",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Quantum DMG equal to **50%** of Seele's ATK to a single enemy."
+      "desc": [
+        "Deals Quantum DMG equal to **50%** of Seele's ATK to a single enemy.",
+        "Deals Quantum DMG equal to **60%** of Seele's ATK to a single enemy.",
+        "Deals Quantum DMG equal to **70%** of Seele's ATK to a single enemy.",
+        "Deals Quantum DMG equal to **80%** of Seele's ATK to a single enemy."
+      ]
     },
     {
       "name": "Sheathed Blade",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to **110%** of Seele's ATK to a single enemy."
+      "desc": [
+        "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to **110%** of Seele's ATK to a single enemy.",
+        "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to **121%** of Seele's ATK to a single enemy.",
+        "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to **132%** of Seele's ATK to a single enemy.",
+        "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to **143%** of Seele's ATK to a single enemy.",
+        "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to **154%** of Seele's ATK to a single enemy.",
+        "Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to **165%** of Seele's ATK to a single enemy."
+      ]
     },
     {
       "name": "Butterfly Flurry",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": "Seele enters the buffed state and deals Quantum DMG equal to **255%** of her ATK to a single enemy."
+      "desc": [
+        "Seele enters the buffed state and deals Quantum DMG equal to **255%** of her ATK to a single enemy.",
+        "Seele enters the buffed state and deals Quantum DMG equal to **272%** of her ATK to a single enemy.",
+        "Seele enters the buffed state and deals Quantum DMG equal to **289%** of her ATK to a single enemy.",
+        "Seele enters the buffed state and deals Quantum DMG equal to **306%** of her ATK to a single enemy.",
+        "Seele enters the buffed state and deals Quantum DMG equal to **323%** of her ATK to a single enemy.",
+        "Seele enters the buffed state and deals Quantum DMG equal to **340%** of her ATK to a single enemy."
+      ]
     },
     {
       "name": "Resurgence",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an **extra turn**. While in the buffed state, the DMG of Seele's attacks increases by **40%** for 1 turn(s).\nEnemies defeated in the **extra turn** provided by \"Resurgence\" will not trigger another \"Resurgence.\""
+      "desc": [
+        "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an **extra turn**. While in the buffed state, the DMG of Seele's attacks increases by **40%** for 1 turn(s).\nEnemies defeated in the **extra turn** provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+        "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an **extra turn**. While in the buffed state, the DMG of Seele's attacks increases by **44%** for 1 turn(s).\nEnemies defeated in the **extra turn** provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+        "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an **extra turn**. While in the buffed state, the DMG of Seele's attacks increases by **48%** for 1 turn(s).\nEnemies defeated in the **extra turn** provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+        "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an **extra turn**. While in the buffed state, the DMG of Seele's attacks increases by **52%** for 1 turn(s).\nEnemies defeated in the **extra turn** provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+        "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an **extra turn**. While in the buffed state, the DMG of Seele's attacks increases by **56%** for 1 turn(s).\nEnemies defeated in the **extra turn** provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+        "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an **extra turn**. While in the buffed state, the DMG of Seele's attacks increases by **60%** for 1 turn(s).\nEnemies defeated in the **extra turn** provided by \"Resurgence\" will not trigger another \"Resurgence.\""
+      ]
     },
     {
       "name": "Phantom Illusion",
       "tag": "Enhance",
       "type": "Technique",
-      "desc": "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state."
+      "desc": [
+        "After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state."
+      ]
     }
   ],
   "eidolons": [

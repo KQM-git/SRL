@@ -115,30 +115,58 @@
       "name": "I Want to Help",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Physical DMG equal to **50%** of Clara's ATK to a single enemy."
+      "desc": [
+        "Deals Physical DMG equal to **50%** of Clara's ATK to a single enemy.",
+        "Deals Physical DMG equal to **60%** of Clara's ATK to a single enemy.",
+        "Deals Physical DMG equal to **70%** of Clara's ATK to a single enemy.",
+        "Deals Physical DMG equal to **80%** of Clara's ATK to a single enemy."
+      ]
     },
     {
       "name": "Svarog Watches Over You",
       "tag": "AoE",
       "type": "Skill",
-      "desc": "Deals Physical DMG equal to **60%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **60%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
+      "desc": [
+        "Deals Physical DMG equal to **60%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **60%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **66%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **66%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **72%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **72%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **78%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **78%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **84%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **84%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **90%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **90%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
+      ]
     },
     {
       "name": "Promise, Not Command",
       "tag": "Enhance",
       "type": "Ultimate",
-      "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **15%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **96%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s)."
+      "desc": [
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **15%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **96%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **16%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **102%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **17%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **109%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **18%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **115%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **19%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **122%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **20%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **128%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s)."
+      ]
     },
     {
       "name": "Because We're Family",
       "tag": "Single Target",
       "type": "Talent",
-      "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **80%** of Clara's ATK."
+      "desc": [
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **80%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **88%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **96%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **104%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **112%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **120%** of Clara's ATK."
+      ]
     },
     {
       "name": "A Small Price for Victory",
       "type": "Technique",
-      "desc": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s)."
+      "desc": [
+        "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s)."
+      ]
     }
   ],
   "eidolons": [

@@ -115,31 +115,59 @@
       "name": "Fist of Conviction",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Ice DMG equal to **50%** of Gepard's ATK to a single enemy."
+      "desc": [
+        "Deals Ice DMG equal to **50%** of Gepard's ATK to a single enemy.",
+        "Deals Ice DMG equal to **60%** of Gepard's ATK to a single enemy.",
+        "Deals Ice DMG equal to **70%** of Gepard's ATK to a single enemy.",
+        "Deals Ice DMG equal to **80%** of Gepard's ATK to a single enemy."
+      ]
     },
     {
       "name": "Daunting Smite",
       "tag": "Impair",
       "type": "Skill",
-      "desc": "Deals Ice DMG equal to **100%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **30%** of Gepard's ATK at the beginning of each turn."
+      "desc": [
+        "Deals Ice DMG equal to **100%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **30%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **110%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **33%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **120%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **36%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **130%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **39%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **140%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **42%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **150%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **45%** of Gepard's ATK at the beginning of each turn."
+      ]
     },
     {
       "name": "Enduring Bulwark",
       "tag": "Defense",
       "type": "Ultimate",
-      "desc": "Applies a Shield to all allies, absorbing DMG equal to **30%** of Gepard's DEF plus **150** for 3 turn(s)."
+      "desc": [
+        "Applies a Shield to all allies, absorbing DMG equal to **30%** of Gepard's DEF plus **150** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **32%** of Gepard's DEF plus **240** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **34%** of Gepard's DEF plus **308** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **36%** of Gepard's DEF plus **375** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **38%** of Gepard's DEF plus **420** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **39%** of Gepard's DEF plus **465** for 3 turn(s)."
+      ]
     },
     {
       "name": "Unyielding Will",
       "tag": "Restore",
       "type": "Talent",
-      "desc": "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **25%** of his Max HP. This effect can only trigger once per battle."
+      "desc": [
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **25%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **28%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **30%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **33%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **35%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **38%** of his Max HP. This effect can only trigger once per battle."
+      ]
     },
     {
       "name": "Comradery",
       "tag": "Defense",
       "type": "Technique",
-      "desc": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s)."
+      "desc": [
+        "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s)."
+      ]
     }
   ],
   "eidolons": [

@@ -115,30 +115,58 @@
       "name": "Frigid Cold Arrow",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": "Deals Ice DMG equal to **50%** of March 7th's ATK to a single enemy."
+      "desc": [
+        "Deals Ice DMG equal to **50%** of March 7th's ATK to a single enemy.",
+        "Deals Ice DMG equal to **60%** of March 7th's ATK to a single enemy.",
+        "Deals Ice DMG equal to **70%** of March 7th's ATK to a single enemy.",
+        "Deals Ice DMG equal to **80%** of March 7th's ATK to a single enemy."
+      ]
     },
     {
       "name": "The Power of Cuteness",
       "tag": "Defense",
       "type": "Skill",
-      "desc": "Provides a single ally with a Shield that can absorb DMG equal to **38%** of March 7th's DEF plus **190** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally."
+      "desc": [
+        "Provides a single ally with a Shield that can absorb DMG equal to **38%** of March 7th's DEF plus **190** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **40%** of March 7th's DEF plus **304** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **43%** of March 7th's DEF plus **390** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **45%** of March 7th's DEF plus **475** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **48%** of March 7th's DEF plus **532** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **49%** of March 7th's DEF plus **589** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally."
+      ]
     },
     {
       "name": "Glacial Cascade",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": "Deals Ice DMG equal to **90%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **30%** of March 7th's ATK at the beginning of each turn."
+      "desc": [
+        "Deals Ice DMG equal to **90%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **30%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **96%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **33%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **102%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **36%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **108%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **39%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **114%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **42%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **120%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **45%** of March 7th's ATK at the beginning of each turn."
+      ]
     },
     {
       "name": "Girl Power",
       "tag": "Single Target",
       "type": "Talent",
-      "desc": "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **50%** of her ATK. This effect can be triggered 2 time(s) each turn."
+      "desc": [
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **50%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **55%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **60%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **65%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **70%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **75%** of her ATK. This effect can be triggered 2 time(s) each turn."
+      ]
     },
     {
       "name": "Freezing Beauty",
       "type": "Technique",
-      "desc": "Immediately attacks the enemy. After entering battle, there is a 100% **base chance** to Freeze a random enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."
+      "desc": [
+        "Immediately attacks the enemy. After entering battle, there is a 100% **base chance** to Freeze a random enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."
+      ]
     }
   ],
   "eidolons": [
