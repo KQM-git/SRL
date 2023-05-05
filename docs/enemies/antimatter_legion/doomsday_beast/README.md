@@ -19,3 +19,9 @@ import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
 import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
+
+## Children
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
