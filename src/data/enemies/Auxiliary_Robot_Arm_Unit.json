@@ -5,8 +5,8 @@
     {
       "attack": 18,
       "def": 210,
-      "hp": 325.5,
-      "speed": 100,
+      "hp": 162.75,
+      "speed": 120,
       "toughness": 90,
       "weaknesses": [
         "Lightning",
@@ -20,7 +20,9 @@
         "Imaginary": 0.2
       },
       "debuffRES": {
-        "Control Effects": 0.5
+        "Frozen": 0.75,
+        "Imprisonment": 0.75,
+        "Entanglement": 0.75
       },
       "skills": [
         {
@@ -31,17 +33,17 @@
         {
           "name": "Oppressive Embrace",
           "type": "Ability",
-          "desc": "Imprisons a single target, and deals Physical DMG 1 time. When this unit has their Weakness Broken, dispels the Imprison status from the target."
+          "desc": "Imprisons a single target, and deals Physical DMG 1 time. When this unit has their Weakness Broken or drops below a certain amount of HP, dispels the Imprison status from the target."
         },
         {
           "name": "Disabling Field",
           "type": "Ability",
-          "desc": "Deals Imprisoned targets Physical DMG equal to a percentage of their Max HP."
+          "desc": "Deals Physical DMG equal to a percentage of their Max HP to Imprisoned targets."
         },
         {
           "name": "Controlled Blasting",
           "type": "Ability",
-          "desc": "The Auxiliary Robot Arm explodes, dealing massive Physical DMG to a single target."
+          "desc": "The Auxiliary Robot Arm Unit explodes, dealing massive Physical DMG to a single target."
         },
         {
           "name": "Overload Warning",

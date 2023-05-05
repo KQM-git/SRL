@@ -8,7 +8,7 @@ import EnemyStatsTable from './EnemyStatsTable'
 
 
 const elements = ["Physical", "Fire", "Ice", "Lightning", "Wind", "Quantum", "Imaginary"]
-const debuffResist = ["Burn", "Frozen", "Shock", "Wind Sheer", "Imprisonment", "Control Effects"]
+const debuffResist = ["Burn", "Frozen", "Shock", "Wind Sheer", "Entanglement", "Imprisonment", "Control Effects"]
 export default function EnemyMisc({ enemy, variant }: { enemy: Enemy, variant: number }) {
   const en = enemy.variants[variant]
 
