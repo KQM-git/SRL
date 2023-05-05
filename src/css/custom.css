@@ -157,13 +157,20 @@ div[role="tabpanel"] {
   color: var(--ifm-color-warning-dark);
 }
 
-/* Artifact/Weapon icon display */
+/* Relic/Lightcone icon display */
 .icon-display-box {
   float: right;
   width: 8rem;
   height: 8rem;
   margin-left: .5rem;
 }
+
+@media screen and (max-width: 600px) {
+  .icon-display-box {
+    display: none;
+  }
+}
+
 .clear {
   clear: both;
 }
