@@ -15,7 +15,7 @@
       ],
       "dmgRES": {
         "Physical": 0.2,
-        "Thunder": 0.4,
+        "Lightning": 0.4,
         "Wind": 0.4,
         "Imaginary": 0.2
       },

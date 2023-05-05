@@ -10,7 +10,7 @@
       "toughness": 360,
       "weaknesses": [
         "Fire",
-        "Thunder",
+        "Lightning",
         "Quantum"
       ],
       "dmgRES": {

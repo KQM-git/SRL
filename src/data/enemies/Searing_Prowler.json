@@ -10,7 +10,7 @@
       "toughness": 300,
       "weaknesses": [
         "Ice",
-        "Thunder",
+        "Lightning",
         "Imaginary"
       ],
       "dmgRES": {

@@ -9,7 +9,7 @@
       "speed": 100,
       "toughness": 60,
       "weaknesses": [
-        "Thunder",
+        "Lightning",
         "Wind",
         "Imaginary"
       ],

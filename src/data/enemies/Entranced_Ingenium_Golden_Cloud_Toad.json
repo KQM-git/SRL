@@ -9,7 +9,7 @@
       "speed": 83,
       "toughness": 30,
       "weaknesses": [
-        "Thunder",
+        "Lightning",
         "Quantum"
       ],
       "dmgRES": {

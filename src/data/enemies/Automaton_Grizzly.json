@@ -11,7 +11,7 @@
       "weaknesses": [
         "Fire",
         "Ice",
-        "Thunder"
+        "Lightning"
       ],
       "dmgRES": {
         "Physical": 0.2,

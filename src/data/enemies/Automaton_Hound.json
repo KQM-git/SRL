@@ -10,7 +10,7 @@
       "toughness": 60,
       "weaknesses": [
         "Physical",
-        "Thunder"
+        "Lightning"
       ],
       "dmgRES": {
         "Fire": 0.2,

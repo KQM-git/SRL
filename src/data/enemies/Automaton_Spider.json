@@ -9,7 +9,7 @@
       "speed": 83,
       "toughness": 60,
       "weaknesses": [
-        "Thunder",
+        "Lightning",
         "Wind"
       ],
       "dmgRES": {

@@ -15,7 +15,7 @@
       "dmgRES": {
         "Fire": 0.2,
         "Ice": 0.2,
-        "Thunder": 0.4,
+        "Lightning": 0.4,
         "Wind": 0.2,
         "Quantum": 0.2
       },
