@@ -1,0 +1,32 @@
+{
+  "name": "Twig of Glorious Blooms",
+  "faction": "The Xianzhou Luofu/Abundant Ebon Deer",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 186,
+      "speed": 100,
+      "toughness": 90,
+      "weaknesses": [
+        "Ice",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Last Spring",
+          "type": "Ability",
+          "desc": "Immediately restores all friendly units' HP."
+        }
+      ]
+    }
+  ]
+}

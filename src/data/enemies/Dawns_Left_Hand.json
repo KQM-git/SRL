@@ -1,0 +1,43 @@
+{
+  "name": "Dawn's Left Hand",
+  "faction": "Antimatter Legion/Doomsday Beast",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 465,
+      "speed": 120,
+      "toughness": 120,
+      "weaknesses": [
+        "Fire",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.4,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "Fallen Forge Hammer",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target."
+        },
+        {
+          "name": "Fallen Star's Visit",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target, with a small chance to inflict Entanglement."
+        },
+        {
+          "name": "When the Dawn Is Dark",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target, with a chance to inflict Entanglement."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Auxiliary Robot Arm Unit",
+  "faction": "Jarilo-VI/Svarog",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 325.5,
+      "speed": 100,
+      "toughness": 90,
+      "weaknesses": [
+        "Lightning",
+        "Wind",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "Oppressive Embrace",
+          "type": "Talent",
+          "desc": "Deals Imprisoned targets Physical DMG equal to a percentage of their Max HP."
+        },
+        {
+          "name": "Oppressive Embrace",
+          "type": "Ability",
+          "desc": "Imprisons a single target, and deals Physical DMG 1 time. When this unit has their Weakness Broken, dispels the Imprison status from the target."
+        },
+        {
+          "name": "Disabling Field",
+          "type": "Ability",
+          "desc": "Deals Imprisoned targets Physical DMG equal to a percentage of their Max HP."
+        },
+        {
+          "name": "Controlled Blasting",
+          "type": "Ability",
+          "desc": "The Auxiliary Robot Arm explodes, dealing massive Physical DMG to a single target."
+        },
+        {
+          "name": "Overload Warning",
+          "type": "Ability",
+          "desc": "Auxiliary Robot Arm Unit enters Overload mode and immediately removes Imprisonment from friendly units. When entering this mode, Auxiliary Robot Arm Unit will cast Controlled Blasting on its next action."
+        }
+      ]
+    }
+  ]
+}

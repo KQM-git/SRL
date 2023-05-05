@@ -1,0 +1,32 @@
+{
+  "name": "Twig of Wintry Wind",
+  "faction": "The Xianzhou Luofu/Abundant Ebon Deer",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 148.8,
+      "speed": 100,
+      "toughness": 90,
+      "weaknesses": [
+        "Ice",
+        "Quantum",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Outrage",
+          "type": "Ability",
+          "desc": "Deals minor Wind DMG to a single target, and has a high chance to inflict Outrage to the target. Targets afflicted by Outrage cannot take action for a number of turns and will use Basic ATK against a random unit friendly to the user."
+        }
+      ]
+    }
+  ]
+}

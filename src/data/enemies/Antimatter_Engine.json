@@ -1,0 +1,63 @@
+{
+  "name": "Antimatter Engine",
+  "faction": "Antimatter Legion/Doomsday Beast",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 874.2,
+      "speed": 100,
+      "toughness": 180,
+      "weaknesses": [
+        "Physical",
+        "Fire"
+      ],
+      "dmgRES": {
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.4,
+        "Imaginary": 0.4
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "Void Fission",
+          "type": "Ability",
+          "desc": "Enhances Disaster's Right Hand, restoring its Toughness."
+        },
+        {
+          "name": "Calamity Strike",
+          "type": "Ability",
+          "desc": "Enhances Dawn's Left Hand, restoring its Toughness."
+        },
+        {
+          "name": "Engine Boost",
+          "type": "Ability",
+          "desc": "Grants the Enhanced status to all friendly units except the user, restoring their Toughness."
+        },
+        {
+          "name": "Total Annihilation",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a single target."
+        },
+        {
+          "name": "Cataclysm Precursor",
+          "type": "Ability",
+          "desc": "Enters the Charge state. The next action uses \"Impending Doom\" on all targets."
+        },
+        {
+          "name": "Impending Doom",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to all targets."
+        },
+        {
+          "name": "Engine Slit",
+          "type": "Ability",
+          "desc": "The Antimatter Engine will change its Weakness Type every time it recovers from Weakness Break."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Twig of Lavish Fruits",
+  "faction": "The Xianzhou Luofu/Abundant Ebon Deer",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 223.2,
+      "speed": 66,
+      "toughness": 120,
+      "weaknesses": [
+        "Fire",
+        "Quantum",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Crude Fruits",
+          "type": "Ability",
+          "desc": "Produces Lavish Fruits to accumulate Energy for the Abundant Ebon Deer to launch Flamboyant Gore."
+        },
+        {
+          "name": "Mellow Fruits",
+          "type": "Ability",
+          "desc": "Produces Lavish Fruits to accumulate Energy for the Abundant Ebon Deer to launch Flamboyant Gore."
+        }
+      ]
+    }
+  ]
+}

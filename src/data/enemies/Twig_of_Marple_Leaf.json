@@ -1,0 +1,42 @@
+{
+  "name": "Twig of Marple Leaf",
+  "faction": "The Xianzhou Luofu/Abundant Ebon Deer",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 186,
+      "speed": 120,
+      "toughness": 90,
+      "weaknesses": [
+        "Fire",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Engender",
+          "type": "Ability",
+          "desc": "Enhances the Abundant Ebon Deer and slightly increases its ATK."
+        },
+        {
+          "name": "Retaliation",
+          "type": "Ability",
+          "desc": "Enters the Counter state: When attacked, immediately uses \"Leaf Hinging\" on the attacker."
+        },
+        {
+          "name": "Leaf Hinging",
+          "type": "Ability",
+          "desc": "Deals minor Lightning DMG to a single target."
+        }
+      ]
+    }
+  ]
+}
