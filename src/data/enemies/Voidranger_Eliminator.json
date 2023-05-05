@@ -1,0 +1,37 @@
+{
+  "name": "Voidranger: Eliminator",
+  "faction": "Antimatter Legion",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 195.3,
+      "speed": 100,
+      "toughness": 90,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Thunder": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Void Cannon",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a single target, with a chance to afflict Detonated. This unit becomes Overloaded."
+        },
+        {
+          "name": "Thermal Barrier",
+          "type": "Ability",
+          "desc": "Dispels this unit's Overloaded state."
+        }
+      ]
+    }
+  ]
+}

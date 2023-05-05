@@ -80,3 +80,26 @@ export interface RelicBonus {
     count: number
     desc: string
 }
+
+// Enemies
+export interface Enemy {
+    name: string
+    faction: string,
+    variants: EnemyVariant[]
+}
+export interface EnemyVariant {
+    attack: number
+    def: number
+    hp: number
+    speed: number
+    toughness: number
+    weaknesses: string[]
+    dmgRES: Record<string, number>
+    debuffRES: Record<string, number>
+    skills: EnemySkill[]
+}
+export interface EnemySkill {
+    name: string
+    type: string
+    desc: string
+}

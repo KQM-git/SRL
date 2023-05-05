@@ -1,0 +1,54 @@
+{
+  "name": "Gepard",
+  "faction": "Jarilo-VI",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1023,
+      "speed": 120,
+      "toughness": 300,
+      "weaknesses": [
+        "Physical",
+        "Thunder",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.4,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "Fist of Conviction",
+          "type": "Ability",
+          "desc": "Deals minor Ice DMG to a single target."
+        },
+        {
+          "name": "Smite of Frost",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target."
+        },
+        {
+          "name": "Garrison Aura Field",
+          "type": "Ability",
+          "desc": "Grants a Barrier to another friendly unit. The Barrier nullifies all DMG received except for DoT until after the friendly unit is attacked."
+        },
+        {
+          "name": "Frigid Waterfall",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to all targets."
+        },
+        {
+          "name": "Siege Support",
+          "type": "Ability",
+          "desc": "Summons Silvermane Gunners or Silvermane Cannoneer and Locks Onto a single target for all attacks."
+        }
+      ]
+    }
+  ]
+}

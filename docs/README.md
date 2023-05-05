@@ -22,6 +22,10 @@ As Star Rail has only just released, our theorycrafting team is still in the pro
   * Relics - complete
     * Cavern Relics - complete
     * Planar Relics - complete
+  * Curio - missing
+* Enemy Data - WIP
+  * Basic data - complete
+  * Variants / checking - WIP
 
 ## Submissions
 

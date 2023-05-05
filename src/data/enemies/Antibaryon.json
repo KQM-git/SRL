@@ -1,0 +1,32 @@
+{
+  "name": "Antibaryon",
+  "faction": "Antimatter Legion",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 55.8,
+      "speed": 83,
+      "toughness": 30,
+      "weaknesses": [
+        "Physical",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Thunder": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Obliterate",
+          "type": "Ability",
+          "desc": "Deals minor Imaginary DMG to a single target."
+        }
+      ]
+    }
+  ]
+}

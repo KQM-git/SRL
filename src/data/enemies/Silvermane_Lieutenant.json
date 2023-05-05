@@ -1,0 +1,47 @@
+{
+  "name": "Silvermane Lieutenant",
+  "faction": "Jarilo-VI",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 930,
+      "speed": 120,
+      "toughness": 240,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Thunder": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Assault",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "Pierce",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to a single target."
+        },
+        {
+          "name": "Shield Reflect",
+          "type": "Ability",
+          "desc": "Enters the Counter state. When attacked by a single character, acts immediately and casts \"Pierce\" on the attacker."
+        },
+        {
+          "name": "Reinforcement",
+          "type": "Ability",
+          "desc": "Summons Silvermane Soldier or Silvermane Gunner"
+        }
+      ]
+    }
+  ]
+}

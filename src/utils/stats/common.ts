@@ -11,7 +11,13 @@ export function handleResult(stats: Record<string, Stat>): Record<string, Stat> 
 export function handleStat(base: number, add: number, level: number): Stat {
   return {
     value: base + add * (level - 1),
-    explain: `${base}${level > 1 ? ` + ${add} * (${level} - 1)` : ""}`
+    explain: `${base}${level != 1 ? ` + ${add} * (${level} - 1)` : ""}`
+  }
+}
+export function handleEnemyStat(base: number, scale: number): Stat {
+  return {
+    value: base * scale,
+    explain: `${base}${scale != 1 ? ` * ${scale}` : ""}`
   }
 }
 

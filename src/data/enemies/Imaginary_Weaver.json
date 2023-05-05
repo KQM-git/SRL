@@ -1,0 +1,47 @@
+{
+  "name": "Imaginary Weaver",
+  "faction": "Fragmentum Monsters",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 176.7,
+      "speed": 120,
+      "toughness": 60,
+      "weaknesses": [
+        "Physical",
+        "Thunder",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Carolbeam",
+          "type": "Ability",
+          "desc": "Deals minor Imaginary DMG to a single target."
+        },
+        {
+          "name": "Carolburst",
+          "type": "Ability",
+          "desc": "Deals massive Imaginary DMG to a single target."
+        },
+        {
+          "name": "Reverberating Carol",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a single target and units adjacent to the target, and enters a Defensive Position. In the next turn, use Carolburst and massively increase the DMG dealt."
+        },
+        {
+          "name": "Imaginary Armor",
+          "type": "Talent",
+          "desc": "Receives reduced DMG from non-Weakness Type attacks."
+        }
+      ]
+    }
+  ]
+}

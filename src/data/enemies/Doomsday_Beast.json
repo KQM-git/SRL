@@ -1,0 +1,30 @@
+{
+  "name": "Doomsday Beast",
+  "faction": "Antimatter Legion",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 697.5,
+      "speed": 0,
+      "toughness": 0,
+      "weaknesses": [
+        "Physical",
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "dmgRES": {},
+      "debuffRES": {
+        "Control Effects": 1
+      },
+      "skills": [
+        {
+          "name": "Leviathan's Lingering Power",
+          "type": "Talent",
+          "desc": "The Doomsday Beast cannot be attacked until the Antimatter Engine, Disaster's Right Hand, and Dawn's Left Hand have all been destroyed."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Svarog",
+  "faction": "Jarilo-VI",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1488,
+      "speed": 120,
+      "toughness": 360,
+      "weaknesses": [
+        "Fire",
+        "Thunder",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "Banishing Punch",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "Burning Beam",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target and delays their action."
+        },
+        {
+          "name": "Oppressive Embrace",
+          "type": "Ability",
+          "desc": "Imprisons a single target, preventing them from taking action or being targeted. The Imprisonment is dispelled if the Auxiliary Robot Arm Unit suffers Weakness Break."
+        },
+        {
+          "name": "Shrewd Bombing",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to all targets, with a high chance to reduce their DEF."
+        },
+        {
+          "name": "Controlled Blasting",
+          "type": "Ability",
+          "desc": "The Auxiliary Robot Arm Unit explodes, dealing massive Physical DMG to a single target."
+        },
+        {
+          "name": "Overload Warning",
+          "type": "Ability",
+          "desc": "Auxiliary Robot Arm Unit enters Overload Countdown, causing the next action to cast Controlled Blasting."
+        },
+        {
+          "name": "Boost Deployment",
+          "type": "Ability",
+          "desc": "Summons Auxiliary Robot Arm Unit."
+        }
+      ]
+    }
+  ]
+}

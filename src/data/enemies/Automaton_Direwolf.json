@@ -1,0 +1,47 @@
+{
+  "name": "Automaton Direwolf",
+  "faction": "Jarilo-VI",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1023,
+      "speed": 144,
+      "toughness": 300,
+      "weaknesses": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Felling Order",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to a single target, with a chance to Bleed the hit target. If the hit target is not Shielded, then a random ally of theirs suffers \"Dismantle\" for 1 time."
+        },
+        {
+          "name": "Lock On Target",
+          "type": "Ability",
+          "desc": "Locks Onto a single target. The next action on the target will cast \"Felling Order.\""
+        },
+        {
+          "name": "Disintegration Order",
+          "type": "Ability",
+          "desc": "Deals minor Physical DMG to a single target, with a high chance to inflict 1 stack of Bleed."
+        },
+        {
+          "name": "Dismantle",
+          "type": "Ability",
+          "desc": "Deals minor Physical DMG to a single target, with a high chance to inflict 1 stack of Bleed."
+        }
+      ]
+    }
+  ]
+}

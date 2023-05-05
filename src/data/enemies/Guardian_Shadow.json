@@ -1,0 +1,62 @@
+{
+  "name": "Guardian Shadow",
+  "faction": "Fragmentum Monsters",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1023,
+      "speed": 120,
+      "toughness": 300,
+      "weaknesses": [
+        "Physical",
+        "Wind",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Thunder": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Lightning Recollection",
+          "type": "Ability",
+          "desc": "Deals Lightning DMG to a single target."
+        },
+        {
+          "name": "Lightning Condemnation",
+          "type": "Ability",
+          "desc": "Deals minor Lightning DMG to a single target and units adjacent to the target."
+        },
+        {
+          "name": "Tranquil Ban",
+          "type": "Ability",
+          "desc": "Your team is imposed with a ban on attacking the Guardian Shadow. Should anyone do so, they immediately receive 1 attack."
+        },
+        {
+          "name": "Disarm Ban",
+          "type": "Ability",
+          "desc": "Your team is imposed with a ban on using Basic ATK. Should anyone do so, they immediately receive 1 attack."
+        },
+        {
+          "name": "Silent Ban",
+          "type": "Ability",
+          "desc": "Your team is imposed with a ban on using Skill. Should anyone do so, they immediately receive 1 attack."
+        },
+        {
+          "name": "Thunderstorm Condemnation",
+          "type": "Ability",
+          "desc": "Deals successive minor Lightning DMG to a random target, with a chance to inflict Shock."
+        },
+        {
+          "name": "Inevitable Punishment",
+          "type": "Ability",
+          "desc": "Deals Lightning DMG to whoever violates the ban."
+        }
+      ]
+    }
+  ]
+}

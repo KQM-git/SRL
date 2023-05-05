@@ -1,0 +1,59 @@
+{
+  "name": "Stellaron Hunter: Kafka",
+  "faction": "Stellaron Hunters",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1302,
+      "speed": 119,
+      "toughness": 450,
+      "weaknesses": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Thunder": 0.4,
+        "Quantum": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 0.5
+      },
+      "skills": [
+        {
+          "name": "Midnight Tumult",
+          "type": "Ability",
+          "desc": "Deals minor Lightning DMG to a single target, with a high chance to Shock the target."
+        },
+        {
+          "name": "Caressing Moonlight",
+          "type": "Ability",
+          "desc": "Deals Lightning DMG to a single target and units adjacent to the target. If the target is Shocked, inflicts Shock on the adjacent units."
+        },
+        {
+          "name": "Silent and Sharp Mockery",
+          "type": "Ability",
+          "desc": "Deals minor Lightning DMG to all targets."
+        },
+        {
+          "name": "Spirit Whisper",
+          "type": "Ability",
+          "desc": "Has a high chance of Dominating a single target and Advancing their action forward to immediately attack a random ally of theirs."
+        },
+        {
+          "name": "Tremble",
+          "type": "Talent",
+          "desc": "If the target is currently Shocked, directly causes Shock DMG 1 time."
+        },
+        {
+          "name": "Cruelty",
+          "type": "Talent",
+          "desc": "When friendly units (apart from Kafka) or Dominated targets deal DMG to Shocked targets, unleash an extra Lightning ATK. This can only be triggered 1 time per turn."
+        }
+      ]
+    }
+  ]
+}

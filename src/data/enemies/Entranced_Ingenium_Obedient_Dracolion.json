@@ -1,0 +1,32 @@
+{
+  "name": "Entranced Ingenium: Obedient Dracolion",
+  "faction": "The Xianzhou Luofu",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 83.7,
+      "speed": 83,
+      "toughness": 30,
+      "weaknesses": [
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Thunder": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Lion's Roar",
+          "type": "Ability",
+          "desc": "Deals minor Fire DMG to a single target, with a chance to Weaken them."
+        }
+      ]
+    }
+  ]
+}

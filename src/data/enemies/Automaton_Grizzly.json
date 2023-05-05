@@ -1,0 +1,52 @@
+{
+  "name": "Automaton Grizzly",
+  "faction": "Jarilo-VI",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1209,
+      "speed": 120,
+      "toughness": 420,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Thunder"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Detonation Order",
+          "type": "Ability",
+          "desc": "Summons Automaton Spider."
+        },
+        {
+          "name": "Enrage Order",
+          "type": "Ability",
+          "desc": "Has a chance to Taunt all targets."
+        },
+        {
+          "name": "Overcombust Order",
+          "type": "Ability",
+          "desc": "Enters the Charge state. The next action uses \"Purge Order\" on all targets."
+        },
+        {
+          "name": "Purge Order",
+          "type": "Ability",
+          "desc": "Deals Massive Physical DMG to all targets."
+        },
+        {
+          "name": "Destruction Order",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        }
+      ]
+    }
+  ]
+}

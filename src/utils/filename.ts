@@ -1,3 +1,3 @@
 export default function filename(name: string) {
-    return name.replace(/ /g, "_").replace(/:|"|'/g, "")
+    return name.replace(/ /g, "_").replace(/:|"|'|,/g, "")
 }

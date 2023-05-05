@@ -1,0 +1,54 @@
+{
+  "name": "Searing Prowler",
+  "faction": "Fragmentum Monsters",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1023,
+      "speed": 100,
+      "toughness": 300,
+      "weaknesses": [
+        "Ice",
+        "Thunder",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.4,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {
+        "Burn": 1
+      },
+      "skills": [
+        {
+          "name": "Crimson Blade",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to a single target, with a high chance to Burn the target."
+        },
+        {
+          "name": "Combustion Slash",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to a single target and units adjacent to the target. This attack prioritizes targets afflicted with Burn."
+        },
+        {
+          "name": "Melt",
+          "type": "Talent",
+          "desc": "After attacking a Burned target, receives a DMG increase."
+        },
+        {
+          "name": "High-Temperature Operation",
+          "type": "Ability",
+          "desc": "Slightly increases ATK and greatly increases SPD. This buff is dispelled upon Weakness Break."
+        },
+        {
+          "name": "Dancing Cinders",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to all targets. Targets suffering from Burn are dealt an extra Fire DMG and have Burn removed."
+        }
+      ]
+    }
+  ]
+}

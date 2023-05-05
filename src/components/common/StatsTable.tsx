@@ -12,11 +12,15 @@ export default function StatsTable({
   baseLevels,
   getStatsAt
 }: {
-  stats: (CharacterStats | LightconeStats)[],
+  stats: ({
+    maxLevel: number
+    level: number
+  })[],
   baseLevels: { a: number, lv: number }[],
   getStatsAt: (lvl: number, asc: number) => Record<string, Stat>
 }) {
   const [expanded, setExpanded] = useState(false)
+  const showAsc = stats.length > 1
 
   const maxAscension = stats[stats.length - 1]
 
@@ -49,7 +53,7 @@ export default function StatsTable({
     })}>
       <thead>
         <tr>
-          <th align='left'>Asc.</th>
+          {showAsc && <th align='left'>Asc.</th>}
           <th align='left'>Lv.</th>
           {Object.keys(max).map((name) => <th align='left' key={name}>{name}</th>)}
         </tr>
@@ -58,19 +62,19 @@ export default function StatsTable({
         {levels
           .filter((r) => expanded ? true : (r.a == 0 && r.lv == 1) || (r.a == maxAscension.level && r.lv == maxAscension.maxLevel))
           .map(({ a, lv }) => <tr key={a + "," + lv}>
-            <td align='left'>A{a}</td>
+            {showAsc && <td align='left'>A{a}</td>}
             <td align='left'>{lv}</td>
             {Object.entries(getStatsAt(lv, a)).map(([name, { explain, value }]) => <td align='left' key={name} title={explain}>{stat(name, value)}</td>)}
           </tr>)}
 
         {expanded && <tr>
-          <td align='left'>
+          {showAsc &&<td align='left'>
             <SelectInput<number>
               set={({ value }) => setAsc(value)}
               value={asc}
               options={ascOpt}
             />
-          </td>
+          </td>}
           <td align='left'>
             <NumberInput
               set={setLevel}
