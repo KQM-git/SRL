@@ -1,0 +1,47 @@
+{
+  "name": "Trotter of Abundance",
+  "faction": "Fragmentum Monsters",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 315,
+      "hp": 558,
+      "speed": 83,
+      "toughness": 90,
+      "weaknesses": [
+        "Physical",
+        "Lightning",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "S—S—S—Scared",
+          "type": "Ability",
+          "desc": "The Treasure Trotter got spooked and will flee in 2 turns."
+        },
+        {
+          "name": "Run... Run!",
+          "type": "Ability",
+          "desc": "The Treasure Trotter is panicking and will flee in 1 turn."
+        },
+        {
+          "name": "Phew... Escaped",
+          "type": "Ability",
+          "desc": "The Trotter flees in an instant."
+        },
+        {
+          "name": "C—Cure You",
+          "type": "Talent",
+          "desc": "When a friendly unit other than the Trotter of Abundance is attacked, consumes HP to heal the attacked friendly unit."
+        }
+      ]
+    }
+  ]
+}

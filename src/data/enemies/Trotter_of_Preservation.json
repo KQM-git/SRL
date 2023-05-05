@@ -1,0 +1,47 @@
+{
+  "name": "Trotter of Preservation",
+  "faction": "Fragmentum Monsters",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 315,
+      "hp": 167.4,
+      "speed": 83,
+      "toughness": 30,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "S—S—S—Scared",
+          "type": "Ability",
+          "desc": "The Treasure Trotter got spooked and will flee in 2 turns."
+        },
+        {
+          "name": "Run... Run!",
+          "type": "Ability",
+          "desc": "The Treasure Trotter is panicking and will flee in 1 turn."
+        },
+        {
+          "name": "Phew... Escaped",
+          "type": "Ability",
+          "desc": "The Trotter flees in an instant."
+        },
+        {
+          "name": "P—Protect You",
+          "type": "Talent",
+          "desc": "When entering battle, applies P—Protect You to all friendly units. Each stack of P—Protect You can nullify all DMG received from 1 incoming hit except for DoT. P—Protect You stacks are shared across the team."
+        }
+      ]
+    }
+  ]
+}
