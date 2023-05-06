@@ -10,14 +10,13 @@ import enemy from '@site/src/data/enemies/Dawns_Left_Hand.json'
 # Dawn's Left Hand
 <blockquote>{frontMatter.description}</blockquote>
 
-## Stats
-
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
+import EnemySkills from '@site/src/components/enemy/EnemySkills'
+
+## Stats
 
 <EnemyMisc enemy={enemy} variant={0} />
 
 ## Skills
-
-import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />

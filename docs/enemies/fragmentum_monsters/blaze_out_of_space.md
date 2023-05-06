@@ -10,14 +10,13 @@ import enemy from '@site/src/data/enemies/Blaze_Out_of_Space.json'
 # Blaze Out of Space
 <blockquote>{frontMatter.description}</blockquote>
 
-## Stats
-
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
+import EnemySkills from '@site/src/components/enemy/EnemySkills'
+
+## Stats
 
 <EnemyMisc enemy={enemy} variant={0} />
 
 ## Skills
-
-import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
