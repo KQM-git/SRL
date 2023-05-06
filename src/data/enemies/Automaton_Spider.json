@@ -3,6 +3,7 @@
   "faction": "Jarilo-VI",
   "variants": [
     {
+      "source": "Automaton Spider",
       "attack": 18,
       "def": 210,
       "hp": 69.75,
@@ -31,6 +32,44 @@
           "name": "Ram",
           "type": "Ability",
           "desc": "Deals minor Physical DMG to a single target."
+        },
+        {
+          "name": "Timed Module",
+          "type": "Ability",
+          "desc": "The next action uses Self-Exploding Module."
+        },
+        {
+          "name": "Chains of Destruction",
+          "type": "Talent",
+          "desc": "Deals Fire DMG to adjacent units when suffering a killing blow."
+        }
+      ]
+    },
+    {
+      "source": "Automaton Grizzly (Complete) Summon",
+      "attack": 18,
+      "def": 210,
+      "hp": 69.75,
+      "speed": 83,
+      "toughness": 60,
+      "weaknesses": [
+        "Lightning",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Self-Exploding Module",
+          "type": "Ability",
+          "desc": "Self-destructs, dealing Fire DMG to a single target and units adjacent to the target.",
+          "threat": true
         },
         {
           "name": "Timed Module",
