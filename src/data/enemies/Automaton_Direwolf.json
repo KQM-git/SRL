@@ -46,6 +46,45 @@
       ]
     },
     {
+      "name": "Automaton Direwolf (Bug)",
+      "source": "Automaton Direwolf (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 144,
+      "toughness": 360,
+      "weaknesses": [
+        "Ice",
+        "Lightning",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Felling Order",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to a single target, with a high chance to inflict Bleed with every hit to this target.",
+          "threat": true
+        },
+        {
+          "name": "Disintegration Order",
+          "type": "Ability",
+          "desc": "Deals minor Physical DMG to a single target, with a high chance to inflict 1 stack of Bleed."
+        },
+        {
+          "name": "Targeting Order",
+          "type": "Ability",
+          "desc": "Locks on to 2 targets and casts Felling Order on them in the next action."
+        }
+      ]
+    },
+    {
       "name": "Automaton Direwolf (Complete)",
       "source": "Automaton Direwolf (Complete)",
       "attack": 18,

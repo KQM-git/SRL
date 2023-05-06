@@ -7,7 +7,7 @@ description: |-
 
 import enemy from '@site/src/data/enemies/Bronya.json'
 
-# Bronya
+# Bronya (Enemy)
 <blockquote>{frontMatter.description}</blockquote>
 
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'

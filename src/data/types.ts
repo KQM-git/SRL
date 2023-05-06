@@ -94,6 +94,7 @@ export interface EnemyVariant {
     speed: number
     toughness: number
     weaknesses: string[]
+    id?: number
     dmgRES: Record<string, number>
     debuffRES: Record<string, number>
     skills: EnemySkill[]

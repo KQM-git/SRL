@@ -3,6 +3,7 @@
   "faction": "Jarilo-VI",
   "variants": [
     {
+      "source": "Silvermane Lieutenant",
       "attack": 18,
       "def": 210,
       "hp": 930,
@@ -41,6 +42,40 @@
           "name": "Reinforcement",
           "type": "Ability",
           "desc": "Summons Silvermane Soldier or Silvermane Gunner"
+        }
+      ]
+    },
+    {
+      "name": "Silvermane Lieutenant (Complete)",
+      "source": "Silvermane Lieutenant (Complete)",
+      "attack": 18,
+      "def": 210,
+      "hp": 558,
+      "speed": 144,
+      "toughness": 180,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Pierce",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to a single target.",
+          "threat": true
+        },
+        {
+          "name": "Assault",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
         }
       ]
     }

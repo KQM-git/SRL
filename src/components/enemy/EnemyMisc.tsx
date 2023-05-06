@@ -14,8 +14,9 @@ export default function EnemyMisc({ enemy, variant }: { enemy: Enemy, variant: n
 
   return <div>
     <p>
-      Toughness: {en.toughness}{en.toughness > 0 &&<><br />
-      Weaknesses: {en.weaknesses.join(", ")}</>}
+      {en.id && <>ID: {en.id}<br /></>}
+      Toughness: {en.toughness}{en.toughness > 0 && <><br />
+        Weaknesses: {en.weaknesses.join(", ")}</>}
     </p>
 
     <Heading as='h3'>Damage RES</Heading>

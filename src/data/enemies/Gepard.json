@@ -3,6 +3,7 @@
   "faction": "Jarilo-VI",
   "variants": [
     {
+      "source": "Gepard",
       "attack": 18,
       "def": 210,
       "hp": 1023,
@@ -48,6 +49,117 @@
           "name": "Siege Support",
           "type": "Ability",
           "desc": "Summons Silvermane Gunners or Silvermane Cannoneer and Locks Onto a single target for all attacks."
+        }
+      ]
+    },
+    {
+      "name": "Gepard (Complete)",
+      "source": "Gepard (Complete)",
+      "attack": 14.999994,
+      "def": 210,
+      "hp": 604.5,
+      "speed": 144,
+      "toughness": 300,
+      "weaknesses": [
+        "Physical",
+        "Lightning",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.4,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 0.75,
+        "Imprisonment": 0.75,
+        "Entanglement": 0.75
+      },
+      "skills": [
+        {
+          "name": "Frigid Waterfall",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to all targets and slightly increases the DMG dealt. This DMG boosting effect is stackable.",
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "threat": true
+        },
+        {
+          "name": "Fist of Conviction",
+          "type": "Ability",
+          "desc": "Deals minor Ice DMG to a single target.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Smite of Frost",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Garrison Aura Field",
+          "type": "Ability",
+          "desc": "Unleashes Shield for All and absorbs DMG taken by all friendly units, as well as preventing all friendly units from receiving damage to their Toughness.",
+          "phases": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Besiege",
+          "type": "Ability",
+          "desc": "Gepard Locks On a single target, causing all friendly units to immediately launch coordinated attacks on the target.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Tit for Tat",
+          "type": "Ability",
+          "desc": "Goes into the Counter state for 1 turn. If attacked by a target while in this state, immediately use \"Smite of Frost\" on the attacker. This effect can only be triggered 1 time.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Support",
+          "type": "Ability",
+          "desc": "When the phase starts, immediately summons Silvermane Soldier or Silvermane Cannoneer.",
+          "phases": [
+            1
+          ]
+        },
+        {
+          "name": "Support",
+          "type": "Talent",
+          "desc": "When the phase starts, immediately summons Silvermane Cannoneer.",
+          "phases": [
+            2
+          ]
+        },
+        {
+          "name": "Support",
+          "type": "Talent",
+          "desc": "When the phase starts, immediately summons Silvermane Lieutenant (Complete).",
+          "phases": [
+            3
+          ]
         }
       ]
     }
