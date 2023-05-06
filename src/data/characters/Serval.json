@@ -119,7 +119,9 @@
         "Deals Lightning DMG equal to **50%** of Serval's ATK to a single enemy.",
         "Deals Lightning DMG equal to **60%** of Serval's ATK to a single enemy.",
         "Deals Lightning DMG equal to **70%** of Serval's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **80%** of Serval's ATK to a single enemy."
+        "Deals Lightning DMG equal to **80%** of Serval's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **90%** of Serval's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **100%** of Serval's ATK to a single enemy."
       ]
     },
     {
@@ -132,7 +134,9 @@
         "Deals Lightning DMG equal to **84%** of Serval's ATK to a single enemy and Lightning DMG equal to **36%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **48%** of Serval's ATK at the beginning of each turn.",
         "Deals Lightning DMG equal to **91%** of Serval's ATK to a single enemy and Lightning DMG equal to **39%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **52%** of Serval's ATK at the beginning of each turn.",
         "Deals Lightning DMG equal to **98%** of Serval's ATK to a single enemy and Lightning DMG equal to **42%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **56%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **105%** of Serval's ATK to a single enemy and Lightning DMG equal to **45%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **62%** of Serval's ATK at the beginning of each turn."
+        "Deals Lightning DMG equal to **105%** of Serval's ATK to a single enemy and Lightning DMG equal to **45%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **62%** of Serval's ATK at the beginning of each turn.",
+        "Deals Lightning DMG equal to **114%** of Serval's ATK to a single enemy and Lightning DMG equal to **49%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **70%** of Serval's ATK at the beginning of each turn.",
+        "Deals Lightning DMG equal to **123%** of Serval's ATK to a single enemy and Lightning DMG equal to **53%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **80%** of Serval's ATK at the beginning of each turn."
       ]
     },
     {
@@ -145,7 +149,9 @@
         "Deals Lightning DMG equal to **122%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
         "Deals Lightning DMG equal to **130%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
         "Deals Lightning DMG equal to **137%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **144%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."
+        "Deals Lightning DMG equal to **144%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+        "Deals Lightning DMG equal to **153%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+        "Deals Lightning DMG equal to **162%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."
       ]
     },
     {
@@ -158,7 +164,9 @@
         "After Serval attacks, deals **Additional** Lightning DMG equal to **43%** of Serval's ATK to all Shocked enemies.",
         "After Serval attacks, deals **Additional** Lightning DMG equal to **47%** of Serval's ATK to all Shocked enemies.",
         "After Serval attacks, deals **Additional** Lightning DMG equal to **50%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **54%** of Serval's ATK to all Shocked enemies."
+        "After Serval attacks, deals **Additional** Lightning DMG equal to **54%** of Serval's ATK to all Shocked enemies.",
+        "After Serval attacks, deals **Additional** Lightning DMG equal to **59%** of Serval's ATK to all Shocked enemies.",
+        "After Serval attacks, deals **Additional** Lightning DMG equal to **63%** of Serval's ATK to all Shocked enemies."
       ]
     },
     {

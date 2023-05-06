@@ -119,7 +119,9 @@
         "Deals Ice DMG equal to **50%** of Herta's ATK to a single enemy.",
         "Deals Ice DMG equal to **60%** of Herta's ATK to a single enemy.",
         "Deals Ice DMG equal to **70%** of Herta's ATK to a single enemy.",
-        "Deals Ice DMG equal to **80%** of Herta's ATK to a single enemy."
+        "Deals Ice DMG equal to **80%** of Herta's ATK to a single enemy.",
+        "Deals Ice DMG equal to **90%** of Herta's ATK to a single enemy.",
+        "Deals Ice DMG equal to **100%** of Herta's ATK to a single enemy."
       ]
     },
     {
@@ -132,7 +134,9 @@
         "Deals Ice DMG equal to **60%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
         "Deals Ice DMG equal to **65%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
         "Deals Ice DMG equal to **70%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **75%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%."
+        "Deals Ice DMG equal to **75%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
+        "Deals Ice DMG equal to **81%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
+        "Deals Ice DMG equal to **88%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%."
       ]
     },
     {
@@ -145,7 +149,9 @@
         "Deals Ice DMG equal to **136%** of Herta's ATK to all enemies.",
         "Deals Ice DMG equal to **144%** of Herta's ATK to all enemies.",
         "Deals Ice DMG equal to **152%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **160%** of Herta's ATK to all enemies."
+        "Deals Ice DMG equal to **160%** of Herta's ATK to all enemies.",
+        "Deals Ice DMG equal to **170%** of Herta's ATK to all enemies.",
+        "Deals Ice DMG equal to **180%** of Herta's ATK to all enemies."
       ]
     },
     {
@@ -158,7 +164,9 @@
         "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **28%** of Herta's ATK to all enemies.",
         "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **30%** of Herta's ATK to all enemies.",
         "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **31%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **33%** of Herta's ATK to all enemies."
+        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **33%** of Herta's ATK to all enemies.",
+        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **34%** of Herta's ATK to all enemies.",
+        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **36%** of Herta's ATK to all enemies."
       ]
     },
     {

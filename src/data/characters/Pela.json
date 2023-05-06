@@ -119,7 +119,9 @@
         "Deals Ice DMG equal to **50%** of Pela's ATK as to a single enemy.",
         "Deals Ice DMG equal to **60%** of Pela's ATK as to a single enemy.",
         "Deals Ice DMG equal to **70%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **80%** of Pela's ATK as to a single enemy."
+        "Deals Ice DMG equal to **80%** of Pela's ATK as to a single enemy.",
+        "Deals Ice DMG equal to **90%** of Pela's ATK as to a single enemy.",
+        "Deals Ice DMG equal to **100%** of Pela's ATK as to a single enemy."
       ]
     },
     {
@@ -132,7 +134,9 @@
         "Removes 1 **buff(s)** and deals Ice DMG equal to **126%** of Pela's ATK as to a single enemy.",
         "Removes 1 **buff(s)** and deals Ice DMG equal to **137%** of Pela's ATK as to a single enemy.",
         "Removes 1 **buff(s)** and deals Ice DMG equal to **147%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **158%** of Pela's ATK as to a single enemy."
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **158%** of Pela's ATK as to a single enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **171%** of Pela's ATK as to a single enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **184%** of Pela's ATK as to a single enemy."
       ]
     },
     {
@@ -145,7 +149,9 @@
         "Deals Ice DMG equal to **68%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **32%** for 2 turn(s).",
         "Deals Ice DMG equal to **72%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **33%** for 2 turn(s).",
         "Deals Ice DMG equal to **76%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **34%** for 2 turn(s).",
-        "Deals Ice DMG equal to **80%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **35%** for 2 turn(s)."
+        "Deals Ice DMG equal to **80%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **35%** for 2 turn(s).",
+        "Deals Ice DMG equal to **85%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **36%** for 2 turn(s).",
+        "Deals Ice DMG equal to **90%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **38%** for 2 turn(s)."
       ]
     },
     {
@@ -158,7 +164,9 @@
         "If the enemy is **debuffed** after Pela's attack, Pela will restore **6.0** extra Energy. This effect can only be triggered 1 time per attack.",
         "If the enemy is **debuffed** after Pela's attack, Pela will restore **6.5** extra Energy. This effect can only be triggered 1 time per attack.",
         "If the enemy is **debuffed** after Pela's attack, Pela will restore **7.0** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **7.5** extra Energy. This effect can only be triggered 1 time per attack."
+        "If the enemy is **debuffed** after Pela's attack, Pela will restore **7.5** extra Energy. This effect can only be triggered 1 time per attack.",
+        "If the enemy is **debuffed** after Pela's attack, Pela will restore **8.1** extra Energy. This effect can only be triggered 1 time per attack.",
+        "If the enemy is **debuffed** after Pela's attack, Pela will restore **8.8** extra Energy. This effect can only be triggered 1 time per attack."
       ]
     },
     {

@@ -119,7 +119,9 @@
         "Deals Ice DMG equal to **50%** of Yanqing's ATK to a single enemy.",
         "Deals Ice DMG equal to **60%** of Yanqing's ATK to a single enemy.",
         "Deals Ice DMG equal to **70%** of Yanqing's ATK to a single enemy.",
-        "Deals Ice DMG equal to **80%** of Yanqing's ATK to a single enemy."
+        "Deals Ice DMG equal to **80%** of Yanqing's ATK to a single enemy.",
+        "Deals Ice DMG equal to **90%** of Yanqing's ATK to a single enemy.",
+        "Deals Ice DMG equal to **100%** of Yanqing's ATK to a single enemy."
       ]
     },
     {
@@ -132,7 +134,9 @@
         "Deals Ice DMG equal to **132%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
         "Deals Ice DMG equal to **143%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
         "Deals Ice DMG equal to **154%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **165%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn."
+        "Deals Ice DMG equal to **165%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
+        "Deals Ice DMG equal to **179%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
+        "Deals Ice DMG equal to **193%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn."
       ]
     },
     {
@@ -145,7 +149,9 @@
         "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **34%**. This **buffs** last for one turn. Afterwards, deals Ice DMG equal to **238%** of Yanqing's ATK to a single enemy.",
         "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **36%**. This **buffs** last for one turn. Afterwards, deals Ice DMG equal to **252%** of Yanqing's ATK to a single enemy.",
         "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **38%**. This **buffs** last for one turn. Afterwards, deals Ice DMG equal to **266%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **40%**. This **buffs** last for one turn. Afterwards, deals Ice DMG equal to **280%** of Yanqing's ATK to a single enemy."
+        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **40%**. This **buffs** last for one turn. Afterwards, deals Ice DMG equal to **280%** of Yanqing's ATK to a single enemy.",
+        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **43%**. This **buffs** last for one turn. Afterwards, deals Ice DMG equal to **298%** of Yanqing's ATK to a single enemy.",
+        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **45%**. This **buffs** last for one turn. Afterwards, deals Ice DMG equal to **315%** of Yanqing's ATK to a single enemy."
       ]
     },
     {
@@ -158,7 +164,9 @@
         "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **16.0%** and his CRIT DMG increases by **18%**. After Yanqing attacks an enemy, there is a **52%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **30%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **30%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
         "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **16.5%** and his CRIT DMG increases by **20%**. After Yanqing attacks an enemy, there is a **53%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **33%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **33%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
         "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **17.0%** and his CRIT DMG increases by **21%**. After Yanqing attacks an enemy, there is a **54%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **35%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **35%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **17.5%** and his CRIT DMG increases by **23%**. After Yanqing attacks an enemy, there is a **55%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **38%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **38%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear."
+        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **17.5%** and his CRIT DMG increases by **23%**. After Yanqing attacks an enemy, there is a **55%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **38%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **38%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **18.1%** and his CRIT DMG increases by **24%**. After Yanqing attacks an enemy, there is a **56%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **41%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **41%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **18.8%** and his CRIT DMG increases by **26%**. After Yanqing attacks an enemy, there is a **57%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **44%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **44%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear."
       ]
     },
     {

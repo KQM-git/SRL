@@ -119,7 +119,9 @@
         "Deals Lightning DMG equal to **50%** of Bailu's ATK to a single enemy.",
         "Deals Lightning DMG equal to **60%** of Bailu's ATK to a single enemy.",
         "Deals Lightning DMG equal to **70%** of Bailu's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **80%** of Bailu's ATK to a single enemy."
+        "Deals Lightning DMG equal to **80%** of Bailu's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **90%** of Bailu's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **100%** of Bailu's ATK to a single enemy."
       ]
     },
     {
@@ -132,7 +134,9 @@
         "Heals a single ally for **8.8%** of Bailu's Max HP plus **160**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
         "Heals a single ally for **9.3%** of Bailu's Max HP plus **195**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
         "Heals a single ally for **9.8%** of Bailu's Max HP plus **218**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **10.1%** of Bailu's Max HP plus **242**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
+        "Heals a single ally for **10.1%** of Bailu's Max HP plus **242**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
+        "Heals a single ally for **10.5%** of Bailu's Max HP plus **259**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
+        "Heals a single ally for **10.9%** of Bailu's Max HP plus **277**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
       ]
     },
     {
@@ -145,7 +149,9 @@
         "Heals all allies for **10.1%** of Bailu's Max HP plus **185**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
         "Heals all allies for **10.7%** of Bailu's Max HP plus **225**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
         "Heals all allies for **11.3%** of Bailu's Max HP plus **252**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **11.7%** of Bailu's Max HP plus **279**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack."
+        "Heals all allies for **11.7%** of Bailu's Max HP plus **279**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
+        "Heals all allies for **12.2%** of Bailu's Max HP plus **299**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
+        "Heals all allies for **12.6%** of Bailu's Max HP plus **320**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack."
       ]
     },
     {
@@ -158,7 +164,9 @@
         "After an ally with Invigoration is hit, restores the ally's HP for **4.0%** of Bailu's Max HP plus **74**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **14%** of Bailu's Max HP plus **246** HP. This effect can be triggered 1 time per battle.",
         "After an ally with Invigoration is hit, restores the ally's HP for **4.3%** of Bailu's Max HP plus **90**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **14%** of Bailu's Max HP plus **300** HP. This effect can be triggered 1 time per battle.",
         "After an ally with Invigoration is hit, restores the ally's HP for **4.5%** of Bailu's Max HP plus **101**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **15%** of Bailu's Max HP plus **336** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **4.7%** of Bailu's Max HP plus **112**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **16%** of Bailu's Max HP plus **372** HP. This effect can be triggered 1 time per battle."
+        "After an ally with Invigoration is hit, restores the ally's HP for **4.7%** of Bailu's Max HP plus **112**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **16%** of Bailu's Max HP plus **372** HP. This effect can be triggered 1 time per battle.",
+        "After an ally with Invigoration is hit, restores the ally's HP for **4.9%** of Bailu's Max HP plus **120**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **16%** of Bailu's Max HP plus **399** HP. This effect can be triggered 1 time per battle.",
+        "After an ally with Invigoration is hit, restores the ally's HP for **5.0%** of Bailu's Max HP plus **128**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **17%** of Bailu's Max HP plus **426** HP. This effect can be triggered 1 time per battle."
       ]
     },
     {

@@ -119,7 +119,9 @@
         "Deals Imaginary DMG equal to **50%** of Welt's ATK to a single enemy.",
         "Deals Imaginary DMG equal to **60%** of Welt's ATK to a single enemy.",
         "Deals Imaginary DMG equal to **70%** of Welt's ATK to a single enemy.",
-        "Deals Imaginary DMG equal to **80%** of Welt's ATK to a single enemy."
+        "Deals Imaginary DMG equal to **80%** of Welt's ATK to a single enemy.",
+        "Deals Imaginary DMG equal to **90%** of Welt's ATK to a single enemy.",
+        "Deals Imaginary DMG equal to **100%** of Welt's ATK to a single enemy."
       ]
     },
     {
@@ -132,7 +134,9 @@
         "Deals Imaginary DMG equal to **43%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **43%** of Welt's ATK to a random enemy. On hit, there is a **67%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
         "Deals Imaginary DMG equal to **47%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **47%** of Welt's ATK to a random enemy. On hit, there is a **68%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
         "Deals Imaginary DMG equal to **50%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **50%** of Welt's ATK to a random enemy. On hit, there is a **69%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
-        "Deals Imaginary DMG equal to **54%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **54%** of Welt's ATK to a random enemy. On hit, there is a **70%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s)."
+        "Deals Imaginary DMG equal to **54%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **54%** of Welt's ATK to a random enemy. On hit, there is a **70%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
+        "Deals Imaginary DMG equal to **59%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **59%** of Welt's ATK to a random enemy. On hit, there is a **71%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s).",
+        "Deals Imaginary DMG equal to **63%** of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to **63%** of Welt's ATK to a random enemy. On hit, there is a **73%** **base chance** to reduce the enemy's SPD by 10% for 2 turn(s)."
       ]
     },
     {
@@ -145,7 +149,9 @@
         "Deals Imaginary DMG equal to **102%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **34%** and SPD reduced by 10%.",
         "Deals Imaginary DMG equal to **108%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **34%** and SPD reduced by 10%.",
         "Deals Imaginary DMG equal to **114%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **35%** and SPD reduced by 10%.",
-        "Deals Imaginary DMG equal to **120%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **36%** and SPD reduced by 10%."
+        "Deals Imaginary DMG equal to **120%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **36%** and SPD reduced by 10%.",
+        "Deals Imaginary DMG equal to **127%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **37%** and SPD reduced by 10%.",
+        "Deals Imaginary DMG equal to **135%** of Welt's ATK to all enemies, with a 100% **base chance** for enemies hit by this ability to be Imprisoned for 1 turn.\nImprisoned enemies have their **actions delayed** by **38%** and SPD reduced by 10%."
       ]
     },
     {
@@ -158,7 +164,9 @@
         "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **36%** of his ATK to the enemy.",
         "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **39%** of his ATK to the enemy.",
         "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **42%** of his ATK to the enemy.",
-        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **45%** of his ATK to the enemy."
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **45%** of his ATK to the enemy.",
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **49%** of his ATK to the enemy.",
+        "When hitting an enemy that is already Slowed, Welt deals **Additional** Imaginary DMG equal to **53%** of his ATK to the enemy."
       ]
     },
     {

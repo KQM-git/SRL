@@ -119,7 +119,9 @@
         "Deals Fire DMG equal to **50%** of Hook's ATK to a single enemy.",
         "Deals Fire DMG equal to **60%** of Hook's ATK to a single enemy.",
         "Deals Fire DMG equal to **70%** of Hook's ATK to a single enemy.",
-        "Deals Fire DMG equal to **80%** of Hook's ATK to a single enemy."
+        "Deals Fire DMG equal to **80%** of Hook's ATK to a single enemy.",
+        "Deals Fire DMG equal to **90%** of Hook's ATK to a single enemy.",
+        "Deals Fire DMG equal to **100%** of Hook's ATK to a single enemy."
       ]
     },
     {
@@ -132,7 +134,9 @@
         "Deals Fire DMG equal to **144%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **30%** of Hook's ATK at the beginning of each turn.",
         "Deals Fire DMG equal to **156%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **33%** of Hook's ATK at the beginning of each turn.",
         "Deals Fire DMG equal to **168%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **35%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **180%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **39%** of Hook's ATK at the beginning of each turn."
+        "Deals Fire DMG equal to **180%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **39%** of Hook's ATK at the beginning of each turn.",
+        "Deals Fire DMG equal to **195%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **44%** of Hook's ATK at the beginning of each turn.",
+        "Deals Fire DMG equal to **210%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **50%** of Hook's ATK at the beginning of each turn."
       ]
     },
     {
@@ -145,7 +149,9 @@
         "Deals Fire DMG equal to **272%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
         "Deals Fire DMG equal to **288%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
         "Deals Fire DMG equal to **304%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **320%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it."
+        "Deals Fire DMG equal to **320%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
+        "Deals Fire DMG equal to **340%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
+        "Deals Fire DMG equal to **360%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it."
       ]
     },
     {
@@ -158,7 +164,9 @@
         "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **60%** of Hook's ATK and regenerates 5 extra Energy.",
         "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **65%** of Hook's ATK and regenerates 5 extra Energy.",
         "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **70%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **75%** of Hook's ATK and regenerates 5 extra Energy."
+        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **75%** of Hook's ATK and regenerates 5 extra Energy.",
+        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **81%** of Hook's ATK and regenerates 5 extra Energy.",
+        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **88%** of Hook's ATK and regenerates 5 extra Energy."
       ]
     },
     {
@@ -178,7 +186,9 @@
         "Deals Fire DMG equal to **168%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **48%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **30%** of Hook's ATK at the beginning of each turn.",
         "Deals Fire DMG equal to **182%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **52%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **33%** of Hook's ATK at the beginning of each turn.",
         "Deals Fire DMG equal to **196%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **56%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **35%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **210%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **60%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **39%** of Hook's ATK at the beginning of each turn."
+        "Deals Fire DMG equal to **210%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **60%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **39%** of Hook's ATK at the beginning of each turn.",
+        "Deals Fire DMG equal to **228%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **65%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **44%** of Hook's ATK at the beginning of each turn.",
+        "Deals Fire DMG equal to **245%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **70%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **50%** of Hook's ATK at the beginning of each turn."
       ]
     }
   ],
