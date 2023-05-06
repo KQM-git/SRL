@@ -25,49 +25,70 @@
       },
       "skills": [
         {
-          "name": "Bone-Shattering Cold",
-          "type": "Ability",
-          "desc": "Deals Ice DMG to a single target."
-        },
-        {
           "name": "Soulrend Coldstream",
           "type": "Ability",
-          "desc": "Deals massive Ice DMG to a single target."
-        },
-        {
-          "name": "Icy Rain of Annihilation",
-          "type": "Ability",
-          "desc": "Deals Ice DMG to all targets."
-        },
-        {
-          "name": "Heartless Annihilator Call",
-          "type": "Ability",
-          "desc": "Summons Lances of the Eternal Freeze."
-        },
-        {
-          "name": "Genesis Chord",
-          "type": "Ability",
-          "desc": "Deals Imaginary DMG to a single target, with a high chance of causing Imprisonment."
-        },
-        {
-          "name": "The Creation's Prelude",
-          "type": "Ability",
-          "desc": "Enters the Charge state. The next action uses \"Last Choir of Genesis\" on all targets."
+          "desc": "Deals massive Ice DMG to a single target.",
+          "phases": [
+            1
+          ],
+          "threat": true
         },
         {
           "name": "Last Choir of Genesis",
           "type": "Ability",
-          "desc": "Deals massive Imaginary DMG to all targets."
+          "desc": "Deals massive Imaginary DMG to all targets.",
+          "phases": [
+            2
+          ],
+          "threat": true
+        },
+        {
+          "name": "Bone-Shattering Cold",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target.",
+          "phases": [
+            1
+          ]
+        },
+        {
+          "name": "Heartless Annihilator Call",
+          "type": "Ability",
+          "desc": "Summons Lances of the Eternal Freeze.",
+          "phases": [
+            1
+          ]
+        },
+        {
+          "name": "Genesis Chord",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a single target, with a high chance of causing Imprisonment.",
+          "phases": [
+            2
+          ]
+        },
+        {
+          "name": "The Creation's Prelude",
+          "type": "Ability",
+          "desc": "Enters the Charge state. The next action uses \"Last Choir of Genesis\" on all targets.",
+          "phases": [
+            2
+          ]
         },
         {
           "name": "Harbinger of Annihilation",
           "type": "Ability",
-          "desc": "Locks Onto a single target. The next action uses \"Soulrend Coldstream.\""
+          "desc": "Locks Onto a single target. The next action uses \"Soulrend Coldstream.\"",
+          "phases": [
+            1
+          ]
         },
         {
           "name": "Creator's Resolve",
           "type": "Talent",
-          "desc": "After changing phases, slightly increases SPD and deals Imaginary DMG when attacking."
+          "desc": "After changing phases, slightly increases SPD and deals Imaginary DMG when attacking.",
+          "phases": [
+            1
+          ]
         }
       ]
     }

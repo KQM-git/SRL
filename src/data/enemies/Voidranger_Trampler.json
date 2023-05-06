@@ -22,6 +22,12 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "End of Bow",
+          "type": "Ability",
+          "desc": "Deals massive Quantum DMG to a single target, with a high chance to inflict Entanglement.",
+          "threat": true
+        },
+        {
           "name": "Unreal Projection",
           "type": "Ability",
           "desc": "Deals Quantum DMG to a single target."
@@ -40,11 +46,6 @@
           "name": "Spiral Arrow",
           "type": "Ability",
           "desc": "Locks on to a single target. Cast End of Bow to this target in the next action."
-        },
-        {
-          "name": "End of Bow",
-          "type": "Ability",
-          "desc": "Deals massive Quantum DMG to a single target, with a high chance to inflict Entanglement."
         }
       ]
     }

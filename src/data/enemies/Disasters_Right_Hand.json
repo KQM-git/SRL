@@ -26,17 +26,27 @@
         {
           "name": "Calamity Tear",
           "type": "Ability",
-          "desc": "Deals minor Imaginary DMG to all targets."
+          "desc": "Deals minor Imaginary DMG to all targets.",
+          "phases": [
+            1
+          ]
         },
         {
           "name": "Tough Cuts",
           "type": "Ability",
-          "desc": "Deals minor Imaginary DMG to all targets, with a small chance to inflict Imprisonment on the target."
+          "desc": "Deals minor Imaginary DMG to all targets, with a small chance to inflict Imprisonment on the target.",
+          "phases": [
+            1,
+            2
+          ]
         },
         {
           "name": "The Breakdown of Tyranny",
           "type": "Ability",
-          "desc": "Deals Imaginary DMG to all targets, with a small chance to cause Imprisonment."
+          "desc": "Deals Imaginary DMG to all targets, with a small chance to cause Imprisonment.",
+          "phases": [
+            2
+          ]
         }
       ]
     }

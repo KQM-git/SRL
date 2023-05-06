@@ -3,7 +3,7 @@
   "faction": "Jarilo-VI/Svarog",
   "variants": [
     {
-      "source": "Story Svarog",
+      "source": "Summon (Story)",
       "attack": 18,
       "def": 210,
       "hp": 325.5,
@@ -25,9 +25,10 @@
       },
       "skills": [
         {
-          "name": "Oppressive Embrace",
-          "type": "Talent",
-          "desc": "Deals Imprisoned targets Physical DMG equal to a percentage of their Max HP."
+          "name": "Controlled Blasting",
+          "type": "Ability",
+          "desc": "The Auxiliary Robot Arm explodes, dealing massive Physical DMG to a single target.",
+          "threat": true
         },
         {
           "name": "Oppressive Embrace",
@@ -40,11 +41,6 @@
           "desc": "Deals Imprisoned targets Physical DMG equal to a percentage of their Max HP."
         },
         {
-          "name": "Controlled Blasting",
-          "type": "Ability",
-          "desc": "The Auxiliary Robot Arm explodes, dealing massive Physical DMG to a single target."
-        },
-        {
           "name": "Overload Warning",
           "type": "Ability",
           "desc": "Auxiliary Robot Arm Unit enters Overload mode and immediately removes Imprisonment from friendly units. When entering this mode, Auxiliary Robot Arm Unit will cast Controlled Blasting on its next action."
@@ -52,7 +48,7 @@
       ]
     },
     {
-      "source": "Simulated Universe W4 Svarog",
+      "source": "Summon (Complete)",
       "attack": 18,
       "def": 210,
       "hp": 162.75,
@@ -76,9 +72,10 @@
       },
       "skills": [
         {
-          "name": "Oppressive Embrace",
-          "type": "Talent",
-          "desc": "Deals Imprisoned targets Physical DMG equal to a percentage of their Max HP."
+          "name": "Controlled Blasting",
+          "type": "Ability",
+          "desc": "The Auxiliary Robot Arm Unit explodes, dealing massive Physical DMG to a single target.",
+          "threat": true
         },
         {
           "name": "Oppressive Embrace",
@@ -89,11 +86,6 @@
           "name": "Disabling Field",
           "type": "Ability",
           "desc": "Deals Physical DMG equal to a percentage of their Max HP to Imprisoned targets."
-        },
-        {
-          "name": "Controlled Blasting",
-          "type": "Ability",
-          "desc": "The Auxiliary Robot Arm Unit explodes, dealing massive Physical DMG to a single target."
         },
         {
           "name": "Overload Warning",

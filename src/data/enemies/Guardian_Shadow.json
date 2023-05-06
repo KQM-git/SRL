@@ -22,6 +22,12 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "Thunderstorm Condemnation",
+          "type": "Ability",
+          "desc": "Deals successive minor Lightning DMG to a random target, with a chance to inflict Shock.",
+          "threat": true
+        },
+        {
           "name": "Lightning Recollection",
           "type": "Ability",
           "desc": "Deals Lightning DMG to a single target."
@@ -45,11 +51,6 @@
           "name": "Silent Ban",
           "type": "Ability",
           "desc": "Your team is imposed with a ban on using Skill. Should anyone do so, they immediately receive 1 attack."
-        },
-        {
-          "name": "Thunderstorm Condemnation",
-          "type": "Ability",
-          "desc": "Deals successive minor Lightning DMG to a random target, with a chance to inflict Shock."
         },
         {
           "name": "Inevitable Punishment",

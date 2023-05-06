@@ -22,6 +22,12 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "Enchainment",
+          "type": "Ability",
+          "desc": "Deals massive Imaginary DMG to a single target, with a high chance of inflicting Imprisonment.",
+          "threat": true
+        },
+        {
           "name": "Farewell Etiquette",
           "type": "Talent",
           "desc": "The Sanction Rate level increases when your team uses Skills or Ultimates. When the Sanction Rate reaches its level cap, enters Sanction mode and summons Entranced Ingenium: Illumination Dragonfish."
@@ -35,11 +41,6 @@
           "name": "Restraint",
           "type": "Ability",
           "desc": "Deals Imaginary DMG to a single target."
-        },
-        {
-          "name": "Enchainment",
-          "type": "Ability",
-          "desc": "Deals massive Imaginary DMG to a single target, with a high chance of inflicting Imprisonment."
         }
       ]
     }

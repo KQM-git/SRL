@@ -22,6 +22,12 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "Purge Order",
+          "type": "Ability",
+          "desc": "Deals Massive Physical DMG to all targets.",
+          "threat": true
+        },
+        {
           "name": "Detonation Order",
           "type": "Ability",
           "desc": "Summons Automaton Spider."
@@ -35,11 +41,6 @@
           "name": "Overcombust Order",
           "type": "Ability",
           "desc": "Enters the Charge state. The next action uses \"Purge Order\" on all targets."
-        },
-        {
-          "name": "Purge Order",
-          "type": "Ability",
-          "desc": "Deals Massive Physical DMG to all targets."
         },
         {
           "name": "Destruction Order",

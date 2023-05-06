@@ -25,6 +25,12 @@
       },
       "skills": [
         {
+          "name": "Punishment of Endless Winter",
+          "type": "Ability",
+          "desc": "Deals massive Ice DMG to all targets.",
+          "threat": true
+        },
+        {
           "name": "Chill of Bone-Piercing Coagulation",
           "type": "Ability",
           "desc": "Deals Ice DMG to a single target."
@@ -33,11 +39,6 @@
           "name": "Omen of Everlasting Freeze",
           "type": "Ability",
           "desc": "Summons Ice Edges."
-        },
-        {
-          "name": "Punishment of Endless Winter",
-          "type": "Ability",
-          "desc": "Deals massive Ice DMG to all targets."
         },
         {
           "name": "Hoarfrost of Eternal Isolation",

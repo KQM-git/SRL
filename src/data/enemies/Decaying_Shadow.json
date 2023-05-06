@@ -22,6 +22,12 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "Liberation of the Golden Age",
+          "type": "Ability",
+          "desc": "Deals successive minor Imaginary DMG to a random target. The number of attacks is equal to the \"Gauge Recollection\" stacks remaining. If there is no \"Gauge Recollection,\" this ability will fail.",
+          "threat": true
+        },
+        {
           "name": "Fleeting Gilded Spikes",
           "type": "Ability",
           "desc": "Deals Imaginary DMG to a single target."
@@ -35,11 +41,6 @@
           "name": "Binding of the Golden Age",
           "type": "Ability",
           "desc": "Enters the Charge state and gains 9 Gauge Recollection stacks. Casts Liberation of the Golden Age in the next action. Every time this unit is attacked, lose 1 stack of Gauge Recollection."
-        },
-        {
-          "name": "Liberation of the Golden Age",
-          "type": "Ability",
-          "desc": "Deals successive minor Imaginary DMG to a random target. The number of attacks is equal to the \"Gauge Recollection\" stacks remaining. If there is no \"Gauge Recollection,\" this ability will fail."
         },
         {
           "name": "Fleeting Veil",

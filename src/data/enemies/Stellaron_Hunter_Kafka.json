@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Spirit Whisper",
+          "type": "Ability",
+          "desc": "Has a high chance of Dominating a single target and Advancing their action forward to immediately attack a random ally of theirs.",
+          "threat": true
+        },
+        {
           "name": "Midnight Tumult",
           "type": "Ability",
           "desc": "Deals minor Lightning DMG to a single target, with a high chance to Shock the target."
@@ -37,11 +43,6 @@
           "name": "Silent and Sharp Mockery",
           "type": "Ability",
           "desc": "Deals minor Lightning DMG to all targets."
-        },
-        {
-          "name": "Spirit Whisper",
-          "type": "Ability",
-          "desc": "Has a high chance of Dominating a single target and Advancing their action forward to immediately attack a random ally of theirs."
         },
         {
           "name": "Tremble",

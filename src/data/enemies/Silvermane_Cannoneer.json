@@ -30,11 +30,6 @@
           "name": "Covering Support",
           "type": "Ability",
           "desc": "Provides support to a friendly unit. When this unit attacks, it performs a follow-up attack that deals minor Physical DMG to the attacked target and units adjacent to the target."
-        },
-        {
-          "name": "Covering Support",
-          "type": "Talent",
-          "desc": "Provides support to a friendly unit. When this unit attacks, it performs a follow-up attack that deals minor Physical DMG to the attacked target and units adjacent to the target."
         }
       ]
     }

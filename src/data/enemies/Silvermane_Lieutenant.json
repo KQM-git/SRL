@@ -22,14 +22,15 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "Pierce",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to a single target.",
+          "threat": true
+        },
+        {
           "name": "Assault",
           "type": "Ability",
           "desc": "Deals Physical DMG to a single target."
-        },
-        {
-          "name": "Pierce",
-          "type": "Ability",
-          "desc": "Deals massive Physical DMG to a single target."
         },
         {
           "name": "Shield Reflect",

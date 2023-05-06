@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Dancing Cinders",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to all targets. Targets suffering from Burn are dealt an extra Fire DMG and have Burn removed.",
+          "threat": true
+        },
+        {
           "name": "Crimson Blade",
           "type": "Ability",
           "desc": "Deals Fire DMG to a single target, with a high chance to Burn the target."
@@ -42,11 +48,6 @@
           "name": "High-Temperature Operation",
           "type": "Ability",
           "desc": "Slightly increases ATK and greatly increases SPD. This buff is dispelled upon Weakness Break."
-        },
-        {
-          "name": "Dancing Cinders",
-          "type": "Ability",
-          "desc": "Deals Fire DMG to all targets. Targets suffering from Burn are dealt an extra Fire DMG and have Burn removed."
         }
       ]
     }

@@ -22,6 +22,12 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "Self-Exploding Module",
+          "type": "Ability",
+          "desc": "Self-destructs, dealing Fire DMG to a single target and units adjacent to the target.",
+          "threat": true
+        },
+        {
           "name": "Ram",
           "type": "Ability",
           "desc": "Deals minor Physical DMG to a single target."
@@ -30,11 +36,6 @@
           "name": "Timed Module",
           "type": "Ability",
           "desc": "The next action uses Self-Exploding Module."
-        },
-        {
-          "name": "Self-Exploding Module",
-          "type": "Ability",
-          "desc": "Self-destructs, dealing Fire DMG to a single target and units adjacent to the target."
         },
         {
           "name": "Chains of Destruction",

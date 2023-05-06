@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Everwinter Rain",
+          "type": "Ability",
+          "desc": "This ability is only available while in the Freezing Point state. Deals minor Ice DMG to all targets, with a chance to Freeze the targets.",
+          "threat": true
+        },
+        {
           "name": "Chilling Lament",
           "type": "Ability",
           "desc": "Deals minor Ice DMG to a single target. Deals extra Ice DMG to the target if the target is currently Frozen and this unit is in the Freezing Point state."
@@ -32,16 +38,6 @@
           "name": "Frosty Absorption",
           "type": "Ability",
           "desc": "Enters the Freezing Point state. Everwinter Rain can be used in subsequent attacks."
-        },
-        {
-          "name": "Everwinter Rain",
-          "type": "Ability",
-          "desc": "This ability is only available while in the Freezing Point state. Deals minor Ice DMG to all targets, with a chance to Freeze the targets."
-        },
-        {
-          "name": "Chilling Lament",
-          "type": "Ability",
-          "desc": "Deals Ice DMG to a single target. There is a chance to Freeze the target if the user is in the Freezing Point state."
         }
       ]
     }

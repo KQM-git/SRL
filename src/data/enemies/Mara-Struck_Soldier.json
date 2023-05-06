@@ -32,11 +32,6 @@
           "name": "Rejuvenate",
           "type": "Talent",
           "desc": "Upon receiving a killing blow, restores a certain amount of HP. This effect does not have a time limit but can be dispelled. This effect can only trigger 1 time per battle."
-        },
-        {
-          "name": "Callous Tailwind",
-          "type": "Ability",
-          "desc": "Deals minor Wind DMG to a single target, with a high chance to inflict Wind Shear."
         }
       ]
     }

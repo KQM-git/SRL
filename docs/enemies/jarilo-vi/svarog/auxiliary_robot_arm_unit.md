@@ -16,7 +16,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 ## Variants
 
 <Tabs>
-<TabItem value='0' label='Story Svarog'>
+<TabItem value='0' label='Summon (Story)'>
 
 <h2>Stats</h2>
 
@@ -26,7 +26,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Simulated Universe W4 Svarog'>
+<TabItem value='1' label='Summon (Complete)'>
 
 <h2>Stats</h2>
 

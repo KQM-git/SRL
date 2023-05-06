@@ -24,7 +24,8 @@
         {
           "name": "Felling Order",
           "type": "Ability",
-          "desc": "Deals massive Physical DMG to a single target, with a chance to Bleed the hit target. If the hit target is not Shielded, then a random ally of theirs suffers \"Dismantle\" for 1 time."
+          "desc": "Deals massive Physical DMG to a single target, with a chance to Bleed the hit target. If the hit target is not Shielded, then a random ally of theirs suffers \"Dismantle\" for 1 time.",
+          "threat": true
         },
         {
           "name": "Lock On Target",

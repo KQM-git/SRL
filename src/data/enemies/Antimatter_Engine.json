@@ -23,39 +23,54 @@
       },
       "skills": [
         {
+          "name": "Impending Doom",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to all targets.",
+          "phases": [
+            2
+          ],
+          "threat": true
+        },
+        {
           "name": "Void Fission",
           "type": "Ability",
-          "desc": "Enhances Disaster's Right Hand, restoring its Toughness."
+          "desc": "Enhances Disaster's Right Hand, restoring its Toughness.",
+          "phases": [
+            1
+          ]
         },
         {
           "name": "Calamity Strike",
           "type": "Ability",
-          "desc": "Enhances Dawn's Left Hand, restoring its Toughness."
+          "desc": "Enhances Dawn's Left Hand, restoring its Toughness.",
+          "phases": [
+            1
+          ]
         },
         {
           "name": "Engine Boost",
           "type": "Ability",
-          "desc": "Grants the Enhanced status to all friendly units except the user, restoring their Toughness."
+          "desc": "Grants the Enhanced status to all friendly units except the user, restoring their Toughness.",
+          "phases": [
+            2
+          ]
         },
         {
           "name": "Total Annihilation",
           "type": "Ability",
-          "desc": "Deals Imaginary DMG to a single target."
+          "desc": "Deals Imaginary DMG to a single target.",
+          "phases": [
+            1,
+            2
+          ]
         },
         {
           "name": "Cataclysm Precursor",
           "type": "Ability",
-          "desc": "Enters the Charge state. The next action uses \"Impending Doom\" on all targets."
-        },
-        {
-          "name": "Impending Doom",
-          "type": "Ability",
-          "desc": "Deals Quantum DMG to all targets."
-        },
-        {
-          "name": "Engine Slit",
-          "type": "Ability",
-          "desc": "The Antimatter Engine will change its Weakness Type every time it recovers from Weakness Break."
+          "desc": "Enters the Charge state. The next action uses \"Impending Doom\" on all targets.",
+          "phases": [
+            2
+          ]
         }
       ]
     }

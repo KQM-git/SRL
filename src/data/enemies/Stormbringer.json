@@ -22,6 +22,12 @@
       "debuffRES": {},
       "skills": [
         {
+          "name": "Windfall Storm",
+          "type": "Ability",
+          "desc": "Deals Wind DMG to targets afflicted with Wind Shear. This ability fails if no one on the target team suffers Wind Shear.",
+          "threat": true
+        },
+        {
           "name": "Watchful Meteor",
           "type": "Ability",
           "desc": "Deals Wind DMG to a single target and has a high chance to inflict Wind Shear."
@@ -37,19 +43,9 @@
           "desc": "Enters the Charge state and locks on to all targets currently suffering Wind Shear. Cast Windfall Storm in the next action."
         },
         {
-          "name": "Windfall Storm",
-          "type": "Ability",
-          "desc": "Deals Wind DMG to targets afflicted with Wind Shear. This ability fails if no one on the target team suffers Wind Shear."
-        },
-        {
           "name": "Storm Cyclone",
           "type": "Talent",
           "desc": "Slightly increases ATK after attacking a target afflicted with Wind Shear. This buff is dispelled upon Weakness Break."
-        },
-        {
-          "name": "Windfall Storm",
-          "type": "Ability",
-          "desc": "Deals Wind DMG to targets afflicted with Wind Shear. This ability fails if no one on the target team suffers Wind Shear."
         }
       ]
     }

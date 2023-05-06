@@ -3,6 +3,7 @@
   "faction": "Jarilo-VI",
   "variants": [
     {
+      "source": "Svarog (Story)",
       "attack": 18,
       "def": 210,
       "hp": 1488,
@@ -24,6 +25,12 @@
       },
       "skills": [
         {
+          "name": "Shrewd Bombing",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to all targets, with a high chance to reduce their DEF.",
+          "threat": true
+        },
+        {
           "name": "Banishing Punch",
           "type": "Ability",
           "desc": "Deals Physical DMG to a single target."
@@ -34,29 +41,99 @@
           "desc": "Deals Physical DMG to a single target and delays their action."
         },
         {
-          "name": "Oppressive Embrace",
+          "name": "Boost Deployment",
           "type": "Ability",
-          "desc": "Imprisons a single target, preventing them from taking action or being targeted. The Imprisonment is dispelled if the Auxiliary Robot Arm Unit suffers Weakness Break."
+          "desc": "Summons Auxiliary Robot Arm Unit."
+        }
+      ]
+    },
+    {
+      "name": "Svarog (Complete)",
+      "source": "Svarog (Complete)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1488,
+      "speed": 120,
+      "toughness": 360,
+      "weaknesses": [
+        "Fire",
+        "Lightning",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 0.75,
+        "Imprisonment": 0.75,
+        "Entanglement": 0.75
+      },
+      "skills": [
+        {
+          "name": "Oversaturated Bombardment",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to all targets, with a high chance to reduce their DEF. This debuff can stack.",
+          "phases": [
+            2,
+            3
+          ],
+          "threat": true
         },
         {
-          "name": "Shrewd Bombing",
+          "name": "Banishing Punch",
           "type": "Ability",
-          "desc": "Deals massive Physical DMG to all targets, with a high chance to reduce their DEF."
+          "desc": "Deals Physical DMG to a single target.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
         },
         {
-          "name": "Controlled Blasting",
+          "name": "Burning Beam",
           "type": "Ability",
-          "desc": "The Auxiliary Robot Arm Unit explodes, dealing massive Physical DMG to a single target."
-        },
-        {
-          "name": "Overload Warning",
-          "type": "Ability",
-          "desc": "Auxiliary Robot Arm Unit enters Overload Countdown, causing the next action to cast Controlled Blasting."
+          "desc": "Deals Physical DMG to a single target and delays their action.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
         },
         {
           "name": "Boost Deployment",
           "type": "Ability",
-          "desc": "Summons Auxiliary Robot Arm Unit."
+          "desc": "Summons Auxiliary Robot Arm Unit.",
+          "phases": [
+            3
+          ]
+        },
+        {
+          "name": "Power Amplification",
+          "type": "Ability",
+          "desc": "Slightly increases the DMG dealt by all friendly units. This DMG boosting effect is stackable.",
+          "phases": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Emergency Support",
+          "type": "Ability",
+          "desc": "Summons Automaton Beetle and Automaton Hound at random.",
+          "phases": [
+            1
+          ]
+        },
+        {
+          "name": "Tactical Support",
+          "type": "Ability",
+          "desc": "Summons Automaton Direwolf.",
+          "phases": [
+            2
+          ]
         }
       ]
     }

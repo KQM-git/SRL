@@ -30,10 +30,6 @@
           "name": "Vortex Leap",
           "type": "Ability",
           "desc": "Deals minor Imaginary DMG to a single target and units adjacent to the target."
-        },
-        {
-          "type": "Talent",
-          "desc": "Increases SPD after attacking."
         }
       ]
     }

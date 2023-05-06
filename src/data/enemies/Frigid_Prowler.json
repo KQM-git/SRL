@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Ice Wheel Crusher",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target, with a high chance to Deep Freeze the target.",
+          "threat": true
+        },
+        {
           "name": "Ice Wheel Fist",
           "type": "Ability",
           "desc": "Deals Ice DMG to a single target."
@@ -42,16 +48,6 @@
           "name": "Devour Otherling",
           "type": "Ability",
           "desc": "Devours 1 Everwinter Shadewalker to increase ATK and Locks Onto a single target. If there are no Everwinter Shadewalkers on the field, DEF is decreased."
-        },
-        {
-          "name": "Devour Otherling",
-          "type": "Ability",
-          "desc": "Devours 1 Everwinter Shadewalker to increase ATK and Locks Onto a single target. If there are no Everwinter Shadewalkers on the field, DEF is decreased."
-        },
-        {
-          "name": "Ice Wheel Crusher",
-          "type": "Ability",
-          "desc": "Deals Ice DMG to a single target, with a high chance to Deep Freeze the target."
         }
       ]
     }

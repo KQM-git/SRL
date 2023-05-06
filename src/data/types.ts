@@ -102,4 +102,6 @@ export interface EnemySkill {
     name: string
     type: string
     desc: string
+    phases?: number[]
+    threat?: true
 }

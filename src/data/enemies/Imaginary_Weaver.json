@@ -35,11 +35,6 @@
           "name": "Reverberating Carol",
           "type": "Ability",
           "desc": "Deals Imaginary DMG to a single target and units adjacent to the target, and enters a Defensive Position. In the next turn, use Carolburst and massively increase the DMG dealt."
-        },
-        {
-          "name": "Imaginary Armor",
-          "type": "Talent",
-          "desc": "Receives reduced DMG from non-Weakness Type attacks."
         }
       ]
     }

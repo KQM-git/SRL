@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Thudding Calamity",
+          "type": "Ability",
+          "desc": "Deals massive Lightning DMG to a single target.",
+          "threat": true
+        },
+        {
           "name": "Thunder-Shock",
           "type": "Ability",
           "desc": "Deals Lightning DMG to a single target."
@@ -32,11 +38,6 @@
           "name": "Punishing Bolts",
           "type": "Ability",
           "desc": "Deals Lightning DMG to a single target and units adjacent to the target."
-        },
-        {
-          "name": "Thudding Calamity",
-          "type": "Ability",
-          "desc": "Deals massive Lightning DMG to a single target."
         },
         {
           "name": "Mara-Summon",

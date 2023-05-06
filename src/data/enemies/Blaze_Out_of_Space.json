@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Rain of Purifying Flames",
+          "type": "Ability",
+          "desc": "Deals successive minor Fire DMG to a random single target, with a high chance to inflict Enkindle.",
+          "threat": true
+        },
+        {
           "name": "Bellowing Inferno",
           "type": "Ability",
           "desc": "Deals minor Fire DMG to a single target and has a high chance to inflict Enkindle."
@@ -32,11 +38,6 @@
           "name": "Blazing Absorption",
           "type": "Ability",
           "desc": "Enters the Spontaneous Combustion state. Rain of Purifying Flames can be used in subsequent attacks."
-        },
-        {
-          "name": "Rain of Purifying Flames",
-          "type": "Ability",
-          "desc": "Deals successive minor Fire DMG to a random single target, with a high chance to inflict Enkindle."
         },
         {
           "name": "Molten Fusion",

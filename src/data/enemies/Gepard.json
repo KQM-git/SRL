@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Frigid Waterfall",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to all targets.",
+          "threat": true
+        },
+        {
           "name": "Fist of Conviction",
           "type": "Ability",
           "desc": "Deals minor Ice DMG to a single target."
@@ -37,11 +43,6 @@
           "name": "Garrison Aura Field",
           "type": "Ability",
           "desc": "Grants a Barrier to another friendly unit. The Barrier nullifies all DMG received except for DoT until after the friendly unit is attacked."
-        },
-        {
-          "name": "Frigid Waterfall",
-          "type": "Ability",
-          "desc": "Deals Ice DMG to all targets."
         },
         {
           "name": "Siege Support",

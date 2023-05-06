@@ -24,6 +24,12 @@
       },
       "skills": [
         {
+          "name": "Suppressive Fire",
+          "type": "Ability",
+          "desc": "Deals Wind DMG to a single target and delays their action.",
+          "threat": true
+        },
+        {
           "name": "Windrider Bullet",
           "type": "Ability",
           "desc": "Deals Wind DMG to a single target."
@@ -37,11 +43,6 @@
           "name": "Coordinated Reinforcement",
           "type": "Ability",
           "desc": "Summons Silvermane Soldier or Silvermane Gunner"
-        },
-        {
-          "name": "Suppressive Fire",
-          "type": "Ability",
-          "desc": "Deals Wind DMG to a single target and delays their action."
         }
       ]
     }
