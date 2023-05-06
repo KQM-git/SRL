@@ -7,7 +7,7 @@
       "attack": 18,
       "def": 210,
       "hp": 325.5,
-      "speed": 120,
+      "speed": 100,
       "toughness": 90,
       "weaknesses": [
         "Lightning",

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1012041
+sidebar_position: 1012040
 description: |-
   A mechanical device controlled by Svarog.
   When active on battlefield for certain turns, it will ruthlessly attack its enemies.

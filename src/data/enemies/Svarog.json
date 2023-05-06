@@ -52,8 +52,8 @@
       "source": "Svarog (Complete)",
       "attack": 18,
       "def": 210,
-      "hp": 1488,
-      "speed": 120,
+      "hp": 697.5,
+      "speed": 144,
       "toughness": 360,
       "weaknesses": [
         "Fire",
