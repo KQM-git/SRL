@@ -1,13 +1,11 @@
 ---
-sidebar_position: 9
-description: |-
-  An automaton pieced together with Old World technology. It has been reinforced with durable armor, so it can charge forward and protect the Silvermane Guards.
-  In combat, Automaton Grizzlys will summon Automaton Spiders and unleash a powerful charged attack.
+sidebar_position: 1002011
+description: A giant lance of ice created by the guardian. It can unleash a piercing frost wind that sweeps across the field.
 ---
 
-import enemy from '@site/src/data/enemies/Automaton_Grizzly.json'
+import enemy from '@site/src/data/enemies/Ice_Edge.json'
 
-# Automaton Grizzly
+# Ice Edge
 <blockquote>{frontMatter.description}</blockquote>
 
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
@@ -16,7 +14,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 ## Variants
 
 <Tabs>
-<TabItem value='0' label='Automaton Grizzly'>
+<TabItem value='0' label='Cocolia (Story) Summon #1'>
 
 <h2>Stats</h2>
 
@@ -26,7 +24,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Automaton Grizzly (Bug)'>
+<TabItem value='1' label='Cocolia (Story) Summon #2'>
 
 <h2>Stats</h2>
 
@@ -36,7 +34,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={1} />
 </TabItem>
-<TabItem value='2' label='Automaton Grizzly (Complete)'>
+<TabItem value='2' label='Cocolia (Complete) Summon #1'>
 
 <h2>Stats</h2>
 
@@ -45,5 +43,15 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 <h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={2} />
+</TabItem>
+<TabItem value='3' label='Cocolia (Complete) Summon #2'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={3} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={3} />
 </TabItem>
 </Tabs>

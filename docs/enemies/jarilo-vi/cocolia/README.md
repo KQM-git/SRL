@@ -13,10 +13,33 @@ import enemy from '@site/src/data/enemies/Cocolia.json'
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
 import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
-## Stats
+## Variants
+
+<Tabs>
+<TabItem value='0' label='Cocolia (Story)'>
+
+<h2>Stats</h2>
 
 <EnemyMisc enemy={enemy} variant={0} />
 
-## Skills
+<h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={0} />
+</TabItem>
+<TabItem value='1' label='Cocolia (Complete)'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={1} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={1} />
+</TabItem>
+</Tabs>
+
+## Children
+
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />

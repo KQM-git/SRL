@@ -3,6 +3,7 @@
   "faction": "Fragmentum Monsters",
   "variants": [
     {
+      "source": "Searing Prowler",
       "attack": 18,
       "def": 210,
       "hp": 1023,
@@ -48,6 +49,68 @@
           "name": "High-Temperature Operation",
           "type": "Ability",
           "desc": "Slightly increases ATK and greatly increases SPD. This buff is dispelled upon Weakness Break."
+        }
+      ]
+    },
+    {
+      "name": "Searing Prowler (Bug)",
+      "source": "Searing Prowler (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1302,
+      "speed": 120,
+      "toughness": 360,
+      "weaknesses": [
+        "Ice",
+        "Lightning",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.4,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {
+        "Burn": 1
+      },
+      "skills": [
+        {
+          "name": "Dancing Cinders",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to all targets. Targets suffering from Burn are dealt an extra Fire DMG. And at the same time, there's a chance to Burn any targets that are attacked.",
+          "threat": true
+        },
+        {
+          "name": "Scorching Burst",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to all targets. Burned target will explode, subsequently dealing Fire DMG to the Burned target and units adjacent to the target. The Burn status will be removed afterward.",
+          "threat": true
+        },
+        {
+          "name": "Crimson Blade",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to a single target, with a chance to Burn the target."
+        },
+        {
+          "name": "Combustion Slash",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to a single target and units adjacent to the target. This attack prioritizes targets afflicted with Burn."
+        },
+        {
+          "name": "High-Temperature Operation",
+          "type": "Ability",
+          "desc": "Slightly increases ATK and greatly increases SPD. This buff is dispelled upon Weakness Break."
+        },
+        {
+          "name": "Augury of Fireburst",
+          "type": "Ability",
+          "desc": "The next action uses Scorching Burst."
+        },
+        {
+          "name": "Melt",
+          "type": "Talent",
+          "desc": "After attacking a Burned target, receives a DMG increase."
         }
       ]
     }

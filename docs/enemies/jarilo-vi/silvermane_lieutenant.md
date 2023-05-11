@@ -26,7 +26,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Silvermane Lieutenant (Complete)'>
+<TabItem value='1' label='Silvermane Lieutenant (Bug)'>
 
 <h2>Stats</h2>
 
@@ -35,5 +35,15 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 <h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={1} />
+</TabItem>
+<TabItem value='2' label='Silvermane Lieutenant (Complete)'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={2} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={2} />
 </TabItem>
 </Tabs>

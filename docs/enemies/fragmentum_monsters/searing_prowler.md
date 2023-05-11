@@ -13,10 +13,27 @@ import enemy from '@site/src/data/enemies/Searing_Prowler.json'
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
 import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
-## Stats
+## Variants
+
+<Tabs>
+<TabItem value='0' label='Searing Prowler'>
+
+<h2>Stats</h2>
 
 <EnemyMisc enemy={enemy} variant={0} />
 
-## Skills
+<h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={0} />
+</TabItem>
+<TabItem value='1' label='Searing Prowler (Bug)'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={1} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={1} />
+</TabItem>
+</Tabs>

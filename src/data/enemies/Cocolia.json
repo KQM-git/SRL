@@ -3,6 +3,7 @@
   "faction": "Jarilo-VI",
   "variants": [
     {
+      "source": "Cocolia (Story)",
       "attack": 18,
       "def": 210,
       "hp": 1627.5,
@@ -49,6 +50,100 @@
           "name": "Wrath of Winterland Saints",
           "type": "Ability",
           "desc": "Enters the Charge state. The next action casts \"Punishment of Endless Winter\" on all targets."
+        }
+      ]
+    },
+    {
+      "name": "Cocolia (Complete)",
+      "source": "Cocolia (Complete)",
+      "attack": 18,
+      "def": 210,
+      "hp": 744,
+      "speed": 144,
+      "toughness": 360,
+      "weaknesses": [
+        "Fire",
+        "Lightning",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.4,
+        "Ice": 0.6,
+        "Wind": 0.4,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 1,
+        "Imprisonment": 1
+      },
+      "skills": [
+        {
+          "name": "Punishment of Endless Winter",
+          "type": "Ability",
+          "desc": "Deals massive Ice DMG to all targets.",
+          "phases": [
+            2,
+            3
+          ],
+          "threat": true
+        },
+        {
+          "name": "Chill of Bone-Piercing Coagulation",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Omen of Everlasting Freeze",
+          "type": "Ability",
+          "desc": "Summons Ice Edges.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Hoarfrost of Eternal Isolation",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target, with a high chance to Freeze the target.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Wrath of Winterland Saints",
+          "type": "Ability",
+          "desc": "Enters the Charge state. The next action casts \"Punishment of Endless Winter\" on all targets.",
+          "phases": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Reverberating Ice",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to Frozen targets and units adjacent to the target. This also removes the target's Frozen state. If the adjacent units are frozen, then this ability is used again on the target.",
+          "phases": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Intensifying Cold",
+          "type": "Talent",
+          "desc": "The unit and all summoned objects gain slightly increased DMG for each Frozen target on the enemy team. This DMG boosting effect is stackable.",
+          "phases": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     }

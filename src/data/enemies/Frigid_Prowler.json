@@ -3,6 +3,7 @@
   "faction": "Fragmentum Monsters",
   "variants": [
     {
+      "source": "Frigid Prowler",
       "attack": 18,
       "def": 210,
       "hp": 1116,
@@ -48,6 +49,57 @@
           "name": "Devour Otherling",
           "type": "Ability",
           "desc": "Devours 1 Everwinter Shadewalker to increase ATK and Locks Onto a single target. If there are no Everwinter Shadewalkers on the field, DEF is decreased."
+        }
+      ]
+    },
+    {
+      "name": "Frigid Prowler (Bug)",
+      "source": "Frigid Prowler (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 100,
+      "toughness": 360,
+      "weaknesses": [
+        "Fire",
+        "Lightning",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.4,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 1
+      },
+      "skills": [
+        {
+          "name": "Blazing Freeze",
+          "type": "Ability",
+          "desc": "Deals massive Ice DMG to all targets, with a high chance to Deep Freeze the targets.",
+          "threat": true
+        },
+        {
+          "name": "Ice Wheel Fist",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target."
+        },
+        {
+          "name": "Summon Otherling",
+          "type": "Ability",
+          "desc": "Summons Everwinter Shadewalker."
+        },
+        {
+          "name": "Frozen Storm",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to all targets, with a high chance to Deep Freeze the targets."
+        },
+        {
+          "name": "Devour Otherling",
+          "type": "Ability",
+          "desc": "Devouring Everwinter Shadewalkers increases ATK and unleashes Blazing Freeze in the next action. The more Everwinter Shadewalkers devoured, the more times Blazing Freeze will be used in the next action. If there are no Everwinter Shadewalkers on the field, DEF is decreased."
         }
       ]
     }

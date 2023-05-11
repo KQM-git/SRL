@@ -1,13 +1,11 @@
 ---
-sidebar_position: 15
-description: |-
-  A machine unit prowling in the Fragmentum. Undoubtedly, this monstrosity is not a human creation, but one imitated by the Fragmentum's twisted power.
-  Frigid Prowlers will attract Everwinter Shadewalkers and reduce its enemy's SPD and Ice RES.
+sidebar_position: 1002013
+description: Cocolia's summoned giant lance of ice. It's surrounded by an icy cold current that can tear through flesh like a blade.
 ---
 
-import enemy from '@site/src/data/enemies/Frigid_Prowler.json'
+import enemy from '@site/src/data/enemies/Lance_of_the_Eternal_Freeze.json'
 
-# Frigid Prowler
+# Lance of the Eternal Freeze
 <blockquote>{frontMatter.description}</blockquote>
 
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
@@ -16,7 +14,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 ## Variants
 
 <Tabs>
-<TabItem value='0' label='Frigid Prowler'>
+<TabItem value='0' label='Lance (1)'>
 
 <h2>Stats</h2>
 
@@ -26,7 +24,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Frigid Prowler (Bug)'>
+<TabItem value='1' label='Lance (2)'>
 
 <h2>Stats</h2>
 

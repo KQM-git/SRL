@@ -3,6 +3,7 @@
   "faction": "Fragmentum Monsters",
   "variants": [
     {
+      "source": "Decaying Shadow",
       "attack": 18,
       "def": 210,
       "hp": 930,
@@ -46,6 +47,54 @@
           "name": "Fleeting Veil",
           "type": "Talent",
           "desc": "Slightly reduces DMG received from Basic ATKs, Skills, Ultimates, and follow-up attacks, with a small chance to inflict Imprisonment on the target attacked by Decaying Shadow."
+        }
+      ]
+    },
+    {
+      "name": "Decaying Shadow (Bug)",
+      "source": "Decaying Shadow (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1209,
+      "speed": 207,
+      "toughness": 390,
+      "weaknesses": [
+        "Fire",
+        "Lightning",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Fleeting Gilded Spikes",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a single target."
+        },
+        {
+          "name": "Fleeting Punishment",
+          "type": "Ability",
+          "desc": "Deals massive Imaginary DMG to a single target."
+        },
+        {
+          "name": "Binding of the Golden Age",
+          "type": "Ability",
+          "desc": "Enters the Charge state and gains 9 Gauge Recollection stacks. Casts Liberation of the Golden Age in the next action. Every time this unit is attacked, lose 1 stack of Gauge Recollection."
+        },
+        {
+          "name": "Fleeting Veil",
+          "type": "Talent",
+          "desc": "Receives slightly reduced DMG from Basic ATKs, Skills, Ultimates, and follow-up attacks, with a small chance to inflict Imprisonment on the target attacked by Decaying Shadow."
+        },
+        {
+          "name": "Liberation of the Golden Age",
+          "type": "Ability",
+          "desc": "Deals successive Imaginary DMG to a random target. The number of attacks is equal to the \"Gauge Recollection\" stacks remaining. If there is no \"Gauge Recollection,\" this ability will fail."
         }
       ]
     }

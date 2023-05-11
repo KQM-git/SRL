@@ -11,10 +11,27 @@ import enemy from '@site/src/data/enemies/Stellaron_Hunter_Kafka.json'
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
 import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
-## Stats
+## Variants
+
+<Tabs>
+<TabItem value='0' label='Stellaron Hunter: Kafka'>
+
+<h2>Stats</h2>
 
 <EnemyMisc enemy={enemy} variant={0} />
 
-## Skills
+<h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={0} />
+</TabItem>
+<TabItem value='1' label='Stellaron Hunter: Kafka (Complete)'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={1} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={1} />
+</TabItem>
+</Tabs>
