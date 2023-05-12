@@ -27,7 +27,7 @@ export function TraceChild({ traces }: { traces: CharacterTrace[] }) {
   // <img src={`/img/characters/icons/${t.img}.png`} className='char-skill-icon' width={48} height={48} alt={`${t.name} Icon`} loading="lazy" />
   return <>
     {traces.map(t =>
-      <div className='char-trace'>
+      <div className='char-trace' key={t.name}>
         <div className='char-skill-name'>
 
           <div className='char-skill-text'>{t.name}</div>

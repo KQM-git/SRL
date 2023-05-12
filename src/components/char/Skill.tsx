@@ -29,7 +29,7 @@ export default function Skill({ char, skill, index }: {
 
   // <img src={`/img/characters/icons/${t.img}.png`} className='char-skill-icon' width={48} height={48} alt={`${t.name} Icon`} loading="lazy" />
   return talents.map((t, i) =>
-    <div>
+    <div key={i}>
       <div className='char-skill-name'>
 
         <div className='char-skill-text'>{t.name}</div>
