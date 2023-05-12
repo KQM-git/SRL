@@ -200,7 +200,7 @@
     },
     {
       "name": "Doctor's Grace",
-      "desc": "Natasha's Basic ATK deals Additional Physical DMG equal to 40% of her Max HP."
+      "desc": "Natasha's Basic ATK additionally deals Physical DMG equal to 40% of her Max HP."
     }
   ],
   "skillTree": [

@@ -116,12 +116,12 @@
       "tag": "Single Target",
       "type": "Basic ATK",
       "desc": [
-        "Deals Ice DMG equal to **50%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **60%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **70%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **80%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **90%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **100%** of Pela's ATK as to a single enemy."
+        "Deals Ice DMG equal to **50%** of Pela's ATK to a single target enemy.",
+        "Deals Ice DMG equal to **60%** of Pela's ATK to a single target enemy.",
+        "Deals Ice DMG equal to **70%** of Pela's ATK to a single target enemy.",
+        "Deals Ice DMG equal to **80%** of Pela's ATK to a single target enemy.",
+        "Deals Ice DMG equal to **90%** of Pela's ATK to a single target enemy.",
+        "Deals Ice DMG equal to **100%** of Pela's ATK to a single target enemy."
       ]
     },
     {
@@ -129,14 +129,14 @@
       "tag": "Impair",
       "type": "Skill",
       "desc": [
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **105%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **116%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **126%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **137%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **147%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **158%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **171%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **184%** of Pela's ATK as to a single enemy."
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **105%** of Pela's ATK to a single target enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **116%** of Pela's ATK to a single target enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **126%** of Pela's ATK to a single target enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **137%** of Pela's ATK to a single target enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **147%** of Pela's ATK to a single target enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **158%** of Pela's ATK to a single target enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **171%** of Pela's ATK to a single target enemy.",
+        "Removes 1 **buff(s)** and deals Ice DMG equal to **184%** of Pela's ATK to a single target enemy."
       ]
     },
     {

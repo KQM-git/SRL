@@ -174,7 +174,7 @@
       "tag": "Impair",
       "type": "Technique",
       "desc": [
-        "After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a 100% **fixed chance** to delay all enemies' action by 25%."
+        "After Sampo uses his Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a 100% **fixed chance** to delay all enemies' action by 25%."
       ]
     }
   ],
