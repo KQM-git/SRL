@@ -13,8 +13,8 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 ## Variants
 
-<Tabs>
-<TabItem value='0' label='Lance (1)'>
+<Tabs queryString="variant">
+<TabItem value='1' label='Lance (1)'>
 
 <h2>Stats</h2>
 
@@ -24,7 +24,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Lance (2)'>
+<TabItem value='2' label='Lance (2)'>
 
 <h2>Stats</h2>
 

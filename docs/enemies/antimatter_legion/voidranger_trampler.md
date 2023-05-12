@@ -15,8 +15,8 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 ## Variants
 
-<Tabs>
-<TabItem value='0' label='Voidranger: Trampler'>
+<Tabs queryString="variant">
+<TabItem value='1' label='Voidranger: Trampler'>
 
 <h2>Stats</h2>
 
@@ -26,7 +26,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Voidranger: Trampler (Bug)'>
+<TabItem value='2' label='Voidranger: Trampler (Bug)'>
 
 <h2>Stats</h2>
 

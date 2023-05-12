@@ -15,8 +15,8 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 ## Variants
 
-<Tabs>
-<TabItem value='0' label='Searing Prowler'>
+<Tabs queryString="variant">
+<TabItem value='1' label='Searing Prowler'>
 
 <h2>Stats</h2>
 
@@ -26,7 +26,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Searing Prowler (Bug)'>
+<TabItem value='2' label='Searing Prowler (Bug)'>
 
 <h2>Stats</h2>
 

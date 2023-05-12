@@ -11,7 +11,6 @@ export default function Eidolon({ char, eidolon }: {
   eidolon: number
 }) {
   const entry = char.eidolons[eidolon - 1]
-  console.log(char, char.eidolons, entry)
   
   // <img src={`/img/characters/icons/${t.img}.png`} className='char-skill-icon' width={48} height={48} alt={`${t.name} Icon`} loading="lazy" />
   return <MDXContent>

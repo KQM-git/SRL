@@ -15,8 +15,8 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 ## Variants
 
-<Tabs>
-<TabItem value='0' label='Svarog (Story)'>
+<Tabs queryString="variant">
+<TabItem value='1' label='Svarog (Story)'>
 
 <h2>Stats</h2>
 
@@ -26,7 +26,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Svarog (Complete)'>
+<TabItem value='2' label='Svarog (Complete)'>
 
 <h2>Stats</h2>
 

@@ -13,8 +13,8 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 ## Variants
 
-<Tabs>
-<TabItem value='0' label='Stellaron Hunter: Kafka'>
+<Tabs queryString="variant">
+<TabItem value='1' label='Stellaron Hunter: Kafka'>
 
 <h2>Stats</h2>
 
@@ -24,7 +24,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Stellaron Hunter: Kafka (Complete)'>
+<TabItem value='2' label='Stellaron Hunter: Kafka (Complete)'>
 
 <h2>Stats</h2>
 

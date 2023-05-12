@@ -13,8 +13,8 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 ## Variants
 
-<Tabs>
-<TabItem value='0' label='Cocolia (Story) Summon #1'>
+<Tabs queryString="variant">
+<TabItem value='1' label='Cocolia (Story) Summon #1'>
 
 <h2>Stats</h2>
 
@@ -24,7 +24,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Cocolia (Story) Summon #2'>
+<TabItem value='2' label='Cocolia (Story) Summon #2'>
 
 <h2>Stats</h2>
 
@@ -34,7 +34,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={1} />
 </TabItem>
-<TabItem value='2' label='Cocolia (Complete) Summon #1'>
+<TabItem value='3' label='Cocolia (Complete) Summon #1'>
 
 <h2>Stats</h2>
 
@@ -44,7 +44,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={2} />
 </TabItem>
-<TabItem value='3' label='Cocolia (Complete) Summon #2'>
+<TabItem value='4' label='Cocolia (Complete) Summon #2'>
 
 <h2>Stats</h2>
 

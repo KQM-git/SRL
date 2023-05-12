@@ -45,7 +45,7 @@ export default function Skill({ char, skill, index }: {
               min={1}
               max={t.desc.length}
               style={({ maxWidth: 64 })}
-            /> <span className='char-skill-tag'>[{t.tag}]</span>
+            /> {t.tag && <span className='char-skill-tag'>[{t.tag}]</span>}
       </div>
       <MDXContent>
         <ReactMarkdown>{cleanup(t.desc[levels[i] - 1])}</ReactMarkdown>
