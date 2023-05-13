@@ -83,7 +83,7 @@ export default function Skill({ char, skill, index }: {
           </tr>
         </thead>
         <tbody>
-          {t.toughness && Object.entries(t.toughness).map(([name, value]) => <tr>
+          {t.toughness && Object.entries(t.toughness).map(([name, value], i) => <tr key={i}>
             <td>Toughness to {name}</td>
             <td>{value}</td>
           </tr>)}
