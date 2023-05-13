@@ -174,7 +174,8 @@
       "energyNeeded": 110,
       "energyGain": 5,
       "toughness": {
-        "Target": 60
+        "Target": 60,
+        "Adjacent": 60
       }
     },
     {

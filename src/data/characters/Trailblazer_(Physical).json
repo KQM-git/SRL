@@ -150,7 +150,8 @@
       ],
       "energyGain": 30,
       "toughness": {
-        "Target": 60
+        "Target": 60,
+        "Adjacent": 30
       }
     },
     {
@@ -247,7 +248,8 @@
       "energyNeeded": 120,
       "energyGain": 5,
       "toughness": {
-        "Target": 60
+        "Target": 60,
+        "Adjacent": 60
       }
     }
   ],
