@@ -1,0 +1,36 @@
+{
+  "short_name": "KQM SRL",
+  "name": "KQM Star Rail Library",
+  "icons": [
+    {
+      "src": "/img/icon-2048.png",
+      "type": "image/png",
+      "sizes": "2048x2048"
+    },
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#2D282F",
+  "display": "minimal-ui",
+  "scope": "/",
+  "theme_color": "#2D282F",
+  "shortcuts": [
+    {
+      "name": "Character list",
+      "short_name": "Characters",
+      "description": "List of characters",
+      "url": "/characters?source=pwa"
+    }
+  ],
+  "description": "The Star Rail Library (SRL) is a collection of community submitted knowledge and information about Honkai: Star Rail."
+}
