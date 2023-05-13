@@ -9,6 +9,7 @@
       "hp": 930,
       "speed": 172,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Fire",
         "Lightning",
@@ -58,6 +59,7 @@
       "hp": 1209,
       "speed": 207,
       "toughness": 390,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Fire",
         "Lightning",

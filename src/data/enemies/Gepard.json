@@ -9,6 +9,7 @@
       "hp": 1023,
       "speed": 120,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Lightning",
@@ -60,6 +61,7 @@
       "hp": 604.5,
       "speed": 144,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Lightning",

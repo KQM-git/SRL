@@ -9,6 +9,7 @@
       "hp": 1023,
       "speed": 100,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Wind",
@@ -58,6 +59,7 @@
       "hp": 1395,
       "speed": 120,
       "toughness": 420,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Wind",

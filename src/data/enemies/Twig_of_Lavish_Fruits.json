@@ -8,6 +8,7 @@
       "hp": 223.2,
       "speed": 66,
       "toughness": 120,
+      "effectResBase": 0,
       "weaknesses": [
         "Fire",
         "Quantum",

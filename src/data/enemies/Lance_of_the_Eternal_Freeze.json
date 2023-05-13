@@ -9,6 +9,7 @@
       "hp": 148.8,
       "speed": 100,
       "toughness": 90,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Fire",
         "Lightning"
@@ -38,6 +39,7 @@
       "hp": 148.8,
       "speed": 100,
       "toughness": 90,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Fire",
         "Quantum"

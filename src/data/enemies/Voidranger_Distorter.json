@@ -8,6 +8,7 @@
       "hp": 167.4,
       "speed": 120,
       "toughness": 60,
+      "effectResBase": 0.1,
       "weaknesses": [
         "Wind",
         "Imaginary"

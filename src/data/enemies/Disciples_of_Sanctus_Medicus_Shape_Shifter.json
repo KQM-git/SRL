@@ -8,6 +8,7 @@
       "hp": 1116,
       "speed": 120,
       "toughness": 360,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Ice",
         "Wind",

@@ -9,6 +9,7 @@
       "hp": 930,
       "speed": 120,
       "toughness": 240,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Ice",
@@ -53,6 +54,7 @@
       "hp": 1488,
       "speed": 120,
       "toughness": 360,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Ice",
@@ -102,6 +104,7 @@
       "hp": 558,
       "speed": 144,
       "toughness": 180,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Ice",

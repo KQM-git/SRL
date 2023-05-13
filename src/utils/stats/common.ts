@@ -8,16 +8,28 @@ export function handleResult(stats: Record<string, Stat>): Record<string, Stat> 
   return stats
 }
 
-export function handleStat(base: number, add: number, level: number): Stat {
+export function handleLevelScalar(base: number, add: number, level: number): Stat {
   return {
     value: base + add * (level - 1),
     explain: `${base}${level != 1 ? ` + ${add} * (${level} - 1)` : ""}`
   }
 }
-export function handleEnemyStat(base: number, scale: number): Stat {
+export function handleScalar(base: number, scale: number): Stat {
   return {
     value: base * scale,
     explain: `${base}${scale != 1 ? ` * ${scale}` : ""}`
+  }
+}
+export function handleAddition(base: number, addition: number): Stat {
+  return {
+    value: base + addition,
+    explain: `${base}${addition != 0 ? ` + ${addition}` : ""}`
+  }
+}
+export function handleConst(base: number): Stat {
+  return {
+    value: base,
+    explain: base.toString()
   }
 }
 

@@ -93,6 +93,7 @@ export interface EnemyVariant {
     hp: number
     speed: number
     toughness: number
+    effectResBase: number
     weaknesses: string[]
     id?: number
     dmgRES: Record<string, number>

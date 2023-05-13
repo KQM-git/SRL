@@ -9,6 +9,7 @@
       "hp": 325.5,
       "speed": 100,
       "toughness": 90,
+      "effectResBase": 0.1,
       "weaknesses": [
         "Lightning",
         "Wind",
@@ -54,6 +55,7 @@
       "hp": 162.75,
       "speed": 120,
       "toughness": 90,
+      "effectResBase": 0.1,
       "weaknesses": [
         "Lightning",
         "Wind",

@@ -9,6 +9,7 @@
       "hp": 1023,
       "speed": 144,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Ice",
         "Lightning",
@@ -53,6 +54,7 @@
       "hp": 1395,
       "speed": 144,
       "toughness": 360,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Ice",
         "Lightning",
@@ -92,6 +94,7 @@
       "hp": 558,
       "speed": 172,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Ice",
         "Lightning",
