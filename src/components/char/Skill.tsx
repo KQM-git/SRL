@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
-import ReactMarkdown from 'react-markdown'
 
-import MDXContent from '@theme/MDXContent'
 import Admonition from '@theme/Admonition'
 
 import { Character } from '@site/src/data/types'
 import { getTalents } from '@site/src/utils/skill'
-import { cleanup } from '@site/src/utils/cleanup'
+import ParamFormat from '../common/ParamFormat'
 import { NumberInput } from '../common/input/NumberInput'
 
 export default function Skill({ char, skill, index }: {
@@ -21,7 +19,7 @@ export default function Skill({ char, skill, index }: {
   talents = talents.filter(x => x)
 
 
-  const [levels, setLevels] = useState(talents.map(t => t.desc.length))
+  const [levels, setLevels] = useState(talents.map(t => t.params.length))
   if (talents.length == 0)
     return <Admonition type="danger">
       Missing talent data for these filters
@@ -43,13 +41,11 @@ export default function Skill({ char, skill, index }: {
               }}
               value={levels[i]}
               min={1}
-              max={t.desc.length}
+              max={t.params.length}
               style={({ maxWidth: 64 })}
             /> {t.tag && <span className='char-skill-tag'>[{t.tag}]</span>}
       </div>
-      <MDXContent>
-        <ReactMarkdown>{cleanup(t.desc[levels[i] - 1])}</ReactMarkdown>
-      </MDXContent>
+      <ParamFormat desc={t.desc} params={t.params[levels[i] - 1]} />
     </div>
   )
 }

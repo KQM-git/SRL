@@ -131,47 +131,32 @@
           "name": "Purge Order",
           "type": "Ability",
           "desc": "Deals Massive Physical DMG to all targets.",
-          "phases": [
-            1,
-            2
-          ],
+          "phases": [ 1, 2 ],
           "threat": true
         },
         {
           "name": "Destruction Order",
           "type": "Ability",
           "desc": "Deals Physical DMG to a single target.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Detonation Order",
           "type": "Ability",
           "desc": "Summons Automaton Spider.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Enrage Order",
           "type": "Ability",
           "desc": "Has a high chance to Taunt all targets.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Overcombust Order",
           "type": "Ability",
           "desc": "Enters the Charge state. The next action uses \"Purge Order\" on all targets.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         }
       ]
     }

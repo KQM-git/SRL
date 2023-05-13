@@ -86,87 +86,57 @@
           "name": "Spirit Whisper",
           "type": "Ability",
           "desc": "Has a high chance of Dominating a single target and Advancing their action forward to immediately attack a random ally of theirs.",
-          "phases": [
-            1
-          ],
+          "phases": [ 1 ],
           "threat": true
         },
         {
           "name": "Psychological Suggestion",
           "type": "Ability",
           "desc": "Applies Psychological Suggestion to multiple targets, and adds Revelation onto the action bar. The next time Revelation takes action, any targets with Psychological Suggestion will become Dominated.",
-          "phases": [
-            2,
-            3
-          ],
+          "phases": [ 2, 3 ],
           "threat": true
         },
         {
           "name": "Midnight Tumult",
           "type": "Ability",
           "desc": "Deals minor Lightning DMG to a single target, with a high chance to Shock the target.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Caressing Moonlight",
           "type": "Ability",
           "desc": "Deals Lightning DMG to a single target and units adjacent to the target. If the target is Shocked, inflicts Shock on the adjacent units.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Silent and Sharp Mockery",
           "type": "Ability",
           "desc": "Deals minor Lightning DMG to all targets.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Seething Whisper of the Fallen",
           "type": "Ability",
           "desc": "Deals Lightning DMG to a single target, with a high chance to Shock the target. At the same time, deals Lightning DMG to all other Shocked targets.",
-          "phases": [
-            3
-          ]
+          "phases": [ 3 ]
         },
         {
           "name": "Tremble",
           "type": "Talent",
           "desc": "If the target is currently Shocked, directly cause Shock DMG 1 time.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Cruelty",
           "type": "Talent",
           "desc": "When friendly units (apart from Kafka) or Dominated targets deal DMG to Shocked targets, unleash an extra Lightning ATK.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Griever",
           "type": "Talent",
           "desc": "Every time a target triggers the Shock state, DMG dealt by Kafka slightly increases.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         }
       ]
     }

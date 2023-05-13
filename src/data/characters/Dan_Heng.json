@@ -115,119 +115,133 @@
       "name": "Cloudlancer Art: North Wind",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Wind DMG equal to **50%** of Dan Heng's ATK to a single enemy.",
-        "Deals Wind DMG equal to **60%** of Dan Heng's ATK to a single enemy.",
-        "Deals Wind DMG equal to **70%** of Dan Heng's ATK to a single enemy.",
-        "Deals Wind DMG equal to **80%** of Dan Heng's ATK to a single enemy.",
-        "Deals Wind DMG equal to **90%** of Dan Heng's ATK to a single enemy.",
-        "Deals Wind DMG equal to **100%** of Dan Heng's ATK to a single enemy.",
-        "Deals Wind DMG equal to **110%** of Dan Heng's ATK to a single enemy."
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ]
       ]
     },
     {
       "name": "Cloudlancer Art: Torrent",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": [
-        "Deals Wind DMG equal to **130%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **143%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **156%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **169%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **182%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **195%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **211%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **228%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **244%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **260%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **273%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s)."
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng's ATK to a single enemy.\\nOn a CRIT Hit, there is a <unbreak>#4[i]%</unbreak> <u>base chance</u> to reduce the target's SPD by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [ 1.3, 0.12, 2, 1 ],
+        [ 1.43, 0.12, 2, 1 ],
+        [ 1.56, 0.12, 2, 1 ],
+        [ 1.69, 0.12, 2, 1 ],
+        [ 1.82, 0.12, 2, 1 ],
+        [ 1.95, 0.12, 2, 1 ],
+        [ 2.1125, 0.12, 2, 1 ],
+        [ 2.275, 0.12, 2, 1 ],
+        [ 2.4375, 0.12, 2, 1 ],
+        [ 2.6, 0.12, 2, 1 ],
+        [ 2.73, 0.12, 2, 1 ]
       ]
     },
     {
       "name": "Ethereal Dream",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": [
-        "Deals Wind DMG equal to **240%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **72%**.",
-        "Deals Wind DMG equal to **256%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **77%**.",
-        "Deals Wind DMG equal to **272%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **82%**.",
-        "Deals Wind DMG equal to **288%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **86%**.",
-        "Deals Wind DMG equal to **304%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **91%**.",
-        "Deals Wind DMG equal to **320%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **96%**.",
-        "Deals Wind DMG equal to **340%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **102%**.",
-        "Deals Wind DMG equal to **360%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **108%**.",
-        "Deals Wind DMG equal to **380%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **114%**.",
-        "Deals Wind DMG equal to **400%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **120%**.",
-        "Deals Wind DMG equal to **416%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **125%**."
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+      "params": [
+        [ 2.4, 0.72 ],
+        [ 2.56, 0.768 ],
+        [ 2.72, 0.816 ],
+        [ 2.88, 0.864 ],
+        [ 3.04, 0.912 ],
+        [ 3.2, 0.96 ],
+        [ 3.4, 1.02 ],
+        [ 3.6, 1.08 ],
+        [ 3.8, 1.14 ],
+        [ 4, 1.2 ],
+        [ 4.16, 1.248 ]
       ]
     },
     {
       "name": "Superiority of Reach",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **18%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **20%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **22%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **23%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **25%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **27%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **29%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **32%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **34%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **36%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **38%**. This effect can be triggered again after 2 turn(s)."
+      "desc": "When Dan Heng is the target of an ally's Ability, his next attack's Wind <u>RES PEN</u> increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. This effect can be triggered again after <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.18, 2 ],
+        [ 0.198, 2 ],
+        [ 0.216, 2 ],
+        [ 0.234, 2 ],
+        [ 0.252, 2 ],
+        [ 0.27, 2 ],
+        [ 0.2925, 2 ],
+        [ 0.315, 2 ],
+        [ 0.3375, 2 ],
+        [ 0.36, 2 ],
+        [ 0.378, 2 ]
       ]
     },
     {
       "name": "Splitting Spearhead",
       "tag": "Enhance",
       "type": "Technique",
-      "desc": [
-        "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."
+      "desc": "After Dan Heng uses his Technique, his ATK increases by <unbreak>#1[i]%</unbreak> at the start of the next battle for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.4, 3 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "The Higher You Fly, the Harder You Fall",
-      "desc": "When the target enemy's current HP percentage is greater than or equal to 50%, CRIT Rate increases by 12%."
+      "desc": "When the target enemy's current HP percentage is greater than or equal to <unbreak>#1[i]%</unbreak>, CRIT Rate increases by <unbreak>#2[i]%</unbreak>.",
+      "params": [ 0.5, 0.12 ]
     },
     {
       "name": "Quell the Venom Octet, Quench the Vice O'Flame",
-      "desc": "Reduces Talent cooldown by 1 turn."
+      "desc": "Reduces Talent cooldown by 1 turn.",
+      "params": []
     },
     {
       "name": "Seen and Unseen",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Roaring Dragon and Soaring Sun",
-      "desc": "When Dan Heng uses his Ultimate to defeat an enemy, his next action is Advanced Forward by 100%."
+      "desc": "When Dan Heng uses his Ultimate to defeat an enemy, his next action is Advanced Forward by <unbreak>100%</unbreak>.",
+      "params": []
     },
     {
       "name": "A Drop of Rain Feeds a Torrent",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "The Troubled Soul Lies in Wait",
-      "desc": "The Slow state triggered by Skill reduces the enemy's SPD by an extra 8%."
+      "desc": "The Slow state triggered by Skill reduces the enemy's SPD by an extra <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.08 ]
     }
   ],
   "skillTree": [
     {
       "name": "Hidden Dragon",
-      "desc": "When current HP percentage is 50% or lower, reduces the chance of being attacked by enemies.",
+      "desc": "When current HP percentage is <unbreak>#1[i]%</unbreak> or lower, reduces the chance of being attacked by enemies.",
+      "params": [ 0.5, 0.5 ],
       "minAsc": 2,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 4.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 2,
           "children": [
             {
               "name": "DMG Boost: Wind",
-              "desc": "Wind DMG increases by 3.2%",
+              "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
               "minAsc": 3
             }
           ]
@@ -236,17 +250,20 @@
     },
     {
       "name": "Faster Than Light",
-      "desc": "After launching an attack, there is a 50% fixed chance to increase own SPD by 20% for 2 turn(s).",
+      "desc": "After launching an attack, there is a <unbreak>#1[i]%</unbreak> fixed chance to increase own SPD by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [ 0.5, 0.2, 2 ],
       "minAsc": 4,
       "children": [
         {
           "name": "DMG Boost: Wind",
-          "desc": "Wind DMG increases by 4.8%",
+          "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 4,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 6.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
               "minAsc": 5
             }
           ]
@@ -255,22 +272,26 @@
     },
     {
       "name": "High Gale",
-      "desc": "Basic ATK deals 40% more DMG to Slowed enemies.",
+      "desc": "Basic ATK deals <unbreak>#1[i]%</unbreak> more DMG to Slowed enemies.",
+      "params": [ 0.4 ],
       "minAsc": 6,
       "children": [
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 7.5%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.075 ],
           "minAsc": 6,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 8.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 75
             },
             {
               "name": "DMG Boost: Wind",
-              "desc": "Wind DMG increases by 6.4%",
+              "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
               "minLevel": 80
             }
           ]
@@ -279,16 +300,19 @@
     },
     {
       "name": "DMG Boost: Wind",
-      "desc": "Wind DMG increases by 3.2%"
+      "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ]
     },
     {
       "name": "DEF Boost",
-      "desc": "DEF increases by 5.0%",
+      "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.05 ],
       "minAsc": 3
     },
     {
       "name": "DMG Boost: Wind",
-      "desc": "Wind DMG increases by 4.8%",
+      "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.048 ],
       "minAsc": 5
     }
   ]

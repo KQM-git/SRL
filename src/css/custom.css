@@ -23,7 +23,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #d58df3;
   --ifm-color-primary-dark: #cb71f0;
   --ifm-color-primary-darker: #c663ef;
@@ -41,7 +41,7 @@
 }
 
 /* Search styling */
-[data-theme='light'] .DocSearch {
+[data-theme="light"] .DocSearch {
   --docsearch-highlight-color: var(--ifm-color-primary-darkest);
   --docsearch-container-background: rgba(94, 100, 112, 0.7);
   /* Modal */
@@ -57,14 +57,15 @@
   --docsearch-footer-background: var(--ifm-color-white);
 }
 
-[data-theme='dark'] .DocSearch {
+[data-theme="dark"] .DocSearch {
   --docsearch-highlight-color: var(--ifm-color-primary-darkest);
   --docsearch-text-color: var(--ifm-font-color-base);
   --docsearch-muted-color: var(--ifm-color-secondary-darkest);
   --docsearch-container-background: rgba(54, 49, 56, 0.7);
   /* Modal */
   --docsearch-modal-background: var(--ifm-background-color);
-  --docsearch-modal-shadow: rgb(33, 28, 38) 1px 1px 0px 0px inset, rgb(7, 0, 9) 0px 3px 8px 0px;
+  --docsearch-modal-shadow: rgb(33, 28, 38) 1px 1px 0px 0px inset,
+    rgb(7, 0, 9) 0px 3px 8px 0px;
   /* Search box */
   --docsearch-searchbox-background: var(--ifm-background-color);
   --docsearch-searchbox-focus-background: var(--ifm-color-black);
@@ -74,17 +75,15 @@
   --docsearch-hit-background: var(--ifm-color-emphasis-100);
   /* Footer */
   --docsearch-footer-background: var(--ifm-background-surface-color);
-  --docsearch-footer-shadow: rgba(75, 61, 84, 0.5) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.2) 0px -4px 8px 0px;
+  --docsearch-footer-shadow: rgba(75, 61, 84, 0.5) 0px 1px 0px 0px inset,
+    rgba(0, 0, 0, 0.2) 0px -4px 8px 0px;
   --docsearch-key-gradient: linear-gradient(
     -26.5deg,
     var(--ifm-color-emphasis-200) 0%,
     var(--ifm-color-emphasis-100) 100%
   );
-  --docsearch-key-shadow: rgb(36, 29, 41) 0px -2px 0px 0px inset, rgb(44, 35, 47) 0px 0px 1px 1px inset, rgba(7, 3, 9, 0.3) 0px 2px 2px 0px;
-}
-
-.react-md p {
-  margin: 0px;
+  --docsearch-key-shadow: rgb(36, 29, 41) 0px -2px 0px 0px inset,
+    rgb(44, 35, 47) 0px 0px 1px 1px inset, rgba(7, 3, 9, 0.3) 0px 2px 2px 0px;
 }
 
 /* Tab background */
@@ -92,7 +91,7 @@
   background-color: rgba(45, 40, 47, 0.05);
   border-radius: var(--ifm-global-radius);
 }
-[data-theme='dark'] .tabs-container {
+[data-theme="dark"] .tabs-container {
   background-color: rgba(225, 200, 235, 0.06);
 }
 div[role="tabpanel"] {
@@ -122,10 +121,10 @@ div[role="tabpanel"] {
   border-radius: 9999px;
   width: 3rem;
   height: 3rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   background-color: #1a171ab8;
 }
-[data-theme='dark'] .char-skill-icon {
+[data-theme="dark"] .char-skill-icon {
   background-color: #1a171a69;
 }
 .char-skill-text {
@@ -145,7 +144,7 @@ div[role="tabpanel"] {
   padding: 10px;
   margin-top: 10px;
 }
-[data-theme='dark'] .char-trace {
+[data-theme="dark"] .char-trace {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -162,7 +161,7 @@ div[role="tabpanel"] {
   float: right;
   width: 8rem;
   height: 8rem;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -173,4 +172,11 @@ div[role="tabpanel"] {
 
 .clear {
   clear: both;
+}
+.value {
+  font-weight: 600;
+}
+.hovershow,
+.value {
+  cursor: help;
 }

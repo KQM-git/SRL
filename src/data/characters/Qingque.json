@@ -115,138 +115,154 @@
       "name": "Flower Pick",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **50%** of Qingque's ATK to a single enemy.",
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **60%** of Qingque's ATK to a single enemy.",
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **70%** of Qingque's ATK to a single enemy.",
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **80%** of Qingque's ATK to a single enemy.",
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **90%** of Qingque's ATK to a single enemy.",
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **100%** of Qingque's ATK to a single enemy.",
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **110%** of Qingque's ATK to a single enemy."
+      "desc": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Qingque's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ]
       ]
     },
     {
       "name": "A Scoop of Moon",
       "tag": "Enhance",
       "type": "Skill",
-      "desc": [
-        "Immediately draws 2 jade tile(s) and increases DMG by **14%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **15%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **17%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **18%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **20%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **21%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **23%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **25%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **26%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **28%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **29%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used."
+      "desc": "Immediately draws <unbreak>#1[i]</unbreak> jade tile(s) and increases DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> until the end of the current turn. This effect can stack up to <unbreak>#3[i]</unbreak> time(s). The turn will not end after this Skill is used.",
+      "params": [
+        [ 2, 0.14, 4 ],
+        [ 2, 0.154, 4 ],
+        [ 2, 0.168, 4 ],
+        [ 2, 0.182, 4 ],
+        [ 2, 0.196, 4 ],
+        [ 2, 0.21, 4 ],
+        [ 2, 0.2275, 4 ],
+        [ 2, 0.245, 4 ],
+        [ 2, 0.2625, 4 ],
+        [ 2, 0.28, 4 ],
+        [ 2, 0.294, 4 ]
       ]
     },
     {
       "name": "A Quartet? Woo-hoo!",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": [
-        "Deals Quantum DMG equal to **120%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **128%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **136%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **144%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **152%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **160%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **170%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **180%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **190%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **200%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **208%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit."
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+      "params": [
+        [ 1.2 ],
+        [ 1.28 ],
+        [ 1.36 ],
+        [ 1.44 ],
+        [ 1.52 ],
+        [ 1.6 ],
+        [ 1.7 ],
+        [ 1.8 ],
+        [ 1.9 ],
+        [ 2 ],
+        [ 2.08 ]
       ]
     },
     {
       "name": "Celestial Jade",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **36%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **40%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **43%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **47%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **50%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **54%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **59%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **63%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **68%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **72%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **76%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\"."
+      "desc": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+      "params": [
+        [ 0.36 ],
+        [ 0.396 ],
+        [ 0.432 ],
+        [ 0.468 ],
+        [ 0.504 ],
+        [ 0.54 ],
+        [ 0.585 ],
+        [ 0.63 ],
+        [ 0.675 ],
+        [ 0.72 ],
+        [ 0.756 ]
       ]
     },
     {
       "name": "Game Solitaire",
       "tag": "Enhance",
       "type": "Technique",
-      "desc": [
-        "After using Technique, Qingque draws 2 jade tile(s) when the battle starts."
+      "desc": "After using Technique, Qingque draws <unbreak>#1[i]</unbreak> jade tile(s) when the battle starts.",
+      "params": [
+        [ 2 ]
       ]
     },
     {
       "name": "Cherry on Top!",
       "tag": "Blast",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Quantum DMG equal to **120%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **50%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "Deals Quantum DMG equal to **144%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **60%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "Deals Quantum DMG equal to **168%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **70%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "Deals Quantum DMG equal to **192%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **80%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "Deals Quantum DMG equal to **216%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **90%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "Deals Quantum DMG equal to **240%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **100%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "Deals Quantum DMG equal to **264%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **110%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points."
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Qingque's ATK to a single enemy, and deals Quantum DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Qingque's ATK to enemies adjacent to it.\\n\"Cherry on Top!\" cannot recover Skill Points.",
+      "params": [
+        [ 1.2, 0.5 ],
+        [ 1.44, 0.6 ],
+        [ 1.68, 0.7 ],
+        [ 1.92, 0.8 ],
+        [ 2.16, 0.9 ],
+        [ 2.4, 1 ],
+        [ 2.64, 1.1 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Rise Through the Tiles",
-      "desc": "Ultimate deals 10% more DMG."
+      "desc": "Ultimate deals <unbreak>#1[i]%</unbreak> more DMG.",
+      "params": [ 0.1 ]
     },
     {
       "name": "Sleep on the Tiles",
-      "desc": "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy."
+      "desc": "Every time Draw Tile is triggered, Qingque immediately regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 1 ]
     },
     {
       "name": "Read Between the Tiles",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Right on the Tiles",
-      "desc": "After this character's Skill is used, there is a 24% fixed chance to gain Autarky, which lasts until the end of the current turn. \nWith Autarky, using Basic ATK or Enhanced Basic ATK immediately launches 1 follow-up attack on the same target, dealing Quantum DMG equal to 100% of the previous Basic ATK (or Enhanced Basic ATK)'s DMG."
+      "desc": "After this character's Skill is used, there is a <unbreak>#1[i]%</unbreak> fixed chance to gain Autarky, which lasts until the end of the current turn. \\nWith Autarky, using Basic ATK or Enhanced Basic ATK immediately launches 1 follow-up attack on the same target, dealing Quantum DMG equal to <unbreak>100%</unbreak> of the previous Basic ATK (or Enhanced Basic ATK)'s DMG.",
+      "params": [ 0.24 ]
     },
     {
       "name": "Gambit for the Tiles",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Prevail Beyond the Tiles",
-      "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK."
+      "desc": "Recovers 1 Skill Point after using Enhanced Basic ATK.",
+      "params": []
     }
   ],
   "skillTree": [
     {
       "name": "Tile Battle",
       "desc": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+      "params": [],
       "minAsc": 2,
       "children": [
         {
           "name": "DMG Boost: Quantum",
-          "desc": "Quantum DMG increases by 3.2%",
+          "desc": "Quantum DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.032 ],
           "minAsc": 2,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 4.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3
             },
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 5.0%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.05 ],
               "minAsc": 3
             }
           ]
@@ -255,22 +271,26 @@
     },
     {
       "name": "Bide Time",
-      "desc": "Using the Skill increases DMG Boost effect of attacks by an extra 10%.",
+      "desc": "Using the Skill increases DMG Boost effect of attacks by an extra <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.1 ],
       "minAsc": 4,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DMG Boost: Quantum",
-              "desc": "Quantum DMG increases by 4.8%",
+              "desc": "Quantum DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.048 ],
               "minAsc": 5
             },
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 6.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
               "minAsc": 5
             }
           ]
@@ -279,28 +299,33 @@
     },
     {
       "name": "Winning Hand",
-      "desc": "Qingque's SPD increases by 10% for 1 turn after using the Enhanced Basic ATK.",
+      "desc": "Qingque's SPD increases by <unbreak>#1[i]%</unbreak> for 1 turn after using the Enhanced Basic ATK.",
+      "params": [ 0.1 ],
       "minAsc": 6,
       "children": [
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 7.5%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.075 ],
           "minAsc": 6
         },
         {
           "name": "DMG Boost: Quantum",
-          "desc": "Quantum DMG increases by 6.4%",
+          "desc": "Quantum DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.064 ],
           "minLevel": 75
         }
       ]
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 4.0%"
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 8.0%",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.08 ],
       "minLevel": 80
     }
   ]

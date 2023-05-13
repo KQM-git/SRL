@@ -115,123 +115,138 @@
       "name": "Lightning Rush",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Lightning DMG equal to **50%** of Arlan's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **60%** of Arlan's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **70%** of Arlan's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **80%** of Arlan's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **90%** of Arlan's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **100%** of Arlan's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **110%** of Arlan's ATK to a single enemy."
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Arlan's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ]
       ]
     },
     {
       "name": "Shackle Breaker",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": [
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **120%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **132%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **144%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **156%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **168%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **180%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **195%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **210%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **225%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **240%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **252%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
+      "desc": "Consumes Arlan's HP equal to <unbreak>#1[i]%</unbreak> of his Max HP to deal Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+      "params": [
+        [ 0.15, 1.2 ],
+        [ 0.15, 1.32 ],
+        [ 0.15, 1.44 ],
+        [ 0.15, 1.56 ],
+        [ 0.15, 1.68 ],
+        [ 0.15, 1.8 ],
+        [ 0.15, 1.95 ],
+        [ 0.15, 2.1 ],
+        [ 0.15, 2.25 ],
+        [ 0.15, 2.4 ],
+        [ 0.15, 2.52 ]
       ]
     },
     {
       "name": "Frenzied Punishment",
       "tag": "Blast",
       "type": "Ultimate",
-      "desc": [
-        "Deals Lightning DMG equal to **192%** of Arlan's ATK to a single enemy and Lightning DMG equal to **96%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **205%** of Arlan's ATK to a single enemy and Lightning DMG equal to **102%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **218%** of Arlan's ATK to a single enemy and Lightning DMG equal to **109%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **230%** of Arlan's ATK to a single enemy and Lightning DMG equal to **115%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **243%** of Arlan's ATK to a single enemy and Lightning DMG equal to **122%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **256%** of Arlan's ATK to a single enemy and Lightning DMG equal to **128%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **272%** of Arlan's ATK to a single enemy and Lightning DMG equal to **136%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **288%** of Arlan's ATK to a single enemy and Lightning DMG equal to **144%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **304%** of Arlan's ATK to a single enemy and Lightning DMG equal to **152%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **320%** of Arlan's ATK to a single enemy and Lightning DMG equal to **160%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **333%** of Arlan's ATK to a single enemy and Lightning DMG equal to **166%** of Arlan's ATK to enemies adjacent to it."
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Arlan's ATK to a single enemy and Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Arlan's ATK to enemies adjacent to it.",
+      "params": [
+        [ 1.92, 0.96 ],
+        [ 2.048, 1.024 ],
+        [ 2.176, 1.088 ],
+        [ 2.304, 1.152 ],
+        [ 2.432, 1.216 ],
+        [ 2.56, 1.28 ],
+        [ 2.72, 1.36 ],
+        [ 2.88, 1.44 ],
+        [ 3.04, 1.52 ],
+        [ 3.2, 1.6 ],
+        [ 3.328, 1.664 ]
       ]
     },
     {
       "name": "Pain and Anger",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **36%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **40%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **43%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **47%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **50%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **54%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **59%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **63%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **68%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **72%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **76%** more DMG."
+      "desc": "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> more DMG.",
+      "params": [
+        [ 0.36 ],
+        [ 0.396 ],
+        [ 0.432 ],
+        [ 0.468 ],
+        [ 0.504 ],
+        [ 0.54 ],
+        [ 0.585 ],
+        [ 0.63 ],
+        [ 0.675 ],
+        [ 0.72 ],
+        [ 0.756 ]
       ]
     },
     {
       "name": "Swift Harvest",
       "type": "Technique",
-      "desc": [
-        "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies."
+      "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to <unbreak>#1[i]%</unbreak> of Arlan's ATK to all enemies.",
+      "params": [
+        [ 0.8 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "To the Bitter End",
-      "desc": "When HP is lower than or equal to 50% of Max HP, increases Skill's DMG by 10%."
+      "desc": "When HP is lower than or equal to <unbreak>50%</unbreak> of Max HP, increases Skill's DMG by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.1 ]
     },
     {
       "name": "Breaking Free",
-      "desc": "Using Skill or Ultimate removes 1 debuff from oneself."
+      "desc": "Using Skill or Ultimate removes 1 debuff from oneself.",
+      "params": []
     },
     {
       "name": "Power Through",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Turn the Tables",
-      "desc": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed."
+      "desc": "When struck by a killing blow after entering battle, instead of becoming knocked down, Arlan immediately restores his HP to <unbreak>#1[i]%</unbreak> of his Max HP. This effect is automatically removed after it is triggered once or after <unbreak>#2[i]</unbreak> turn(s) have elapsed.",
+      "params": [ 0.25, 2 ]
     },
     {
       "name": "Hammer and Tongs",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Self-Sacrifice",
-      "desc": "When HP drops to 50% or below, Ultimate deals 20% more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well."
+      "desc": "When HP drops to <unbreak>50%</unbreak> or below, Ultimate deals <unbreak>#1[i]%</unbreak> more DMG. The DMG multiplier of DMG taken by the target enemy now applies to adjacent enemies as well.",
+      "params": [ 0.2 ]
     }
   ],
   "skillTree": [
     {
       "name": "Revival",
-      "desc": "If the current HP percentage is 30% or lower when defeating an enemy, immediately restores HP equal to 20% of Max HP.",
+      "desc": "If the current HP percentage is <unbreak>#1[i]%</unbreak> or lower when defeating an enemy, immediately restores HP equal to <unbreak>#2[i]%</unbreak> of Max HP.",
+      "params": [ 0.3, 0.2 ],
       "minAsc": 2,
       "children": [
         {
           "name": "Effect RES Boost",
-          "desc": "Effect RES increases by 4.0%",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 2,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 4.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3,
               "children": [
                 {
                   "name": "HP Boost",
-                  "desc": "Max HP increases by 4.0%",
+                  "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
                   "minAsc": 3
                 }
               ]
@@ -242,22 +257,26 @@
     },
     {
       "name": "Endurance",
-      "desc": "The chance to resist DoT Debuffs increases by 50%.",
+      "desc": "The chance to resist DoT Debuffs increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.5 ],
       "minAsc": 4,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "Effect RES Boost",
-              "desc": "Effect RES increases by 6.0%",
+              "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
               "minAsc": 5,
               "children": [
                 {
                   "name": "ATK Boost",
-                  "desc": "ATK increases by 6.0%",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
                   "minAsc": 5
                 }
               ]
@@ -268,22 +287,26 @@
     },
     {
       "name": "Repel",
-      "desc": "Upon entering battle, if Arlan's HP is less than or equal to 50%, he can nullify all DMG received except for DoT until after he is attacked.",
+      "desc": "Upon entering battle, if Arlan's HP is less than or equal to <unbreak>#1[i]%</unbreak>, he can nullify all DMG received except for DoT until after he is attacked.",
+      "params": [ 0.5 ],
       "minAsc": 6,
       "children": [
         {
           "name": "HP Boost",
-          "desc": "Max HP increases by 6.0%",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6,
           "children": [
             {
               "name": "Effect RES Boost",
-              "desc": "Effect RES increases by 8.0%",
+              "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 75
             },
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 8.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 80
             }
           ]
@@ -292,7 +315,8 @@
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 4.0%"
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
     }
   ]
 }

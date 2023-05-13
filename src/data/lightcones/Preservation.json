@@ -75,9 +75,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Stasis",
-      "desc": "Increases the wearer's DEF by **16%**/**20%**/**24%**/**28%**/**32%**. If the wearer's current HP is lower than 50%, increases their DEF by a further **16%**/**20%**/**24%**/**28%**/**32%**."
+      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the wearer's current HP is lower than <unbreak>#2[i]%</unbreak>, increases their DEF by a further <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+      "params": [
+        [ 0.16, 0.5, 0.16 ],
+        [ 0.2, 0.5, 0.2 ],
+        [ 0.24, 0.5, 0.24 ],
+        [ 0.28, 0.5, 0.28 ],
+        [ 0.32, 0.5, 0.32 ]
+      ]
     }
   },
   "Defense": {
@@ -156,9 +163,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Revitalization",
-      "desc": "When the wearer unleashes their Ultimate, they restore HP by **18%**/**21%**/**24%**/**27%**/**30%** of their Max HP."
+      "desc": "When the wearer unleashes their Ultimate, they restore HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of their Max HP.",
+      "params": [
+        [ 0.18 ],
+        [ 0.21 ],
+        [ 0.24 ],
+        [ 0.27 ],
+        [ 0.3 ]
+      ]
     }
   },
   "Pioneering": {
@@ -237,9 +251,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "IPC",
-      "desc": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by **12%**/**14%**/**16%**/**18%**/**20%** of their Max HP."
+      "desc": "When the wearer Breaks an enemy's Weakness, the wearer restores HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of their Max HP.",
+      "params": [
+        [ 0.12 ],
+        [ 0.14 ],
+        [ 0.16 ],
+        [ 0.18 ],
+        [ 0.2 ]
+      ]
     }
   },
   "Day One of My New Life": {
@@ -318,9 +339,16 @@
         "defenseAdd": 3.15
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "At This Very Moment",
-      "desc": "Increases the wearer's DEF by **16%**/**18%**/**20%**/**22%**/**24%**. After entering battle, increases DMG RES of all allies by **8%**/**9%**/**10%**/**11%**/**12%**. Effects of the same type cannot stack."
+      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After entering battle, increases DMG RES of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Effects of the same type cannot stack.",
+      "params": [
+        [ 0.16, 0.08 ],
+        [ 0.18, 0.09 ],
+        [ 0.2, 0.1 ],
+        [ 0.22, 0.11 ],
+        [ 0.24, 0.12 ]
+      ]
     }
   },
   "Landau's Choice": {
@@ -399,9 +427,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Time Fleets Away",
-      "desc": "The wearer is more likely to be attacked, but DMG taken is reduced by **16%**/**18%**/**20%**/**22%**/**24%**."
+      "desc": "The wearer is more likely to be attacked, but DMG taken is reduced by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+      "params": [
+        [ 2, 0.16 ],
+        [ 2, 0.18 ],
+        [ 2, 0.2 ],
+        [ 2, 0.22 ],
+        [ 2, 0.24 ]
+      ]
     }
   },
   "This Is Me!": {
@@ -480,9 +515,16 @@
         "defenseAdd": 3.6
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "New Chapter",
-      "desc": "Increases the wearer's DEF by **16%**/**20%**/**24%**/**28%**/**32%**. Increases the DMG of the wearer when they use their Ultimate by **60%**/**75%**/**90%**/**105%**/**120%** of the wearer's DEF. This effect can only apply 1 time per enemy target."
+      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases the DMG of the wearer when they use their Ultimate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the wearer's DEF. This effect can only apply 1 time per enemy target.",
+      "params": [
+        [ 0.16, 0.6 ],
+        [ 0.2, 0.75 ],
+        [ 0.24, 0.9 ],
+        [ 0.28, 1.05 ],
+        [ 0.32, 1.2 ]
+      ]
     }
   },
   "Trend of the Universal Market": {
@@ -561,9 +603,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "A New Round of Shuffling",
-      "desc": "Increases the wearer's DEF by **16%**/**20%**/**24%**/**28%**/**32%**. When the wearer is attacked, there is a **100%**/**105%**/**110%**/**115%**/**120%** base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to **40%**/**50%**/**60%**/**70%**/**80%** of the wearer's DEF for 2 turn(s)."
+      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer is attacked, there is a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of the wearer's DEF for <unbreak>#4[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.16, 1, 0.4, 2 ],
+        [ 0.2, 1.05, 0.5, 2 ],
+        [ 0.24, 1.1, 0.6, 2 ],
+        [ 0.28, 1.15, 0.7, 2 ],
+        [ 0.32, 1.2, 0.8, 2 ]
+      ]
     }
   },
   "We Are Wildfire": {
@@ -642,9 +691,16 @@
         "defenseAdd": 3.15
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Teary-Eyed",
-      "desc": "At the start of the battle, the DMG dealt to all allies decreases by **8%**/**10%**/**12%**/**14%**/**16%** for 5 turn(s). At the same time, immediately restores HP to all allies equal to **30%**/**35%**/**40%**/**45%**/**50%** of the respective HP difference between the characters' Max HP and current HP."
+      "desc": "At the start of the battle, the DMG dealt to all allies decreases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s). At the same time, immediately restores HP to all allies equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of the respective HP difference between the characters' Max HP and current HP.",
+      "params": [
+        [ 0.3, 0.08, 5 ],
+        [ 0.35, 0.1, 5 ],
+        [ 0.4, 0.12, 5 ],
+        [ 0.45, 0.14, 5 ],
+        [ 0.5, 0.16, 5 ]
+      ]
     }
   },
   "Moment of Victory": {
@@ -723,9 +779,16 @@
         "defenseAdd": 4.05
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Verdict",
-      "desc": "Increases the wearer's DEF by **24%**/**28%**/**32%**/**36%**/**40%** and Effect Hit Rate by **24%**/**28%**/**32%**/**36%**/**40%**. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra **24%**/**28%**/**32%**/**36%**/**40%** until the end of the wearer's turn."
+      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and Effect Hit Rate by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> until the end of the wearer's turn.",
+      "params": [
+        [ 2, 0.24, 0.24, 0.24 ],
+        [ 2, 0.28, 0.28, 0.28 ],
+        [ 2, 0.32, 0.32, 0.32 ],
+        [ 2, 0.36, 0.36, 0.36 ],
+        [ 2, 0.4, 0.4, 0.4 ]
+      ]
     }
   },
   "Texture of Memories": {
@@ -804,9 +867,16 @@
         "defenseAdd": 3.6
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Treasure",
-      "desc": "Increases the wearer's Effect RES by **8%**/**10%**/**12%**/**14%**/**16%**. If the wearer is attacked and has no Shield, they gain a Shield equal to **16%**/**20%**/**24%**/**28%**/**32%** of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by **12%**/**15%**/**18%**/**21%**/**24%**."
+      "desc": "Increases the wearer's Effect RES by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If the wearer is attacked and has no Shield, they gain a Shield equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of their Max HP for <unbreak>#3[i]</unbreak> turn(s). This effect can only be triggered once every <unbreak>#4[i]</unbreak> turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>.",
+      "params": [
+        [ 0.08, 0.16, 2, 3, 0.12 ],
+        [ 0.1, 0.2, 2, 3, 0.15 ],
+        [ 0.12, 0.24, 2, 3, 0.18 ],
+        [ 0.14, 0.28, 2, 3, 0.21 ],
+        [ 0.16, 0.32, 2, 3, 0.24 ]
+      ]
     }
   }
 }

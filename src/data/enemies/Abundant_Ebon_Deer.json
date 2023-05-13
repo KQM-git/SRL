@@ -29,70 +29,50 @@
           "name": "Flamboyant Gore",
           "type": "Ability",
           "desc": "Uses this ability immediately when there are 2 Lavish Fruits on the field. Deals Lightning DMG to all targets. Deals more damage for every \"Ambrosial Arbor Branches\" on the field. After the ability is used, remove all \"Ambrosial Arbor Branches\" on the field.",
-          "phases": [
-            2
-          ],
+          "phases": [ 2 ],
           "threat": true
         },
         {
           "name": "Pedicel: Wintry Wind",
           "type": "Ability",
           "desc": "Summons Ambrosial Arbor branch \"Twig of Wintry Wind\"",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Pedicel: Marple Leaf",
           "type": "Ability",
           "desc": "Summons Ambrosial Arbor branch \"Twig of Marple Leaf\"",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Pedicel: Glorious Blooms",
           "type": "Ability",
           "desc": "Summons Ambrosial Arbor branch \"Twig of Glorious Blooms\"",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         },
         {
           "name": "Pedicel: Lavish Fruits",
           "type": "Ability",
           "desc": "Summons Ambrosial Arbor branch \"Twig of Lavish Fruits\"",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         },
         {
           "name": "Wavering Bleat",
           "type": "Ability",
           "desc": "Deals Lightning DMG to a single target.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Caress of Wind",
           "type": "Ability",
           "desc": "Deals minor Wind DMG to all targets.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Hardy Leaf Sheath",
           "type": "Ability",
           "desc": "Increases DEF. Toughness cannot be reduced.",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         }
       ]
     }

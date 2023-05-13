@@ -116,52 +116,38 @@
           "name": "Felling Order",
           "type": "Ability",
           "desc": "Deals Physical DMG to a single target, with a chance to inflict Bleed with every hit to this target.",
-          "phases": [
-            1,
-            2
-          ],
+          "phases": [ 1, 2 ],
           "threat": true
         },
         {
           "name": "Lock On Target",
           "type": "Ability",
           "desc": "Locks Onto a single target. The next action on the target will cast \"Felling Order.\"",
-          "phases": [
-            1
-          ]
+          "phases": [ 1 ]
         },
         {
           "name": "Targeting Order",
           "type": "Ability",
           "desc": "Locks on to 2 targets and casts Felling Order on them in the next action.",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         },
         {
           "name": "Teamwork Order",
           "type": "Ability",
           "desc": "Locks on to 2 targets and casts Felling Order on them in the next action. At the same time, makes Automaton Grizzly enter the Charge state, which will cast Purge Order on all targets in the next action.",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         },
         {
           "name": "Disintegration Order",
           "type": "Ability",
           "desc": "Deals minor Physical DMG to a single target, with a high chance to inflict 1 stack of Bleed.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Dismantle",
           "type": "Ability",
           "desc": "Deals minor Physical DMG to a single target, with a high chance to inflict 1 stack of Bleed.",
-          "phases": [
-            1
-          ]
+          "phases": [ 1 ]
         }
       ]
     }

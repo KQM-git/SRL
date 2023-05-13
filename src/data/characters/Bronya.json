@@ -115,119 +115,133 @@
       "name": "Windrider Bullet",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Wind DMG equal to **50%** of Bronya's ATK to a single enemy.",
-        "Deals Wind DMG equal to **60%** of Bronya's ATK to a single enemy.",
-        "Deals Wind DMG equal to **70%** of Bronya's ATK to a single enemy.",
-        "Deals Wind DMG equal to **80%** of Bronya's ATK to a single enemy.",
-        "Deals Wind DMG equal to **90%** of Bronya's ATK to a single enemy.",
-        "Deals Wind DMG equal to **100%** of Bronya's ATK to a single enemy.",
-        "Deals Wind DMG equal to **110%** of Bronya's ATK to a single enemy."
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Bronya's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ]
       ]
     },
     {
       "name": "Combat Redeployment",
       "tag": "Support",
       "type": "Skill",
-      "desc": [
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **33%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **36%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **40%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **43%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **46%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **50%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **54%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **58%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **62%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **66%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **69%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again."
+      "desc": "Dispels a <u>debuff</u> from a single ally, allows them to immediately take action, and increases their DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s).\\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "params": [
+        [ 0.33, 0, 1, 1 ],
+        [ 0.363, 0, 1, 1 ],
+        [ 0.396, 0, 1, 1 ],
+        [ 0.429, 0, 1, 1 ],
+        [ 0.462, 0, 1, 1 ],
+        [ 0.495, 0, 1, 1 ],
+        [ 0.53625, 0, 1, 1 ],
+        [ 0.5775, 0, 1, 1 ],
+        [ 0.61875, 0, 1, 1 ],
+        [ 0.66, 0, 1, 1 ],
+        [ 0.693, 0, 1, 1 ]
       ]
     },
     {
       "name": "The Belobog March",
       "tag": "Support",
       "type": "Ultimate",
-      "desc": [
-        "Increases the ATK of all allies by **33%**, and increases their CRIT DMG equal to **12.0%** of Bronya's CRIT DMG plus **12.0%** for 2 turn(s).",
-        "Increases the ATK of all allies by **35%**, and increases their CRIT DMG equal to **12.4%** of Bronya's CRIT DMG plus **12.8%** for 2 turn(s).",
-        "Increases the ATK of all allies by **37%**, and increases their CRIT DMG equal to **12.8%** of Bronya's CRIT DMG plus **13.6%** for 2 turn(s).",
-        "Increases the ATK of all allies by **40%**, and increases their CRIT DMG equal to **13.2%** of Bronya's CRIT DMG plus **14.4%** for 2 turn(s).",
-        "Increases the ATK of all allies by **42%**, and increases their CRIT DMG equal to **13.6%** of Bronya's CRIT DMG plus **15.2%** for 2 turn(s).",
-        "Increases the ATK of all allies by **44%**, and increases their CRIT DMG equal to **14.0%** of Bronya's CRIT DMG plus **16.0%** for 2 turn(s).",
-        "Increases the ATK of all allies by **47%**, and increases their CRIT DMG equal to **14.5%** of Bronya's CRIT DMG plus **17.0%** for 2 turn(s).",
-        "Increases the ATK of all allies by **50%**, and increases their CRIT DMG equal to **15.0%** of Bronya's CRIT DMG plus **18.0%** for 2 turn(s).",
-        "Increases the ATK of all allies by **52%**, and increases their CRIT DMG equal to **15.5%** of Bronya's CRIT DMG plus **19.0%** for 2 turn(s).",
-        "Increases the ATK of all allies by **55%**, and increases their CRIT DMG equal to **16.0%** of Bronya's CRIT DMG plus **20.0%** for 2 turn(s).",
-        "Increases the ATK of all allies by **57%**, and increases their CRIT DMG equal to **16.4%** of Bronya's CRIT DMG plus **20.8%** for 2 turn(s)."
+      "desc": "Increases the ATK of all allies by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and increases their CRIT DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Bronya's CRIT DMG plus <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.33, 0.12, 0.12, 2 ],
+        [ 0.352, 0.124, 0.128, 2 ],
+        [ 0.374, 0.128, 0.136, 2 ],
+        [ 0.396, 0.132, 0.144, 2 ],
+        [ 0.418, 0.136, 0.152, 2 ],
+        [ 0.44, 0.14, 0.16, 2 ],
+        [ 0.4675, 0.145, 0.17, 2 ],
+        [ 0.495, 0.15, 0.18, 2 ],
+        [ 0.5225, 0.155, 0.19, 2 ],
+        [ 0.55, 0.16, 0.2, 2 ],
+        [ 0.572, 0.164, 0.208, 2 ]
       ]
     },
     {
       "name": "Leading the Way",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **15%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **17%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **18%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **20%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **21%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **23%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **24%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **26%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **28%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **30%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **32%**."
+      "desc": "After using her Basic ATK, Bronya's next action will be <u>Advanced Forward</u> by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+      "params": [
+        [ 0.15 ],
+        [ 0.165 ],
+        [ 0.18 ],
+        [ 0.195 ],
+        [ 0.21 ],
+        [ 0.225 ],
+        [ 0.24375 ],
+        [ 0.2625 ],
+        [ 0.28125 ],
+        [ 0.3 ],
+        [ 0.315 ]
       ]
     },
     {
       "name": "Banner of Command",
       "tag": "Support",
       "type": "Technique",
-      "desc": [
-        "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s)."
+      "desc": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.15, 2 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Hone Your Strength",
-      "desc": "When using Skill, there is a 50% fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown."
+      "desc": "When using Skill, there is a <unbreak>#1[i]%</unbreak> fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown.",
+      "params": [ 0.5 ]
     },
     {
       "name": "Quick March",
-      "desc": "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn."
+      "desc": "When using Skill, the target ally's SPD increases by <unbreak>#1[i]%</unbreak> after taking action, lasting for 1 turn.",
+      "params": [ 0.3 ]
     },
     {
       "name": "Bombardment",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Take by Surprise",
-      "desc": "After an ally other than Bronya uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn."
+      "desc": "After an ally other than Bronya uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to <unbreak>#1[i]%</unbreak> of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.",
+      "params": [ 0.8 ]
     },
     {
       "name": "Unstoppable",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Piercing Rainbow",
-      "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s)."
+      "desc": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [ 1 ]
     }
   ],
   "skillTree": [
     {
       "name": "Command",
-      "desc": "The CRIT Rate for Basic ATK increases to 100%.",
+      "desc": "The CRIT Rate for Basic ATK increases to <unbreak>100%</unbreak>.",
+      "params": [],
       "minAsc": 2,
       "children": [
         {
           "name": "CRIT DMG Boost",
-          "desc": "CRIT DMG increases by 5.3%",
+          "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.053 ],
           "minAsc": 2,
           "children": [
             {
               "name": "DMG Boost: Wind",
-              "desc": "Wind DMG increases by 3.2%",
+              "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
               "minAsc": 3
             }
           ]
@@ -236,17 +250,20 @@
     },
     {
       "name": "Battlefield",
-      "desc": "At the start of the battle, all allies' DEF increases by 20% for 2 turn(s).",
+      "desc": "At the start of the battle, all allies' DEF increases by <unbreak>#2[i]%</unbreak> for <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [ 2, 0.2 ],
       "minAsc": 4,
       "children": [
         {
           "name": "DMG Boost: Wind",
-          "desc": "Wind DMG increases by 4.8%",
+          "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 4,
           "children": [
             {
               "name": "CRIT DMG Boost",
-              "desc": "CRIT DMG increases by 8.0%",
+              "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minAsc": 5
             }
           ]
@@ -255,22 +272,26 @@
     },
     {
       "name": "Military Might",
-      "desc": "When Bronya is on the field, all allies deal 10% more DMG.",
+      "desc": "When Bronya is on the field, all allies deal <unbreak>#1[i]%</unbreak> more DMG.",
+      "params": [ 0.1 ],
       "minAsc": 6,
       "children": [
         {
           "name": "Effect RES Boost",
-          "desc": "Effect RES increases by 6.0%",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6,
           "children": [
             {
               "name": "CRIT DMG Boost",
-              "desc": "CRIT DMG increases by 10.7%",
+              "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.107 ],
               "minLevel": 75
             },
             {
               "name": "DMG Boost: Wind",
-              "desc": "Wind DMG increases by 6.4%",
+              "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
               "minLevel": 80
             }
           ]
@@ -279,16 +300,19 @@
     },
     {
       "name": "DMG Boost: Wind",
-      "desc": "Wind DMG increases by 3.2%",
+      "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ],
       "children": [
         {
           "name": "Effect RES Boost",
-          "desc": "Effect RES increases by 4.0%",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 3
         },
         {
           "name": "DMG Boost: Wind",
-          "desc": "Wind DMG increases by 4.8%",
+          "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 5
         }
       ]

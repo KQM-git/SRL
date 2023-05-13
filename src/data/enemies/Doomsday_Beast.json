@@ -24,10 +24,7 @@
           "name": "Leviathan's Lingering Power",
           "type": "Talent",
           "desc": "The Doomsday Beast cannot be attacked until the Antimatter Engine, Disaster's Right Hand, and Dawn's Left Hand have all been destroyed.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         }
       ]
     }

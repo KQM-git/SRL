@@ -28,17 +28,20 @@ export interface Skill {
     name: string
     tag: string
     type: string
-    desc: string[]
+    desc: string
+    params: number[][]
 }
 
 export interface Eidolon {
     name: string
     desc: string
+    params: number[]
 }
 
 export interface CharacterTrace {
     name: string
     desc: string
+    params: number[]
     minAsc?: number
     minLevel?: number
     children?: CharacterTrace[]
@@ -51,7 +54,7 @@ export interface Lightcone {
     baseType: string
     stars: number
     stats: LightconeStats[]
-    refinements: LightconeRefinements
+    superimposition: LightconeSuperimposition
 }
 
 export interface LightconeStats {
@@ -65,9 +68,10 @@ export interface LightconeStats {
     defenseAdd: number
 }
 
-export interface LightconeRefinements {
+export interface LightconeSuperimposition {
     name: string
     desc: string
+    params: number[][]
 }
 
 // Relics

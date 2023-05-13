@@ -115,119 +115,133 @@
       "name": "Frost Thorn",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Ice DMG equal to **50%** of Yanqing's ATK to a single enemy.",
-        "Deals Ice DMG equal to **60%** of Yanqing's ATK to a single enemy.",
-        "Deals Ice DMG equal to **70%** of Yanqing's ATK to a single enemy.",
-        "Deals Ice DMG equal to **80%** of Yanqing's ATK to a single enemy.",
-        "Deals Ice DMG equal to **90%** of Yanqing's ATK to a single enemy.",
-        "Deals Ice DMG equal to **100%** of Yanqing's ATK to a single enemy.",
-        "Deals Ice DMG equal to **110%** of Yanqing's ATK to a single enemy."
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yanqing's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ]
       ]
     },
     {
       "name": "Darting Ironthorn",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": [
-        "Deals Ice DMG equal to **110%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **121%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **132%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **143%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **154%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **165%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **179%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **193%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **206%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **220%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
-        "Deals Ice DMG equal to **231%** of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn."
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
+      "params": [
+        [ 1.1 ],
+        [ 1.21 ],
+        [ 1.32 ],
+        [ 1.43 ],
+        [ 1.54 ],
+        [ 1.65 ],
+        [ 1.7875 ],
+        [ 1.925 ],
+        [ 2.0625 ],
+        [ 2.2 ],
+        [ 2.31 ]
       ]
     },
     {
       "name": "Amidst the Raining Bliss",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": [
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **30%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **210%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **32%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **224%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **34%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **238%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **36%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **252%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **38%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **266%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **40%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **280%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **43%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **298%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **45%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **315%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **48%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **333%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **50%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **350%** of Yanqing's ATK to a single enemy.",
-        "Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra **52%**. This **buff** lasts for one turn. Afterwards, deals Ice DMG equal to **364%** of Yanqing's ATK to a single enemy."
+      "desc": "Increases Yanqing's CRIT Rate by <unbreak>#1[i]%</unbreak>. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. This <u>buff</u> lasts for one turn. Afterwards, deals Ice DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Yanqing's ATK to a single enemy.",
+      "params": [
+        [ 0.6, 0.3, 2.1 ],
+        [ 0.6, 0.32, 2.24 ],
+        [ 0.6, 0.34, 2.38 ],
+        [ 0.6, 0.36, 2.52 ],
+        [ 0.6, 0.38, 2.66 ],
+        [ 0.6, 0.4, 2.8 ],
+        [ 0.6, 0.425, 2.975 ],
+        [ 0.6, 0.45, 3.15 ],
+        [ 0.6, 0.475, 3.325 ],
+        [ 0.6, 0.5, 3.5 ],
+        [ 0.6, 0.52, 3.64 ]
       ]
     },
     {
       "name": "One With the Sword",
       "tag": "Single Target",
       "type": "Talent",
-      "desc": [
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **15.0%** and his CRIT DMG increases by **15%**. After Yanqing attacks an enemy, there is a **50%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **25%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **25%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **15.5%** and his CRIT DMG increases by **17%**. After Yanqing attacks an enemy, there is a **51%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **28%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **28%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **16.0%** and his CRIT DMG increases by **18%**. After Yanqing attacks an enemy, there is a **52%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **30%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **30%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **16.5%** and his CRIT DMG increases by **20%**. After Yanqing attacks an enemy, there is a **53%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **33%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **33%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **17.0%** and his CRIT DMG increases by **21%**. After Yanqing attacks an enemy, there is a **54%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **35%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **35%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **17.5%** and his CRIT DMG increases by **23%**. After Yanqing attacks an enemy, there is a **55%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **38%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **38%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **18.1%** and his CRIT DMG increases by **24%**. After Yanqing attacks an enemy, there is a **56%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **41%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **41%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **18.8%** and his CRIT DMG increases by **26%**. After Yanqing attacks an enemy, there is a **57%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **44%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **44%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **19.4%** and his CRIT DMG increases by **28%**. After Yanqing attacks an enemy, there is a **59%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **47%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **47%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **20.0%** and his CRIT DMG increases by **30%**. After Yanqing attacks an enemy, there is a **60%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **50%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **50%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
-        "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by **20.5%** and his CRIT DMG increases by **32%**. After Yanqing attacks an enemy, there is a **61%** **fixed chance** to perform a **follow-up attack**, dealing Ice DMG equal to **53%** of Yanqing's ATK to the enemy, which has a 65% **base chance** to Freeze the enemy for 1 turn.\nThe Frozen target cannot take action and receives **Additional** Ice DMG equal to **53%** of Yanqing's ATK at the beginning of each turn.\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear."
+      "desc": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> and his CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After Yanqing attacks an enemy, there is a <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>fixed chance</u> to perform a <u>follow-up attack</u>, dealing Ice DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Yanqing's ATK to the enemy, which has a <unbreak>#6[i]%</unbreak> <u>base chance</u> to Freeze the enemy for 1 turn.\\nThe Frozen target cannot take action and receives <u>Additional</u> Ice DMG equal to <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of Yanqing's ATK at the beginning of each turn.\\nWhen Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "params": [
+        [ 0.15, 0.15, 0.5, 0.25, 0.25, 0.65 ],
+        [ 0.155, 0.165, 0.51, 0.275, 0.275, 0.65 ],
+        [ 0.16, 0.18, 0.52, 0.3, 0.3, 0.65 ],
+        [ 0.165, 0.195, 0.53, 0.325, 0.325, 0.65 ],
+        [ 0.17, 0.21, 0.54, 0.35, 0.35, 0.65 ],
+        [ 0.175, 0.225, 0.55, 0.375, 0.375, 0.65 ],
+        [ 0.18125, 0.24375, 0.5625, 0.40625, 0.40625, 0.65 ],
+        [ 0.1875, 0.2625, 0.575, 0.4375, 0.4375, 0.65 ],
+        [ 0.19375, 0.28125, 0.5875, 0.46875, 0.46875, 0.65 ],
+        [ 0.2, 0.3, 0.6, 0.5, 0.5, 0.65 ],
+        [ 0.205, 0.315, 0.61, 0.525, 0.525, 0.65 ]
       ]
     },
     {
       "name": "The One True Sword",
       "tag": "Enhance",
       "type": "Technique",
-      "desc": [
-        "After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP is 50% or higher."
+      "desc": "After using his Technique, at the start of the next battle, Yanqing deals <unbreak>#2[i]%</unbreak> more DMG for <unbreak>#3[i]</unbreak> turn(s) to enemies whose current HP is <unbreak>#1[i]%</unbreak> or higher.",
+      "params": [
+        [ 0.5, 0.3, 2 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Svelte Saber",
-      "desc": "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to 60% of his ATK."
+      "desc": "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to <unbreak>#1[i]%</unbreak> of his ATK.",
+      "params": [ 0.6 ]
     },
     {
       "name": "Supine Serenade",
-      "desc": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%."
+      "desc": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.1 ]
     },
     {
       "name": "Sword Savant",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Searing Sting",
-      "desc": "When the current HP percentage is 80% or higher, Ice RES PEN increases by 12%."
+      "desc": "When the current HP percentage is <unbreak>#1[i]%</unbreak> or higher, Ice RES PEN increases by <unbreak>#2[i]%</unbreak>.",
+      "params": [ 0.8, 0.12 ]
     },
     {
       "name": "Surging Strife",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Swift Swoop",
-      "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn."
+      "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn.",
+      "params": []
     }
   ],
   "skillTree": [
     {
       "name": "Icing on the Kick",
-      "desc": "When Yanqing attacks, deals Additional Ice DMG equal to 30% of Yanqing's ATK to enemies with Ice Weakness.",
+      "desc": "When Yanqing attacks, deals Additional Ice DMG equal to <unbreak>#1[i]%</unbreak> of Yanqing's ATK to enemies with Ice Weakness.",
+      "params": [ 0.3 ],
       "minAsc": 2,
       "children": [
         {
           "name": "DMG Boost: Ice",
-          "desc": "Ice DMG increases by 3.2%",
+          "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.032 ],
           "minAsc": 2,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 4.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3
             }
           ]
@@ -236,17 +250,20 @@
     },
     {
       "name": "Frost Favors the Brave",
-      "desc": "When Soulsteel Sync is active, Effect RES increases by 20%.",
+      "desc": "When Soulsteel Sync is active, Effect RES increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.2 ],
       "minAsc": 4,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DMG Boost: Ice",
-              "desc": "Ice DMG increases by 4.8%",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.048 ],
               "minAsc": 5
             }
           ]
@@ -255,22 +272,26 @@
     },
     {
       "name": "Gentle Blade",
-      "desc": "When a CRIT Hit is triggered, increases SPD by 10% for 2 turn(s).",
+      "desc": "When a CRIT Hit is triggered, increases SPD by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.1, 2 ],
       "minAsc": 6,
       "children": [
         {
           "name": "HP Boost",
-          "desc": "Max HP increases by 6.0%",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6,
           "children": [
             {
               "name": "DMG Boost: Ice",
-              "desc": "Ice DMG increases by 6.4%",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
               "minLevel": 75
             },
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 8.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 80
             }
           ]
@@ -279,16 +300,19 @@
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 4.0%"
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
     },
     {
       "name": "HP Boost",
-      "desc": "Max HP increases by 4.0%",
+      "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
       "minAsc": 3
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 6.0%",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.06 ],
       "minAsc": 5
     }
   ]

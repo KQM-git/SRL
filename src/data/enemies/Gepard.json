@@ -83,85 +83,56 @@
           "name": "Frigid Waterfall",
           "type": "Ability",
           "desc": "Deals Ice DMG to all targets and slightly increases the DMG dealt. This DMG boosting effect is stackable.",
-          "phases": [
-            1,
-            2,
-            3
-          ],
+          "phases": [ 1, 2, 3 ],
           "threat": true
         },
         {
           "name": "Fist of Conviction",
           "type": "Ability",
           "desc": "Deals minor Ice DMG to a single target.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Smite of Frost",
           "type": "Ability",
           "desc": "Deals Ice DMG to a single target.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Garrison Aura Field",
           "type": "Ability",
           "desc": "Unleashes Shield for All and absorbs DMG taken by all friendly units, as well as preventing all friendly units from receiving damage to their Toughness.",
-          "phases": [
-            2,
-            3
-          ]
+          "phases": [ 2, 3 ]
         },
         {
           "name": "Besiege",
           "type": "Ability",
           "desc": "Gepard Locks On a single target, causing all friendly units to immediately launch coordinated attacks on the target.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Tit for Tat",
           "type": "Ability",
           "desc": "Goes into the Counter state for 1 turn. If attacked by a target while in this state, immediately use \"Smite of Frost\" on the attacker. This effect can only be triggered 1 time.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Support",
           "type": "Ability",
           "desc": "When the phase starts, immediately summons Silvermane Soldier or Silvermane Cannoneer.",
-          "phases": [
-            1
-          ]
+          "phases": [ 1 ]
         },
         {
           "name": "Support",
           "type": "Talent",
           "desc": "When the phase starts, immediately summons Silvermane Cannoneer.",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         },
         {
           "name": "Support",
           "type": "Talent",
           "desc": "When the phase starts, immediately summons Silvermane Lieutenant (Complete).",
-          "phases": [
-            3
-          ]
+          "phases": [ 3 ]
         }
       ]
     }

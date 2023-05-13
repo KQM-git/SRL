@@ -115,118 +115,132 @@
       "name": "Spectrum Beam",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Fire DMG equal to **50%** of Asta's ATK to a single enemy.",
-        "Deals Fire DMG equal to **60%** of Asta's ATK to a single enemy.",
-        "Deals Fire DMG equal to **70%** of Asta's ATK to a single enemy.",
-        "Deals Fire DMG equal to **80%** of Asta's ATK to a single enemy.",
-        "Deals Fire DMG equal to **90%** of Asta's ATK to a single enemy.",
-        "Deals Fire DMG equal to **100%** of Asta's ATK to a single enemy.",
-        "Deals Fire DMG equal to **110%** of Asta's ATK to a single enemy."
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Asta's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ]
       ]
     },
     {
       "name": "Meteor Storm",
       "tag": "Bounce",
       "type": "Skill",
-      "desc": [
-        "Deals Fire DMG equal to **25%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **25%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **28%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **28%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **30%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **30%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **33%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **33%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **35%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **35%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **38%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **38%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **41%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **41%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **44%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **44%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **47%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **47%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **50%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **50%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **53%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **53%** of Asta's ATK to a random enemy."
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Asta's ATK to a random enemy.",
+      "params": [
+        [ 0.25 ],
+        [ 0.275 ],
+        [ 0.3 ],
+        [ 0.325 ],
+        [ 0.35 ],
+        [ 0.375 ],
+        [ 0.40625 ],
+        [ 0.4375 ],
+        [ 0.46875 ],
+        [ 0.5 ],
+        [ 0.525 ]
       ]
     },
     {
       "name": "Astral Blessing",
       "tag": "Support",
       "type": "Ultimate",
-      "desc": [
-        "Increases SPD of all allies by **36** for 2 turn(s).",
-        "Increases SPD of all allies by **37** for 2 turn(s).",
-        "Increases SPD of all allies by **39** for 2 turn(s).",
-        "Increases SPD of all allies by **40** for 2 turn(s).",
-        "Increases SPD of all allies by **42** for 2 turn(s).",
-        "Increases SPD of all allies by **43** for 2 turn(s).",
-        "Increases SPD of all allies by **45** for 2 turn(s).",
-        "Increases SPD of all allies by **47** for 2 turn(s).",
-        "Increases SPD of all allies by **48** for 2 turn(s).",
-        "Increases SPD of all allies by **50** for 2 turn(s).",
-        "Increases SPD of all allies by **51** for 2 turn(s)."
+      "desc": "Increases SPD of all allies by <color=#f29e38ff><unbreak>#1[i]</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 36, 2 ],
+        [ 37.4, 2 ],
+        [ 38.8, 2 ],
+        [ 40.2, 2 ],
+        [ 41.6, 2 ],
+        [ 43, 2 ],
+        [ 44.75, 2 ],
+        [ 46.5, 2 ],
+        [ 48.25, 2 ],
+        [ 50, 2 ],
+        [ 51.4, 2 ]
       ]
     },
     {
       "name": "Astrometry",
       "tag": "Support",
       "type": "Talent",
-      "desc": [
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **7.0%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **7.7%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **8.4%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **9.1%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **9.8%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **10.5%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **11.4%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **12.3%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **13.1%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **14.0%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **14.7%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+      "desc": "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\\nFor every stack of Charging Asta has, all allies' ATK increases by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>, up to <unbreak>#2[i]</unbreak> time(s).\\nStarting from her second turn, Asta's Charging stack count is reduced by <unbreak>#3[i]</unbreak> at the beginning of every turn.",
+      "params": [
+        [ 0.07, 5, 3 ],
+        [ 0.077, 5, 3 ],
+        [ 0.084, 5, 3 ],
+        [ 0.091, 5, 3 ],
+        [ 0.098, 5, 3 ],
+        [ 0.105, 5, 3 ],
+        [ 0.11375, 5, 3 ],
+        [ 0.1225, 5, 3 ],
+        [ 0.13125, 5, 3 ],
+        [ 0.14, 5, 3 ],
+        [ 0.147, 5, 3 ]
       ]
     },
     {
       "name": "Miracle Flash",
       "type": "Technique",
-      "desc": [
-        "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies."
+      "desc": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to <unbreak>#1[i]%</unbreak> of Asta's ATK to all enemies.",
+      "params": [
+        [ 0.5 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Star Sings Sans Verses or Vocals",
-      "desc": "When using Skill, deals DMG for 1 extra time to a random enemy."
+      "desc": "When using Skill, deals DMG for 1 extra time to a random enemy.",
+      "params": []
     },
     {
       "name": "Moon Speaks in Wax and Wane",
-      "desc": "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn."
+      "desc": "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.",
+      "params": [ 1 ]
     },
     {
       "name": "Meteor Showers for Wish and Want",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Aurora Basks in Beauty and Bliss",
-      "desc": "Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks."
+      "desc": "Asta's Energy Regeneration Rate increases by <unbreak>#2[i]%</unbreak> when she has <unbreak>#1[i]</unbreak> or more Charging stacks.",
+      "params": [ 2, 0.15 ]
     },
     {
       "name": "Nebula Secludes in Cold Cosmos",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Galaxy Dreams in Calm and Comfort",
-      "desc": "Charging stack(s) lost in each turn is reduced by 1."
+      "desc": "Charging stack(s) lost in each turn is reduced by <unbreak>#1[i]</unbreak>.",
+      "params": [ 1 ]
     }
   ],
   "skillTree": [
     {
       "name": "Sparks",
-      "desc": "Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s).\nBurned enemies take Fire DoT equal to 50% of DMG dealt by Asta's Basic ATK at the start of each turn.",
+      "desc": "Asta's Basic ATK has a <unbreak>#1[i]%</unbreak> base chance to Burn enemies for <unbreak>#2[i]</unbreak> turn(s).\\nBurned enemies take Fire DoT equal to <unbreak>#3[i]%</unbreak> of DMG dealt by Asta's Basic ATK at the start of each turn.",
+      "params": [ 0.8, 3, 0.5 ],
       "minAsc": 2,
       "children": [
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 5.0%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.05 ],
           "minAsc": 2,
           "children": [
             {
               "name": "DMG Boost: Fire",
-              "desc": "Fire DMG increases by 3.2%",
+              "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
               "minAsc": 3
             }
           ]
@@ -235,17 +249,20 @@
     },
     {
       "name": "Ignite",
-      "desc": "When Asta is on the field, all allies' Fire DMG increases by 18%.",
+      "desc": "When Asta is on the field, all allies' Fire DMG increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.18 ],
       "minAsc": 4,
       "children": [
         {
           "name": "DMG Boost: Fire",
-          "desc": "Fire DMG increases by 4.8%",
+          "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 7.5%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.075 ],
               "minAsc": 5
             }
           ]
@@ -254,22 +271,26 @@
     },
     {
       "name": "Constellation",
-      "desc": "Asta's DEF increases by 6% for every current Charging stack she possesses.",
+      "desc": "Asta's DEF increases by <unbreak>#1[i]%</unbreak> for every current Charging stack she possesses.",
+      "params": [ 0.06 ],
       "minAsc": 6,
       "children": [
         {
           "name": "CRIT Rate Boost",
-          "desc": "CRIT Rate increases by 4.0%",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 6,
           "children": [
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 10.0%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.1 ],
               "minLevel": 75
             },
             {
               "name": "DMG Boost: Fire",
-              "desc": "Fire DMG increases by 6.4%",
+              "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
               "minLevel": 80
             }
           ]
@@ -278,16 +299,19 @@
     },
     {
       "name": "DMG Boost: Fire",
-      "desc": "Fire DMG increases by 3.2%",
+      "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ],
       "children": [
         {
           "name": "CRIT Rate Boost",
-          "desc": "CRIT Rate increases by 2.7%",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.027 ],
           "minAsc": 3
         },
         {
           "name": "DMG Boost: Fire",
-          "desc": "Fire DMG increases by 4.8%",
+          "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 5
         }
       ]
