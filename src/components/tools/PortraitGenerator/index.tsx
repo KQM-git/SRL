@@ -82,6 +82,7 @@ export default function PortraitGenerator({
   const [custom, setCustom] = useState([] as PortraitIcon[])
   const [background, setBackground] = useState(true)
   const [portraitPadding, setPortraitPadding] = useState(true)
+  const [names, setNames] = useState(true)
   const [search, setSearch] = useState("")
 
   // Loading of custom icons
@@ -179,6 +180,7 @@ export default function PortraitGenerator({
       active={active}
       remove={(i: number) => setActive([...active.slice(0, i), ...active.slice(i + 1)])}
       background={background}
+      names={names}
       portraitPadding={portraitPadding}
     />
 
@@ -221,7 +223,7 @@ export default function PortraitGenerator({
     <h2>Relics</h2>
     <Tabs>
       {iconsRelics.map(({ level, icons }) => {
-        return <TabItem key={level} value={level} label={level + "★"}>
+        return <TabItem key={level} value={level} label={level}>
           <CharSelector
             icons={icons}
             onClick={add}
@@ -263,6 +265,9 @@ export default function PortraitGenerator({
     </label> <br/>
     <label>
       Portrait padding: <CheckboxInput set={setPortraitPadding} value={portraitPadding} />
+    </label> <br/>
+    <label>
+      Add names text: <CheckboxInput set={setNames} value={names} />
     </label> <br/>
     <a href='#' onClick={e => {
       e.preventDefault()

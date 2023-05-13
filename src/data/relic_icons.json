@@ -1,16 +1,26 @@
 {
-    "3": [
-      "Knight of Purity Palace",
-      "Knight of Purity Palace",
-      "Knight of Purity Palace"
-    ],
-    "4": [
-      "Knight of Purity Palace",
-      "Musketeer of Wild Wheat",
-      "Passerby of Wandering Cloud",
-      "Thief of Shooting Meteor"
-    ],
-    "5": [
-      "Knight of Purity Palace"
-    ]
-  }
+  "Cavern Relics": [
+    "Band of Sizzling Thunder",
+    "Champion of Streetwise Boxing",
+    "Eagle of Twilight Line",
+    "Firesmith of Lava-Forging",
+    "Genius of Brilliant Stars",
+    "Guard of Wuthering Snow",
+    "Hunter of Glacial Forest",
+    "Knight of Purity Palace",
+    "Musketeer of Wild Wheat",
+    "Passerby of Wandering Cloud",
+    "Thief of Shooting Meteor",
+    "Wastelander of Banditry Desert"
+  ],
+  "Planar Ornaments": [
+    "Belobog of the Architects",
+    "Celestial Differentiator",
+    "Fleet of the Ageless",
+    "Inert Salsotto",
+    "Pan-Galactic Commercial Enterprise",
+    "Space Sealing Station",
+    "Sprightly Vonwacq",
+    "Talia: Kingdom of Banditry"
+  ]
+}

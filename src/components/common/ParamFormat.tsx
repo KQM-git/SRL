@@ -34,7 +34,7 @@ export function ParamFormatList({ desc, params }: {
   ).replace(/\\n/g, "<br></br>")
 
   const parsed = parse(replaced)
-  return <div><RenderList nodes={parsed} /></div>
+  return <RenderList nodes={parsed} />
 }
 
 function RenderList({ nodes }: { nodes: Node[] }) {

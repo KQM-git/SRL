@@ -31,7 +31,7 @@ export function TraceChild({ traces }: { traces: CharacterTrace[] }) {
           <div className='char-skill-text'>{t.name}</div>
         </div>
         <div>
-          <ParamFormat desc={t.desc} params={t.params} />
+          <div><ParamFormat desc={t.desc} params={t.params} /></div>
           {(t.minAsc || t.minLevel) && <i>Unlocks at {t.minAsc ? "A" + t.minAsc : ""}{t.minLevel ? "Lv. " + t.minLevel : ""}</i>}
         </div>
         {t.children && <TraceChild traces={t.children} />}
