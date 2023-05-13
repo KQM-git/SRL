@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -146,7 +147,8 @@
         [ 0.4875, 1, 1 ],
         [ 0.5, 1, 1 ],
         [ 0.51, 1, 1 ]
-      ]
+      ],
+      "energyGain": 30
     },
     {
       "name": "War-Flaming Lance",
@@ -166,6 +168,8 @@
         [ 1, 1.5 ],
         [ 1.05, 1.575 ]
       ],
+      "energyNeeded": 120,
+      "energyGain": 5,
       "toughness": {
         "All": 60
       }
@@ -212,6 +216,7 @@
         [ 1.35, 0.54 ],
         [ 1.4625, 0.585 ]
       ],
+      "energyGain": 30,
       "toughness": {
         "Target": 60
       }

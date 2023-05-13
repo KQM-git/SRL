@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -147,6 +148,7 @@
         [ 2.4, 1, 2, 0.65 ],
         [ 2.52, 1, 2, 0.6825 ]
       ],
+      "energyGain": 30,
       "toughness": {
         "Target": 60
       }
@@ -169,6 +171,8 @@
         [ 4 ],
         [ 4.16 ]
       ],
+      "energyNeeded": 120,
+      "energyGain": 5,
       "toughness": {
         "Target": 90
       }
@@ -221,6 +225,7 @@
         [ 2.8, 1, 2, 0.65, 0.8 ],
         [ 2.94, 1, 2, 0.6825, 0.84 ]
       ],
+      "energyGain": 30,
       "toughness": {
         "Target": 60
       }

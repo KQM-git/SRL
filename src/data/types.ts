@@ -31,6 +31,8 @@ export interface CharSkill {
     desc: string
     params: number[][]
     toughness?: Record<string, number>
+    energyGain?: number
+    energyNeeded?: number
 }
 
 export interface Eidolon {

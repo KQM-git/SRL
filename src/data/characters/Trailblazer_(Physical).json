@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -147,6 +148,7 @@
         [ 1.25 ],
         [ 1.3125 ]
       ],
+      "energyGain": 30,
       "toughness": {
         "Target": 60
       }
@@ -168,7 +170,9 @@
         [ 4.3125, 2.5875, 1.5525 ],
         [ 4.5, 2.7, 1.62 ],
         [ 4.65, 2.79, 1.674 ]
-      ]
+      ],
+      "energyNeeded": 120,
+      "energyGain": 5
     },
     {
       "name": "Perfect Pickoff",
@@ -216,6 +220,8 @@
         [ 4.5 ],
         [ 4.65 ]
       ],
+      "energyNeeded": 120,
+      "energyGain": 5,
       "toughness": {
         "Target": 90
       }
@@ -238,6 +244,8 @@
         [ 2.7, 1.62 ],
         [ 2.79, 1.674 ]
       ],
+      "energyNeeded": 120,
+      "energyGain": 5,
       "toughness": {
         "Target": 60
       }

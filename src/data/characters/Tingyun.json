@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -146,7 +147,8 @@
         [ 0.375, 0.46875, 3, 0.2375 ],
         [ 0.4, 0.5, 3, 0.25 ],
         [ 0.42, 0.525, 3, 0.26 ]
-      ]
+      ],
+      "energyGain": 30
     },
     {
       "name": "Amidst the Rejoicing Clouds",
@@ -165,7 +167,9 @@
         [ 50, 2, 0.4625 ],
         [ 50, 2, 0.5 ],
         [ 50, 2, 0.53 ]
-      ]
+      ],
+      "energyNeeded": 130,
+      "energyGain": 5
     },
     {
       "name": "Violet Sparknado",

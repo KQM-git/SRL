@@ -52,7 +52,7 @@ export default function Skill({ char, skill, index }: {
         }} style={{ float: "right" }}>{showTable[i] ? "Hide" : "Show"} full table</a>
       </div>
       <ParamFormat desc={t.desc} params={t.params[levels[i] - 1]} />
-      {showTable[i] ? <table style={{ marginTop: "10px" }}>
+      {showTable[i] && <table style={{ marginTop: "10px" }}>
         <thead>
           <tr>
             <th align='center'>Level</th>
@@ -73,10 +73,30 @@ export default function Skill({ char, skill, index }: {
             </tr>
           })}
         </tbody>
-      </table> : (t.toughness && <br/>)}
-      {t.toughness && <div>
-        {Object.entries(t.toughness).map(([name, value]) => <div>Toughness to {name}: {value}</div>)}
-      </div>}
+      </table>}
+      {(t.toughness || t.energyNeeded || t.energyGain) &&
+      <table style={{ marginTop: "5px"}}>
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          {t.toughness && Object.entries(t.toughness).map(([name, value]) => <tr>
+            <td>Toughness to {name}</td>
+            <td>{value}</td>
+          </tr>)}
+          {t.energyNeeded && <tr>
+            <td>Energy needed</td>
+            <td>{t.energyNeeded}</td>
+          </tr>}
+          {t.energyGain && <tr>
+            <td>Energy gained after use</td>
+            <td>{t.energyGain}</td>
+          </tr>}
+        </tbody>
+      </table>}
     </div>
   )
 }

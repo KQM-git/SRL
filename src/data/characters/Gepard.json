@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -147,6 +148,7 @@
         [ 2, 0.65, 1, 0.6 ],
         [ 2.1, 0.65, 1, 0.63 ]
       ],
+      "energyGain": 30,
       "toughness": {
         "Target": 60
       }
@@ -168,7 +170,9 @@
         [ 0.435, 3, 566.25 ],
         [ 0.45, 3, 600 ],
         [ 0.465, 3, 633.75 ]
-      ]
+      ],
+      "energyNeeded": 100,
+      "energyGain": 5
     },
     {
       "name": "Unyielding Will",

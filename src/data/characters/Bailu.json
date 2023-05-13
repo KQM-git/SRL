@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -146,7 +147,8 @@
         [ 0.1131, 294.45, 0.15, 2 ],
         [ 0.117, 312, 0.15, 2 ],
         [ 0.1209, 329.55, 0.15, 2 ]
-      ]
+      ],
+      "energyGain": 30
     },
     {
       "name": "Felicitous Thunderleap",
@@ -165,7 +167,9 @@
         [ 0.1305, 339.75, 2 ],
         [ 0.135, 360, 2 ],
         [ 0.1395, 380.25, 2 ]
-      ]
+      ],
+      "energyNeeded": 100,
+      "energyGain": 5
     },
     {
       "name": "Gourdful of Elixir",

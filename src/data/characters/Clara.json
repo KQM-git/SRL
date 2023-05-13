@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -147,6 +148,7 @@
         [ 1.2, 1.2 ],
         [ 1.26, 1.26 ]
       ],
+      "energyGain": 30,
       "toughness": {
         "All": 30
       }
@@ -168,7 +170,9 @@
         [ 5, 1.52, 2, 0.2375, 2 ],
         [ 5, 1.6, 2, 0.25, 2 ],
         [ 5, 1.664, 2, 0.26, 2 ]
-      ]
+      ],
+      "energyNeeded": 110,
+      "energyGain": 5
     },
     {
       "name": "Because We're Family",
@@ -188,6 +192,7 @@
         [ 1, 1.6, 0.1 ],
         [ 1, 1.68, 0.1 ]
       ],
+      "energyGain": 5,
       "toughness": {
         "Target": 30
       }

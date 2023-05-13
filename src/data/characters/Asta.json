@@ -125,6 +125,7 @@
         [ 1 ],
         [ 1.1 ]
       ],
+      "energyGain": 20,
       "toughness": {
         "Target": 30
       }
@@ -147,6 +148,7 @@
         [ 0.5 ],
         [ 0.525 ]
       ],
+      "energyGain": 6,
       "toughness": {
         "Target": 30,
         "Bounce": 15
@@ -169,7 +171,9 @@
         [ 48.25, 2 ],
         [ 50, 2 ],
         [ 51.4, 2 ]
-      ]
+      ],
+      "energyNeeded": 120,
+      "energyGain": 5
     },
     {
       "name": "Astrometry",
