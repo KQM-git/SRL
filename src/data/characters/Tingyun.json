@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Soothing Melody",

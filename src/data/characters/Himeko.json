@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Molten Detonation",
@@ -143,7 +146,10 @@
         [ 1.875, 0.75 ],
         [ 2, 0.8 ],
         [ 2.1, 0.84 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 60
+      }
     },
     {
       "name": "Heavenly Flare",
@@ -162,7 +168,10 @@
         [ 2.185, 5 ],
         [ 2.3, 5 ],
         [ 2.392, 5 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Victory Rush",
@@ -181,7 +190,10 @@
         [ 1.3125, 3 ],
         [ 1.4, 3 ],
         [ 1.47, 3 ]
-      ]
+      ],
+      "toughness": {
+        "All": 30
+      }
     },
     {
       "name": "Incomplete Combustion",

@@ -2,13 +2,13 @@
 export interface Character {
     name: string
     star: number
-    stats: CharacterStats[]
-    skills: Skill[]
+    stats: CharStats[]
+    skills: CharSkill[]
     eidolons: Eidolon[]
     skillTree: CharacterTrace[]
 }
 
-export interface CharacterStats {
+export interface CharStats {
     level: number
     maxLevel: number
     attackBase: number
@@ -24,12 +24,13 @@ export interface CharacterStats {
     speedAdd: number
 }
 
-export interface Skill {
+export interface CharSkill {
     name: string
     tag: string
     type: string
     desc: string
     params: number[][]
+    toughness?: Record<string, number>
 }
 
 export interface Eidolon {

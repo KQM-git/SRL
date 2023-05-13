@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Meteor Storm",
@@ -143,7 +146,11 @@
         [ 0.46875 ],
         [ 0.5 ],
         [ 0.525 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30,
+        "Bounce": 15
+      }
     },
     {
       "name": "Astral Blessing",
@@ -189,7 +196,10 @@
       "desc": "Immediately attacks the enemy. After entering battle, deals Fire DMG equal to <unbreak>#1[i]%</unbreak> of Asta's ATK to all enemies.",
       "params": [
         [ 0.5 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [

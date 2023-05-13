@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Ever-Burning Amber",
@@ -162,7 +165,10 @@
         [ 0.9375, 1.40625 ],
         [ 1, 1.5 ],
         [ 1.05, 1.575 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Treasure of the Architects",
@@ -205,7 +211,10 @@
         [ 1.26, 0.504 ],
         [ 1.35, 0.54 ],
         [ 1.4625, 0.585 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 60
+      }
     }
   ],
   "eidolons": [

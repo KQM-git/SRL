@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Frostbite",
@@ -143,7 +146,10 @@
         [ 1.96875, 1 ],
         [ 2.1, 1 ],
         [ 2.205, 1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 60
+      }
     },
     {
       "name": "Zone Suppression",
@@ -162,7 +168,10 @@
         [ 1, 0.3875, 2, 0.95 ],
         [ 1, 0.4, 2, 1 ],
         [ 1, 0.41, 2, 1.04 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Data Collecting",
@@ -189,7 +198,10 @@
       "desc": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to <unbreak>#4[i]%</unbreak> of her ATK to a random enemy, with a <unbreak>#1[i]%</unbreak> <u>base chance</u> of lowering the DEF of all enemies by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
       "params": [
         [ 1, 0.2, 2, 0.8 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [

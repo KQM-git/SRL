@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Love, Heal, and Choose",
@@ -189,7 +192,10 @@
       "desc": "Immediately attacks the enemy. After entering battle, deals Physical DMG equal to <unbreak>#4[i]%</unbreak> of Natasha's ATK to a random enemy, with a <unbreak>#1[i]%</unbreak> <u>base chance</u> to Weaken all enemies.\\nWhile Weakened, enemies deal <unbreak>#2[i]%</unbreak> less DMG to allies for <unbreak>#3[i]</unbreak> turn(s).",
       "params": [
         [ 1, 0.3, 1, 0.8 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [

@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Shackle Breaker",
@@ -143,7 +146,10 @@
         [ 0.15, 2.25 ],
         [ 0.15, 2.4 ],
         [ 0.15, 2.52 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 60
+      }
     },
     {
       "name": "Frenzied Punishment",
@@ -162,7 +168,10 @@
         [ 3.04, 1.52 ],
         [ 3.2, 1.6 ],
         [ 3.328, 1.664 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 60
+      }
     },
     {
       "name": "Pain and Anger",
@@ -189,7 +198,10 @@
       "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to <unbreak>#1[i]%</unbreak> of Arlan's ATK to all enemies.",
       "params": [
         [ 0.8 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [

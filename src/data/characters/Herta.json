@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "One-Time Offer",
@@ -143,7 +146,10 @@
         [ 0.9375, 0.5, 0.2 ],
         [ 1, 0.5, 0.2 ],
         [ 1.05, 0.5, 0.2 ]
-      ]
+      ],
+      "toughness": {
+        "All": 30
+      }
     },
     {
       "name": "It's Magic, I Added Some Magic",
@@ -162,7 +168,10 @@
         [ 1.9 ],
         [ 2 ],
         [ 2.08 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Fine, I'll Do It Myself",
@@ -181,7 +190,10 @@
         [ 0.5, 0.38125 ],
         [ 0.5, 0.4 ],
         [ 0.5, 0.415 ]
-      ]
+      ],
+      "toughness": {
+        "All": 15
+      }
     },
     {
       "name": "It Can Still Be Optimized",

@@ -18,7 +18,6 @@ export default function Skill({ char, skill, index }: {
     talents = [talents[index]]
   talents = talents.filter(x => x)
 
-
   const [levels, setLevels] = useState(talents.map(t => t.params.length))
   const [showTable, setShowTable] = useState(talents.map(() => false))
   if (talents.length == 0)
@@ -53,7 +52,7 @@ export default function Skill({ char, skill, index }: {
         }} style={{ float: "right" }}>{showTable[i] ? "Hide" : "Show"} full table</a>
       </div>
       <ParamFormat desc={t.desc} params={t.params[levels[i] - 1]} />
-      {showTable[i] && <table style={{ marginTop: "10px" }}>
+      {showTable[i] ? <table style={{ marginTop: "10px" }}>
         <thead>
           <tr>
             <th align='center'>Level</th>
@@ -74,7 +73,10 @@ export default function Skill({ char, skill, index }: {
             </tr>
           })}
         </tbody>
-      </table>}
+      </table> : (t.toughness && <br/>)}
+      {t.toughness && <div>
+        {Object.entries(t.toughness).map(([name, value]) => <div>Toughness to {name}: {value}</div>)}
+      </div>}
     </div>
   )
 }

@@ -124,7 +124,10 @@
         [ 0.9 ],
         [ 1 ],
         [ 1.1 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "The Power of Cuteness",
@@ -162,7 +165,10 @@
         [ 1.425, 0.5, 1, 0.5625 ],
         [ 1.5, 0.5, 1, 0.6 ],
         [ 1.56, 0.5, 1, 0.63 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Girl Power",
@@ -181,7 +187,10 @@
         [ 0.9375, 2 ],
         [ 1, 2 ],
         [ 1.05, 2 ]
-      ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Freezing Beauty",
@@ -189,7 +198,10 @@
       "desc": "Immediately attacks the enemy. After entering battle, there is a <unbreak>#1[i]%</unbreak> <u>base chance</u> to Freeze a random enemy for <unbreak>#2[i]</unbreak> turn(s).\\nWhile Frozen, the enemy cannot take action and will take <u>Additional</u> Ice DMG equal to <unbreak>#3[i]%</unbreak> of March 7th's ATK at the beginning of each turn.",
       "params": [
         [ 1, 1, 0.5 ]
-      ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [
