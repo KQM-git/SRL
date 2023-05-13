@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-import { CharacterStats, LightconeStats } from '@site/src/data/types'
-import { stat } from '@site/src/utils/stats/stat'
 import { Stat } from '@site/src/utils/stats/common'
+import { stat } from '@site/src/utils/stats/stat'
 
 import { NumberInput } from './input/NumberInput'
 import { SelectInput } from './input/SelectInput'

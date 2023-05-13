@@ -1,3 +1,4 @@
+import { fixed } from '@site/src/utils/stats/common'
 import React from 'react'
 
 type Node = TextNode | ElementNode
@@ -25,7 +26,7 @@ export function ParamFormatList({ desc, params }: {
         values = [values[0]]
 
       return values.map(value => {
-        const formatted = (value * (percentage ? 100 : 1)).toFixed(decimals) + (percentage ? "%" : "")
+        const formatted = fixed((value * (percentage ? 100 : 1)), decimals) + (percentage ? "%" : "")
 
         return `<value=${value}>${formatted}</value>`
       }).join("/")

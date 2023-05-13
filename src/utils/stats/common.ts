@@ -96,3 +96,9 @@ function roundingRange(float: number) {
   const midPrev = (normalized + normalizedPrev) / 2
   return [midPrev * multiplier, midNext * multiplier]
 }
+
+export function fixed(val: number, dec: number): string {
+  // In game numbers are rounded down
+  const floored = Math.floor(val * (10 ** dec)) / (10 ** dec)
+  return floored.toFixed(dec)
+}

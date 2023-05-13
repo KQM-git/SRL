@@ -1,10 +1,10 @@
+import { fixed as fixedOriginal } from "./common"
 export function stat(name: string, value: number, full = false): string {
   function fixed(val: number, dec: number): string {
     if (full) return val.toString()
 
     // In game numbers are rounded down
-    const floored = Math.floor(val * (10 ** dec)) / (10 ** dec)
-    return floored.toFixed(dec)
+    return fixedOriginal(val, dec)
   }
   function fixedNormal(val: number, dec: number): string {
     if (full) return val.toString()
