@@ -121,7 +121,8 @@
         "Deals Physical DMG equal to **70%** of Sushang's ATK to a single enemy.",
         "Deals Physical DMG equal to **80%** of Sushang's ATK to a single enemy.",
         "Deals Physical DMG equal to **90%** of Sushang's ATK to a single enemy.",
-        "Deals Physical DMG equal to **100%** of Sushang's ATK to a single enemy."
+        "Deals Physical DMG equal to **100%** of Sushang's ATK to a single enemy.",
+        "Deals Physical DMG equal to **110%** of Sushang's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Deals Physical DMG equal to **147%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **70%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
         "Deals Physical DMG equal to **158%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **75%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
         "Deals Physical DMG equal to **171%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **81%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
-        "Deals Physical DMG equal to **184%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **88%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger."
+        "Deals Physical DMG equal to **184%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **88%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **197%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **94%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **210%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **100%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger.",
+        "Deals Physical DMG equal to **221%** of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing **Additional** Physical DMG equal to **105%** of Sushang's ATK to the enemy.\nIf the enemy is inflicted with **Weakness Break**, Sword Stance is guaranteed to trigger."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Deals Physical DMG equal to **243%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **23%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
         "Deals Physical DMG equal to **256%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **24%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
         "Deals Physical DMG equal to **272%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **26%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
-        "Deals Physical DMG equal to **288%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **27%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG."
+        "Deals Physical DMG equal to **288%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **27%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **304%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **28%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **320%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **30%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG.",
+        "Deals Physical DMG equal to **333%** of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by **31%** and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).\nSword Stance triggered from the extra chances deals 50% of the original DMG."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **17.00%** for 2 turn(s).",
         "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **17.50%** for 2 turn(s).",
         "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **18.13%** for 2 turn(s).",
-        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **18.75%** for 2 turn(s)."
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **18.75%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **19.38%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **20.00%** for 2 turn(s).",
+        "When an enemy has their Weakness Broken on the field, Sushang's SPD increases by **20.50%** for 2 turn(s)."
       ]
     },
     {

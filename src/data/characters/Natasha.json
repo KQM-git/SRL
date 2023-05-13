@@ -121,7 +121,8 @@
         "Deals Physical DMG equal to **70%** of Natasha's ATK to a single enemy.",
         "Deals Physical DMG equal to **80%** of Natasha's ATK to a single enemy.",
         "Deals Physical DMG equal to **90%** of Natasha's ATK to a single enemy.",
-        "Deals Physical DMG equal to **100%** of Natasha's ATK to a single enemy."
+        "Deals Physical DMG equal to **100%** of Natasha's ATK to a single enemy.",
+        "Deals Physical DMG equal to **110%** of Natasha's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Restores a single ally for **8.8%** of Natasha's Max HP plus **196**. Restores the ally for another **6.0%** of Natasha's Max HP plus **134** at the beginning of each turn for 2 turn(s).",
         "Restores a single ally for **9.1%** of Natasha's Max HP plus **217**. Restores the ally for another **6.2%** of Natasha's Max HP plus **149** at the beginning of each turn for 2 turn(s).",
         "Restores a single ally for **9.4%** of Natasha's Max HP plus **233**. Restores the ally for another **6.5%** of Natasha's Max HP plus **160** at the beginning of each turn for 2 turn(s).",
-        "Restores a single ally for **9.8%** of Natasha's Max HP plus **249**. Restores the ally for another **6.7%** of Natasha's Max HP plus **170** at the beginning of each turn for 2 turn(s)."
+        "Restores a single ally for **9.8%** of Natasha's Max HP plus **249**. Restores the ally for another **6.7%** of Natasha's Max HP plus **170** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **10.2%** of Natasha's Max HP plus **264**. Restores the ally for another **7.0%** of Natasha's Max HP plus **181** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **10.5%** of Natasha's Max HP plus **280**. Restores the ally for another **7.2%** of Natasha's Max HP plus **192** at the beginning of each turn for 2 turn(s).",
+        "Restores a single ally for **10.8%** of Natasha's Max HP plus **296**. Restores the ally for another **7.4%** of Natasha's Max HP plus **203** at the beginning of each turn for 2 turn(s)."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Heals all allies for **11.5%** of Natasha's Max HP plus **258**.",
         "Heals all allies for **12.0%** of Natasha's Max HP plus **285**.",
         "Heals all allies for **12.4%** of Natasha's Max HP plus **306**.",
-        "Heals all allies for **12.9%** of Natasha's Max HP plus **327**."
+        "Heals all allies for **12.9%** of Natasha's Max HP plus **327**.",
+        "Heals all allies for **13.3%** of Natasha's Max HP plus **347**.",
+        "Heals all allies for **13.8%** of Natasha's Max HP plus **368**.",
+        "Heals all allies for **14.3%** of Natasha's Max HP plus **389**."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **35%**. This effect also works on continuous healing.",
         "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **38%**. This effect also works on continuous healing.",
         "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **41%**. This effect also works on continuous healing.",
-        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **44%**. This effect also works on continuous healing."
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **44%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **47%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **50%**. This effect also works on continuous healing.",
+        "When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by **53%**. This effect also works on continuous healing."
       ]
     },
     {

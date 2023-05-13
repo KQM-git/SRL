@@ -121,7 +121,8 @@
         "Deals Wind DMG equal to **70%** of Dan Heng's ATK to a single enemy.",
         "Deals Wind DMG equal to **80%** of Dan Heng's ATK to a single enemy.",
         "Deals Wind DMG equal to **90%** of Dan Heng's ATK to a single enemy.",
-        "Deals Wind DMG equal to **100%** of Dan Heng's ATK to a single enemy."
+        "Deals Wind DMG equal to **100%** of Dan Heng's ATK to a single enemy.",
+        "Deals Wind DMG equal to **110%** of Dan Heng's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Deals Wind DMG equal to **182%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
         "Deals Wind DMG equal to **195%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
         "Deals Wind DMG equal to **211%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
-        "Deals Wind DMG equal to **228%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s)."
+        "Deals Wind DMG equal to **228%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **244%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **260%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s).",
+        "Deals Wind DMG equal to **273%** of Dan Heng's ATK to a single enemy.\nOn a CRIT Hit, there is a 100% **base chance** to reduce the target's SPD by 12% for 2 turn(s)."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Deals Wind DMG equal to **304%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **91%**.",
         "Deals Wind DMG equal to **320%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **96%**.",
         "Deals Wind DMG equal to **340%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **102%**.",
-        "Deals Wind DMG equal to **360%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **108%**."
+        "Deals Wind DMG equal to **360%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **108%**.",
+        "Deals Wind DMG equal to **380%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **114%**.",
+        "Deals Wind DMG equal to **400%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **120%**.",
+        "Deals Wind DMG equal to **416%** of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by **125%**."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **25%**. This effect can be triggered again after 2 turn(s).",
         "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **27%**. This effect can be triggered again after 2 turn(s).",
         "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **29%**. This effect can be triggered again after 2 turn(s).",
-        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **32%**. This effect can be triggered again after 2 turn(s)."
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **32%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **34%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **36%**. This effect can be triggered again after 2 turn(s).",
+        "When Dan Heng is the target of an ally's Ability, his next attack's Wind **RES PEN** increases by **38%**. This effect can be triggered again after 2 turn(s)."
       ]
     },
     {

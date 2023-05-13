@@ -121,7 +121,8 @@
         "Deals Fire DMG equal to **70%** of Himeko's ATK to a single enemy.",
         "Deals Fire DMG equal to **80%** of Himeko's ATK to a single enemy.",
         "Deals Fire DMG equal to **90%** of Himeko's ATK to a single enemy.",
-        "Deals Fire DMG equal to **100%** of Himeko's ATK to a single enemy."
+        "Deals Fire DMG equal to **100%** of Himeko's ATK to a single enemy.",
+        "Deals Fire DMG equal to **110%** of Himeko's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Deals Fire DMG equal to **140%** of Himeko's ATK to a single enemy and Fire DMG equal to **56%** of Himeko's ATK to enemies adjacent to it.",
         "Deals Fire DMG equal to **150%** of Himeko's ATK to a single enemy and Fire DMG equal to **60%** of Himeko's ATK to enemies adjacent to it.",
         "Deals Fire DMG equal to **163%** of Himeko's ATK to a single enemy and Fire DMG equal to **65%** of Himeko's ATK to enemies adjacent to it.",
-        "Deals Fire DMG equal to **175%** of Himeko's ATK to a single enemy and Fire DMG equal to **70%** of Himeko's ATK to enemies adjacent to it."
+        "Deals Fire DMG equal to **175%** of Himeko's ATK to a single enemy and Fire DMG equal to **70%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **188%** of Himeko's ATK to a single enemy and Fire DMG equal to **75%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **200%** of Himeko's ATK to a single enemy and Fire DMG equal to **80%** of Himeko's ATK to enemies adjacent to it.",
+        "Deals Fire DMG equal to **210%** of Himeko's ATK to a single enemy and Fire DMG equal to **84%** of Himeko's ATK to enemies adjacent to it."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Deals Fire DMG equal to **175%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
         "Deals Fire DMG equal to **184%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
         "Deals Fire DMG equal to **196%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
-        "Deals Fire DMG equal to **207%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated."
+        "Deals Fire DMG equal to **207%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **219%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **230%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated.",
+        "Deals Fire DMG equal to **239%** of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **98%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
         "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **105%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
         "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **114%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
-        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **123%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge."
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **123%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **131%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **140%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge.",
+        "When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).\nIf Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 **follow-up attack** and deals Fire DMG equal to **147%** of her ATK to all enemies, consuming all Charge points.\nAt the start of the battle, Himeko gains 1 point of Charge."
       ]
     },
     {

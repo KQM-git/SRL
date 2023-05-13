@@ -121,7 +121,8 @@
         "Deals Ice DMG equal to **70%** of March 7th's ATK to a single enemy.",
         "Deals Ice DMG equal to **80%** of March 7th's ATK to a single enemy.",
         "Deals Ice DMG equal to **90%** of March 7th's ATK to a single enemy.",
-        "Deals Ice DMG equal to **100%** of March 7th's ATK to a single enemy."
+        "Deals Ice DMG equal to **100%** of March 7th's ATK to a single enemy.",
+        "Deals Ice DMG equal to **110%** of March 7th's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Provides a single ally with a Shield that can absorb DMG equal to **48%** of March 7th's DEF plus **532** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
         "Provides a single ally with a Shield that can absorb DMG equal to **49%** of March 7th's DEF plus **589** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
         "Provides a single ally with a Shield that can absorb DMG equal to **51%** of March 7th's DEF plus **632** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **53%** of March 7th's DEF plus **675** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally."
+        "Provides a single ally with a Shield that can absorb DMG equal to **53%** of March 7th's DEF plus **675** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **55%** of March 7th's DEF plus **717** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **57%** of March 7th's DEF plus **760** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
+        "Provides a single ally with a Shield that can absorb DMG equal to **59%** of March 7th's DEF plus **803** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Deals Ice DMG equal to **114%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **42%** of March 7th's ATK at the beginning of each turn.",
         "Deals Ice DMG equal to **120%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **45%** of March 7th's ATK at the beginning of each turn.",
         "Deals Ice DMG equal to **127%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **49%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **135%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **53%** of March 7th's ATK at the beginning of each turn."
+        "Deals Ice DMG equal to **135%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **53%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **143%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **56%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **150%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **60%** of March 7th's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **156%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **63%** of March 7th's ATK at the beginning of each turn."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **70%** of her ATK. This effect can be triggered 2 time(s) each turn.",
         "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **75%** of her ATK. This effect can be triggered 2 time(s) each turn.",
         "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **81%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **88%** of her ATK. This effect can be triggered 2 time(s) each turn."
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **88%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **94%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **100%** of her ATK. This effect can be triggered 2 time(s) each turn.",
+        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **105%** of her ATK. This effect can be triggered 2 time(s) each turn."
       ]
     },
     {

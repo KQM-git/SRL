@@ -121,7 +121,8 @@
         "Deals Physical DMG equal to **70%** of Clara's ATK to a single enemy.",
         "Deals Physical DMG equal to **80%** of Clara's ATK to a single enemy.",
         "Deals Physical DMG equal to **90%** of Clara's ATK to a single enemy.",
-        "Deals Physical DMG equal to **100%** of Clara's ATK to a single enemy."
+        "Deals Physical DMG equal to **100%** of Clara's ATK to a single enemy.",
+        "Deals Physical DMG equal to **110%** of Clara's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Deals Physical DMG equal to **84%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **84%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
         "Deals Physical DMG equal to **90%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **90%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
         "Deals Physical DMG equal to **98%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **98%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **105%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **105%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
+        "Deals Physical DMG equal to **105%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **105%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **113%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **113%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **120%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **120%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
+        "Deals Physical DMG equal to **126%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **126%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **19%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **122%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
         "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **20%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **128%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
         "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **21%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **136%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **23%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **144%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s)."
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **23%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **144%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **24%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **152%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **25%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **160%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
+        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **26%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **166%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s)."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **112%** of Clara's ATK.",
         "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **120%** of Clara's ATK.",
         "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **130%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **140%** of Clara's ATK."
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **140%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **150%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **160%** of Clara's ATK.",
+        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **168%** of Clara's ATK."
       ]
     },
     {

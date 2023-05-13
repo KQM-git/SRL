@@ -121,7 +121,8 @@
         "Deals Wind DMG equal to **70%** of Sampo's ATK to a single enemy.",
         "Deals Wind DMG equal to **80%** of Sampo's ATK to a single enemy.",
         "Deals Wind DMG equal to **90%** of Sampo's ATK to a single enemy.",
-        "Deals Wind DMG equal to **100%** of Sampo's ATK to a single enemy."
+        "Deals Wind DMG equal to **100%** of Sampo's ATK to a single enemy.",
+        "Deals Wind DMG equal to **110%** of Sampo's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Deals Wind DMG equal to **39%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **39%** of Sampo's ATK to a random enemy.",
         "Deals Wind DMG equal to **42%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **42%** of Sampo's ATK to a random enemy.",
         "Deals Wind DMG equal to **46%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **46%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **49%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **49%** of Sampo's ATK to a random enemy."
+        "Deals Wind DMG equal to **49%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **49%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **53%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **53%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **56%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **56%** of Sampo's ATK to a random enemy.",
+        "Deals Wind DMG equal to **59%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **59%** of Sampo's ATK to a random enemy."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Deals Wind DMG equal to **122%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **24%** for 2 turn(s).",
         "Deals Wind DMG equal to **128%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **25%** for 2 turn(s).",
         "Deals Wind DMG equal to **136%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **26%** for 2 turn(s).",
-        "Deals Wind DMG equal to **144%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **28%** for 2 turn(s)."
+        "Deals Wind DMG equal to **144%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **28%** for 2 turn(s).",
+        "Deals Wind DMG equal to **152%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **29%** for 2 turn(s).",
+        "Deals Wind DMG equal to **160%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **30%** for 2 turn(s).",
+        "Deals Wind DMG equal to **166%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **31%** for 2 turn(s)."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **28%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
         "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **31%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
         "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **35%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **40%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **40%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **46%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **52%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **55%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
       ]
     },
     {

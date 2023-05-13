@@ -121,7 +121,8 @@
         "Deals Wind DMG equal to **70%** of Bronya's ATK to a single enemy.",
         "Deals Wind DMG equal to **80%** of Bronya's ATK to a single enemy.",
         "Deals Wind DMG equal to **90%** of Bronya's ATK to a single enemy.",
-        "Deals Wind DMG equal to **100%** of Bronya's ATK to a single enemy."
+        "Deals Wind DMG equal to **100%** of Bronya's ATK to a single enemy.",
+        "Deals Wind DMG equal to **110%** of Bronya's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **46%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
         "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **50%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
         "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **54%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
-        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **58%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again."
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **58%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **62%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **66%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again.",
+        "Dispels a **debuff** from a single ally, allows them to immediately take action, and increases their DMG by **69%** for 1 turn(s).\nWhen this Skill is used on Bronya herself, she cannot immediately take action again."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Increases the ATK of all allies by **42%**, and increases their CRIT DMG equal to **13.6%** of Bronya's CRIT DMG plus **15.2%** for 2 turn(s).",
         "Increases the ATK of all allies by **44%**, and increases their CRIT DMG equal to **14.0%** of Bronya's CRIT DMG plus **16.0%** for 2 turn(s).",
         "Increases the ATK of all allies by **47%**, and increases their CRIT DMG equal to **14.5%** of Bronya's CRIT DMG plus **17.0%** for 2 turn(s).",
-        "Increases the ATK of all allies by **50%**, and increases their CRIT DMG equal to **15.0%** of Bronya's CRIT DMG plus **18.0%** for 2 turn(s)."
+        "Increases the ATK of all allies by **50%**, and increases their CRIT DMG equal to **15.0%** of Bronya's CRIT DMG plus **18.0%** for 2 turn(s).",
+        "Increases the ATK of all allies by **52%**, and increases their CRIT DMG equal to **15.5%** of Bronya's CRIT DMG plus **19.0%** for 2 turn(s).",
+        "Increases the ATK of all allies by **55%**, and increases their CRIT DMG equal to **16.0%** of Bronya's CRIT DMG plus **20.0%** for 2 turn(s).",
+        "Increases the ATK of all allies by **57%**, and increases their CRIT DMG equal to **16.4%** of Bronya's CRIT DMG plus **20.8%** for 2 turn(s)."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **21%**.",
         "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **23%**.",
         "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **24%**.",
-        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **26%**."
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **26%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **28%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **30%**.",
+        "After using her Basic ATK, Bronya's next action will be **Advanced Forward** by **32%**."
       ]
     },
     {

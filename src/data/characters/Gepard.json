@@ -121,7 +121,8 @@
         "Deals Ice DMG equal to **70%** of Gepard's ATK to a single enemy.",
         "Deals Ice DMG equal to **80%** of Gepard's ATK to a single enemy.",
         "Deals Ice DMG equal to **90%** of Gepard's ATK to a single enemy.",
-        "Deals Ice DMG equal to **100%** of Gepard's ATK to a single enemy."
+        "Deals Ice DMG equal to **100%** of Gepard's ATK to a single enemy.",
+        "Deals Ice DMG equal to **110%** of Gepard's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Deals Ice DMG equal to **140%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **42%** of Gepard's ATK at the beginning of each turn.",
         "Deals Ice DMG equal to **150%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **45%** of Gepard's ATK at the beginning of each turn.",
         "Deals Ice DMG equal to **163%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **49%** of Gepard's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **175%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **53%** of Gepard's ATK at the beginning of each turn."
+        "Deals Ice DMG equal to **175%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **53%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **188%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **56%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **200%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **60%** of Gepard's ATK at the beginning of each turn.",
+        "Deals Ice DMG equal to **210%** of Gepard's ATK to a single enemy, with a 65% **base chance** to Freeze the enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to **63%** of Gepard's ATK at the beginning of each turn."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Applies a Shield to all allies, absorbing DMG equal to **38%** of Gepard's DEF plus **420** for 3 turn(s).",
         "Applies a Shield to all allies, absorbing DMG equal to **39%** of Gepard's DEF plus **465** for 3 turn(s).",
         "Applies a Shield to all allies, absorbing DMG equal to **41%** of Gepard's DEF plus **499** for 3 turn(s).",
-        "Applies a Shield to all allies, absorbing DMG equal to **42%** of Gepard's DEF plus **533** for 3 turn(s)."
+        "Applies a Shield to all allies, absorbing DMG equal to **42%** of Gepard's DEF plus **533** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **44%** of Gepard's DEF plus **566** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **45%** of Gepard's DEF plus **600** for 3 turn(s).",
+        "Applies a Shield to all allies, absorbing DMG equal to **47%** of Gepard's DEF plus **634** for 3 turn(s)."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **35%** of his Max HP. This effect can only trigger once per battle.",
         "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **38%** of his Max HP. This effect can only trigger once per battle.",
         "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **41%** of his Max HP. This effect can only trigger once per battle.",
-        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **44%** of his Max HP. This effect can only trigger once per battle."
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **44%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **47%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **50%** of his Max HP. This effect can only trigger once per battle.",
+        "When struck with a killing blow, instead of becoming **knocked down**, Gepard's HP immediately restores to **53%** of his Max HP. This effect can only trigger once per battle."
       ]
     },
     {

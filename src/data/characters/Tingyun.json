@@ -121,7 +121,8 @@
         "Tingyun deals Lightning DMG equal to **70%** of her ATK to a single enemy.",
         "Tingyun deals Lightning DMG equal to **80%** of her ATK to a single enemy.",
         "Tingyun deals Lightning DMG equal to **90%** of her ATK to a single enemy.",
-        "Tingyun deals Lightning DMG equal to **100%** of her ATK to a single enemy."
+        "Tingyun deals Lightning DMG equal to **100%** of her ATK to a single enemy.",
+        "Tingyun deals Lightning DMG equal to **110%** of her ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Grants a single ally with Benediction to increase their ATK by **35%**, up to **19%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **28%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
         "Grants a single ally with Benediction to increase their ATK by **38%**, up to **20%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **30%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
         "Grants a single ally with Benediction to increase their ATK by **41%**, up to **21%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **33%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **44%**, up to **23%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **35%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
+        "Grants a single ally with Benediction to increase their ATK by **44%**, up to **23%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **35%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **47%**, up to **24%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **38%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **50%**, up to **25%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **40%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+        "Grants a single ally with Benediction to increase their ATK by **53%**, up to **26%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **42%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Regenerates 50 Energy for a single ally and increases the target's DMG by **32%** for 2 turn(s).",
         "Regenerates 50 Energy for a single ally and increases the target's DMG by **35%** for 2 turn(s).",
         "Regenerates 50 Energy for a single ally and increases the target's DMG by **39%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **43%** for 2 turn(s)."
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **43%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **46%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **50%** for 2 turn(s).",
+        "Regenerates 50 Energy for a single ally and increases the target's DMG by **53%** for 2 turn(s)."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **42%** of that ally's ATK to the same enemy.",
         "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **45%** of that ally's ATK to the same enemy.",
         "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **49%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **53%** of that ally's ATK to the same enemy."
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **53%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **56%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **60%** of that ally's ATK to the same enemy.",
+        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **63%** of that ally's ATK to the same enemy."
       ]
     },
     {

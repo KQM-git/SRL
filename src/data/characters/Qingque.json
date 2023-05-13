@@ -121,7 +121,8 @@
         "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **70%** of Qingque's ATK to a single enemy.",
         "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **80%** of Qingque's ATK to a single enemy.",
         "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **90%** of Qingque's ATK to a single enemy.",
-        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **100%** of Qingque's ATK to a single enemy."
+        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **100%** of Qingque's ATK to a single enemy.",
+        "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to **110%** of Qingque's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Immediately draws 2 jade tile(s) and increases DMG by **20%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
         "Immediately draws 2 jade tile(s) and increases DMG by **21%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
         "Immediately draws 2 jade tile(s) and increases DMG by **23%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
-        "Immediately draws 2 jade tile(s) and increases DMG by **25%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used."
+        "Immediately draws 2 jade tile(s) and increases DMG by **25%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+        "Immediately draws 2 jade tile(s) and increases DMG by **26%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+        "Immediately draws 2 jade tile(s) and increases DMG by **28%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used.",
+        "Immediately draws 2 jade tile(s) and increases DMG by **29%** until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Deals Quantum DMG equal to **152%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
         "Deals Quantum DMG equal to **160%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
         "Deals Quantum DMG equal to **170%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
-        "Deals Quantum DMG equal to **180%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit."
+        "Deals Quantum DMG equal to **180%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+        "Deals Quantum DMG equal to **190%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+        "Deals Quantum DMG equal to **200%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+        "Deals Quantum DMG equal to **208%** of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **50%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
         "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **54%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
         "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **59%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
-        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **63%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\"."
+        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **63%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **68%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **72%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+        "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.\nIf Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.\nWhile in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by **76%**, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\"."
       ]
     },
     {
@@ -187,7 +197,8 @@
         "Deals Quantum DMG equal to **168%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **70%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
         "Deals Quantum DMG equal to **192%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **80%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
         "Deals Quantum DMG equal to **216%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **90%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
-        "Deals Quantum DMG equal to **240%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **100%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points."
+        "Deals Quantum DMG equal to **240%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **100%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points.",
+        "Deals Quantum DMG equal to **264%** of Qingque's ATK to a single enemy, and deals Quantum DMG equal to **110%** of Qingque's ATK to enemies adjacent to it.\n\"Cherry on Top!\" cannot recover Skill Points."
       ]
     }
   ],

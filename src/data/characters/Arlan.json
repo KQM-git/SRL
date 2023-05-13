@@ -121,7 +121,8 @@
         "Deals Lightning DMG equal to **70%** of Arlan's ATK to a single enemy.",
         "Deals Lightning DMG equal to **80%** of Arlan's ATK to a single enemy.",
         "Deals Lightning DMG equal to **90%** of Arlan's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **100%** of Arlan's ATK to a single enemy."
+        "Deals Lightning DMG equal to **100%** of Arlan's ATK to a single enemy.",
+        "Deals Lightning DMG equal to **110%** of Arlan's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **168%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
         "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **180%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
         "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **195%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
-        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **210%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **210%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **225%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **240%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+        "Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to **252%** of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Deals Lightning DMG equal to **243%** of Arlan's ATK to a single enemy and Lightning DMG equal to **122%** of Arlan's ATK to enemies adjacent to it.",
         "Deals Lightning DMG equal to **256%** of Arlan's ATK to a single enemy and Lightning DMG equal to **128%** of Arlan's ATK to enemies adjacent to it.",
         "Deals Lightning DMG equal to **272%** of Arlan's ATK to a single enemy and Lightning DMG equal to **136%** of Arlan's ATK to enemies adjacent to it.",
-        "Deals Lightning DMG equal to **288%** of Arlan's ATK to a single enemy and Lightning DMG equal to **144%** of Arlan's ATK to enemies adjacent to it."
+        "Deals Lightning DMG equal to **288%** of Arlan's ATK to a single enemy and Lightning DMG equal to **144%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **304%** of Arlan's ATK to a single enemy and Lightning DMG equal to **152%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **320%** of Arlan's ATK to a single enemy and Lightning DMG equal to **160%** of Arlan's ATK to enemies adjacent to it.",
+        "Deals Lightning DMG equal to **333%** of Arlan's ATK to a single enemy and Lightning DMG equal to **166%** of Arlan's ATK to enemies adjacent to it."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **50%** more DMG.",
         "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **54%** more DMG.",
         "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **59%** more DMG.",
-        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **63%** more DMG."
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **63%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **68%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **72%** more DMG.",
+        "Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of **76%** more DMG."
       ]
     },
     {

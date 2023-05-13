@@ -121,7 +121,8 @@
         "Deals Fire DMG equal to **70%** of Asta's ATK to a single enemy.",
         "Deals Fire DMG equal to **80%** of Asta's ATK to a single enemy.",
         "Deals Fire DMG equal to **90%** of Asta's ATK to a single enemy.",
-        "Deals Fire DMG equal to **100%** of Asta's ATK to a single enemy."
+        "Deals Fire DMG equal to **100%** of Asta's ATK to a single enemy.",
+        "Deals Fire DMG equal to **110%** of Asta's ATK to a single enemy."
       ]
     },
     {
@@ -136,7 +137,10 @@
         "Deals Fire DMG equal to **35%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **35%** of Asta's ATK to a random enemy.",
         "Deals Fire DMG equal to **38%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **38%** of Asta's ATK to a random enemy.",
         "Deals Fire DMG equal to **41%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **41%** of Asta's ATK to a random enemy.",
-        "Deals Fire DMG equal to **44%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **44%** of Asta's ATK to a random enemy."
+        "Deals Fire DMG equal to **44%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **44%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **47%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **47%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **50%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **50%** of Asta's ATK to a random enemy.",
+        "Deals Fire DMG equal to **53%** of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to **53%** of Asta's ATK to a random enemy."
       ]
     },
     {
@@ -151,7 +155,10 @@
         "Increases SPD of all allies by **42** for 2 turn(s).",
         "Increases SPD of all allies by **43** for 2 turn(s).",
         "Increases SPD of all allies by **45** for 2 turn(s).",
-        "Increases SPD of all allies by **47** for 2 turn(s)."
+        "Increases SPD of all allies by **47** for 2 turn(s).",
+        "Increases SPD of all allies by **48** for 2 turn(s).",
+        "Increases SPD of all allies by **50** for 2 turn(s).",
+        "Increases SPD of all allies by **51** for 2 turn(s)."
       ]
     },
     {
@@ -166,7 +173,10 @@
         "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **9.8%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
         "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **10.5%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
         "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **11.4%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
-        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **12.3%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **12.3%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **13.1%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **14.0%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn.",
+        "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by **14.7%**, up to 5 time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."
       ]
     },
     {
