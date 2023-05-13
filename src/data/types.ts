@@ -83,6 +83,7 @@ export interface Relic {
 export interface RelicBonus {
     count: number
     desc: string
+    params: number[]
 }
 
 // Enemies
