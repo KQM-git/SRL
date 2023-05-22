@@ -1,0 +1,239 @@
+{
+  "Dimension Reduction Dice": {
+    "name": "Dimension Reduction Dice",
+    "desc": "When choosing your Blessings after winning a battle, #1[i] extra Blessing(s) can be chosen, but the number of available Blessings will be reduced by #2[i]. This Curio will be destroyed once this effect has been triggered #3[i] times.",
+    "params": [ 1, 1, 2 ]
+  },
+  "Chaos Trametes": {
+    "name": "Chaos Trametes",
+    "desc": "When choosing your Blessings after winning a battle, increase the number of free Blessing resets by #1[i].",
+    "params": [ 1 ]
+  },
+  "Warping Compound Eye": {
+    "name": "Warping Compound Eye",
+    "desc": "When choosing a Blessing after winning a battle, level up all 1-star Blessings that appear.",
+    "params": [ 1 ]
+  },
+  "Fruit of the Alien Tree": {
+    "name": "Fruit of the Alien Tree",
+    "desc": "After winning a battle, revive all downed characters in the current team and restore their HP to their Max HP. This Curio will be destroyed once this effect has been triggered #1[i] times.",
+    "params": [ 1 ]
+  },
+  "Casket of Inaccuracy": {
+    "name": "Casket of Inaccuracy",
+    "desc": "Gains #1[i]–#2[i] random Blessings after obtaining this Curio.",
+    "params": [ 1, 2 ]
+  },
+  "Ambergris Cheese": {
+    "name": "Ambergris Cheese",
+    "desc": "After winning a battle, all allies restore HP equal to #1[i]% of their respective Max HP.",
+    "params": [ 0.3, 5 ]
+  },
+  "Fortune Glue": {
+    "name": "Fortune Glue",
+    "desc": "When choosing your Blessings after winning a battle, all Blessings that appear are guaranteed to be of 3-star rarity. This Curio will be destroyed once this effect has been triggered #1[i] times.",
+    "params": [ 1 ]
+  },
+  "The Parchment That Always Eats": {
+    "name": "The Parchment That Always Eats",
+    "desc": "Upon entering battle, all enemies receive DMG equal to #1[i]% of their respective Max HP.",
+    "params": [ 0.3, 5 ]
+  },
+  "The Doctor's Robe": {
+    "name": "The Doctor's Robe",
+    "desc": "Upon entering battle, regenerates Path Resonance Energy to max and increases Path Resonance DMG by #1[i]%.",
+    "params": [ 0.4, 5 ]
+  },
+  "Society Ticket": {
+    "name": "Society Ticket",
+    "desc": "Increases the number of Cosmic Fragments received after winning a battle by #1[i]%.",
+    "params": [ 0.75 ]
+  },
+  "Faith Bond": {
+    "name": "Faith Bond",
+    "desc": "Reduces the Cosmic Fragments required for leveling up Blessings, resetting Blessings, and resetting downed characters by #1[i]%.",
+    "params": [ 0.3 ]
+  },
+  "Robe of The Beauty": {
+    "name": "Robe of The Beauty",
+    "desc": "Upon entering battle, increases DMG dealt by all allies by #2[i]% for every #1[i] Cosmic Fragment(s) you own.",
+    "params": [ 100, 0.16, 5 ]
+  },
+  "Gold Coin of Discord": {
+    "name": "Gold Coin of Discord",
+    "desc": "Each time you enter the following domain, gain Cosmic Fragments equal to #1[i]% of the Cosmic Fragments currently in possession.",
+    "params": [ 0.06 ]
+  },
+  "Void Wick Trimmer": {
+    "name": "Void Wick Trimmer",
+    "desc": "After obtaining this Curio, randomly repairs up to #1[i] destroyed Curio(s) and restores their remaining uses to default.",
+    "params": [ 2 ]
+  },
+  "Record from Beyond the Sky": {
+    "name": "Record from Beyond the Sky",
+    "desc": "Upon entering battle, all allies will nullify all DMG received except for DoT until after they are attacked, and cannot be debuffed for #2[i] turn(s).",
+    "params": [ 1, 3, 5 ]
+  },
+  "Entropic Die": {
+    "name": "Entropic Die",
+    "desc": "Randomly levels up #1[i] Blessing(s) after obtaining this Curio.",
+    "params": [ 2 ]
+  },
+  "Shining Trapezohedron Die": {
+    "name": "Shining Trapezohedron Die",
+    "desc": "Replaces all Curios currently in possession (including this Curio) with random Curios.",
+    "params": []
+  },
+  "Sealing Wax of Preservation": {
+    "name": "Sealing Wax of Preservation",
+    "desc": "Randomly gains 1 Blessing of Preservation after obtaining this Curio. When choosing your Blessings after winning a battle, there is a greatly increased chance for Blessings of Preservation to appear.",
+    "params": []
+  },
+  "Sealing Wax of Elation": {
+    "name": "Sealing Wax of Elation",
+    "desc": "Randomly gains 1 Blessing of Elation after obtaining this Curio. When choosing your Blessings after winning a battle, there is a greatly increased chance for Blessings of Elation to appear.",
+    "params": []
+  },
+  "Sealing Wax of The Hunt": {
+    "name": "Sealing Wax of The Hunt",
+    "desc": "Randomly gains 1 Blessing of The Hunt after obtaining this Curio. When choosing your Blessings after winning a battle, there is a greatly increased chance for Blessings of The Hunt to appear.",
+    "params": []
+  },
+  "Sealing Wax of Destruction": {
+    "name": "Sealing Wax of Destruction",
+    "desc": "Randomly gains 1 Blessing of Destruction after obtaining this Curio. When choosing your Blessings after winning a battle, there is a greatly increased chance for Blessings of Destruction to appear.",
+    "params": []
+  },
+  "Sealing Wax of Remembrance": {
+    "name": "Sealing Wax of Remembrance",
+    "desc": "Randomly gains 1 Blessing of Remembrance after obtaining this Curio. When choosing your Blessings after winning a battle, there is a greatly increased chance for Blessings of Remembrance to appear.",
+    "params": []
+  },
+  "Sealing Wax of Nihility": {
+    "name": "Sealing Wax of Nihility",
+    "desc": "Randomly gains 1 Blessing of Nihility after obtaining this Curio. When choosing your Blessings after winning a battle, there is a greatly increased chance for Blessings of Nihility to appear.",
+    "params": []
+  },
+  "Sealing Wax of Abundance": {
+    "name": "Sealing Wax of Abundance",
+    "desc": "Randomly gains 1 Blessing of Abundance after obtaining this Curio. When choosing your Blessings after winning a battle, there is a greatly increased chance for Blessings of Abundance to appear.",
+    "params": []
+  },
+  "Corrupted Code": {
+    "name": "Corrupted Code",
+    "desc": "Fixing this code into a normal Curio takes 3 battles.\nWhile the code is being fixed, a character loses all their Energy when they Break enemy Weaknesses.\nOnce the code is fixed, this Curio regenerates characters' Energy.",
+    "params": [],
+    "fixedDesc": "When a character Breaks enemy Weaknesses, they regenerate #1[i] Energy.",
+    "fixedParams": [ 40 ]
+  },
+  "Odd Code": {
+    "name": "Odd Code",
+    "desc": "Fixing this code into a normal Curio takes 3 battles.\nWhile the code is being fixed, a character loses #1[i]% of their current HP every time they use their Ultimate.\nOnce the code is fixed, this Curio restores HP for characters.",
+    "params": [ 0.3 ],
+    "fixedDesc": "Every time a character uses their Ultimate, they restore HP equal to #1[i]% of their Max HP.",
+    "fixedParams": [ 0.3 ]
+  },
+  "Normal Code": {
+    "name": "Normal Code",
+    "desc": "Fixing this code into a normal Curio takes 3 battles.\nWhile the code is being fixed, allies take #2[i]% more DMG while their HP percentage is below #1[i]% of their Max HP.\nOnce the code is fixed, this Curio reduces DMG taken by allies.",
+    "params": [ 0.5, 0.35, 0.5 ],
+    "fixedDesc": "Characters receive #2[i]% less DMG while their HP percentage is below #1[i]% of their Max HP.",
+    "fixedParams": [ 0.5, 0.25 ]
+  },
+  "Elegant Code": {
+    "name": "Elegant Code",
+    "desc": "Fixing this code into a normal Curio takes 3 battles.\nWhile the code is being fixed, a random enemy's action will be Advanced Forward by #1[i]% every time a character uses a Skill.\nOnce the code is fixed, this Curio Advances Forward characters' actions.",
+    "params": [ 0.35 ],
+    "fixedDesc": "After a character uses a Skill, their next action will be advanced forward by #1[i]%.",
+    "fixedParams": [ 0.25 ]
+  },
+  "Mysterious Code": {
+    "name": "Mysterious Code",
+    "desc": "Fixing this code into a normal Curio takes 3 battles.\nWhile the code is being fixed, enemies deal #1[i]% more DMG when another enemy unit is defeated by a character.\nOnce the code is fixed, this Curio increases DMG dealt by all allies.",
+    "params": [ 0.35 ],
+    "fixedDesc": "All allies deal #1[i]% more DMG after an enemy is defeated.",
+    "fixedParams": [ 0.25 ]
+  },
+  "Infinitely Recursive Code": {
+    "name": "Infinitely Recursive Code",
+    "desc": "Fixing this code into a normal Curio takes 3 battles.\nWhile the code is being fixed, each time after a character uses a Skill, they consume #1[i] extra Skill Points.\nOnce the code is fixed, this Curio makes characters' Basic ATK recover extra Skill Points.",
+    "params": [ 1 ],
+    "fixedDesc": "Recovers #1[i] extra Skill Point(s) when characters use Basic ATK.",
+    "fixedParams": [ 1 ]
+  },
+  "Shattered Star Bait": {
+    "name": "Shattered Star Bait",
+    "desc": "Increase Movement SPD by #1[i]% when in map. During combat, characters' actions are Advanced Forward by #2[i]% after they take action.",
+    "params": [ 0.2, 0.1 ]
+  },
+  "Obliteration Wick Trimmer": {
+    "name": "Obliteration Wick Trimmer",
+    "desc": "Upon entering battle, increase all allies' DMG by #1[i]% for every destructible object that has been destroyed.",
+    "params": [ 0.03 ]
+  },
+  "Insect Web": {
+    "name": "Insect Web",
+    "desc": "Upon entering battle, the character currently with the highest ATK will become Parasitized. While Parasitized, the character's ATK increases by #1[i]%, but will lose HP equal to #2[i]% of their current HP at the start of every turn. When this character is knocked down, Parasitized will be transferred to a random character.",
+    "params": [ 0.5, 0.2 ]
+  },
+  "Angel-type I.O.U. Dispenser": {
+    "name": "Angel-type I.O.U. Dispenser",
+    "desc": "Cosmic Fragments are not received upon winning battles. After triggering this effect #1[i] times, this Curio will be destroyed and the amount of Cosmic Fragment(s) currently held will be doubled.",
+    "params": [ 5 ]
+  },
+  "Laurel Crown of Planar Shifts": {
+    "name": "Laurel Crown of Planar Shifts",
+    "desc": "The current exploration will not terminate if your team is defeated in a non-boss battle. Instead, the battle will be considered as a victory, and all characters will recover HP up to their respective Max HP. After triggering this effect #1[i] time(s), this Curio will be destroyed.",
+    "params": [ 1 ]
+  },
+  "Space-Time Prism": {
+    "name": "Space-Time Prism",
+    "desc": "Upon entering battle, increase all ally's Eidolon Resonance level by #1[i].",
+    "params": [ 1 ]
+  },
+  "Galactic Big Lotto": {
+    "name": "Galactic Big Lotto",
+    "desc": "After destroying destructible objects, there is a small chance of receiving 1 Curio, but also a small chance of destroying this Curio and all characters losing #1[i]% of their current HP.",
+    "params": [ 0.99 ]
+  },
+  "Omniscient Capsule": {
+    "name": "Omniscient Capsule",
+    "desc": "Destructible objects will appear more frequently and rewards obtained from them are doubled.",
+    "params": []
+  },
+  "Divination Cuckoo Clock": {
+    "name": "Divination Cuckoo Clock",
+    "desc": "When selecting Blessings after victory, the number of available Blessings will be reduced by #1[i].",
+    "params": [ 1 ]
+  },
+  "Black Forest Cuckoo Clock": {
+    "name": "Black Forest Cuckoo Clock",
+    "desc": "Upon entering battle, randomly increases the chance for #1[i] character(s) to be attacked by enemies for #2[i] turn(s).",
+    "params": [ 1, 5 ]
+  },
+  "Perpetual Motion Cuckoo Clock": {
+    "name": "Perpetual Motion Cuckoo Clock",
+    "desc": "Each time you enter the following domain, lose #1[i]% of all Cosmic Fragment(s) currently in your possession.",
+    "params": [ 0.05 ]
+  },
+  "Punklorde mentality": {
+    "name": "Punklorde mentality",
+    "desc": "Upon entering battle, there is a #1[i]% fixed chance to add to all enemies #2[i] Weakness(es) of the same Type(s) as allies currently on the field. These Weakness(es) last(s) for #3[i] turn(s).",
+    "params": [ 1, 1, 3 ]
+  },
+  "Beacon Coloring Paste": {
+    "name": "Beacon Coloring Paste",
+    "desc": "When choosing a Blessing after winning a battle, randomly level up #1[i] Blessing(s) among the selection.",
+    "params": [ 1 ]
+  },
+  "IPC Cuckoo Clock": {
+    "name": "IPC Cuckoo Clock",
+    "desc": "Cosmic Fragments required to level up and reset Blessings increase by #1[i]%.",
+    "params": [ 0.25 ]
+  },
+  "Mechanical Cuckoo Clock": {
+    "name": "Mechanical Cuckoo Clock",
+    "desc": "Upon entering battle, consume #1[i] Skill Point.",
+    "params": [ 2 ]
+  }
+}

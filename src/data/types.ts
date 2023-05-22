@@ -115,3 +115,12 @@ export interface EnemySkill {
     phases?: number[]
     threat?: true
 }
+
+// Curios
+export interface Curio {
+    name: string
+    desc: string
+    params: number[]
+    fixedDesc: string
+    fixedParams: number[]
+}
