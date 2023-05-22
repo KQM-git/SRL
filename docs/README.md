@@ -14,7 +14,7 @@ As Star Rail has only just released, our theorycrafting team is still in the pro
 
 * Characters - WIP
   * Base Stats - complete
-  * Abilities - partial (only level 1-7/11 (for EL4 + peaking one level further))
+  * Abilities - complete
   * Traces - complete
   * Eidolons - complete
 * Equipment - WIP

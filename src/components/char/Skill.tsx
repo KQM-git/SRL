@@ -18,7 +18,11 @@ export default function Skill({ char, skill, index }: {
     talents = [talents[index]]
   talents = talents.filter(x => x)
 
-  const [levels, setLevels] = useState(talents.map(t => t.params.length))
+  const assumeE6 = char.star == 4 || char.name.startsWith("Trailblazer")
+  const targetCap = skill == "basic" 
+    ? assumeE6 ?  7 :  6 
+    : assumeE6 ? 12 : 10
+  const [levels, setLevels] = useState(talents.map(t => Math.min(targetCap, t.params.length)))
   const [showTable, setShowTable] = useState(talents.map(() => false))
   if (talents.length == 0)
     return <Admonition type="danger">
