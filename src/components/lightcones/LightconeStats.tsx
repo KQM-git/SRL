@@ -21,7 +21,7 @@ export default function LightconeStats({ lightcone, lightcones }: { lightcone: s
   const max = getLightconeStatsAt(lc, maxAscension.maxLevel, maxAscension.level)
 
   return <div>
-    <img className="icon-display-box" src={`/img/lightcones/icon/${filename(lightcone)}.png`} width={256} height={256} />
+    <img className="icon-display-box" src={`/img/lightcones/icon/${filename(lightcone)}.png`} width={256} height={300} />
     <table>
       <thead>
         <tr>

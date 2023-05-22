@@ -8,6 +8,10 @@ The Theorycrafting Library (SRL) is a collection of community submitted knowledg
 
 The SRL is organized so that each page has a corresponding Evidence Vault. The Evidence Vault houses every submission in full that has been made to the SRL. While the main pages are where basic information and summaries of submitted findings can be found.
 
+## Quick Links
+
+**Most Recent Characters:** [Jing Yuan](/characters/lightning/jing-yuan)
+
 ## Data Status
 
 As Star Rail has only just released, our theorycrafting team is still in the process of getting game data set up on the SRL. Below you will see a list of what we are working on porting over:
