@@ -225,7 +225,7 @@
   "eidolons": [
     {
       "name": "Victory Report",
-      "desc": "When Pela defeats an enemy, Pela regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "desc": "When an enemy is defeated, Pela regenerates <unbreak>#1[i]</unbreak> Energy.",
       "params": [ 5 ]
     },
     {

@@ -191,7 +191,7 @@
       "name": "Prana Extirpated",
       "tag": "Bounce",
       "type": "Talent",
-      "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has <unbreak>#1[i]</unbreak> base SPD and <unbreak>#4[i]</unbreak> base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as <u>follow-up attacks</u>, with each hit dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to <unbreak>#5[i]%</unbreak> of the DMG dealt to the target enemy.\\nThe Lightning-Lord's Hits Per Action can reach a max of <unbreak>#6[i]</unbreak>. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by <unbreak>#3[i]</unbreak>. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\\nWhen Jing Yuan is <u>knocked down</u>, the Lightning-Lord will disappear.\\nWhen Jing Yuan is affected by <u>Crowd Control debuff</u>, the Lightning-Lord is unable to take action.",
+      "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has <unbreak>#1[i]</unbreak> base SPD and <unbreak>#4[i]</unbreak> base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as <u>follow-up attacks</u>, with each hit dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to <unbreak>#5[i]%</unbreak> of the DMG dealt to the target enemy.\\nThe Lightning-Lord's Hits Per Action can reach a max of <unbreak>#6[i]</unbreak>. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by <unbreak>#3[i]</unbreak>. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\\nWhen Jing Yuan is <u>knocked down</u>, the Lightning-Lord will disappear.\\nWhen Jing Yuan is affected by <u>Crowd Control debuff</u>, the Lightning-Lord is unable to take action.",
       "params": [
         [ 60, 0.33, 10, 3, 0.25, 10 ],
         [ 60, 0.363, 10, 3, 0.25, 10 ],
@@ -218,7 +218,7 @@
       "name": "Spirit Invocation",
       "tag": "Enhance",
       "type": "Technique",
-      "desc": "After using Technique, at the start of the next battle, the Lightning-Lord's Hits Per Action in the first turn increases by <unbreak>#1[i]</unbreak>.",
+      "desc": "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by <unbreak>#1[i]</unbreak> at the start of the next battle.",
       "params": [
         [ 3 ]
       ]
@@ -315,7 +315,7 @@
     },
     {
       "name": "War Marshal",
-      "desc": "After using Skill, CRIT Rate increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "desc": "After the Skill is used, the CRIT Rate increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
       "params": [ 0.1, 2 ],
       "minAsc": 6,
       "children": [
