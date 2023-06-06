@@ -6,7 +6,7 @@ description: An explanation on how turn order is determined during combat.
 
 ## Action Gauge
 
-Starts at 10000 by default for all units, once it reaches 0 for any given unit it is their turn to act. 
+Starts at 10000 by default for all units and depletes over turns, once it reaches 0 for any given unit it is their turn to act. After the given unit has acted, their Action Gauge fills back up to 10000.
 
 ## Gauge Action Modifier
 
@@ -19,6 +19,8 @@ Advance Forward reduces a unit’s Action Gauge value by a percentage of 10000 w
 $$
 \text{New Action Gauge} = \text{Old Action Gauge} - (\text{Advance Forward \%} - \text{Action Delay} \%)*10000
 $$
+
+If as a result of Advancing Forward, a character's Action Gauge falls to 0, that character will move before the character slated to move next by natural Action Gauge depletion. 
 
 ### Toughness Break
 
@@ -109,3 +111,13 @@ Percent modifier is based on unit's base speed, without relics or external buffs
 $$
 \text{New Speed} = \text{Current Speed} + (\text{Speed Buff \% } \times \text{Base Speed})
 $$
+
+## Unit Sorting Logic
+
+Sorting prioritizes Characters over Enemies. Within their respective groups, units are sorted by their slot, where the lower slot acts before the higher slot in the event of ties. 
+
+### Turn Order Populating 
+
+Upon starting a battle, the Turn Order is populated by both Characters and Enemies. The order of their addition to the Turn Order is defined by the Unit Sorting Logic.
+
+Once all units are added, a stable sort is performed on the Turn Order by AV. Sorting of units in the event of AV ties is done through the same Unit Sorting Logic.   
