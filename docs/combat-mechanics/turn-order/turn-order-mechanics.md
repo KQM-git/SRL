@@ -74,7 +74,7 @@ $$
 
 ### AV Consumption in Relation to Action Gauge
 
-Rewriting the above formula in terms of Action Gauge 
+Rewriting the above formula in terms of Action Gauge: 
 
 $$
 \text{New AV} \times \text{Current Speed} = \text{Current AV} \times \text{Current Speed} - \text{Consumed AV} \times \text{Current Speed}
@@ -86,11 +86,11 @@ $$
 
 ## Speed
 
-A factor that determines the rate at which a unit moves relative to other units in combat
+A factor that determines the rate at which a unit moves relative to other units in combat.
 
 ### Speed Status Effects
 
-New AV after Speed status effects
+New AV after Speed status effects.
 
 $$
 \text{New AV} = \text{Current AV} \times \frac
