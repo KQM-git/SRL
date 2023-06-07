@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1002013
-description: Cocolia's summoned giant lance of ice. It's surrounded by an icy cold current that can tear through flesh like a blade.
+description: A giant lance of ice summon by Cocolia. It's surrounded by an icy cold current that can tear through flesh like a blade.
 ---
 
 import enemy from '@site/src/data/enemies/Lance_of_the_Eternal_Freeze.json'

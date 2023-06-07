@@ -29,7 +29,7 @@
         },
         {
           "name": "Candle Flame",
-          "type": "Ability",
+          "type": "Talent",
           "desc": "When receiving a killing blow, deals Fire DMG to all friendly units, with a high chance to reduce their DEF."
         }
       ]

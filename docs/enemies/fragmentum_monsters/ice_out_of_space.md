@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 description: |-
-  A strange being that does not belong to this world. Nurtured in the Fragmentum created by the Stellaron, its parasitize upon this world's root structures to obtain energy. Its armor reflects the gloomy and profound starry sky.
+  A strange being that does not belong to this world. Nurtured in the Fragmentum brought by the Stellaron, it feeds upon this world's root structures to obtain energy. Its armor reflects the gloomy and profound starry sky.
   In combat, the Ice Out of Space will freeze targets it touches.
 ---
 

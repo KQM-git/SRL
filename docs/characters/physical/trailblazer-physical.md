@@ -1,5 +1,7 @@
 ---
-description: Rules are made to be broken.
+description: |-
+  A girl/boy who boarded the Astral Express.
+  They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.
 ---
 
 import char from '@site/src/data/characters/Trailblazer_(Physical).json'

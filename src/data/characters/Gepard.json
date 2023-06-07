@@ -220,7 +220,7 @@
   "eidolons": [
     {
       "name": "Due Diligence",
-      "desc": "When using Skill, increases the base chance to Freeze enemies by <unbreak>#1[i]%</unbreak>.",
+      "desc": "When using Skill, increases the base chance to Freeze target enemy by <unbreak>#1[i]%</unbreak>.",
       "params": [ 0.35 ]
     },
     {
@@ -245,7 +245,7 @@
     },
     {
       "name": "Unyielding Resolve",
-      "desc": "When his Talent is triggered, Gepard's action is Advanced Forward by <unbreak>100%</unbreak>, and he restores extra HP equal to <unbreak>#1[i]%</unbreak> of his Max HP.",
+      "desc": "When his Talent is triggered, Gepard immediately takes action again and restores extra HP equal to <unbreak>#1[i]%</unbreak> of his Max HP.",
       "params": [ 0.5 ]
     }
   ],

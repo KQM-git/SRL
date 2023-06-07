@@ -206,9 +206,9 @@
     },
     {
       "name": "Saunter in the Rain",
-      "tag": "Support",
+      "tag": "Restore",
       "type": "Technique",
-      "desc": "After using Technique, at the start of the next battle, all allies are granted Invigoration for <unbreak>#1[i]</unbreak> turn(s).",
+      "desc": "After Technique is used, at the start of the next battle, all allies are granted Invigoration for <unbreak>#1[i]</unbreak> turn(s).",
       "params": [
         [ 2 ]
       ]
