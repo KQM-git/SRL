@@ -21,12 +21,12 @@ As Star Rail has only just released, our theorycrafting team is still in the pro
   * Abilities - complete
   * Traces - complete
   * Eidolons - complete
-* Equipment - WIP
+* Equipment - complete
   * Light Cones - complete
   * Relics - complete
     * Cavern Relics - complete
     * Planar Relics - complete
-  * Curio - missing
+  * Curio - complete
 * Enemy Data - WIP
   * Basic data - complete
   * Variants / checking - WIP
