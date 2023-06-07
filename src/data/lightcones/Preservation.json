@@ -341,7 +341,7 @@
     ],
     "superimposition": {
       "name": "At This Very Moment",
-      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After entering battle, increases DMG RES of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Effects of the same type cannot stack.",
+      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After entering battle, increases All-Type RES of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Effects of the same type cannot stack.",
       "params": [
         [ 0.16, 0.08 ],
         [ 0.18, 0.09 ],
@@ -429,7 +429,7 @@
     ],
     "superimposition": {
       "name": "Time Fleets Away",
-      "desc": "The wearer is more likely to be attacked, but DMG taken is reduced by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+      "desc": "The wearer is more likely to be attacked, and DMG taken is reduced by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
       "params": [
         [ 2, 0.16 ],
         [ 2, 0.18 ],
@@ -517,7 +517,7 @@
     ],
     "superimposition": {
       "name": "New Chapter",
-      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases the DMG of the wearer when they use their Ultimate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the wearer's DEF. This effect can only apply 1 time per enemy target.",
+      "desc": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases the DMG of the wearer when they use their Ultimate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the wearer's DEF. This effect only applies 1 time per enemy target during each use of the wearer's Ultimate.",
       "params": [
         [ 0.16, 0.6 ],
         [ 0.2, 0.75 ],

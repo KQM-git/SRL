@@ -20,9 +20,7 @@
         "Wind": 0.4,
         "Imaginary": 0.2
       },
-      "debuffRES": {
-        "Wind Sheer": 1
-      },
+      "debuffRES": {},
       "skills": [
         {
           "name": "Callous Tailwind",

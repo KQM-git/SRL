@@ -318,7 +318,7 @@
     },
     {
       "name": "Repel",
-      "desc": "Upon entering battle, if Arlan's HP is less than or equal to <unbreak>#1[i]%</unbreak>, he can nullify all DMG received except for DoT until after he is attacked.",
+      "desc": "Upon entering battle, if Arlan's HP is less than or equal to <unbreak>#1[i]%</unbreak>, he can nullify all DMG received except for DoTs until he is attacked.",
       "params": [ 0.5 ],
       "minAsc": 6,
       "children": [

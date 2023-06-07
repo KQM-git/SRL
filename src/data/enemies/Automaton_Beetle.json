@@ -25,7 +25,7 @@
         {
           "name": "Unstable Forcefield",
           "type": "Ability",
-          "desc": "Deals Physical DMG to a single target, and grants a Barrier to self. The Barrier nullifies all DMG received except for DoT until after being attacked."
+          "desc": "Deals Physical DMG to a single target, and grants a Barrier to another friendly unit. The Barrier nullifies all DMG received except for DoT until after the friendly unit is attacked."
         }
       ]
     }

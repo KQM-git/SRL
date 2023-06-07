@@ -118,7 +118,7 @@
         },
         {
           "name": "Support",
-          "type": "Ability",
+          "type": "Talent",
           "desc": "When the phase starts, immediately summons Silvermane Soldier or Silvermane Cannoneer.",
           "phases": [ 1 ]
         },
