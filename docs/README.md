@@ -10,7 +10,14 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-**Most Recent Characters:** [Jing Yuan](/characters/lightning/jing-yuan)
+**Most Recent Characters:**
+
+- [Silver Wolf](/characters/quantum/silver-wolf)
+
+**Most Recent Light Cones:**
+
+- [Incessant Rain](/equipment/lightcones/nihility#incessant-rain)
+- [Before the Tutorial Mission Starts](/equipment/lightcones/nihility#before-the-tutorial-mission-starts)
 
 ## Data Status
 
