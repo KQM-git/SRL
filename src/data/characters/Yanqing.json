@@ -252,7 +252,7 @@
     },
     {
       "name": "Swift Swoop",
-      "desc": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn.",
+      "desc": "If the buffs from Soulsteel Sync or the Ultimate are in effect when an enemy is defeated, the duration of these buffs is extended by 1 turn.",
       "params": []
     }
   ],

@@ -191,7 +191,7 @@
       "name": "Data Collecting",
       "tag": "Support",
       "type": "Talent",
-      "desc": "If the enemy is <u>debuffed</u> after Pela's attack, Pela will restore <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> extra Energy. This effect can only be triggered 1 time per attack.",
+      "desc": "If the enemy is <u>debuffed</u> after Pela's attack, Pela will restore <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> additional Energy. This effect can only be triggered 1 time per attack.",
       "params": [
         [ 5 ],
         [ 5.5 ],
@@ -240,7 +240,7 @@
     },
     {
       "name": "Full Analysis",
-      "desc": "When using Skill, there is a <unbreak>#1[i]%</unbreak> base chance to reduce the target enemy's Ice RES by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "desc": "When Skill is used, there is a <unbreak>#1[i]%</unbreak> base chance to reduce the target enemy's Ice RES by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
       "params": [ 1, 0.12, 2 ]
     },
     {

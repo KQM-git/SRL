@@ -159,7 +159,7 @@
       "name": "A Quartet? Woo-hoo!",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Qingque's ATK to all enemies, and obtains 4 jade tiles of the same suit.",
       "params": [
         [ 1.2 ],
         [ 1.28 ],
