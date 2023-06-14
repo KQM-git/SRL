@@ -1,6 +1,8 @@
 ---
 description: |-
-  A member of the Stellaron Hunters and a genius hacker. She sees the universe as a massive immersive simulation game and has fun with it. She's mastered the skill know as "aether editing" which can be used to tamper with the data of reality.
+  A member of the Stellaron Hunters and a genius hacker.
+  She sees the universe as a massive immersive simulation game and has fun with it.
+  She's mastered the skill known as "aether editing," which can be used to tamper with the data of reality.
 ---
 
 import char from '@site/src/data/characters/Silver_Wolf.json'
