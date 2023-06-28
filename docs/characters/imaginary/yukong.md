@@ -1,16 +1,15 @@
 ---
 description: |-
-  Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas.
-  Has excellent medical skills.
+  Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she's been buried under mountains of paperwork.
 ---
 
-import char from '@site/src/data/characters/Luocha.json'
+import char from '@site/src/data/characters/Yukong.json'
 
-# Luocha
+# Yukong
 
 import Image from '@theme/IdealImage'
 
-<Image img={require('/img/characters/gacha/Luocha.png')} alt="Luocha's gacha art" />
+<Image img={require('/img/characters/gacha/Yukong.png')} alt="Yukong's gacha art" />
 <blockquote>{frontMatter.description}</blockquote>
 
 ## Resources
