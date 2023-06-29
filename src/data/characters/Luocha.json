@@ -1,0 +1,345 @@
+{
+  "name": "Luocha",
+  "damageType": "Imaginary",
+  "baseType": "Abundance",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 102.96,
+      "attackAdd": 5.148,
+      "hpBase": 174.24,
+      "hpAdd": 8.712,
+      "defenseBase": 49.5,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 144.144,
+      "attackAdd": 5.148,
+      "hpBase": 243.936,
+      "hpAdd": 8.712,
+      "defenseBase": 69.3,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 185.328,
+      "attackAdd": 5.148,
+      "hpBase": 313.632,
+      "hpAdd": 8.712,
+      "defenseBase": 89.1,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 226.512,
+      "attackAdd": 5.148,
+      "hpBase": 383.328,
+      "hpAdd": 8.712,
+      "defenseBase": 108.9,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 267.696,
+      "attackAdd": 5.148,
+      "hpBase": 453.024,
+      "hpAdd": 8.712,
+      "defenseBase": 128.7,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 308.88,
+      "attackAdd": 5.148,
+      "hpBase": 522.72,
+      "hpAdd": 8.712,
+      "defenseBase": 148.5,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 350.064,
+      "attackAdd": 5.148,
+      "hpBase": 592.416,
+      "hpAdd": 8.712,
+      "defenseBase": 168.3,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Thorns of the Abyss",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luocha's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Prayer of Abyss Flower",
+      "tag": "Restore",
+      "type": "Skill",
+      "desc": "After using his Skill, Luocha immediately restores the target ally's HP equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luocha's ATK plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. Meanwhile, Luocha gains 1 stack of Abyss Flower.\\nWhen any ally's HP percentage drops to <unbreak>#3[i]%</unbreak> or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after <unbreak>#4[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.4, 200, 0.5, 2 ],
+        [ 0.425, 320, 0.5, 2 ],
+        [ 0.45, 410, 0.5, 2 ],
+        [ 0.475, 500, 0.5, 2 ],
+        [ 0.5, 560, 0.5, 2 ],
+        [ 0.52, 620, 0.5, 2 ],
+        [ 0.54, 665, 0.5, 2 ],
+        [ 0.56, 710, 0.5, 2 ],
+        [ 0.58, 755, 0.5, 2 ],
+        [ 0.6, 800, 0.5, 2 ],
+        [ 0.62, 845, 0.5, 2 ],
+        [ 0.64, 890, 0.5, 2 ],
+        [ 0.66, 935, 0.5, 2 ],
+        [ 0.68, 980, 0.5, 2 ],
+        [ 0.7, 1025, 0.5, 2 ]
+      ],
+      "energyGain": 30
+    },
+    {
+      "name": "Death Wish",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Removes <unbreak>#2[i]</unbreak> <u>buff(s)</u> from all enemies and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "params": [
+        [ 1.2, 1 ],
+        [ 1.28, 1 ],
+        [ 1.36, 1 ],
+        [ 1.44, 1 ],
+        [ 1.52, 1 ],
+        [ 1.6, 1 ],
+        [ 1.7, 1 ],
+        [ 1.8, 1 ],
+        [ 1.9, 1 ],
+        [ 2, 1 ],
+        [ 2.08, 1 ],
+        [ 2.16, 1 ],
+        [ 2.24, 1 ],
+        [ 2.32, 1 ],
+        [ 2.4, 1 ]
+      ],
+      "energyNeeded": 100,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "Cycle of Life",
+      "tag": "Restore",
+      "type": "Talent",
+      "desc": "When Abyss Flower reaches <unbreak>#1[i]</unbreak> stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy.\\nWhen any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Luocha's ATK plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>.\\nThe Field's effect lasts for <unbreak>#3[i]</unbreak> turns. When Luocha is knocked down, the Field will be dispelled.",
+      "params": [
+        [ 2, 0.12, 2, 60 ],
+        [ 2, 0.1275, 2, 96 ],
+        [ 2, 0.135, 2, 123 ],
+        [ 2, 0.1425, 2, 150 ],
+        [ 2, 0.15, 2, 168 ],
+        [ 2, 0.156, 2, 186 ],
+        [ 2, 0.162, 2, 199.5 ],
+        [ 2, 0.168, 2, 213 ],
+        [ 2, 0.174, 2, 226.5 ],
+        [ 2, 0.18, 2, 240 ],
+        [ 2, 0.186, 2, 253.5 ],
+        [ 2, 0.192, 2, 267 ],
+        [ 2, 0.198, 2, 280.5 ],
+        [ 2, 0.204, 2, 294 ],
+        [ 2, 0.21, 2, 307.5 ]
+      ]
+    },
+    {
+      "name": "Mercy of a Fool",
+      "tag": "Restore",
+      "type": "Technique",
+      "desc": "After the Technique is used, the Talent will be immediately triggered at the start of the next battle.",
+      "params": [
+        []
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Ablution of the Quick",
+      "desc": "While the Field is active, ATK of all allies increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.2 ]
+    },
+    {
+      "name": "Bestowal From the Pure",
+      "desc": "When his Skill is triggered, if the target ally's HP is lower than <unbreak>50%</unbreak>, Luocha's Outgoing Healing increases by <unbreak>#1[i]%</unbreak>. If the target ally's HP is at <unbreak>50%</unbreak> or higher, the ally receives a Shield that can absorb DMG equal to <unbreak>#2[i]%</unbreak> of Luocha's ATK plus <unbreak>#3[i]</unbreak>, lasting for <unbreak>#4[i]</unbreak> turns.",
+      "params": [ 0.3, 0.18, 240, 2 ]
+    },
+    {
+      "name": "Surveyal by the Fool",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Heavy Lies the Crown",
+      "desc": "When Luocha's Field is active, enemies become Weakened and deal <unbreak>#1[i]%</unbreak> less DMG.",
+      "params": [ 0.12 ]
+    },
+    {
+      "name": "Cicatrix 'Neath the Pain",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Reunion With the Dust",
+      "desc": "When Ultimate is used, there is a <unbreak>#1[i]%</unbreak> fixed chance to reduce all enemies' All-Type RES by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [ 1, 0.2, 2 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Cleansing Revival",
+      "desc": "When the Skill's effect is triggered, removes <unbreak>#1[i]</unbreak> debuff(s) from a target ally.",
+      "params": [ 1 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "DEF Boost",
+                  "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.05 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanctified",
+      "desc": "When any enemy in the Field is attacked by an ally, all allies (except the attacker) restore HP equal to <unbreak>#1[f1]%</unbreak> of Luocha's ATK plus <unbreak>#2[i]</unbreak>.",
+      "params": [ 0.07, 93 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Through the Valley",
+      "desc": "The chance to resist Crowd Control debuffs increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.7 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.075 ],
+          "minAsc": 6
+        },
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.08 ],
+      "minLevel": 80
+    }
+  ]
+}

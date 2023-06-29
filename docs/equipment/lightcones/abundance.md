@@ -5,6 +5,10 @@ import abundance from '@site/src/data/lightcones/Abundance.json'
 
 ## 5 Stars
 
+### Echoes of the Coffin
+
+<Lightcone lightcone="Echoes of the Coffin" lightcones={abundance} />
+
 ### Time Waits for No One
 
 <Lightcone lightcone="Time Waits for No One" lightcones={abundance} />
