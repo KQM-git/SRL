@@ -28,25 +28,25 @@ import CharStatsTable from '@site/src/components/char/CharStatsTable'
 
 import Skill from '@site/src/components/char/Skill'
 
-<Tabs>
-<TabItem value='batk' label='Basic ATK'>
-<Skill char={char} skill='batk' />
+<Tabs queryString="ability">
+<TabItem value='basic' label='Basic ATK'>
+<Skill char={char} skill='basic' />
 
 </TabItem>
-<TabItem value='e' label='Skill'>
-<Skill char={char} skill='e' />
+<TabItem value='skill' label='Skill'>
+<Skill char={char} skill='skill' />
 
 </TabItem>
-<TabItem value='q' label='Ultimate'>
-<Skill char={char} skill='q'/>
+<TabItem value='ult' label='Ultimate'>
+<Skill char={char} skill='ult'/>
 
 </TabItem>
-<TabItem value='t' label='Talent'>
-<Skill char={char} skill='t'/>
+<TabItem value='talent' label='Talent'>
+<Skill char={char} skill='talent'/>
 
 </TabItem>
-<TabItem value='p' label='Technique'>
-<Skill char={char} skill='p'/>
+<TabItem value='technique' label='Technique'>
+<Skill char={char} skill='technique'/>
 
 </TabItem>
 </Tabs>
@@ -55,7 +55,7 @@ import Skill from '@site/src/components/char/Skill'
 
 import Trace from '@site/src/components/char/Trace'
 
-<Tabs>
+<Tabs queryString="trace">
 <TabItem value='a2' label='A2'>
 <Trace char={char} trace='a2' />
 
@@ -77,28 +77,28 @@ import Trace from '@site/src/components/char/Trace'
 
 import Eidolon from '@site/src/components/char/Eidolon'
 
-<Tabs>
-<TabItem value='E1' label='E1'>
+<Tabs queryString="eidolon">
+<TabItem value='e1' label='E1'>
 <Eidolon char={char} eidolon={1} />
 
 </TabItem>
-<TabItem value='E2' label='E2'>
+<TabItem value='e2' label='E2'>
 <Eidolon char={char} eidolon={2} />
 
 </TabItem>
-<TabItem value='E3' label='E3'>
+<TabItem value='e3' label='E3'>
 <Eidolon char={char} eidolon={3} />
 
 </TabItem>
-<TabItem value='E4' label='E4'>
+<TabItem value='e4' label='E4'>
 <Eidolon char={char} eidolon={4} />
 
 </TabItem>
-<TabItem value='E5' label='E5'>
+<TabItem value='e5' label='E5'>
 <Eidolon char={char} eidolon={5} />
 
 </TabItem>
-<TabItem value='E6' label='E6'>
+<TabItem value='e6' label='E6'>
 <Eidolon char={char} eidolon={6} />
 
 </TabItem>

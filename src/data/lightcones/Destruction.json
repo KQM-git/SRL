@@ -75,9 +75,16 @@
         "defenseAdd": 1.35
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Havoc",
-      "desc": "Increases the wearer's Basic ATK and Skill DMG by **20%**/**25%**/**30%**/**35%**/**40%**."
+      "desc": "Increases the wearer's Basic ATK and Skill DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+      "params": [
+        [ 0.2 ],
+        [ 0.25 ],
+        [ 0.3 ],
+        [ 0.35 ],
+        [ 0.4 ]
+      ]
     }
   },
   "Mutual Demise": {
@@ -156,9 +163,16 @@
         "defenseAdd": 1.35
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Legion",
-      "desc": "If the wearer's current HP is lower than 80%, CRIT Rate increases by **12%**/**15%**/**18%**/**21%**/**24%**."
+      "desc": "If the wearer's current HP is lower than <unbreak>#1[i]%</unbreak>, CRIT Rate increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+      "params": [
+        [ 0.8, 0.12 ],
+        [ 0.8, 0.15 ],
+        [ 0.8, 0.18 ],
+        [ 0.8, 0.21 ],
+        [ 0.8, 0.24 ]
+      ]
     }
   },
   "Shattered Home": {
@@ -237,9 +251,16 @@
         "defenseAdd": 1.35
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Eradication",
-      "desc": "Deals **20%**/**25%**/**30%**/**35%**/**40%** increased DMG to any enemies whose HP is above 50%."
+      "desc": "The wear deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> more DMG to enemy targets whose HP percentage is greater than <unbreak>#1[i]%</unbreak>.",
+      "params": [
+        [ 0.5, 0.2 ],
+        [ 0.5, 0.25 ],
+        [ 0.5, 0.3 ],
+        [ 0.5, 0.35 ],
+        [ 0.5, 0.4 ]
+      ]
     }
   },
   "A Secret Vow": {
@@ -318,9 +339,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Spare No Effort",
-      "desc": "Increases DMG dealt by the wearer by **20%**/**25%**/**30%**/**35%**/**40%**. The wearer also deals an extra **20%**/**25%**/**30%**/**35%**/**40%** of DMG to enemies with a higher HP percentage than the wearer."
+      "desc": "Increases DMG dealt by the wearer by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. The wearer also deals an extra <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of DMG to enemies whose current HP percentage is equal to or higher than the wearer's current HP percentage.",
+      "params": [
+        [ 0.2, 0.2 ],
+        [ 0.25, 0.25 ],
+        [ 0.3, 0.3 ],
+        [ 0.35, 0.35 ],
+        [ 0.4, 0.4 ]
+      ]
     }
   },
   "Nowhere to Run": {
@@ -399,9 +427,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Desperate Times",
-      "desc": "Increases the wearer's ATK by **24%**/**30%**/**36%**/**42%**/**48%**. Whenever the wearer defeats an enemy, they restore HP equal to **12%**/**15%**/**18%**/**21%**/**24%** of their ATK."
+      "desc": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Whenever the wearer defeats an enemy, they restore HP equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of their ATK.",
+      "params": [
+        [ 0.24, 0.12 ],
+        [ 0.3, 0.15 ],
+        [ 0.36, 0.18 ],
+        [ 0.42, 0.21 ],
+        [ 0.48, 0.24 ]
+      ]
     }
   },
   "The Moles Welcome You": {
@@ -480,9 +515,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Fantastic Adventure",
-      "desc": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by **12%**/**15%**/**18%**/**21%**/**24%**."
+      "desc": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+      "params": [
+        [ 0.12 ],
+        [ 0.15 ],
+        [ 0.18 ],
+        [ 0.21 ],
+        [ 0.24 ]
+      ]
     }
   },
   "Under the Blue Sky": {
@@ -561,9 +603,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Rye Under the Sun",
-      "desc": "Increases the wearer's ATK by **16%**/**20%**/**24%**/**28%**/**32%**. When the wearer defeats an enemy, the wearer's CRIT Rate increases by **12%**/**15%**/**18%**/**21%**/**24%** for 3 turn(s)."
+      "desc": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer defeats an enemy, the wearer's CRIT Rate increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.16, 0.12, 3 ],
+        [ 0.2, 0.15, 3 ],
+        [ 0.24, 0.18, 3 ],
+        [ 0.28, 0.21, 3 ],
+        [ 0.32, 0.24, 3 ]
+      ]
     }
   },
   "Woof! Walk Time!": {
@@ -642,9 +691,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Run!",
-      "desc": "Increases the wearer's ATK by **10%**/**13%**/**15%**/**18%**/**20%**, and increases their DMG to enemies afflicted with Burn or Bleed by **16%**/**20%**/**24%**/**28%**/**32%**. This also applies to DoT."
+      "desc": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and increases their DMG to enemies afflicted with Burn or Bleed by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. This also applies to DoT.",
+      "params": [
+        [ 0.1, 0.16 ],
+        [ 0.125, 0.2 ],
+        [ 0.15, 0.24 ],
+        [ 0.175, 0.28 ],
+        [ 0.2, 0.32 ]
+      ]
     }
   },
   "On the Fall of an Aeon": {
@@ -723,9 +779,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Moth to Flames",
-      "desc": "Whenever the wearer attacks, their ATK is increased by **8%**/**10%**/**12%**/**14%**/**16%** in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by **12%**/**15%**/**18%**/**21%**/**24%** for 2 turn(s)."
+      "desc": "Whenever the wearer attacks, their ATK is increased by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> in this battle. This effect can stack up to <unbreak>#2[i]</unbreak> time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.08, 4, 0.12, 2 ],
+        [ 0.1, 4, 0.15, 2 ],
+        [ 0.12, 4, 0.18, 2 ],
+        [ 0.14, 4, 0.21, 2 ],
+        [ 0.16, 4, 0.24, 2 ]
+      ]
     }
   },
   "Something Irreplaceable": {
@@ -804,9 +867,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Kinship",
-      "desc": "Increases the wearer's ATK by **24%**/**28%**/**32%**/**36%**/**40%**. When the wearer defeats an enemy or is hit, immediately restores HP equal to **8%**/**9%**/**10%**/**11%**/**12%** of the wearer's ATK. At the same time, the wearer's DMG is increased by **24%**/**28%**/**32%**/**36%**/**40%** until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn."
+      "desc": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer defeats an enemy or is hit, immediately restores HP equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the wearer's ATK. At the same time, the wearer's DMG is increased by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
+      "params": [
+        [ 0.24, 0.08, 0.24 ],
+        [ 0.28, 0.09, 0.28 ],
+        [ 0.32, 0.1, 0.32 ],
+        [ 0.36, 0.11, 0.36 ],
+        [ 0.4, 0.12, 0.4 ]
+      ]
     }
   }
 }

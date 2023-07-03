@@ -5,11 +5,19 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 
 ## 5 Stars
 
+### Incessant Rain
+
+<Lightcone lightcone="Incessant Rain" lightcones={nihility} />
+
 ### In the Name of the World
 
 <Lightcone lightcone="In the Name of the World" lightcones={nihility} />
 
 ## 4 Stars
+
+### Before the Tutorial Mission Starts
+
+<Lightcone lightcone="Before the Tutorial Mission Starts" lightcones={nihility} />
 
 ### Eyes of the Prey
 

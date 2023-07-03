@@ -2,13 +2,13 @@
 export interface Character {
     name: string
     star: number
-    stats: CharacterStats[]
-    skills: Skill[]
+    stats: CharStats[]
+    skills: CharSkill[]
     eidolons: Eidolon[]
     skillTree: CharacterTrace[]
 }
 
-export interface CharacterStats {
+export interface CharStats {
     level: number
     maxLevel: number
     attackBase: number
@@ -24,21 +24,27 @@ export interface CharacterStats {
     speedAdd: number
 }
 
-export interface Skill {
+export interface CharSkill {
     name: string
     tag: string
     type: string
-    desc: string[]
+    desc: string
+    params: number[][]
+    toughness?: Record<string, number>
+    energyGain?: number
+    energyNeeded?: number
 }
 
 export interface Eidolon {
     name: string
     desc: string
+    params: number[]
 }
 
 export interface CharacterTrace {
     name: string
     desc: string
+    params: number[]
     minAsc?: number
     minLevel?: number
     children?: CharacterTrace[]
@@ -51,7 +57,7 @@ export interface Lightcone {
     baseType: string
     stars: number
     stats: LightconeStats[]
-    refinements: LightconeRefinements
+    superimposition: LightconeSuperimposition
 }
 
 export interface LightconeStats {
@@ -65,9 +71,10 @@ export interface LightconeStats {
     defenseAdd: number
 }
 
-export interface LightconeRefinements {
+export interface LightconeSuperimposition {
     name: string
     desc: string
+    params: number[][]
 }
 
 // Relics
@@ -79,6 +86,7 @@ export interface Relic {
 export interface RelicBonus {
     count: number
     desc: string
+    params: number[]
 }
 
 // Enemies
@@ -93,6 +101,7 @@ export interface EnemyVariant {
     hp: number
     speed: number
     toughness: number
+    effectResBase: number
     weaknesses: string[]
     id?: number
     dmgRES: Record<string, number>
@@ -105,4 +114,13 @@ export interface EnemySkill {
     desc: string
     phases?: number[]
     threat?: true
+}
+
+// Curios
+export interface Curio {
+    name: string
+    desc: string
+    params: number[]
+    fixedDesc: string
+    fixedParams: number[]
 }

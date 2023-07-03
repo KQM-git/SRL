@@ -115,114 +115,170 @@
       "name": "What Are You Looking At?",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Ice DMG equal to **50%** of Herta's ATK to a single enemy.",
-        "Deals Ice DMG equal to **60%** of Herta's ATK to a single enemy.",
-        "Deals Ice DMG equal to **70%** of Herta's ATK to a single enemy.",
-        "Deals Ice DMG equal to **80%** of Herta's ATK to a single enemy.",
-        "Deals Ice DMG equal to **90%** of Herta's ATK to a single enemy.",
-        "Deals Ice DMG equal to **100%** of Herta's ATK to a single enemy."
-      ]
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Herta's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "One-Time Offer",
       "tag": "AoE",
       "type": "Skill",
-      "desc": [
-        "Deals Ice DMG equal to **50%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **55%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **60%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **65%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **70%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **75%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **81%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%.",
-        "Deals Ice DMG equal to **88%** of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%."
-      ]
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Herta's ATK to all enemies. If the enemy's HP percentage is <unbreak>#2[i]%</unbreak> or higher, DMG dealt to this target increases by <unbreak>#3[i]%</unbreak>.",
+      "params": [
+        [ 0.5, 0.5, 0.2 ],
+        [ 0.55, 0.5, 0.2 ],
+        [ 0.6, 0.5, 0.2 ],
+        [ 0.65, 0.5, 0.2 ],
+        [ 0.7, 0.5, 0.2 ],
+        [ 0.75, 0.5, 0.2 ],
+        [ 0.8125, 0.5, 0.2 ],
+        [ 0.875, 0.5, 0.2 ],
+        [ 0.9375, 0.5, 0.2 ],
+        [ 1, 0.5, 0.2 ],
+        [ 1.05, 0.5, 0.2 ],
+        [ 1.1, 0.5, 0.2 ],
+        [ 1.15, 0.5, 0.2 ],
+        [ 1.2, 0.5, 0.2 ],
+        [ 1.25, 0.5, 0.2 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "All": 30
+      }
     },
     {
       "name": "It's Magic, I Added Some Magic",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": [
-        "Deals Ice DMG equal to **120%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **128%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **136%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **144%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **152%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **160%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **170%** of Herta's ATK to all enemies.",
-        "Deals Ice DMG equal to **180%** of Herta's ATK to all enemies."
-      ]
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Herta's ATK to all enemies.",
+      "params": [
+        [ 1.2 ],
+        [ 1.28 ],
+        [ 1.36 ],
+        [ 1.44 ],
+        [ 1.52 ],
+        [ 1.6 ],
+        [ 1.7 ],
+        [ 1.8 ],
+        [ 1.9 ],
+        [ 2 ],
+        [ 2.08 ],
+        [ 2.16 ],
+        [ 2.24 ],
+        [ 2.32 ],
+        [ 2.4 ]
+      ],
+      "energyNeeded": 110,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Fine, I'll Do It Myself",
       "tag": "AoE",
       "type": "Talent",
-      "desc": [
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **25%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **27%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **28%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **30%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **31%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **33%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **34%** of Herta's ATK to all enemies.",
-        "When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a **follow-up attack**, dealing Ice DMG equal to **36%** of Herta's ATK to all enemies."
-      ]
+      "desc": "When an ally's attack causes an enemy's HP percentage to fall to <unbreak>#1[i]%</unbreak> or lower, Herta will launch a <u>follow-up attack</u>, dealing Ice DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Herta's ATK to all enemies.",
+      "params": [
+        [ 0.5, 0.25 ],
+        [ 0.5, 0.265 ],
+        [ 0.5, 0.28 ],
+        [ 0.5, 0.295 ],
+        [ 0.5, 0.31 ],
+        [ 0.5, 0.325 ],
+        [ 0.5, 0.34375 ],
+        [ 0.5, 0.3625 ],
+        [ 0.5, 0.38125 ],
+        [ 0.5, 0.4 ],
+        [ 0.5, 0.415 ],
+        [ 0.5, 0.43 ],
+        [ 0.5, 0.445 ],
+        [ 0.5, 0.46 ],
+        [ 0.5, 0.475 ]
+      ],
+      "energyGain": 5,
+      "toughness": {
+        "All": 15
+      }
     },
     {
       "name": "It Can Still Be Optimized",
       "tag": "Enhance",
       "type": "Technique",
-      "desc": [
-        "After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle."
+      "desc": "After using her Technique, Herta's ATK increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s) at the beginning of the next battle.",
+      "params": [
+        [ 0.4, 3 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Kick You When You're Down",
-      "desc": "If the enemy's HP percentage is at 50% or less, Herta's Basic ATK deals Additional Ice DMG equal to 40% of Herta's ATK."
+      "desc": "If the enemy's HP percentage is at <unbreak>#1[i]%</unbreak> or less, Herta's Basic ATK deals Additional Ice DMG equal to <unbreak>#2[i]%</unbreak> of Herta's ATK.",
+      "params": [ 0.5, 0.4 ]
     },
     {
       "name": "Keep the Ball Rolling",
-      "desc": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s)."
+      "desc": "Every time Talent is triggered, this character's CRIT Rate increases by <unbreak>#1[i]%</unbreak>. This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
+      "params": [ 0.03, 5 ]
     },
     {
       "name": "That's the Kind of Girl I Am",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Hit Where It Hurts",
-      "desc": "When Talent is triggered, DMG increases by 10%."
+      "desc": "When Talent is triggered, DMG increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.1 ]
     },
     {
       "name": "Cuss Big or Cuss Nothing",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "No One Can Betray Me",
-      "desc": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s)."
+      "desc": "After using Ultimate, this character's ATK increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.25, 1 ]
     }
   ],
   "skillTree": [
     {
       "name": "Efficiency",
-      "desc": "When Skill is used, the DMG Boost effect on target enemies increases by an extra 25%.",
+      "desc": "When Skill is used, the DMG Boost effect on target enemies increases by an extra <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.25 ],
       "minAsc": 2,
       "children": [
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 5.0%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.05 ],
           "minAsc": 2,
           "children": [
             {
               "name": "DMG Boost: Ice",
-              "desc": "Ice DMG increases by 3.2%",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
               "minAsc": 3
             },
             {
               "name": "CRIT Rate Boost",
-              "desc": "CRIT Rate increases by 2.7%",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.027 ],
               "minAsc": 3
             }
           ]
@@ -231,22 +287,26 @@
     },
     {
       "name": "Puppet",
-      "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "desc": "The chance to resist Crowd Control Debuffs increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.35 ],
       "minAsc": 4,
       "children": [
         {
           "name": "DMG Boost: Ice",
-          "desc": "Ice DMG increases by 4.8%",
+          "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 7.5%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.075 ],
               "minAsc": 5
             },
             {
               "name": "DMG Boost: Ice",
-              "desc": "Ice DMG increases by 4.8%",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.048 ],
               "minAsc": 5
             }
           ]
@@ -255,28 +315,33 @@
     },
     {
       "name": "Icing",
-      "desc": "When Ultimate is used, deals 20% more DMG to Frozen enemies.",
+      "desc": "When Ultimate is used, deals <unbreak>#1[i]%</unbreak> more DMG to Frozen enemies.",
+      "params": [ 0.2 ],
       "minAsc": 6,
       "children": [
         {
           "name": "CRIT Rate Boost",
-          "desc": "CRIT Rate increases by 4.0%",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 6
         },
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 10.0%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.1 ],
           "minLevel": 75
         }
       ]
     },
     {
       "name": "DMG Boost: Ice",
-      "desc": "Ice DMG increases by 3.2%"
+      "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ]
     },
     {
       "name": "DMG Boost: Ice",
-      "desc": "Ice DMG increases by 6.4%",
+      "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.064 ],
       "minLevel": 80
     }
   ]

@@ -1,10 +1,10 @@
+import { fixed as fixedOriginal } from "./common"
 export function stat(name: string, value: number, full = false): string {
   function fixed(val: number, dec: number): string {
     if (full) return val.toString()
 
     // In game numbers are rounded down
-    const floored = Math.floor(val * (10 ** dec)) / (10 ** dec)
-    return floored.toFixed(dec)
+    return fixedOriginal(val, dec)
   }
   function fixedNormal(val: number, dec: number): string {
     if (full) return val.toString()
@@ -19,6 +19,8 @@ export function stat(name: string, value: number, full = false): string {
       return fixedNormal(value, 0)
     case "CRIT Rate":
     case "CRIT DMG":
+    case "Effect Hit Rate":
+    case "Effect RES":
       return fixed(value * 100, 1) + "%"
 
     case "Base HP":

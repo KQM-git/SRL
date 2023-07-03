@@ -9,6 +9,7 @@
       "hp": 1023,
       "speed": 100,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Fire",
         "Ice",
@@ -58,6 +59,7 @@
       "hp": 1395,
       "speed": 120,
       "toughness": 360,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Fire",
         "Ice",

@@ -8,6 +8,7 @@
       "hp": 465,
       "speed": 120,
       "toughness": 120,
+      "effectResBase": 0.3,
       "weaknesses": [
         "Fire",
         "Wind"
@@ -26,26 +27,19 @@
           "name": "Fallen Forge Hammer",
           "type": "Ability",
           "desc": "Deals Quantum DMG to a single target.",
-          "phases": [
-            1
-          ]
+          "phases": [ 1 ]
         },
         {
           "name": "Fallen Star's Visit",
           "type": "Ability",
           "desc": "Deals Quantum DMG to a single target, with a small chance to inflict Entanglement.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "When the Dawn Is Dark",
           "type": "Ability",
           "desc": "Deals Quantum DMG to a single target, with a chance to inflict Entanglement.",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         }
       ]
     }

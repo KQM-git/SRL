@@ -8,6 +8,7 @@
       "hp": 139.5,
       "speed": 100,
       "toughness": 60,
+      "effectResBase": 0.1,
       "weaknesses": [
         "Physical",
         "Lightning",
@@ -28,7 +29,7 @@
         },
         {
           "name": "Candle Flame",
-          "type": "Ability",
+          "type": "Talent",
           "desc": "When receiving a killing blow, deals Fire DMG to all friendly units, with a high chance to reduce their DEF."
         }
       ]

@@ -115,114 +115,167 @@
       "name": "Dazzling Blades",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Wind DMG equal to **50%** of Sampo's ATK to a single enemy.",
-        "Deals Wind DMG equal to **60%** of Sampo's ATK to a single enemy.",
-        "Deals Wind DMG equal to **70%** of Sampo's ATK to a single enemy.",
-        "Deals Wind DMG equal to **80%** of Sampo's ATK to a single enemy.",
-        "Deals Wind DMG equal to **90%** of Sampo's ATK to a single enemy.",
-        "Deals Wind DMG equal to **100%** of Sampo's ATK to a single enemy."
-      ]
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Sampo's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Ricochet Love",
       "tag": "Bounce",
       "type": "Skill",
-      "desc": [
-        "Deals Wind DMG equal to **28%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **28%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **31%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **31%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **34%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **34%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **36%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **36%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **39%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **39%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **42%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **42%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **46%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **46%** of Sampo's ATK to a random enemy.",
-        "Deals Wind DMG equal to **49%** of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to **49%** of Sampo's ATK to a random enemy."
-      ]
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Sampo's ATK to a single enemy, and further deals DMG for <unbreak>#1[i]</unbreak> extra time(s), with each time dealing Wind DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Sampo's ATK to a random enemy.",
+      "params": [
+        [ 4, 0.28 ],
+        [ 4, 0.308 ],
+        [ 4, 0.336 ],
+        [ 4, 0.364 ],
+        [ 4, 0.392 ],
+        [ 4, 0.42 ],
+        [ 4, 0.455 ],
+        [ 4, 0.49 ],
+        [ 4, 0.525 ],
+        [ 4, 0.56 ],
+        [ 4, 0.588 ],
+        [ 4, 0.616 ],
+        [ 4, 0.644 ],
+        [ 4, 0.672 ],
+        [ 4, 0.7 ]
+      ],
+      "energyGain": 6,
+      "toughness": {
+        "Target": 30,
+        "Bounce": 15
+      }
     },
     {
       "name": "Surprise Present",
       "tag": "Impair",
       "type": "Ultimate",
-      "desc": [
-        "Deals Wind DMG equal to **96%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **20%** for 2 turn(s).",
-        "Deals Wind DMG equal to **102%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **21%** for 2 turn(s).",
-        "Deals Wind DMG equal to **109%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **22%** for 2 turn(s).",
-        "Deals Wind DMG equal to **115%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **23%** for 2 turn(s).",
-        "Deals Wind DMG equal to **122%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **24%** for 2 turn(s).",
-        "Deals Wind DMG equal to **128%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **25%** for 2 turn(s).",
-        "Deals Wind DMG equal to **136%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **26%** for 2 turn(s).",
-        "Deals Wind DMG equal to **144%** of Sampo's ATK to all enemies, with a 100% **base chance** to increase the targets' DoT taken by **28%** for 2 turn(s)."
-      ]
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Sampo's ATK to all enemies, with a <unbreak>#4[i]%</unbreak> <u>base chance</u> to increase the targets' DoT taken by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.96, 0.2, 2, 1 ],
+        [ 1.024, 0.21, 2, 1 ],
+        [ 1.088, 0.22, 2, 1 ],
+        [ 1.152, 0.23, 2, 1 ],
+        [ 1.216, 0.24, 2, 1 ],
+        [ 1.28, 0.25, 2, 1 ],
+        [ 1.36, 0.2625, 2, 1 ],
+        [ 1.44, 0.275, 2, 1 ],
+        [ 1.52, 0.2875, 2, 1 ],
+        [ 1.6, 0.3, 2, 1 ],
+        [ 1.664, 0.31, 2, 1 ],
+        [ 1.728, 0.32, 2, 1 ],
+        [ 1.792, 0.33, 2, 1 ],
+        [ 1.856, 0.34, 2, 1 ],
+        [ 1.92, 0.35, 2, 1 ]
+      ],
+      "energyNeeded": 120,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Windtorn Dagger",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **20%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **22%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **24%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **26%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **28%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **31%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **35%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
-        "Sampo's attacks have a 65% **base chance** to inflict Wind Shear for 3 turn(s).\nEnemies inflicted with Wind Shear will take Wind DoT equal to **40%** of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."
+      "desc": "Sampo's attacks have a <unbreak>#1[i]%</unbreak> <u>base chance</u> to inflict Wind Shear for <unbreak>#3[i]</unbreak> turn(s).\\nEnemies inflicted with Wind Shear will take Wind DoT equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to <unbreak>#4[i]</unbreak> time(s).",
+      "params": [
+        [ 0.65, 0.2, 3, 5 ],
+        [ 0.65, 0.22, 3, 5 ],
+        [ 0.65, 0.24, 3, 5 ],
+        [ 0.65, 0.26, 3, 5 ],
+        [ 0.65, 0.28, 3, 5 ],
+        [ 0.65, 0.31, 3, 5 ],
+        [ 0.65, 0.35, 3, 5 ],
+        [ 0.65, 0.4, 3, 5 ],
+        [ 0.65, 0.46, 3, 5 ],
+        [ 0.65, 0.52, 3, 5 ],
+        [ 0.65, 0.546, 3, 5 ],
+        [ 0.65, 0.572, 3, 5 ],
+        [ 0.65, 0.598, 3, 5 ],
+        [ 0.65, 0.624, 3, 5 ],
+        [ 0.65, 0.65, 3, 5 ]
       ]
     },
     {
       "name": "Shining Bright",
       "tag": "Impair",
       "type": "Technique",
-      "desc": [
-        "After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.\nWhen initiating combat against a Blinded enemy, there is a 100% **fixed chance** to delay all enemies' action by 25%."
+      "desc": "After Sampo uses his Technique, enemies in a set area are inflicted with Blind for <unbreak>#1[i]</unbreak> second(s). Blinded enemies cannot detect your team.\\nWhen initiating combat against a Blinded enemy, there is a <unbreak>#2[i]%</unbreak> <u>fixed chance</u> to delay all enemies' action by <unbreak>#3[i]%</unbreak>.",
+      "params": [
+        [ 10, 1, 0.25 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Rising Love",
-      "desc": "When using Skill, deals DMG for 1 extra time(s) to a random enemy."
+      "desc": "When using Skill, deals DMG for <unbreak>#1[i]</unbreak> extra time(s) to a random enemy.",
+      "params": [ 1 ]
     },
     {
       "name": "Infectious Enthusiasm",
-      "desc": "Defeating an enemy with Wind Shear has a 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to the Talent's Wind Shear."
+      "desc": "Defeating an enemy with Wind Shear has a <unbreak>#1[i]%</unbreak> base chance to inflict all enemies with <unbreak>#2[i]</unbreak> stack(s) of Wind Shear, equivalent to the Talent's Wind Shear.",
+      "params": [ 1, 1 ]
     },
     {
       "name": "Big Money!",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "The Deeper the Love, the Stronger the Hate",
-      "desc": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG."
+      "desc": "When Skill hits an enemy with <unbreak>#1[i]</unbreak> or more stack(s) of Wind Shear, the enemy immediately takes <unbreak>#2[i]%</unbreak> of current Wind Shear DMG.",
+      "params": [ 5, 0.08 ]
     },
     {
       "name": "Huuuuge Money!",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Increased Spending",
-      "desc": "Talent's Wind Shear DMG multiplier increases by 15%."
+      "desc": "Talent's Wind Shear DMG multiplier increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.15 ]
     }
   ],
   "skillTree": [
     {
       "name": "Trap",
-      "desc": "Extends the duration of Wind Shear caused by Talent by 1 turn(s).",
+      "desc": "Extends the duration of Wind Shear caused by Talent by <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [ 1 ],
       "minAsc": 2,
       "children": [
         {
           "name": "Effect Hit Rate Boost",
-          "desc": "Effect Hit Rate increases by 4.0%",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 2,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 4.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3,
               "children": [
                 {
                   "name": "Effect RES Boost",
-                  "desc": "Effect RES increases by 4.0%",
+                  "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
                   "minAsc": 3
                 }
               ]
@@ -233,22 +286,26 @@
     },
     {
       "name": "Defensive Position",
-      "desc": "Using Ultimate additionally regenerates 10 Energy.",
+      "desc": "Using Ultimate additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 10 ],
       "minAsc": 4,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "Effect Hit Rate Boost",
-              "desc": "Effect Hit Rate increases by 6.0%",
+              "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
               "minAsc": 5,
               "children": [
                 {
                   "name": "ATK Boost",
-                  "desc": "ATK increases by 6.0%",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
                   "minAsc": 5
                 }
               ]
@@ -259,28 +316,33 @@
     },
     {
       "name": "Spice Up",
-      "desc": "Enemies with Wind Shear effect deal 15% less DMG to Sampo.",
+      "desc": "Enemies with Wind Shear effect deal <unbreak>#1[i]%</unbreak> less DMG to Sampo.",
+      "params": [ 0.15 ],
       "minAsc": 6,
       "children": [
         {
           "name": "Effect RES Boost",
-          "desc": "Effect RES increases by 6.0%",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6
         },
         {
           "name": "Effect Hit Rate Boost",
-          "desc": "Effect Hit Rate increases by 8.0%",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
           "minLevel": 75
         }
       ]
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 4.0%",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 8.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
           "minLevel": 80
         }
       ]

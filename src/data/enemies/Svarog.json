@@ -9,6 +9,7 @@
       "hp": 1488,
       "speed": 120,
       "toughness": 360,
+      "effectResBase": 0.3,
       "weaknesses": [
         "Fire",
         "Lightning",
@@ -55,6 +56,7 @@
       "hp": 697.5,
       "speed": 144,
       "toughness": 360,
+      "effectResBase": 0.3,
       "weaknesses": [
         "Fire",
         "Lightning",
@@ -76,64 +78,44 @@
           "name": "Oversaturated Bombardment",
           "type": "Ability",
           "desc": "Deals massive Physical DMG to all targets, with a high chance to reduce their DEF. This debuff can stack.",
-          "phases": [
-            2,
-            3
-          ],
+          "phases": [ 2, 3 ],
           "threat": true
         },
         {
           "name": "Banishing Punch",
           "type": "Ability",
           "desc": "Deals Physical DMG to a single target.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Burning Beam",
           "type": "Ability",
           "desc": "Deals Physical DMG to a single target and delays their action.",
-          "phases": [
-            1,
-            2,
-            3
-          ]
+          "phases": [ 1, 2, 3 ]
         },
         {
           "name": "Boost Deployment",
           "type": "Ability",
           "desc": "Summons Auxiliary Robot Arm Unit.",
-          "phases": [
-            3
-          ]
+          "phases": [ 3 ]
         },
         {
           "name": "Power Amplification",
           "type": "Ability",
           "desc": "Slightly increases the DMG dealt by all friendly units. This DMG boosting effect is stackable.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "Emergency Support",
           "type": "Ability",
           "desc": "Summons Automaton Beetle and Automaton Hound at random.",
-          "phases": [
-            1
-          ]
+          "phases": [ 1 ]
         },
         {
           "name": "Tactical Support",
           "type": "Ability",
           "desc": "Summons Automaton Direwolf.",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         }
       ]
     }

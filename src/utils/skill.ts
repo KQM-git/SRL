@@ -3,11 +3,11 @@ import { Character } from "../data/types";
 export function getTalents(char: Character, skill: string) {
   let skillType = skill
   switch (skill) {
-    case "batk": skillType = "Basic ATK"; break;
-    case "e": skillType = "Skill"; break;
-    case "q": skillType = "Ultimate"; break;
-    case "t": skillType = "Talent"; break;
-    case "p": skillType = "Technique"; break;
+    case "basic": skillType = "Basic ATK"; break;
+    case "skill": skillType = "Skill"; break;
+    case "ult": skillType = "Ultimate"; break;
+    case "talent": skillType = "Talent"; break;
+    case "technique": skillType = "Technique"; break;
     default: break;
   }
 

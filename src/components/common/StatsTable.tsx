@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-import { CharacterStats, LightconeStats } from '@site/src/data/types'
-import { stat } from '@site/src/utils/stats/stat'
 import { Stat } from '@site/src/utils/stats/common'
+import { stat } from '@site/src/utils/stats/stat'
 
 import { NumberInput } from './input/NumberInput'
 import { SelectInput } from './input/SelectInput'
@@ -64,7 +63,7 @@ export default function StatsTable({
           .map(({ a, lv }) => <tr key={a + "," + lv}>
             {showAsc && <td align='left'>A{a}</td>}
             <td align='left'>{lv}</td>
-            {Object.entries(getStatsAt(lv, a)).map(([name, { explain, value }]) => <td align='left' key={name} title={explain}>{stat(name, value)}</td>)}
+            {Object.entries(getStatsAt(lv, a)).map(([name, { explain, value }]) => <td align='left' key={name} title={explain} className='hovershow'>{stat(name, value)}</td>)}
           </tr>)}
 
         {expanded && <tr>
@@ -84,7 +83,7 @@ export default function StatsTable({
               style={({ maxWidth: 64 })}
             />
           </td>
-          {Object.entries(getStatsAt(level, asc)).map(([name, { explain, value }]) => <td align='left' key={name} title={explain}>{stat(name, value)}</td>)}
+          {Object.entries(getStatsAt(level, asc)).map(([name, { explain, value }]) => <td align='left' key={name} title={explain} className='hovershow'>{stat(name, value)}</td>)}
         </tr>}
 
         {!expanded && <tr>

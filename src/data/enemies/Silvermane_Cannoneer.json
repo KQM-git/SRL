@@ -8,6 +8,7 @@
       "hp": 195.3,
       "speed": 100,
       "toughness": 90,
+      "effectResBase": 0.1,
       "weaknesses": [
         "Physical",
         "Ice",

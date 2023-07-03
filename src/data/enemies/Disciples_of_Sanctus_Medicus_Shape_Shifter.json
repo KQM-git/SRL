@@ -8,6 +8,7 @@
       "hp": 1116,
       "speed": 120,
       "toughness": 360,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Ice",
         "Wind",
@@ -19,9 +20,7 @@
         "Lightning": 0.4,
         "Quantum": 0.2
       },
-      "debuffRES": {
-        "Shock": 1
-      },
+      "debuffRES": {},
       "skills": [
         {
           "name": "Thudding Calamity",

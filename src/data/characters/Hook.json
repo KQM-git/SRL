@@ -115,128 +115,196 @@
       "name": "Hehe! Don't Get Burned!",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Fire DMG equal to **50%** of Hook's ATK to a single enemy.",
-        "Deals Fire DMG equal to **60%** of Hook's ATK to a single enemy.",
-        "Deals Fire DMG equal to **70%** of Hook's ATK to a single enemy.",
-        "Deals Fire DMG equal to **80%** of Hook's ATK to a single enemy.",
-        "Deals Fire DMG equal to **90%** of Hook's ATK to a single enemy.",
-        "Deals Fire DMG equal to **100%** of Hook's ATK to a single enemy."
-      ]
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Hook's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Hey! Remember Hook?",
       "tag": "Single Target",
       "type": "Skill",
-      "desc": [
-        "Deals Fire DMG equal to **120%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **25%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **132%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **28%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **144%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **30%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **156%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **33%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **168%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **35%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **180%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **39%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **195%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **44%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **210%** of Hook's ATK to a single enemy. In addition, there is a 100% **base chance** to inflict Burn for 2 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to **50%** of Hook's ATK at the beginning of each turn."
-      ]
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Hook's ATK to a single enemy. In addition, there is a <unbreak>#2[i]%</unbreak> <u>base chance</u> to inflict Burn for <unbreak>#3[i]</unbreak> turn(s).\\nWhen afflicted with Burn, enemies will take Fire DoT equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Hook's ATK at the beginning of each turn.",
+      "params": [
+        [ 1.2, 1, 2, 0.25 ],
+        [ 1.32, 1, 2, 0.275 ],
+        [ 1.44, 1, 2, 0.3 ],
+        [ 1.56, 1, 2, 0.325 ],
+        [ 1.68, 1, 2, 0.35 ],
+        [ 1.8, 1, 2, 0.3875 ],
+        [ 1.95, 1, 2, 0.4375 ],
+        [ 2.1, 1, 2, 0.5 ],
+        [ 2.25, 1, 2, 0.575 ],
+        [ 2.4, 1, 2, 0.65 ],
+        [ 2.52, 1, 2, 0.6825 ],
+        [ 2.64, 1, 2, 0.715 ],
+        [ 2.76, 1, 2, 0.7475 ],
+        [ 2.88, 1, 2, 0.78 ],
+        [ 3, 1, 2, 0.8125 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
     },
     {
       "name": "Boom! Here Comes the Fire!",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": [
-        "Deals Fire DMG equal to **240%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **256%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **272%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **288%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **304%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **320%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **340%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
-        "Deals Fire DMG equal to **360%** of Hook's ATK to a single enemy.\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it."
-      ]
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Hook's ATK to a single enemy.\\nAfter using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it.",
+      "params": [
+        [ 2.4 ],
+        [ 2.56 ],
+        [ 2.72 ],
+        [ 2.88 ],
+        [ 3.04 ],
+        [ 3.2 ],
+        [ 3.4 ],
+        [ 3.6 ],
+        [ 3.8 ],
+        [ 4 ],
+        [ 4.16 ],
+        [ 4.32 ],
+        [ 4.48 ],
+        [ 4.64 ],
+        [ 4.8 ]
+      ],
+      "energyNeeded": 120,
+      "energyGain": 5,
+      "toughness": {
+        "Target": 90
+      }
     },
     {
       "name": "Ha! Oil to the Flames!",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **50%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **55%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **60%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **65%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **70%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **75%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **81%** of Hook's ATK and regenerates 5 extra Energy.",
-        "When attacking a target afflicted with Burn, deals **Additional** Fire DMG equal to **88%** of Hook's ATK and regenerates 5 extra Energy."
+      "desc": "When attacking a target afflicted with Burn, deals <u>Additional</u> Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Hook's ATK and regenerates <unbreak>#2[i]</unbreak> extra Energy.",
+      "params": [
+        [ 0.5, 5 ],
+        [ 0.55, 5 ],
+        [ 0.6, 5 ],
+        [ 0.65, 5 ],
+        [ 0.7, 5 ],
+        [ 0.75, 5 ],
+        [ 0.8125, 5 ],
+        [ 0.875, 5 ],
+        [ 0.9375, 5 ],
+        [ 1, 5 ],
+        [ 1.05, 5 ],
+        [ 1.1, 5 ],
+        [ 1.15, 5 ],
+        [ 1.2, 5 ],
+        [ 1.25, 5 ]
       ]
     },
     {
       "name": "Ack! Look at This Mess!",
       "type": "Technique",
-      "desc": [
-        "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% **base chance** to inflict Burn on every enemy for 3 turn(s).\nWhen afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn."
-      ]
+      "desc": "Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to <unbreak>#4[i]%</unbreak> of her ATK to a random enemy. In addition, there is a <unbreak>#1[i]%</unbreak> <u>base chance</u> to inflict Burn on every enemy for <unbreak>#3[i]</unbreak> turn(s).\\nWhen afflicted with Burn, enemies will take Fire DoT equal to <unbreak>#2[i]%</unbreak> of Hook's ATK at the beginning of each turn.",
+      "params": [
+        [ 1, 0.5, 3, 0.5 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Hey! Remember Hook?",
       "tag": "Blast",
       "type": "Skill",
-      "desc": [
-        "Deals Fire DMG equal to **140%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **40%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **25%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **154%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **44%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **28%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **168%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **48%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **30%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **182%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **52%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **33%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **196%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **56%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **35%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **210%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **60%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **39%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **228%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **65%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **44%** of Hook's ATK at the beginning of each turn.",
-        "Deals Fire DMG equal to **245%** of Hook's ATK to a single enemy, with a 100% **base chance** to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to **70%** of Hook's ATK to enemies adjacent to it.\nWhen afflicted with Burn, enemies will take Fire DoT equal to **50%** of Hook's ATK at the beginning of each turn."
-      ]
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Hook's ATK to a single enemy, with a <unbreak>#2[i]%</unbreak> <u>base chance</u> to Burn them for <unbreak>#3[i]</unbreak> turn(s). Additionally, deals Fire DMG equal to <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of Hook's ATK to enemies adjacent to it.\\nWhen afflicted with Burn, enemies will take Fire DoT equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Hook's ATK at the beginning of each turn.",
+      "params": [
+        [ 1.4, 1, 2, 0.25, 0.4 ],
+        [ 1.54, 1, 2, 0.275, 0.44 ],
+        [ 1.68, 1, 2, 0.3, 0.48 ],
+        [ 1.82, 1, 2, 0.325, 0.52 ],
+        [ 1.96, 1, 2, 0.35, 0.56 ],
+        [ 2.1, 1, 2, 0.3875, 0.6 ],
+        [ 2.275, 1, 2, 0.4375, 0.65 ],
+        [ 2.45, 1, 2, 0.5, 0.7 ],
+        [ 2.625, 1, 2, 0.575, 0.75 ],
+        [ 2.8, 1, 2, 0.65, 0.8 ],
+        [ 2.94, 1, 2, 0.6825, 0.84 ],
+        [ 3.08, 1, 2, 0.715, 0.88 ],
+        [ 3.22, 1, 2, 0.7475, 0.92 ],
+        [ 3.36, 1, 2, 0.78, 0.96 ],
+        [ 3.5, 1, 2, 0.8125, 1 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60,
+        "Adjacent": 30
+      }
     }
   ],
   "eidolons": [
     {
       "name": "Early to Bed, Early to Rise",
-      "desc": "Enhanced Skill deals 20% increased DMG."
+      "desc": "Enhanced Skill deals <unbreak>#1[i]%</unbreak> increased DMG.",
+      "params": [ 0.2 ]
     },
     {
       "name": "Happy Tummy, Happy Body",
-      "desc": "Extends the duration of Burn caused by Skill by 1 turn(s)."
+      "desc": "Extends the duration of Burn caused by Skill by <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [ 1 ]
     },
     {
       "name": "Don't Be Picky, Nothing's Icky",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "It's Okay to Not Know",
-      "desc": "When Talent is triggered, there is a 100% base chance to Burn enemies adjacent to the target enemy, equivalent to that of Skill."
+      "desc": "When Talent is triggered, there is a <unbreak>#1[i]%</unbreak> base chance to Burn enemies adjacent to the target enemy, equivalent to that of Skill.",
+      "params": [ 1 ]
     },
     {
       "name": "Let the Moles' Deeds Be Known",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Always Ready to Punch and Kick",
-      "desc": "Hook deals 20% more DMG to enemies afflicted with Burn."
+      "desc": "Hook deals <unbreak>#1[i]%</unbreak> more DMG to enemies afflicted with Burn.",
+      "params": [ 0.2 ]
     }
   ],
   "skillTree": [
     {
       "name": "Innocence",
-      "desc": "Hook restores HP equal to 5% of her Max HP whenever her Talent is triggered.",
+      "desc": "Hook restores HP equal to <unbreak>#1[i]%</unbreak> of her Max HP whenever her Talent is triggered.",
+      "params": [ 0.05 ],
       "minAsc": 2,
       "children": [
         {
           "name": "HP Boost",
-          "desc": "Max HP increases by 4.0%",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 2,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 4.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3,
               "children": [
                 {
                   "name": "CRIT DMG Boost",
-                  "desc": "CRIT DMG increases by 5.3%",
+                  "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.053 ],
                   "minAsc": 3
                 }
               ]
@@ -247,22 +315,26 @@
     },
     {
       "name": "Naivete",
-      "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "desc": "The chance to resist Crowd Control Debuffs increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.35 ],
       "minAsc": 4,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "HP Boost",
-              "desc": "Max HP increases by 6.0%",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
               "minAsc": 5,
               "children": [
                 {
                   "name": "ATK Boost",
-                  "desc": "ATK increases by 6.0%",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
                   "minAsc": 5
                 }
               ]
@@ -273,22 +345,26 @@
     },
     {
       "name": "Playing With Fire",
-      "desc": "When using her Ultimate, Hook has her action Advanced Forward by 20% and Hook additionally regenerates 5 Energy.",
+      "desc": "When using her Ultimate, Hook has her action Advanced Forward by <unbreak>#2[i]%</unbreak> and Hook additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 5, 0.2 ],
       "minAsc": 6,
       "children": [
         {
           "name": "CRIT DMG Boost",
-          "desc": "CRIT DMG increases by 8.0%",
+          "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
           "minAsc": 6,
           "children": [
             {
               "name": "HP Boost",
-              "desc": "Max HP increases by 8.0%",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 75
             },
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 8.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 80
             }
           ]
@@ -297,7 +373,8 @@
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 4.0%"
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
     }
   ]
 }

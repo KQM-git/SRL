@@ -10,6 +10,7 @@
       "hp": 334.8,
       "speed": 83,
       "toughness": 90,
+      "effectResBase": 0,
       "weaknesses": [
         "Ice",
         "Quantum",
@@ -48,6 +49,7 @@
       "hp": 334.8,
       "speed": 83,
       "toughness": 90,
+      "effectResBase": 0,
       "weaknesses": [
         "Lightning",
         "Wind",
@@ -86,6 +88,7 @@
       "hp": 334.8,
       "speed": 83,
       "toughness": 90,
+      "effectResBase": 0,
       "weaknesses": [
         "Physical",
         "Fire",

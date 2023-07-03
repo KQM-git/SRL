@@ -8,6 +8,7 @@
       "hp": 465,
       "speed": 120,
       "toughness": 120,
+      "effectResBase": 0.3,
       "weaknesses": [
         "Fire",
         "Ice"
@@ -27,26 +28,19 @@
           "name": "Calamity Tear",
           "type": "Ability",
           "desc": "Deals minor Imaginary DMG to all targets.",
-          "phases": [
-            1
-          ]
+          "phases": [ 1 ]
         },
         {
           "name": "Tough Cuts",
           "type": "Ability",
           "desc": "Deals minor Imaginary DMG to all targets, with a small chance to inflict Imprisonment on the target.",
-          "phases": [
-            1,
-            2
-          ]
+          "phases": [ 1, 2 ]
         },
         {
           "name": "The Breakdown of Tyranny",
           "type": "Ability",
           "desc": "Deals Imaginary DMG to all targets, with a small chance to cause Imprisonment.",
-          "phases": [
-            2
-          ]
+          "phases": [ 2 ]
         }
       ]
     }

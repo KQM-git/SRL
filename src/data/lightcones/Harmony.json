@@ -75,9 +75,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Concerted",
-      "desc": "After entering battle, increases the ATK of all allies by **8%**/**9%**/**10%**/**11%**/**12%**. Effects of the same type cannot stack."
+      "desc": "After entering battle, increases the ATK of all allies by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Effects of the same type cannot stack.",
+      "params": [
+        [ 0.08 ],
+        [ 0.09 ],
+        [ 0.1 ],
+        [ 0.11 ],
+        [ 0.12 ]
+      ]
     }
   },
   "Mediation": {
@@ -156,9 +163,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Family",
-      "desc": "Upon battle entry, all allies receive **12**/**14**/**16**/**18**/**20** increased SPD for 1 turn(s)."
+      "desc": "Upon entering battle, increases SPD of all allies by <color=#f29e38ff><unbreak>#1[i]</unbreak></color> points for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 12, 1 ],
+        [ 14, 1 ],
+        [ 16, 1 ],
+        [ 18, 1 ],
+        [ 20, 1 ]
+      ]
     }
   },
   "Meshing Cogs": {
@@ -237,9 +251,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Fleet Triumph",
-      "desc": "After the wearer uses attacks or gets hit, additionally regenerates **4**/**5**/**6**/**7**/**8** Energy. This effect can only be triggered 1 time per turn."
+      "desc": "After the wearer uses attacks or gets hit, additionally regenerates <color=#f29e38ff><unbreak>#1[i]</unbreak></color> Energy. This effect can only be triggered 1 time per turn.",
+      "params": [
+        [ 4 ],
+        [ 5 ],
+        [ 6 ],
+        [ 7 ],
+        [ 8 ]
+      ]
     }
   },
   "Carve the Moon, Weave the Clouds": {
@@ -318,9 +339,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Secret",
-      "desc": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by **10%**/**13%**/**15%**/**18%**/**20%**, all allies' CRIT DMG increases by **12%**/**15%**/**18%**/**21%**/**24%**, or all allies' Energy Regeneration Rate increases by **6%**/**8%**/**9%**/**11%**/**12%**. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."
+      "desc": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, all allies' CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, or all allies' Energy Regeneration Rate increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+      "params": [
+        [ 0.1, 0.12, 0.06 ],
+        [ 0.125, 0.15, 0.075 ],
+        [ 0.15, 0.18, 0.09 ],
+        [ 0.175, 0.21, 0.105 ],
+        [ 0.2, 0.24, 0.12 ]
+      ]
     }
   },
   "Dance! Dance! Dance!": {
@@ -399,9 +427,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Cannot Stop It!",
-      "desc": "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by **16%**/**18%**/**20%**/**22%**/**24%**."
+      "desc": "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+      "params": [
+        [ 0.16 ],
+        [ 0.18 ],
+        [ 0.2 ],
+        [ 0.22 ],
+        [ 0.24 ]
+      ]
     }
   },
   "Memories of the Past": {
@@ -480,9 +515,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Old Photo",
-      "desc": "Increases the wearer's Break Effect by **28%**/**35%**/**42%**/**49%**/**56%**. When the wearer attacks, additionally regenerates **4**/**5**/**6**/**7**/**8** Energy. This effect can only be triggered 1 time per turn."
+      "desc": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer attacks, additionally regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy. This effect can only be triggered 1 time per turn.",
+      "params": [
+        [ 0.28, 4 ],
+        [ 0.35, 5 ],
+        [ 0.42, 6 ],
+        [ 0.49, 7 ],
+        [ 0.56, 8 ]
+      ]
     }
   },
   "Past and Future": {
@@ -561,9 +603,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Kites From the Past",
-      "desc": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals **16%**/**20%**/**24%**/**28%**/**32%** increased DMG for 1 turn(s)."
+      "desc": "When the wearer uses their Skill, the next ally taking action (except the wearer) deals <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> increased DMG for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.16, 1 ],
+        [ 0.2, 1 ],
+        [ 0.24, 1 ],
+        [ 0.28, 1 ],
+        [ 0.32, 1 ]
+      ]
     }
   },
   "Planetary Rendezvous": {
@@ -642,9 +691,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Departure",
-      "desc": "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by **12%**/**15%**/**18%**/**21%**/**24%**."
+      "desc": "After entering battle, if an ally deals the same DMG Type as the wearer, DMG dealt increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+      "params": [
+        [ 0.12 ],
+        [ 0.15 ],
+        [ 0.18 ],
+        [ 0.21 ],
+        [ 0.24 ]
+      ]
     }
   },
   "But the Battle Isn't Over": {
@@ -723,9 +779,16 @@
         "defenseAdd": 3.15
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Heir",
-      "desc": "Increases the wearer's Energy Regeneration Rate by **10%**/**12%**/**14%**/**16%**/**18%** and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals **30%**/**35%**/**40%**/**45%**/**50%** more DMG for 1 turn(s)."
+      "desc": "Increases the wearer's Energy Regeneration Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered once after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> more DMG for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.1, 0.3, 1 ],
+        [ 0.12, 0.35, 1 ],
+        [ 0.14, 0.4, 1 ],
+        [ 0.16, 0.45, 1 ],
+        [ 0.18, 0.5, 1 ]
+      ]
     }
   }
 }

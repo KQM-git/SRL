@@ -3,11 +3,13 @@
   "faction": "Fragmentum Monsters",
   "variants": [
     {
+      "source": "Blaze Out of Space",
       "attack": 18,
       "def": 210,
       "hp": 930,
       "speed": 120,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Ice",
@@ -43,6 +45,64 @@
           "name": "Molten Fusion",
           "type": "Ability",
           "desc": "Gains ATK. This buff is dispelled upon Weakness Break."
+        }
+      ]
+    },
+    {
+      "name": "Blaze Out of Space (Bug)",
+      "source": "Blaze Out of Space (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1488,
+      "speed": 144,
+      "toughness": 360,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.4,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Burn": 1
+      },
+      "skills": [
+        {
+          "name": "Rain of Purifying Flames",
+          "type": "Ability",
+          "desc": "Deals successive minor Fire DMG to a random single target, with a high chance to inflict Enkindle.",
+          "threat": true
+        },
+        {
+          "name": "Bomb en Masse",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to all targets and has a high chance to inflict Enkindle to all targets. The more Enkindle absorbed, the more DMG this attack will deal.",
+          "threat": true
+        },
+        {
+          "name": "Bellowing Inferno",
+          "type": "Ability",
+          "desc": "Deals minor Fire DMG to a single target and has a high chance to inflict Enkindle."
+        },
+        {
+          "name": "Blazing Absorption",
+          "type": "Ability",
+          "desc": "Enters the Spontaneous Combustion state. Rain of Purifying Flames can be used in subsequent attacks."
+        },
+        {
+          "name": "Molten Fusion",
+          "type": "Ability",
+          "desc": "Increases this unit's ATK."
+        },
+        {
+          "name": "Bomb Warning",
+          "type": "Ability",
+          "desc": "Starts charging, and absorbs all the Enkindle statuses that are inflicted on all targets."
         }
       ]
     }

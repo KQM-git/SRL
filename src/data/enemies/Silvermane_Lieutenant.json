@@ -9,6 +9,7 @@
       "hp": 930,
       "speed": 120,
       "toughness": 240,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Ice",
@@ -46,6 +47,56 @@
       ]
     },
     {
+      "name": "Silvermane Lieutenant (Bug)",
+      "source": "Silvermane Lieutenant (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1488,
+      "speed": 120,
+      "toughness": 360,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Rallying",
+          "type": "Ability",
+          "desc": "Increases all friendly units' ATK and causes them to act immediately.",
+          "threat": true
+        },
+        {
+          "name": "Assault",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "Pierce",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to a single target."
+        },
+        {
+          "name": "Shield Reflect",
+          "type": "Ability",
+          "desc": "Goes into the Counter state. When attacked by a single character, gains 1 extra turn and deals Physical DMG to the target."
+        },
+        {
+          "name": "Reinforcement",
+          "type": "Ability",
+          "desc": "Summons Silvermane Soldier or Silvermane Gunner"
+        }
+      ]
+    },
+    {
       "name": "Silvermane Lieutenant (Complete)",
       "source": "Silvermane Lieutenant (Complete)",
       "attack": 18,
@@ -53,6 +104,7 @@
       "hp": 558,
       "speed": 144,
       "toughness": 180,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Ice",

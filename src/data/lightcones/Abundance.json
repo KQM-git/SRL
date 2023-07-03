@@ -75,9 +75,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Prosperity",
-      "desc": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by **12%**/**15%**/**18%**/**21%**/**24%**."
+      "desc": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+      "params": [
+        [ 0.12 ],
+        [ 0.15 ],
+        [ 0.18 ],
+        [ 0.21 ],
+        [ 0.24 ]
+      ]
     }
   },
   "Fine Fruit": {
@@ -156,9 +163,16 @@
         "defenseAdd": 1.35
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Savor",
-      "desc": "At the start of the battle, immediately regenerates **6**/**8**/**9**/**11**/**12** Energy for all allies."
+      "desc": "At the start of the battle, immediately regenerates <color=#f29e38ff><unbreak>#1[i]</unbreak></color> Energy for all allies.",
+      "params": [
+        [ 6 ],
+        [ 7.5 ],
+        [ 9 ],
+        [ 10.5 ],
+        [ 12 ]
+      ]
     }
   },
   "Multiplication": {
@@ -237,9 +251,16 @@
         "defenseAdd": 1.35
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Denizens of Abundance",
-      "desc": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by **12%**/**14%**/**16%**/**18%**/**20%**."
+      "desc": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>.",
+      "params": [
+        [ 0.12 ],
+        [ 0.14 ],
+        [ 0.16 ],
+        [ 0.18 ],
+        [ 0.2 ]
+      ]
     }
   },
   "Perfect Timing": {
@@ -318,9 +339,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Refraction of Sightline",
-      "desc": "Increases the wearer's Effect RES by **16%**/**20%**/**24%**/**28%**/**32%** and increases Outgoing Healing by an amount that is equal to **33%**/**36%**/**39%**/**42%**/**45%** of Effect RES. Outgoing Healing can be increased this way by up to **15%**/**18%**/**21%**/**24%**/**27%**."
+      "desc": "Increases the wearer's Effect RES by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and increases Outgoing Healing by an amount that is equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Effect RES. Outgoing Healing can be increased this way by up to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+      "params": [
+        [ 0.16, 0.33, 0.15 ],
+        [ 0.2, 0.36, 0.18 ],
+        [ 0.24, 0.39, 0.21 ],
+        [ 0.28, 0.42, 0.24 ],
+        [ 0.32, 0.45, 0.27 ]
+      ]
     }
   },
   "Post-Op Conversation": {
@@ -399,9 +427,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Mutual Healing",
-      "desc": "Increases the wearer's Energy Regeneration Rate by **8%**/**10%**/**12%**/**14%**/**16%** and increases Outgoing Healing when they use their Ultimate by **12%**/**15%**/**18%**/**21%**/**24%**."
+      "desc": "Increases the wearer's Energy Regeneration Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and increases Outgoing Healing when they use their Ultimate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+      "params": [
+        [ 0.08, 0.12 ],
+        [ 0.1, 0.15 ],
+        [ 0.12, 0.18 ],
+        [ 0.14, 0.21 ],
+        [ 0.16, 0.24 ]
+      ]
     }
   },
   "Quid Pro Quo": {
@@ -480,9 +515,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Enjoy With Rapture",
-      "desc": "At the start of the wearer's turn, regenerates **8**/**10**/**12**/**14**/**16** Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%."
+      "desc": "At the start of the wearer's turn, regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than <unbreak>#1[i]%</unbreak>.",
+      "params": [
+        [ 0.5, 8 ],
+        [ 0.5, 10 ],
+        [ 0.5, 12 ],
+        [ 0.5, 14 ],
+        [ 0.5, 16 ]
+      ]
     }
   },
   "Shared Feeling": {
@@ -561,9 +603,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Cure and Repair",
-      "desc": "Increases the wearer's Outgoing Healing by **10%**/**13%**/**15%**/**18%**/**20%**. When using Skill, regenerates **2**/**3**/**3**/**4**/**4** Energy for all allies."
+      "desc": "Increases the wearer's Outgoing Healing by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When using Skill, regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy for all allies.",
+      "params": [
+        [ 0.1, 2 ],
+        [ 0.125, 2.5 ],
+        [ 0.15, 3 ],
+        [ 0.175, 3.5 ],
+        [ 0.2, 4 ]
+      ]
     }
   },
   "Warmth Shortens Cold Nights": {
@@ -642,9 +691,104 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Tiny Light",
-      "desc": "Increases the wearer's Max HP by **16%**/**20%**/**24%**/**28%**/**32%**. When using Basic ATK or Skill, restores all allies' HP by an amount equal to **2.0%**/**2.5%**/**3.0%**/**3.5%**/**4.0%** of their respective Max HP."
+      "desc": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When using Basic ATK or Skill, restores all allies' HP by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of their respective Max HP.",
+      "params": [
+        [ 0.16, 0.02 ],
+        [ 0.2, 0.025 ],
+        [ 0.24, 0.03 ],
+        [ 0.28, 0.035 ],
+        [ 0.32, 0.04 ]
+      ]
+    }
+  },
+  "Echoes of the Coffin": {
+    "name": "Echoes of the Coffin",
+    "baseType": "Abundance",
+    "stars": 5,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 52.8,
+        "hpAdd": 7.92,
+        "attackBase": 26.4,
+        "attackAdd": 3.96,
+        "defenseBase": 18,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 116.16,
+        "hpAdd": 7.92,
+        "attackBase": 58.08,
+        "attackAdd": 3.96,
+        "defenseBase": 39.6,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 200.64,
+        "hpAdd": 7.92,
+        "attackBase": 100.32,
+        "attackAdd": 3.96,
+        "defenseBase": 68.4,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 285.12,
+        "hpAdd": 7.92,
+        "attackBase": 142.56,
+        "attackAdd": 3.96,
+        "defenseBase": 97.2,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 369.6,
+        "hpAdd": 7.92,
+        "attackBase": 184.8,
+        "attackAdd": 3.96,
+        "defenseBase": 126,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 454.08,
+        "hpAdd": 7.92,
+        "attackBase": 227.04,
+        "attackAdd": 3.96,
+        "defenseBase": 154.8,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 538.56,
+        "hpAdd": 7.92,
+        "attackBase": 269.28,
+        "attackAdd": 3.96,
+        "defenseBase": 183.6,
+        "defenseAdd": 2.7
+      }
+    ],
+    "superimposition": {
+      "name": "Thorns",
+      "desc": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates <color=#f29e38ff><unbreak>#3[f1]</unbreak></color> Energy. Each attack can regenerate Energy up to <unbreak>#4[i]</unbreak> time(s) this way. After the wearer uses their Ultimate, all allies gain <color=#f29e38ff><unbreak>#2[i]</unbreak></color> SPD for 1 turn.",
+      "params": [
+        [ 0.24, 12, 3, 3 ],
+        [ 0.28, 14, 3.5, 3 ],
+        [ 0.32, 16, 4, 3 ],
+        [ 0.36, 18, 4.5, 3 ],
+        [ 0.4, 20, 5, 3 ]
+      ]
     }
   },
   "Time Waits for No One": {
@@ -723,9 +867,16 @@
         "defenseAdd": 3.15
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Morn, Noon, Dusk, and Night",
-      "desc": "Increases the wearer's Max HP by **18%**/**21%**/**24%**/**27%**/**30%** and Outgoing Healing by **12%**/**14%**/**16%**/**18%**/**20%**. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to **36%**/**42%**/**48%**/**54%**/**60%** of the recorded Outgoing Healing value. This Additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn."
+      "desc": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and Outgoing Healing by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer's. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
+      "params": [
+        [ 0.18, 0.12, 0.36 ],
+        [ 0.21, 0.14, 0.42 ],
+        [ 0.24, 0.16, 0.48 ],
+        [ 0.27, 0.18, 0.54 ],
+        [ 0.3, 0.2, 0.6 ]
+      ]
     }
   }
 }

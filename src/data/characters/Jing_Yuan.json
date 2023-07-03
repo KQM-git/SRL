@@ -1,0 +1,348 @@
+{
+  "name": "Jing Yuan",
+  "damageType": "Lightning",
+  "baseType": "Erudition",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 95.04,
+      "attackAdd": 4.752,
+      "hpBase": 158.4,
+      "hpAdd": 7.92,
+      "defenseBase": 66,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 99,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 133.056,
+      "attackAdd": 4.752,
+      "hpBase": 221.76,
+      "hpAdd": 7.92,
+      "defenseBase": 92.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 99,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 171.072,
+      "attackAdd": 4.752,
+      "hpBase": 285.12,
+      "hpAdd": 7.92,
+      "defenseBase": 118.8,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 99,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 209.088,
+      "attackAdd": 4.752,
+      "hpBase": 348.48,
+      "hpAdd": 7.92,
+      "defenseBase": 145.2,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 99,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 247.104,
+      "attackAdd": 4.752,
+      "hpBase": 411.84,
+      "hpAdd": 7.92,
+      "defenseBase": 171.6,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 99,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 285.12,
+      "attackAdd": 4.752,
+      "hpBase": 475.2,
+      "hpAdd": 7.92,
+      "defenseBase": 198,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 99,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 323.136,
+      "attackAdd": 4.752,
+      "hpBase": 538.56,
+      "hpAdd": 7.92,
+      "defenseBase": 224.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 99,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Glistening Light",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Jing Yuan deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of his ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Rifting Zenith",
+      "tag": "AoE",
+      "type": "Skill",
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by <unbreak>#2[i]</unbreak> for the next turn.",
+      "params": [
+        [ 0.5, 2 ],
+        [ 0.55, 2 ],
+        [ 0.6, 2 ],
+        [ 0.65, 2 ],
+        [ 0.7, 2 ],
+        [ 0.75, 2 ],
+        [ 0.8125, 2 ],
+        [ 0.875, 2 ],
+        [ 0.9375, 2 ],
+        [ 1, 2 ],
+        [ 1.05, 2 ],
+        [ 1.1, 2 ],
+        [ 1.15, 2 ],
+        [ 1.2, 2 ],
+        [ 1.25, 2 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "All": 30
+      }
+    },
+    {
+      "name": "Lightbringer",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by <unbreak>#2[i]</unbreak> for the next turn.",
+      "params": [
+        [ 1.2, 3 ],
+        [ 1.28, 3 ],
+        [ 1.36, 3 ],
+        [ 1.44, 3 ],
+        [ 1.52, 3 ],
+        [ 1.6, 3 ],
+        [ 1.7, 3 ],
+        [ 1.8, 3 ],
+        [ 1.9, 3 ],
+        [ 2, 3 ],
+        [ 2.08, 3 ],
+        [ 2.16, 3 ],
+        [ 2.24, 3 ],
+        [ 2.32, 3 ],
+        [ 2.4, 3 ]
+      ],
+      "energyNeeded": 130,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "Prana Extirpated",
+      "tag": "Bounce",
+      "type": "Talent",
+      "desc": "Summons Lightning-Lord at the start of the battle. Lightning-Lord has <unbreak>#1[i]</unbreak> base SPD and <unbreak>#4[i]</unbreak> base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as <u>follow-up attacks</u>, with each hit dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Jing Yuan's ATK to a random single enemy, and enemies adjacent to it also receive Lightning DMG equal to <unbreak>#5[i]%</unbreak> of the DMG dealt to the target enemy.\\nThe Lightning-Lord's Hits Per Action can reach a max of <unbreak>#6[i]</unbreak>. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by <unbreak>#3[i]</unbreak>. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.\\nWhen Jing Yuan is <u>knocked down</u>, the Lightning-Lord will disappear.\\nWhen Jing Yuan is affected by <u>Crowd Control debuff</u>, the Lightning-Lord is unable to take action.",
+      "params": [
+        [ 60, 0.33, 10, 3, 0.25, 10 ],
+        [ 60, 0.363, 10, 3, 0.25, 10 ],
+        [ 60, 0.396, 10, 3, 0.25, 10 ],
+        [ 60, 0.429, 10, 3, 0.25, 10 ],
+        [ 60, 0.462, 10, 3, 0.25, 10 ],
+        [ 60, 0.495, 10, 3, 0.25, 10 ],
+        [ 60, 0.53625, 10, 3, 0.25, 10 ],
+        [ 60, 0.5775, 10, 3, 0.25, 10 ],
+        [ 60, 0.61875, 10, 3, 0.25, 10 ],
+        [ 60, 0.66, 10, 3, 0.25, 10 ],
+        [ 60, 0.693, 10, 3, 0.25, 10 ],
+        [ 60, 0.726, 10, 3, 0.25, 10 ],
+        [ 60, 0.759, 10, 3, 0.25, 10 ],
+        [ 60, 0.792, 10, 3, 0.25, 10 ],
+        [ 60, 0.825, 10, 3, 0.25, 10 ]
+      ],
+      "toughness": {
+        "Target": 15,
+        "Bounce": 15
+      }
+    },
+    {
+      "name": "Spirit Invocation",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "After the Technique is used, the Lightning-Lord's Hits Per Action in the first turn increases by <unbreak>#1[i]</unbreak> at the start of the next battle.",
+      "params": [
+        [ 3 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Slash, Seas Split",
+      "desc": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to <unbreak>#1[i]%</unbreak> of the DMG multiplier against the target enemy.",
+      "params": [ 0.25 ]
+    },
+    {
+      "name": "Swing, Skies Squashed",
+      "desc": "After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.2, 2 ]
+    },
+    {
+      "name": "Strike, Suns Subdued",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Spin, Stars Sieged",
+      "desc": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 2 ]
+    },
+    {
+      "name": "Stride, Spoils Seized",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Sweep, Souls Slain",
+      "desc": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\\nWhile Vulnerable, enemies receive <unbreak>#1[i]%</unbreak> more DMG until the end of the Lightning-Lord's current turn, stacking up to <unbreak>#2[i]</unbreak> time(s).",
+      "params": [ 0.12, 3 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Battalia Crush",
+      "desc": "If the Lightning-Lord's Hits Per Action is greater or equal to <unbreak>#1[i]</unbreak> in the next turn, its CRIT DMG increases by <unbreak>#2[i]%</unbreak> for the next turn.",
+      "params": [ 6, 0.25 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.027 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3
+            },
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.05 ],
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Savant Providence",
+      "desc": "At the start of the battle, immediately regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 15 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 5
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "War Marshal",
+      "desc": "After the Skill is used, the CRIT Rate increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.1, 2 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.075 ],
+          "minAsc": 6
+        },
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.053 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.08 ],
+      "minLevel": 80
+    }
+  ]
+}

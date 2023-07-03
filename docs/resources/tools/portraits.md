@@ -4,7 +4,7 @@ hide_table_of_contents: true
 
 # Portrait Cards
 
-A tool for making team portraits to use on KeqingMains guides. Based on muakasan's [Genshin Team Portrait Generator](https://github.com/muakasan/genshin-portraits). Adapted from tibot's [KQM Portrait Cards Tool](https://library.keqingmains.com/resources/tools/portraits).
+A tool for making team portraits to use on KeqingMains guides. Based on muakasan's [Genshin Team Portrait Generator](https://github.com/muakasan/genshin-portraits). Adapted from Tibot's [KQM Portrait Cards Tool](https://library.keqingmains.com/resources/tools/portraits).
 
 :::info
 Recommended to use a Chromium based browser due to [imageSmoothingQuality](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality#browser_compatibility) support.

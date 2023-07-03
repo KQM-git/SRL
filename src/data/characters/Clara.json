@@ -115,113 +115,169 @@
       "name": "I Want to Help",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Physical DMG equal to **50%** of Clara's ATK to a single enemy.",
-        "Deals Physical DMG equal to **60%** of Clara's ATK to a single enemy.",
-        "Deals Physical DMG equal to **70%** of Clara's ATK to a single enemy.",
-        "Deals Physical DMG equal to **80%** of Clara's ATK to a single enemy.",
-        "Deals Physical DMG equal to **90%** of Clara's ATK to a single enemy.",
-        "Deals Physical DMG equal to **100%** of Clara's ATK to a single enemy."
-      ]
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Clara's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Svarog Watches Over You",
       "tag": "AoE",
       "type": "Skill",
-      "desc": [
-        "Deals Physical DMG equal to **60%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **60%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **66%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **66%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **72%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **72%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **78%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **78%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **84%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **84%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **90%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **90%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **98%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **98%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used.",
-        "Deals Physical DMG equal to **105%** of Clara's ATK to all enemies, and additionally deals Physical DMG equal to **105%** of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\nAll Marks of Counter will be removed after this Skill is used."
-      ]
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Clara's ATK to all enemies, and additionally deals Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Clara's ATK to enemies marked by Svarog with a Mark of Counter.\\nAll Marks of Counter will be removed after this Skill is used.",
+      "params": [
+        [ 0.6, 0.6 ],
+        [ 0.66, 0.66 ],
+        [ 0.72, 0.72 ],
+        [ 0.78, 0.78 ],
+        [ 0.84, 0.84 ],
+        [ 0.9, 0.9 ],
+        [ 0.975, 0.975 ],
+        [ 1.05, 1.05 ],
+        [ 1.125, 1.125 ],
+        [ 1.2, 1.2 ],
+        [ 1.26, 1.26 ],
+        [ 1.32, 1.32 ],
+        [ 1.38, 1.38 ],
+        [ 1.44, 1.44 ],
+        [ 1.5, 1.5 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "All": 30
+      }
     },
     {
       "name": "Promise, Not Command",
       "tag": "Enhance",
       "type": "Ultimate",
-      "desc": [
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **15%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **96%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **16%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **102%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **17%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **109%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **18%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **115%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **19%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **122%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **20%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **128%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **21%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **136%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s).",
-        "After Clara uses Ultimate, DMG dealt to her is reduced by an extra **23%**, and she has greatly increased chances of being attacked by enemies for 2 turn(s).\nIn addition, Svarog's **Counter** is enhanced. When an ally is attacked, Svarog immediately launches a **Counter**, and its DMG multiplier against the enemy increases by **144%**. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced **Counter(s)** can take effect 2 time(s)."
-      ]
+      "desc": "After Clara uses Ultimate, DMG dealt to her is reduced by an extra <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>, and she has greatly increased chances of being attacked by enemies for <unbreak>#3[i]</unbreak> turn(s).\\nIn addition, Svarog's <u>Counter</u> is enhanced. When an ally is attacked, Svarog immediately launches a <u>Counter</u>, and its DMG multiplier against the enemy increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Enemies adjacent to it take <unbreak>50%</unbreak> of the DMG dealt to the target enemy. Enhanced <u>Counter(s)</u> can take effect <unbreak>#5[i]</unbreak> time(s).",
+      "params": [
+        [ 5, 0.96, 2, 0.15, 2 ],
+        [ 5, 1.024, 2, 0.16, 2 ],
+        [ 5, 1.088, 2, 0.17, 2 ],
+        [ 5, 1.152, 2, 0.18, 2 ],
+        [ 5, 1.216, 2, 0.19, 2 ],
+        [ 5, 1.28, 2, 0.2, 2 ],
+        [ 5, 1.36, 2, 0.2125, 2 ],
+        [ 5, 1.44, 2, 0.225, 2 ],
+        [ 5, 1.52, 2, 0.2375, 2 ],
+        [ 5, 1.6, 2, 0.25, 2 ],
+        [ 5, 1.664, 2, 0.26, 2 ],
+        [ 5, 1.728, 2, 0.27, 2 ],
+        [ 5, 1.792, 2, 0.28, 2 ],
+        [ 5, 1.856, 2, 0.29, 2 ],
+        [ 5, 1.92, 2, 0.3, 2 ]
+      ],
+      "energyNeeded": 110,
+      "energyGain": 5
     },
     {
       "name": "Because We're Family",
       "tag": "Single Target",
       "type": "Talent",
-      "desc": [
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **80%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **88%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **96%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **104%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **112%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **120%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **130%** of Clara's ATK.",
-        "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a **Counter**, dealing Physical DMG equal to **140%** of Clara's ATK."
-      ]
+      "desc": "Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by <unbreak>#3[i]%</unbreak>. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a <u>Counter</u>, dealing Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Clara's ATK.",
+      "params": [
+        [ 1, 0.8, 0.1 ],
+        [ 1, 0.88, 0.1 ],
+        [ 1, 0.96, 0.1 ],
+        [ 1, 1.04, 0.1 ],
+        [ 1, 1.12, 0.1 ],
+        [ 1, 1.2, 0.1 ],
+        [ 1, 1.3, 0.1 ],
+        [ 1, 1.4, 0.1 ],
+        [ 1, 1.5, 0.1 ],
+        [ 1, 1.6, 0.1 ],
+        [ 1, 1.68, 0.1 ],
+        [ 1, 1.76, 0.1 ],
+        [ 1, 1.84, 0.1 ],
+        [ 1, 1.92, 0.1 ],
+        [ 1, 2, 0.1 ]
+      ],
+      "energyGain": 5,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "A Small Price for Victory",
       "type": "Technique",
-      "desc": [
-        "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s)."
-      ]
+      "desc": "Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [
+        [ 2, 5 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [
     {
       "name": "A Tall Figure",
-      "desc": "Using Skill will not remove Marks of Counter on the enemy."
+      "desc": "Using Skill will not remove Marks of Counter on the enemy.",
+      "params": []
     },
     {
       "name": "A Tight Embrace",
-      "desc": "After using the Ultimate, ATK increases by 30% for 2 turn(s)."
+      "desc": "After using the Ultimate, ATK increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.3, 2 ]
     },
     {
       "name": "Cold Steel Armor",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Family's Warmth",
-      "desc": "After Clara is hit, the DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn."
+      "desc": "After Clara is hit, the DMG taken by Clara is reduced by <unbreak>#1[i]%</unbreak>. This effect lasts until the start of her next turn.",
+      "params": [ 0.3 ]
     },
     {
       "name": "A Small Promise",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Long Company",
-      "desc": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by 1."
+      "desc": "After other allies are hit, Svarog also has a <unbreak>#1[i]%</unbreak> fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Ultimate, the number of Enhanced Counters increases by <unbreak>#2[i]</unbreak>.",
+      "params": [ 0.5, 1 ]
     }
   ],
   "skillTree": [
     {
       "name": "Kinship",
-      "desc": "When attacked, this character has a 35% fixed chance to remove a debuff placed on them.",
+      "desc": "When attacked, this character has a <unbreak>#1[i]%</unbreak> fixed chance to remove a debuff placed on them.",
+      "params": [ 0.35 ],
       "minAsc": 2,
       "children": [
         {
           "name": "DMG Boost: Physical",
-          "desc": "Physical DMG increases by 3.2%",
+          "desc": "Physical DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.032 ],
           "minAsc": 2,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 4.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3,
               "children": [
                 {
                   "name": "HP Boost",
-                  "desc": "Max HP increases by 4.0%",
+                  "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
                   "minAsc": 3
                 }
               ]
@@ -232,22 +288,26 @@
     },
     {
       "name": "Under Protection",
-      "desc": "The chance to resist Crowd Control Debuffs increases by 35%.",
+      "desc": "The chance to resist Crowd Control Debuffs increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.35 ],
       "minAsc": 4,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DMG Boost: Physical",
-              "desc": "Physical DMG increases by 4.8%",
+              "desc": "Physical DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.048 ],
               "minAsc": 5,
               "children": [
                 {
                   "name": "ATK Boost",
-                  "desc": "ATK increases by 6.0%",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
                   "minAsc": 5
                 }
               ]
@@ -258,22 +318,26 @@
     },
     {
       "name": "Revenge",
-      "desc": "Increases Svarog's Counter DMG by 30%.",
+      "desc": "Increases Svarog's Counter DMG by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.3 ],
       "minAsc": 6,
       "children": [
         {
           "name": "HP Boost",
-          "desc": "Max HP increases by 6.0%",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6,
           "children": [
             {
               "name": "DMG Boost: Physical",
-              "desc": "Physical DMG increases by 6.4%",
+              "desc": "Physical DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
               "minLevel": 75
             },
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 8.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 80
             }
           ]
@@ -282,7 +346,8 @@
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 4.0%"
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
     }
   ]
 }

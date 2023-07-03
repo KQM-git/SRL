@@ -115,113 +115,169 @@
       "name": "Roaring Thunderclap",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Lightning DMG equal to **50%** of Serval's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **60%** of Serval's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **70%** of Serval's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **80%** of Serval's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **90%** of Serval's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **100%** of Serval's ATK to a single enemy."
-      ]
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Serval's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Lightning Flash",
       "tag": "Blast",
       "type": "Skill",
-      "desc": [
-        "Deals Lightning DMG equal to **70%** of Serval's ATK to a single enemy and Lightning DMG equal to **30%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **40%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **77%** of Serval's ATK to a single enemy and Lightning DMG equal to **33%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **44%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **84%** of Serval's ATK to a single enemy and Lightning DMG equal to **36%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **48%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **91%** of Serval's ATK to a single enemy and Lightning DMG equal to **39%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **52%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **98%** of Serval's ATK to a single enemy and Lightning DMG equal to **42%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **56%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **105%** of Serval's ATK to a single enemy and Lightning DMG equal to **45%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **62%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **114%** of Serval's ATK to a single enemy and Lightning DMG equal to **49%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **70%** of Serval's ATK at the beginning of each turn.",
-        "Deals Lightning DMG equal to **123%** of Serval's ATK to a single enemy and Lightning DMG equal to **53%** of Serval's ATK to enemies adjacent to it, with a 80% **base chance** for enemies hit to become Shocked for 2 turn(s).\nWhile Shocked, enemies take Lightning DoT equal to **80%** of Serval's ATK at the beginning of each turn."
-      ]
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Serval's ATK to a single enemy and Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Serval's ATK to enemies adjacent to it, with a <unbreak>#3[i]%</unbreak> <u>base chance</u> for enemies hit to become Shocked for <unbreak>#4[i]</unbreak> turn(s).\\nWhile Shocked, enemies take Lightning DoT equal to <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of Serval's ATK at the beginning of each turn.",
+      "params": [
+        [ 0.7, 0.3, 0.8, 2, 0.4 ],
+        [ 0.77, 0.33, 0.8, 2, 0.44 ],
+        [ 0.84, 0.36, 0.8, 2, 0.48 ],
+        [ 0.91, 0.39, 0.8, 2, 0.52 ],
+        [ 0.98, 0.42, 0.8, 2, 0.56 ],
+        [ 1.05, 0.45, 0.8, 2, 0.62 ],
+        [ 1.1375, 0.4875, 0.8, 2, 0.7 ],
+        [ 1.225, 0.525, 0.8, 2, 0.8 ],
+        [ 1.3125, 0.5625, 0.8, 2, 0.92 ],
+        [ 1.4, 0.6, 0.8, 2, 1.04 ],
+        [ 1.47, 0.63, 0.8, 2, 1.092 ],
+        [ 1.54, 0.66, 0.8, 2, 1.144 ],
+        [ 1.61, 0.69, 0.8, 2, 1.196 ],
+        [ 1.68, 0.72, 0.8, 2, 1.248 ],
+        [ 1.75, 0.75, 0.8, 2, 1.3 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60,
+        "Adjacent": 30
+      }
     },
     {
       "name": "Here Comes the Mechanical Fever",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": [
-        "Deals Lightning DMG equal to **108%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **115%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **122%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **130%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **137%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **144%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **153%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
-        "Deals Lightning DMG equal to **162%** of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."
-      ]
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 1.08, 2 ],
+        [ 1.152, 2 ],
+        [ 1.224, 2 ],
+        [ 1.296, 2 ],
+        [ 1.368, 2 ],
+        [ 1.44, 2 ],
+        [ 1.53, 2 ],
+        [ 1.62, 2 ],
+        [ 1.71, 2 ],
+        [ 1.8, 2 ],
+        [ 1.872, 2 ],
+        [ 1.944, 2 ],
+        [ 2.016, 2 ],
+        [ 2.088, 2 ],
+        [ 2.16, 2 ]
+      ],
+      "energyNeeded": 100,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Galvanic Chords",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **36%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **40%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **43%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **47%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **50%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **54%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **59%** of Serval's ATK to all Shocked enemies.",
-        "After Serval attacks, deals **Additional** Lightning DMG equal to **63%** of Serval's ATK to all Shocked enemies."
+      "desc": "After Serval attacks, deals <u>Additional</u> Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Serval's ATK to all Shocked enemies.",
+      "params": [
+        [ 0.36 ],
+        [ 0.396 ],
+        [ 0.432 ],
+        [ 0.468 ],
+        [ 0.504 ],
+        [ 0.54 ],
+        [ 0.585 ],
+        [ 0.63 ],
+        [ 0.675 ],
+        [ 0.72 ],
+        [ 0.756 ],
+        [ 0.792 ],
+        [ 0.828 ],
+        [ 0.864 ],
+        [ 0.9 ]
       ]
     },
     {
       "name": "Good Night, Belobog",
       "type": "Technique",
-      "desc": [
-        "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% **base chance** for all enemies to become Shocked for 3 turn(s).\nWhile Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn."
-      ]
+      "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to <unbreak>#4[i]%</unbreak> of Serval's ATK to a random enemy, with a <unbreak>#1[i]%</unbreak> <u>base chance</u> for all enemies to become Shocked for <unbreak>#3[i]</unbreak> turn(s).\\nWhile Shocked, enemies will take Lightning DoT equal to <unbreak>#2[i]%</unbreak> of Serval's ATK at the beginning of each turn.",
+      "params": [
+        [ 1, 0.5, 3, 0.5 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [
     {
       "name": "Echo Chamber",
-      "desc": "Basic ATK deals Lightning DMG equal to 60% of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK."
+      "desc": "Basic ATK deals Lightning DMG equal to <unbreak>#1[i]%</unbreak> of the Basic ATK's DMG to a random enemy adjacent to the target of the Basic ATK.",
+      "params": [ 0.6 ]
     },
     {
       "name": "Encore!",
-      "desc": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates 4 Energy."
+      "desc": "Every time Serval's Talent is triggered to deal Additional DMG, she regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 4 ]
     },
     {
       "name": "Listen, the Heartbeat of the Gears",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Make Some Noise!",
-      "desc": "Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill."
+      "desc": "Ultimate has a <unbreak>#1[i]%</unbreak> base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as the one applied by Skill.",
+      "params": [ 1 ]
     },
     {
       "name": "Belobog's Loudest Roar!",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "This Song Rocks to Heaven!",
-      "desc": "Serval deals 30% more DMG to Shocked enemies."
+      "desc": "Serval deals <unbreak>#1[i]%</unbreak> more DMG to Shocked enemies.",
+      "params": [ 0.3 ]
     }
   ],
   "skillTree": [
     {
       "name": "Rock 'n' Roll",
-      "desc": "Skill has a 20% increased base chance to Shock enemies.",
+      "desc": "Skill has a <unbreak>#1[i]%</unbreak> increased base chance to Shock enemies.",
+      "params": [ 0.2 ],
       "minAsc": 2,
       "children": [
         {
           "name": "Effect Hit Rate Boost",
-          "desc": "Effect Hit Rate increases by 4.0%",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 2,
           "children": [
             {
               "name": "CRIT Rate Boost",
-              "desc": "CRIT Rate increases by 2.7%",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.027 ],
               "minAsc": 3
             },
             {
               "name": "Effect RES Boost",
-              "desc": "Effect RES increases by 4.0%",
+              "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3
             }
           ]
@@ -230,22 +286,26 @@
     },
     {
       "name": "String Vibration",
-      "desc": "At the start of the battle, immediately regenerates 15 Energy.",
+      "desc": "At the start of the battle, immediately regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 15 ],
       "minAsc": 4,
       "children": [
         {
           "name": "CRIT Rate Boost",
-          "desc": "CRIT Rate increases by 4.0%",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 4,
           "children": [
             {
               "name": "Effect Hit Rate Boost",
-              "desc": "Effect Hit Rate increases by 6.0%",
+              "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
               "minAsc": 5
             },
             {
               "name": "CRIT Rate Boost",
-              "desc": "CRIT Rate increases by 4.0%",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 5
             }
           ]
@@ -254,28 +314,33 @@
     },
     {
       "name": "Mania",
-      "desc": "Upon defeating an enemy, ATK is increased by 20% for 2 turn(s).",
+      "desc": "Upon defeating an enemy, ATK is increased by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.2, 2 ],
       "minAsc": 6,
       "children": [
         {
           "name": "Effect RES Boost",
-          "desc": "Effect RES increases by 6.0%",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6
         },
         {
           "name": "Effect Hit Rate Boost",
-          "desc": "Effect Hit Rate increases by 8.0%",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
           "minLevel": 75
         }
       ]
     },
     {
       "name": "CRIT Rate Boost",
-      "desc": "CRIT Rate increases by 2.7%"
+      "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.027 ]
     },
     {
       "name": "CRIT Rate Boost",
-      "desc": "CRIT Rate increases by 5.3%",
+      "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.053 ],
       "minLevel": 80
     }
   ]

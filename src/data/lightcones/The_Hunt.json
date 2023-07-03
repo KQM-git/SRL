@@ -75,9 +75,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Alliance",
-      "desc": "When the wearer defeats an enemy, increases SPD by **10%**/**12%**/**14%**/**16%**/**18%** for 2 turn(s)."
+      "desc": "When the wearer defeats an enemy, increases SPD by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.1, 2 ],
+        [ 0.12, 2 ],
+        [ 0.14, 2 ],
+        [ 0.16, 2 ],
+        [ 0.18, 2 ]
+      ]
     }
   },
   "Arrows": {
@@ -156,9 +163,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Crisis",
-      "desc": "At the start of the battle, the wearer's CRIT Rate increases by **12%**/**15%**/**18%**/**21%**/**24%** for 3 turn(s)."
+      "desc": "At the start of the battle, the wearer's CRIT Rate increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.12, 3 ],
+        [ 0.15, 3 ],
+        [ 0.18, 3 ],
+        [ 0.21, 3 ],
+        [ 0.24, 3 ]
+      ]
     }
   },
   "Darting Arrow": {
@@ -237,9 +251,16 @@
         "defenseAdd": 1.8
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "War Cry",
-      "desc": "When the wearer defeats an enemy, increases ATK by **24%**/**30%**/**36%**/**42%**/**48%** for 3 turn(s)."
+      "desc": "When the wearer defeats an enemy, increases ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.24, 3 ],
+        [ 0.3, 3 ],
+        [ 0.36, 3 ],
+        [ 0.42, 3 ],
+        [ 0.48, 3 ]
+      ]
     }
   },
   "Only Silence Remains": {
@@ -318,9 +339,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Record",
-      "desc": "Increases the wearer's ATK by **16%**/**20%**/**24%**/**28%**/**32%**. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by **12%**/**15%**/**18%**/**21%**/**24%**."
+      "desc": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+      "params": [
+        [ 0.16, 0.12 ],
+        [ 0.2, 0.15 ],
+        [ 0.24, 0.18 ],
+        [ 0.28, 0.21 ],
+        [ 0.32, 0.24 ]
+      ]
     }
   },
   "Return to Darkness": {
@@ -399,9 +427,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Raging Waves",
-      "desc": "Increases the wearer's CRIT Rate by **12%**/**15%**/**18%**/**21%**/**24%**. After a CRIT Hit, there is a **16%**/**20%**/**24%**/**28%**/**32%** fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack."
+      "desc": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After a CRIT Hit, there is a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
+      "params": [
+        [ 0.12, 0.16 ],
+        [ 0.15, 0.2 ],
+        [ 0.18, 0.24 ],
+        [ 0.21, 0.28 ],
+        [ 0.24, 0.32 ]
+      ]
     }
   },
   "River Flows in Spring": {
@@ -480,9 +515,16 @@
         "defenseAdd": 2.7
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Stave Off the Lingering Cold",
-      "desc": "After entering battle, increases the wearer's SPD by **8%**/**9%**/**10%**/**11%**/**12%** and DMG by **12%**/**15%**/**18%**/**21%**/**24%**. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn."
+      "desc": "After entering battle, increases the wearer's SPD by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.",
+      "params": [
+        [ 0.08, 0.12 ],
+        [ 0.09, 0.15 ],
+        [ 0.1, 0.18 ],
+        [ 0.11, 0.21 ],
+        [ 0.12, 0.24 ]
+      ]
     }
   },
   "Subscribe for More!": {
@@ -561,9 +603,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Like Before You Leave!",
-      "desc": "Increases the DMG of the wearer's Basic ATK and Skill by **24%**/**30%**/**36%**/**42%**/**48%**. This effect increases by an extra **24%**/**30%**/**36%**/**42%**/**48%** when the wearer's current Energy reaches its max level."
+      "desc": "Increases the DMG of the wearer's Basic ATK and Skill by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. This effect increases by an extra <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> when the wearer's current Energy reaches its max level.",
+      "params": [
+        [ 0.24, 0.24 ],
+        [ 0.3, 0.3 ],
+        [ 0.36, 0.36 ],
+        [ 0.42, 0.42 ],
+        [ 0.48, 0.48 ]
+      ]
     }
   },
   "Swordplay": {
@@ -642,9 +691,16 @@
         "defenseAdd": 2.25
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Answers of Their Own",
-      "desc": "For each time the wearer hits the same target, DMG dealt increases by **8%**/**10%**/**12%**/**14%**/**16%**, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets."
+      "desc": "For each time the wearer hits the same target, DMG dealt increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, stacking up to <unbreak>#2[i]</unbreak> time(s). This effect will be dispelled when the wearer changes targets.",
+      "params": [
+        [ 0.08, 5 ],
+        [ 0.1, 5 ],
+        [ 0.12, 5 ],
+        [ 0.14, 5 ],
+        [ 0.16, 5 ]
+      ]
     }
   },
   "Cruising in the Stellar Sea": {
@@ -723,9 +779,16 @@
         "defenseAdd": 3.15
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Chase",
-      "desc": "Increases the wearer's CRIT rate by **8%**/**10%**/**12%**/**14%**/**16%**, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra **8%**/**10%**/**12%**/**14%**/**16%**. When the wearer defeats an enemy, their ATK is increased by **20%**/**25%**/**30%**/**35%**/**40%** for 2 turn(s)."
+      "desc": "Increases the wearer's CRIT rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, and increases their CRIT rate against enemies with HP less than or equal to <unbreak>#2[i]%</unbreak> by an extra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. When the wearer defeats an enemy, their ATK is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.08, 0.5, 0.08, 0.2, 2 ],
+        [ 0.1, 0.5, 0.1, 0.25, 2 ],
+        [ 0.12, 0.5, 0.12, 0.3, 2 ],
+        [ 0.14, 0.5, 0.14, 0.35, 2 ],
+        [ 0.16, 0.5, 0.16, 0.4, 2 ]
+      ]
     }
   },
   "In the Night": {
@@ -804,9 +867,16 @@
         "defenseAdd": 3.15
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Flowers and Butterflies",
-      "desc": "Increases the wearer's CRIT Rate by **18%**/**21%**/**24%**/**27%**/**30%**. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by **6%**/**7%**/**8%**/**9%**/**10%** and the CRIT DMG of their Ultimate is increased by **12%**/**14%**/**16%**/**18%**/**20%**. This effect can stack up to 6 time(s)."
+      "desc": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#2[i]</unbreak> SPD that exceeds <unbreak>100</unbreak>, the DMG of the wearer's Basic ATK and Skill is increased by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> and the CRIT DMG of their Ultimate is increased by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s).",
+      "params": [
+        [ 0.18, 10, 0.06, 0.12, 6 ],
+        [ 0.21, 10, 0.07, 0.14, 6 ],
+        [ 0.24, 10, 0.08, 0.16, 6 ],
+        [ 0.27, 10, 0.09, 0.18, 6 ],
+        [ 0.3, 10, 0.1, 0.2, 6 ]
+      ]
     }
   },
   "Sleep Like the Dead": {
@@ -885,9 +955,16 @@
         "defenseAdd": 3.15
       }
     ],
-    "refinements": {
+    "superimposition": {
       "name": "Sweet Dreams",
-      "desc": "Increases the wearer's CRIT DMG by **30%**/**35%**/**40%**/**45%**/**50%**. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by **36%**/**42%**/**48%**/**54%**/**60%** for 1 turn(s). This effect can only trigger once every 3 turn(s)."
+      "desc": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s). This effect can only trigger once every <unbreak>#4[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.3, 0.36, 1, 3 ],
+        [ 0.35, 0.42, 1, 3 ],
+        [ 0.4, 0.48, 1, 3 ],
+        [ 0.45, 0.54, 1, 3 ],
+        [ 0.5, 0.6, 1, 3 ]
+      ]
     }
   }
 }

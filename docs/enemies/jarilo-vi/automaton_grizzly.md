@@ -15,8 +15,8 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 ## Variants
 
-<Tabs>
-<TabItem value='0' label='Automaton Grizzly'>
+<Tabs queryString="variant">
+<TabItem value='1' label='Automaton Grizzly'>
 
 <h2>Stats</h2>
 
@@ -26,7 +26,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='1' label='Automaton Grizzly (Complete)'>
+<TabItem value='2' label='Automaton Grizzly (Bug)'>
 
 <h2>Stats</h2>
 
@@ -35,5 +35,15 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 <h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={1} />
+</TabItem>
+<TabItem value='3' label='Automaton Grizzly (Complete)'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={2} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={2} />
 </TabItem>
 </Tabs>

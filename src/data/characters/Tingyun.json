@@ -115,109 +115,154 @@
       "name": "Dislodged",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Tingyun deals Lightning DMG equal to **50%** of her ATK to a single enemy.",
-        "Tingyun deals Lightning DMG equal to **60%** of her ATK to a single enemy.",
-        "Tingyun deals Lightning DMG equal to **70%** of her ATK to a single enemy.",
-        "Tingyun deals Lightning DMG equal to **80%** of her ATK to a single enemy.",
-        "Tingyun deals Lightning DMG equal to **90%** of her ATK to a single enemy.",
-        "Tingyun deals Lightning DMG equal to **100%** of her ATK to a single enemy."
-      ]
+      "desc": "Tingyun deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of her ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Soothing Melody",
       "tag": "Support",
       "type": "Skill",
-      "desc": [
-        "Grants a single ally with Benediction to increase their ATK by **25%**, up to **15%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **20%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **28%**, up to **16%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **22%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **30%**, up to **17%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **24%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **33%**, up to **18%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **26%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **35%**, up to **19%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **28%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **38%**, up to **20%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **30%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **41%**, up to **21%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **33%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
-        "Grants a single ally with Benediction to increase their ATK by **44%**, up to **23%** of Tingyun's current ATK.\nWhen the ally with Benediction attacks, they will deal **Additional** Lightning DMG equal to **35%** of that ally's ATK for 1 time.\nBenediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."
-      ]
+      "desc": "Grants a single ally with Benediction to increase their ATK by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, up to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Tingyun's current ATK.\\nWhen the ally with Benediction attacks, they will deal <u>Additional</u> Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of that ally's ATK for 1 time.\\nBenediction lasts for <unbreak>#3[i]</unbreak> turn(s) and is only effective on the most recent receiver of Tingyun's Skill.",
+      "params": [
+        [ 0.2, 0.25, 3, 0.15 ],
+        [ 0.22, 0.275, 3, 0.16 ],
+        [ 0.24, 0.3, 3, 0.17 ],
+        [ 0.26, 0.325, 3, 0.18 ],
+        [ 0.28, 0.35, 3, 0.19 ],
+        [ 0.3, 0.375, 3, 0.2 ],
+        [ 0.325, 0.40625, 3, 0.2125 ],
+        [ 0.35, 0.4375, 3, 0.225 ],
+        [ 0.375, 0.46875, 3, 0.2375 ],
+        [ 0.4, 0.5, 3, 0.25 ],
+        [ 0.42, 0.525, 3, 0.26 ],
+        [ 0.44, 0.55, 3, 0.27 ],
+        [ 0.46, 0.575, 3, 0.28 ],
+        [ 0.48, 0.6, 3, 0.29 ],
+        [ 0.5, 0.625, 3, 0.3 ]
+      ],
+      "energyGain": 30
     },
     {
       "name": "Amidst the Rejoicing Clouds",
       "tag": "Support",
       "type": "Ultimate",
-      "desc": [
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **20%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **23%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **26%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **29%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **32%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **35%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **39%** for 2 turn(s).",
-        "Regenerates 50 Energy for a single ally and increases the target's DMG by **43%** for 2 turn(s)."
-      ]
+      "desc": "Regenerates <unbreak>#1[i]</unbreak> Energy for a single ally and increases the target's DMG by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 50, 2, 0.2 ],
+        [ 50, 2, 0.23 ],
+        [ 50, 2, 0.26 ],
+        [ 50, 2, 0.29 ],
+        [ 50, 2, 0.32 ],
+        [ 50, 2, 0.35 ],
+        [ 50, 2, 0.3875 ],
+        [ 50, 2, 0.425 ],
+        [ 50, 2, 0.4625 ],
+        [ 50, 2, 0.5 ],
+        [ 50, 2, 0.53 ],
+        [ 50, 2, 0.56 ],
+        [ 50, 2, 0.59 ],
+        [ 50, 2, 0.62 ],
+        [ 50, 2, 0.65 ]
+      ],
+      "energyNeeded": 130,
+      "energyGain": 5
     },
     {
       "name": "Violet Sparknado",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": [
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **30%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **33%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **36%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **39%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **42%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **45%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **49%** of that ally's ATK to the same enemy.",
-        "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals **Additional** Lightning DMG equal to **53%** of that ally's ATK to the same enemy."
+      "desc": "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals <u>Additional</u> Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of that ally's ATK to the same enemy.",
+      "params": [
+        [ 0.3 ],
+        [ 0.33 ],
+        [ 0.36 ],
+        [ 0.39 ],
+        [ 0.42 ],
+        [ 0.45 ],
+        [ 0.4875 ],
+        [ 0.525 ],
+        [ 0.5625 ],
+        [ 0.6 ],
+        [ 0.63 ],
+        [ 0.66 ],
+        [ 0.69 ],
+        [ 0.72 ],
+        [ 0.75 ]
       ]
     },
     {
       "name": "Gentle Breeze",
       "tag": "Support",
       "type": "Technique",
-      "desc": [
-        "Tingyun immediately regenerates 50 Energy upon using her Technique."
+      "desc": "Tingyun immediately regenerates <unbreak>#1[i]</unbreak> Energy upon using her Technique.",
+      "params": [
+        [ 50 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Windfall of Lucky Springs",
-      "desc": "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn."
+      "desc": "After using their Ultimate, the ally with Benediction gains a <unbreak>#1[i]%</unbreak> increase in SPD for 1 turn.",
+      "params": [ 0.2 ]
     },
     {
       "name": "Gainfully Gives, Givingly Gains",
-      "desc": "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn."
+      "desc": "The ally with Benediction regenerates <unbreak>#1[i]</unbreak> Energy after defeating an enemy. This effect can only be triggered once per turn.",
+      "params": [ 5 ]
     },
     {
       "name": "Halcyon Bequest",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Jovial Versatility",
-      "desc": "The DMG multiplier provided by Benediction increases by 20%."
+      "desc": "The DMG multiplier provided by Benediction increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.2 ]
     },
     {
       "name": "Sauntering Coquette",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Peace Brings Wealth to All",
-      "desc": "Ultimate regenerates 10 more Energy for the target ally."
+      "desc": "Ultimate regenerates <unbreak>#1[i]</unbreak> more Energy for the target ally.",
+      "params": [ 10 ]
     }
   ],
   "skillTree": [
     {
       "name": "Nourished Joviality",
-      "desc": "Tingyun's SPD increases by 20% for 1 turn after using Skill.",
+      "desc": "Tingyun's SPD increases by <unbreak>#1[i]%</unbreak> for 1 turn after using Skill.",
+      "params": [ 0.2 ],
       "minAsc": 2,
       "children": [
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 5.0%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.05 ],
           "minAsc": 2,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 4.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3
             }
           ]
@@ -226,17 +271,20 @@
     },
     {
       "name": "Knell Subdual",
-      "desc": "Increases Basic ATK DMG by 40%.",
+      "desc": "Increases Basic ATK DMG by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.4 ],
       "minAsc": 4,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 7.5%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.075 ],
               "minAsc": 5
             }
           ]
@@ -245,22 +293,26 @@
     },
     {
       "name": "Jubilant Passage",
-      "desc": "Tingyun immediately regenerates 5 Energy at the start of her turn.",
+      "desc": "Tingyun immediately regenerates <unbreak>#1[i]</unbreak> Energy at the start of her turn.",
+      "params": [ 5 ],
       "minAsc": 6,
       "children": [
         {
           "name": "DMG Boost: Lightning",
-          "desc": "Lightning DMG increases by 4.8%",
+          "desc": "Lightning DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 6,
           "children": [
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 10.0%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.1 ],
               "minLevel": 75
             },
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 8.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
               "minLevel": 80
             }
           ]
@@ -269,16 +321,19 @@
     },
     {
       "name": "ATK Boost",
-      "desc": "ATK increases by 4.0%",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
       "children": [
         {
           "name": "DMG Boost: Lightning",
-          "desc": "Lightning DMG increases by 3.2%",
+          "desc": "Lightning DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.032 ],
           "minAsc": 3
         },
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 6.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 5
         }
       ]

@@ -115,113 +115,169 @@
       "name": "Frigid Cold Arrow",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Ice DMG equal to **50%** of March 7th's ATK to a single enemy.",
-        "Deals Ice DMG equal to **60%** of March 7th's ATK to a single enemy.",
-        "Deals Ice DMG equal to **70%** of March 7th's ATK to a single enemy.",
-        "Deals Ice DMG equal to **80%** of March 7th's ATK to a single enemy.",
-        "Deals Ice DMG equal to **90%** of March 7th's ATK to a single enemy.",
-        "Deals Ice DMG equal to **100%** of March 7th's ATK to a single enemy."
-      ]
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of March 7th's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "The Power of Cuteness",
       "tag": "Defense",
       "type": "Skill",
-      "desc": [
-        "Provides a single ally with a Shield that can absorb DMG equal to **38%** of March 7th's DEF plus **190** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **40%** of March 7th's DEF plus **304** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **43%** of March 7th's DEF plus **390** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **45%** of March 7th's DEF plus **475** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **48%** of March 7th's DEF plus **532** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **49%** of March 7th's DEF plus **589** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **51%** of March 7th's DEF plus **632** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally.",
-        "Provides a single ally with a Shield that can absorb DMG equal to **53%** of March 7th's DEF plus **675** for 3 turn(s).\nIf the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally."
-      ]
+      "desc": "Provides a single ally with a Shield that can absorb DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of March 7th's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).\\nIf the ally's current HP percentage is <unbreak>#3[i]%</unbreak> or higher, greatly increases the chance of enemies attacking that ally.",
+      "params": [
+        [ 0.38, 3, 0.3, 190, 5 ],
+        [ 0.40375, 3, 0.3, 304, 5 ],
+        [ 0.4275, 3, 0.3, 389.5, 5 ],
+        [ 0.45125, 3, 0.3, 475, 5 ],
+        [ 0.475, 3, 0.3, 532, 5 ],
+        [ 0.494, 3, 0.3, 589, 5 ],
+        [ 0.513, 3, 0.3, 631.75, 5 ],
+        [ 0.532, 3, 0.3, 674.5, 5 ],
+        [ 0.551, 3, 0.3, 717.25, 5 ],
+        [ 0.57, 3, 0.3, 760, 5 ],
+        [ 0.589, 3, 0.3, 802.75, 5 ],
+        [ 0.608, 3, 0.3, 845.5, 5 ],
+        [ 0.627, 3, 0.3, 888.25, 5 ],
+        [ 0.646, 3, 0.3, 931, 5 ],
+        [ 0.665, 3, 0.3, 973.75, 5 ]
+      ],
+      "energyGain": 30
     },
     {
       "name": "Glacial Cascade",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": [
-        "Deals Ice DMG equal to **90%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **30%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **96%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **33%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **102%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **36%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **108%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **39%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **114%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **42%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **120%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **45%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **127%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **49%** of March 7th's ATK at the beginning of each turn.",
-        "Deals Ice DMG equal to **135%** of March 7th's ATK to all enemies. Hit enemies have a 50% **base chance** to be Frozen for 1 turn(s).\nWhile Frozen, enemies cannot take action and will receive **Additional** Ice DMG equal to **53%** of March 7th's ATK at the beginning of each turn."
-      ]
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of March 7th's ATK to all enemies. Hit enemies have a <unbreak>#2[i]%</unbreak> <u>base chance</u> to be Frozen for <unbreak>#3[i]</unbreak> turn(s).\\nWhile Frozen, enemies cannot take action and will receive <u>Additional</u> Ice DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of March 7th's ATK at the beginning of each turn.",
+      "params": [
+        [ 0.9, 0.5, 1, 0.3 ],
+        [ 0.96, 0.5, 1, 0.33 ],
+        [ 1.02, 0.5, 1, 0.36 ],
+        [ 1.08, 0.5, 1, 0.39 ],
+        [ 1.14, 0.5, 1, 0.42 ],
+        [ 1.2, 0.5, 1, 0.45 ],
+        [ 1.275, 0.5, 1, 0.4875 ],
+        [ 1.35, 0.5, 1, 0.525 ],
+        [ 1.425, 0.5, 1, 0.5625 ],
+        [ 1.5, 0.5, 1, 0.6 ],
+        [ 1.56, 0.5, 1, 0.63 ],
+        [ 1.62, 0.5, 1, 0.66 ],
+        [ 1.68, 0.5, 1, 0.69 ],
+        [ 1.74, 0.5, 1, 0.72 ],
+        [ 1.8, 0.5, 1, 0.75 ]
+      ],
+      "energyNeeded": 120,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Girl Power",
       "tag": "Single Target",
       "type": "Talent",
-      "desc": [
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **50%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **55%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **60%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **65%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **70%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **75%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **81%** of her ATK. This effect can be triggered 2 time(s) each turn.",
-        "After a Shielded ally is attacked by an enemy, March 7th immediately **Counters**, dealing Ice DMG equal to **88%** of her ATK. This effect can be triggered 2 time(s) each turn."
-      ]
+      "desc": "After a Shielded ally is attacked by an enemy, March 7th immediately <u>Counters</u>, dealing Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of her ATK. This effect can be triggered <unbreak>#2[i]</unbreak> time(s) each turn.",
+      "params": [
+        [ 0.5, 2 ],
+        [ 0.55, 2 ],
+        [ 0.6, 2 ],
+        [ 0.65, 2 ],
+        [ 0.7, 2 ],
+        [ 0.75, 2 ],
+        [ 0.8125, 2 ],
+        [ 0.875, 2 ],
+        [ 0.9375, 2 ],
+        [ 1, 2 ],
+        [ 1.05, 2 ],
+        [ 1.1, 2 ],
+        [ 1.15, 2 ],
+        [ 1.2, 2 ],
+        [ 1.25, 2 ]
+      ],
+      "energyGain": 10,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Freezing Beauty",
       "type": "Technique",
-      "desc": [
-        "Immediately attacks the enemy. After entering battle, there is a 100% **base chance** to Freeze a random enemy for 1 turn(s).\nWhile Frozen, the enemy cannot take action and will take **Additional** Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."
-      ]
+      "desc": "Immediately attacks the enemy. After entering battle, there is a <unbreak>#1[i]%</unbreak> <u>base chance</u> to Freeze a random enemy for <unbreak>#2[i]</unbreak> turn(s).\\nWhile Frozen, the enemy cannot take action and will take <u>Additional</u> Ice DMG equal to <unbreak>#3[i]%</unbreak> of March 7th's ATK at the beginning of each turn.",
+      "params": [
+        [ 1, 1, 0.5 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [
     {
       "name": "Memory of You",
-      "desc": "Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy."
+      "desc": "Every time March 7th's Ultimate Freezes a target, she regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 6 ]
     },
     {
       "name": "Memory of It",
-      "desc": "Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s)."
+      "desc": "Upon entering battle, grants a Shield equal to <unbreak>#1[i]%</unbreak> of March 7th's DEF plus <unbreak>#3[i]</unbreak> to the ally with the lowest HP percentage, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.24, 3, 320 ]
     },
     {
       "name": "Memory of Everything",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Never Forfeit Again",
-      "desc": "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF."
+      "desc": "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to <unbreak>#1[i]%</unbreak> of March 7th's DEF.",
+      "params": [ 0.3 ]
     },
     {
       "name": "Never Forget Again",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Just Like This, Always...",
-      "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."
+      "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to <unbreak>#1[i]%</unbreak> of their Max HP plus <unbreak>#2[i]</unbreak> at the beginning of each turn.",
+      "params": [ 0.04, 106 ]
     }
   ],
   "skillTree": [
     {
       "name": "Ice Spell",
-      "desc": "Increases Ultimate's base chance to Freeze enemies by 15%.",
+      "desc": "Increases Ultimate's base chance to Freeze enemies by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.15 ],
       "minAsc": 6,
       "children": [
         {
           "name": "DMG Boost: Ice",
-          "desc": "Ice DMG increases by 4.8%",
+          "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 6,
           "children": [
             {
               "name": "DMG Boost: Ice",
-              "desc": "Ice DMG increases by 6.4%",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
               "minLevel": 75
             },
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 10.0%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.1 ],
               "minLevel": 80
             }
           ]
@@ -230,21 +286,25 @@
     },
     {
       "name": "DMG Boost: Ice",
-      "desc": "Ice DMG increases by 3.2%",
+      "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ],
       "children": [
         {
           "name": "Purify",
           "desc": "Skill removes 1 debuff from an ally.",
+          "params": [],
           "minAsc": 2,
           "children": [
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 5.0%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.05 ],
               "minAsc": 2,
               "children": [
                 {
                   "name": "DMG Boost: Ice",
-                  "desc": "Ice DMG increases by 3.2%",
+                  "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.032 ],
                   "minAsc": 3
                 }
               ]
@@ -253,17 +313,20 @@
         },
         {
           "name": "Reinforce",
-          "desc": "The duration of the Shield generated from Skill is extended for 1 turn(s).",
+          "desc": "The duration of the Shield generated from Skill is extended for <unbreak>#1[i]</unbreak> turn(s).",
+          "params": [ 1 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DMG Boost: Ice",
-              "desc": "Ice DMG increases by 4.8%",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.048 ],
               "minAsc": 4,
               "children": [
                 {
                   "name": "Effect RES Boost",
-                  "desc": "Effect RES increases by 6.0%",
+                  "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
                   "minAsc": 5
                 }
               ]
@@ -274,12 +337,14 @@
     },
     {
       "name": "Effect RES Boost",
-      "desc": "Effect RES increases by 4.0%",
+      "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
       "minAsc": 3
     },
     {
       "name": "DEF Boost",
-      "desc": "DEF increases by 7.5%",
+      "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.075 ],
       "minAsc": 5
     }
   ]

@@ -115,113 +115,168 @@
       "name": "Frost Shot",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Ice DMG equal to **50%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **60%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **70%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **80%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **90%** of Pela's ATK as to a single enemy.",
-        "Deals Ice DMG equal to **100%** of Pela's ATK as to a single enemy."
-      ]
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pela's ATK to a single target enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Frostbite",
       "tag": "Impair",
       "type": "Skill",
-      "desc": [
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **105%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **116%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **126%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **137%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **147%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **158%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **171%** of Pela's ATK as to a single enemy.",
-        "Removes 1 **buff(s)** and deals Ice DMG equal to **184%** of Pela's ATK as to a single enemy."
-      ]
+      "desc": "Removes <unbreak>#2[i]</unbreak> <u>buff(s)</u> and deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pela's ATK to a single target enemy.",
+      "params": [
+        [ 1.05, 1 ],
+        [ 1.155, 1 ],
+        [ 1.26, 1 ],
+        [ 1.365, 1 ],
+        [ 1.47, 1 ],
+        [ 1.575, 1 ],
+        [ 1.70625, 1 ],
+        [ 1.8375, 1 ],
+        [ 1.96875, 1 ],
+        [ 2.1, 1 ],
+        [ 2.205, 1 ],
+        [ 2.31, 1 ],
+        [ 2.415, 1 ],
+        [ 2.52, 1 ],
+        [ 2.625, 1 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
     },
     {
       "name": "Zone Suppression",
       "tag": "Impair",
       "type": "Ultimate",
-      "desc": [
-        "Deals Ice DMG equal to **60%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **30%** for 2 turn(s).",
-        "Deals Ice DMG equal to **64%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **31%** for 2 turn(s).",
-        "Deals Ice DMG equal to **68%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **32%** for 2 turn(s).",
-        "Deals Ice DMG equal to **72%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **33%** for 2 turn(s).",
-        "Deals Ice DMG equal to **76%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **34%** for 2 turn(s).",
-        "Deals Ice DMG equal to **80%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **35%** for 2 turn(s).",
-        "Deals Ice DMG equal to **85%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **36%** for 2 turn(s).",
-        "Deals Ice DMG equal to **90%** of Pela's ATK to all enemies, with a 100% **base chance** to inflict Exposed on all enemies.\nWhen Exposed, enemies' DEF is reduced by **38%** for 2 turn(s)."
-      ]
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Pela's ATK to all enemies, with a <unbreak>#1[i]%</unbreak> <u>base chance</u> to inflict Exposed on all enemies.\\nWhen Exposed, enemies' DEF is reduced by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [ 1, 0.3, 2, 0.6 ],
+        [ 1, 0.31, 2, 0.64 ],
+        [ 1, 0.32, 2, 0.68 ],
+        [ 1, 0.33, 2, 0.72 ],
+        [ 1, 0.34, 2, 0.76 ],
+        [ 1, 0.35, 2, 0.8 ],
+        [ 1, 0.3625, 2, 0.85 ],
+        [ 1, 0.375, 2, 0.9 ],
+        [ 1, 0.3875, 2, 0.95 ],
+        [ 1, 0.4, 2, 1 ],
+        [ 1, 0.41, 2, 1.04 ],
+        [ 1, 0.42, 2, 1.08 ],
+        [ 1, 0.43, 2, 1.12 ],
+        [ 1, 0.44, 2, 1.16 ],
+        [ 1, 0.45, 2, 1.2 ]
+      ],
+      "energyNeeded": 110,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
     },
     {
       "name": "Data Collecting",
       "tag": "Support",
       "type": "Talent",
-      "desc": [
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **5.0** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **5.5** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **6.0** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **6.5** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **7.0** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **7.5** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **8.1** extra Energy. This effect can only be triggered 1 time per attack.",
-        "If the enemy is **debuffed** after Pela's attack, Pela will restore **8.8** extra Energy. This effect can only be triggered 1 time per attack."
+      "desc": "If the enemy is <u>debuffed</u> after Pela's attack, Pela will restore <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> additional Energy. This effect can only be triggered 1 time per attack.",
+      "params": [
+        [ 5 ],
+        [ 5.5 ],
+        [ 6 ],
+        [ 6.5 ],
+        [ 7 ],
+        [ 7.5 ],
+        [ 8.125 ],
+        [ 8.75 ],
+        [ 9.375 ],
+        [ 10 ],
+        [ 10.5 ],
+        [ 11 ],
+        [ 11.5 ],
+        [ 12 ],
+        [ 12.5 ]
       ]
     },
     {
       "name": "Preemptive Strike",
       "type": "Technique",
-      "desc": [
-        "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% **base chance** of lowering the DEF of all enemies by 20% for 2 turn(s)."
-      ]
+      "desc": "Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to <unbreak>#4[i]%</unbreak> of her ATK to a random enemy, with a <unbreak>#1[i]%</unbreak> <u>base chance</u> of lowering the DEF of all enemies by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [
+        [ 1, 0.2, 2, 0.8 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
     }
   ],
   "eidolons": [
     {
       "name": "Victory Report",
-      "desc": "When Pela defeats an enemy, Pela regenerates 5 Energy."
+      "desc": "When an enemy is defeated, Pela regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 5 ]
     },
     {
       "name": "Adamant Charge",
-      "desc": "Using Skill to remove buff(s) increases SPD by 10% for 2 turn(s)."
+      "desc": "Using Skill to remove buff(s) increases SPD by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.1, 2, 1 ]
     },
     {
       "name": "Suppressive Force",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Full Analysis",
-      "desc": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s)."
+      "desc": "When Skill is used, there is a <unbreak>#1[i]%</unbreak> base chance to reduce the target enemy's Ice RES by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [ 1, 0.12, 2 ]
     },
     {
       "name": "Absolute Jeopardy",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Feeble Pursuit",
-      "desc": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to 40% of Pela's ATK to the enemy."
+      "desc": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to <unbreak>#1[i]%</unbreak> of Pela's ATK to the enemy.",
+      "params": [ 0.4 ]
     }
   ],
   "skillTree": [
     {
       "name": "Bash",
-      "desc": "Deals 20% more DMG to debuffed enemies.",
+      "desc": "Deals <unbreak>#1[i]%</unbreak> more DMG to debuffed enemies.",
+      "params": [ 0.2 ],
       "minAsc": 2,
       "children": [
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 4.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
           "minAsc": 2,
           "children": [
             {
               "name": "DMG Boost: Ice",
-              "desc": "Ice DMG increases by 3.2%",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
               "minAsc": 3,
               "children": [
                 {
                   "name": "Effect Hit Rate Boost",
-                  "desc": "Effect Hit Rate increases by 4.0%",
+                  "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
                   "minAsc": 3
                 }
               ]
@@ -232,22 +287,26 @@
     },
     {
       "name": "The Secret Strategy",
-      "desc": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by 10%.",
+      "desc": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.1 ],
       "minAsc": 4,
       "children": [
         {
           "name": "DMG Boost: Ice",
-          "desc": "Ice DMG increases by 4.8%",
+          "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
           "minAsc": 4,
           "children": [
             {
               "name": "ATK Boost",
-              "desc": "ATK increases by 6.0%",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
               "minAsc": 5,
               "children": [
                 {
                   "name": "DMG Boost: Ice",
-                  "desc": "Ice DMG increases by 4.8%",
+                  "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.048 ],
                   "minAsc": 5
                 }
               ]
@@ -258,28 +317,33 @@
     },
     {
       "name": "Wipe Out",
-      "desc": "Using Skill to remove buff(s) increases the DMG of the next attack by 20%.",
+      "desc": "Using Skill to remove buff(s) increases the DMG of the next attack by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.2 ],
       "minAsc": 6,
       "children": [
         {
           "name": "Effect Hit Rate Boost",
-          "desc": "Effect Hit Rate increases by 6.0%",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6
         },
         {
           "name": "ATK Boost",
-          "desc": "ATK increases by 8.0%",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
           "minLevel": 75
         }
       ]
     },
     {
       "name": "DMG Boost: Ice",
-      "desc": "Ice DMG increases by 3.2%",
+      "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ],
       "children": [
         {
           "name": "DMG Boost: Ice",
-          "desc": "Ice DMG increases by 6.4%",
+          "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.064 ],
           "minLevel": 80
         }
       ]

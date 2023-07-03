@@ -3,11 +3,13 @@
   "faction": "Fragmentum Monsters",
   "variants": [
     {
+      "source": "Ice Out of Space",
       "attack": 18,
       "def": 210,
       "hp": 930,
       "speed": 100,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Fire",
         "Wind",
@@ -27,6 +29,54 @@
           "name": "Everwinter Rain",
           "type": "Ability",
           "desc": "This ability is only available while in the Freezing Point state. Deals minor Ice DMG to all targets, with a chance to Freeze the targets.",
+          "threat": true
+        },
+        {
+          "name": "Chilling Lament",
+          "type": "Ability",
+          "desc": "Deals minor Ice DMG to a single target. Deals extra Ice DMG to the target if the target is currently Frozen and this unit is in the Freezing Point state."
+        },
+        {
+          "name": "Frosty Absorption",
+          "type": "Ability",
+          "desc": "Enters the Freezing Point state. Everwinter Rain can be used in subsequent attacks."
+        }
+      ]
+    },
+    {
+      "name": "Ice Out of Space (Bug)",
+      "source": "Ice Out of Space (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 100,
+      "toughness": 360,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Fire",
+        "Wind",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.4,
+        "Lightning": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 1
+      },
+      "skills": [
+        {
+          "name": "Everwinter Rain",
+          "type": "Ability",
+          "desc": "The ability will only be used when in the Freezing Point state. Casting the ability to deal Ice DMG to all targets, with a chance to Freeze the targets and delay their actions.",
+          "threat": true
+        },
+        {
+          "name": "Freeze Burst",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to Frozen targets. This also removes their Frozen state and deals Ice DMG to their adjacent units.",
           "threat": true
         },
         {

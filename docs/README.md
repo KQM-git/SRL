@@ -8,21 +8,27 @@ The Theorycrafting Library (SRL) is a collection of community submitted knowledg
 
 The SRL is organized so that each page has a corresponding Evidence Vault. The Evidence Vault houses every submission in full that has been made to the SRL. While the main pages are where basic information and summaries of submitted findings can be found.
 
+## Quick Links
+
+**Most Recent Characters:** [Luocha](/characters/imaginary/luocha) | [Yukong](/characters/imaginary/yukong)
+
+**Most Recent Light Cones:** [Echoes of the Coffin](equipment/lightcones/abundance#echoes-of-the-coffin)
+
 ## Data Status
 
 As Star Rail has only just released, our theorycrafting team is still in the process of getting game data set up on the SRL. Below you will see a list of what we are working on porting over:
 
 * Characters - WIP
   * Base Stats - complete
-  * Abilities - partial (only level 1-6/8 (for EL3))
+  * Abilities - complete
   * Traces - complete
   * Eidolons - complete
-* Equipment - WIP
+* Equipment - complete
   * Light Cones - complete
   * Relics - complete
     * Cavern Relics - complete
     * Planar Relics - complete
-  * Curio - missing
+  * Curio - complete
 * Enemy Data - WIP
   * Basic data - complete
   * Variants / checking - WIP

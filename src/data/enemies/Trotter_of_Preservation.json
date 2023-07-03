@@ -8,6 +8,7 @@
       "hp": 167.4,
       "speed": 83,
       "toughness": 30,
+      "effectResBase": 0,
       "weaknesses": [
         "Fire",
         "Ice",
@@ -39,7 +40,7 @@
         {
           "name": "P—Protect You",
           "type": "Talent",
-          "desc": "When entering battle, applies P—Protect You to all friendly units. Each stack of P—Protect You can nullify all DMG received from 1 incoming hit except for DoT. P—Protect You stacks are shared across the team."
+          "desc": "When entering battle, applies \"P—Protect You\" to all friendly units. Each stack of \"P—Protect You\" can nullify all DMG received from 1 incoming hit except for DoT. \"P—Protect You\" stacks are shared across the team."
         }
       ]
     }

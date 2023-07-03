@@ -1,0 +1,352 @@
+{
+  "name": "Silver Wolf",
+  "damageType": "Quantum",
+  "baseType": "Nihility",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 87.12,
+      "attackAdd": 4.356,
+      "hpBase": 142.56,
+      "hpAdd": 7.128,
+      "defenseBase": 62.7,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 107,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 121.968,
+      "attackAdd": 4.356,
+      "hpBase": 199.584,
+      "hpAdd": 7.128,
+      "defenseBase": 87.78,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 107,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 156.816,
+      "attackAdd": 4.356,
+      "hpBase": 256.608,
+      "hpAdd": 7.128,
+      "defenseBase": 112.86,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 107,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 191.664,
+      "attackAdd": 4.356,
+      "hpBase": 313.632,
+      "hpAdd": 7.128,
+      "defenseBase": 137.94,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 107,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 226.512,
+      "attackAdd": 4.356,
+      "hpBase": 370.656,
+      "hpAdd": 7.128,
+      "defenseBase": 163.02,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 107,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 261.36,
+      "attackAdd": 4.356,
+      "hpBase": 427.68,
+      "hpAdd": 7.128,
+      "defenseBase": 188.1,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 107,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 296.208,
+      "attackAdd": 4.356,
+      "hpBase": 484.704,
+      "hpAdd": 7.128,
+      "defenseBase": 213.18,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 107,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "System Warning",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Allow Changes?",
+      "tag": "Impair",
+      "type": "Skill",
+      "desc": "There is a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>base chance</u> to add 1 Weakness of an on-field ally's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by <unbreak>#4[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered.\\nEach enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept.\\nIn addition, there is a <unbreak>#5[i]%</unbreak> <u>base chance</u> to reduce the All-Type RES of the enemy further by <color=#f29e38ff><unbreak>#6[f1]%</unbreak></color> for <unbreak>#7[i]</unbreak> turn(s).\\nDeals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf's ATK to this enemy.",
+      "params": [
+        [ 0.98, 0.75, 2, 0.2, 1, 0.075, 2 ],
+        [ 1.078, 0.76, 2, 0.2, 1, 0.0775, 2 ],
+        [ 1.176, 0.77, 2, 0.2, 1, 0.08, 2 ],
+        [ 1.274, 0.78, 2, 0.2, 1, 0.0825, 2 ],
+        [ 1.372, 0.79, 2, 0.2, 1, 0.085, 2 ],
+        [ 1.47, 0.8, 2, 0.2, 1, 0.0875, 2 ],
+        [ 1.5925, 0.8125, 2, 0.2, 1, 0.090625, 2 ],
+        [ 1.715, 0.825, 2, 0.2, 1, 0.09375, 2 ],
+        [ 1.8375, 0.8375, 2, 0.2, 1, 0.096875, 2 ],
+        [ 1.96, 0.85, 2, 0.2, 1, 0.1, 2 ],
+        [ 2.058, 0.86, 2, 0.2, 1, 0.1025, 2 ],
+        [ 2.156, 0.87, 2, 0.2, 1, 0.105, 2 ],
+        [ 2.254, 0.88, 2, 0.2, 1, 0.1075, 2 ],
+        [ 2.352, 0.89, 2, 0.2, 1, 0.11, 2 ],
+        [ 2.45, 0.9, 2, 0.2, 1, 0.1125, 2 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
+    },
+    {
+      "name": "User Banned",
+      "tag": "Impair",
+      "type": "Ultimate",
+      "desc": "There's a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>base chance</u> to decrease the target enemy's DEF by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s). And at the same time, deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf's ATK to the target enemy.",
+      "params": [
+        [ 2.28, 0.85, 0.36, 3 ],
+        [ 2.432, 0.865, 0.369, 3 ],
+        [ 2.584, 0.88, 0.378, 3 ],
+        [ 2.736, 0.895, 0.387, 3 ],
+        [ 2.888, 0.91, 0.396, 3 ],
+        [ 3.04, 0.925, 0.405, 3 ],
+        [ 3.23, 0.94375, 0.41625, 3 ],
+        [ 3.42, 0.9625, 0.4275, 3 ],
+        [ 3.61, 0.98125, 0.43875, 3 ],
+        [ 3.8, 1, 0.45, 3 ],
+        [ 3.952, 1.015, 0.459, 3 ],
+        [ 4.104, 1.03, 0.468, 3 ],
+        [ 4.256, 1.045, 0.477, 3 ],
+        [ 4.408, 1.06, 0.486, 3 ],
+        [ 4.56, 1.075, 0.495, 3 ]
+      ],
+      "energyNeeded": 110,
+      "energyGain": 5,
+      "toughness": {
+        "Target": 90
+      }
+    },
+    {
+      "name": "Awaiting System Response...",
+      "tag": "Impair",
+      "type": "Talent",
+      "desc": "Silver Wolf can create three types of Bugs: reduce ATK by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>, reduce DEF by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>, and reduce SPD by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>.\\nEvery time Silver Wolf attacks, she has a <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> <u>base chance</u> to implant a random Bug that lasts for <unbreak>#5[i]</unbreak> turn(s) in the enemy target.",
+      "params": [
+        [ 0.05, 0.04, 0.03, 0.6, 3 ],
+        [ 0.055, 0.044, 0.033, 0.612, 3 ],
+        [ 0.06, 0.048, 0.036, 0.624, 3 ],
+        [ 0.065, 0.052, 0.039, 0.636, 3 ],
+        [ 0.07, 0.056, 0.042, 0.648, 3 ],
+        [ 0.075, 0.06, 0.045, 0.66, 3 ],
+        [ 0.08125, 0.065, 0.04875, 0.675, 3 ],
+        [ 0.0875, 0.07, 0.0525, 0.69, 3 ],
+        [ 0.09375, 0.075, 0.05625, 0.705, 3 ],
+        [ 0.1, 0.08, 0.06, 0.72, 3 ],
+        [ 0.105, 0.084, 0.063, 0.732, 3 ],
+        [ 0.11, 0.088, 0.066, 0.744, 3 ],
+        [ 0.115, 0.092, 0.069, 0.756, 3 ],
+        [ 0.12, 0.096, 0.072, 0.768, 3 ],
+        [ 0.125, 0.1, 0.075, 0.78, 3 ]
+      ]
+    },
+    {
+      "name": "Force Quit Program",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect.",
+      "params": [
+        [ 0.8 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Social Engineering",
+      "desc": "After using her Ultimate to attack enemies, Silver Wolf regenerates <unbreak>#1[i]</unbreak> Energy for every debuff that the target enemy currently has. This effect can be triggered up to <unbreak>#2[i]</unbreak> time(s) in each use of her Ultimate.",
+      "params": [ 7, 5 ]
+    },
+    {
+      "name": "Zombie Network",
+      "desc": "When an enemy enters battle, reduces their Effect RES by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.2 ]
+    },
+    {
+      "name": "Payload",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Bounce Attack",
+      "desc": "After using her Ultimate to attack enemies, deals Additional Quantum DMG equal to <unbreak>#1[i]%</unbreak> of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of <unbreak>#2[i]</unbreak> time(s) during each use of her Ultimate.",
+      "params": [ 0.2, 5 ]
+    },
+    {
+      "name": "Brute Force Attack",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Overlay Network",
+      "desc": "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by <unbreak>#1[i]%</unbreak>, up to a limit of <unbreak>#2[i]%</unbreak>.",
+      "params": [ 0.2, 1 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Generate",
+      "desc": "Bug's duration is extended for <unbreak>#1[i]</unbreak> turn(s). Every time an enemy is inflicted with Weakness Break, Silver Wolf has a <unbreak>#2[i]%</unbreak> base chance of implanting a random Bug in the enemy.",
+      "params": [ 1, 0.65 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "DMG Boost: Quantum",
+                  "desc": "Quantum DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.032 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inject",
+      "desc": "The duration of the Weakness implanted by Silver Wolf's Skill increases by <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [ 1 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "Effect Hit Rate Boost",
+              "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Side Note",
+      "desc": "If there are <unbreak>#1[i]</unbreak> or more debuff(s) affecting the enemy when the Skill is used, then the Skill decreases the enemy's All-Type RES by an additional <unbreak>#2[i]%</unbreak>.",
+      "params": [ 3, 0.03 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DMG Boost: Quantum",
+          "desc": "Quantum DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
+          "minAsc": 6
+        },
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minLevel": 80
+        }
+      ]
+    }
+  ]
+}

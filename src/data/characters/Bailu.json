@@ -115,114 +115,160 @@
       "name": "Diagnostic Kick",
       "tag": "Single Target",
       "type": "Basic ATK",
-      "desc": [
-        "Deals Lightning DMG equal to **50%** of Bailu's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **60%** of Bailu's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **70%** of Bailu's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **80%** of Bailu's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **90%** of Bailu's ATK to a single enemy.",
-        "Deals Lightning DMG equal to **100%** of Bailu's ATK to a single enemy."
-      ]
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Bailu's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
     },
     {
       "name": "Singing Among Clouds",
       "tag": "Restore",
       "type": "Skill",
-      "desc": [
-        "Heals a single ally for **7.8%** of Bailu's Max HP plus **78**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **8.3%** of Bailu's Max HP plus **125**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **8.8%** of Bailu's Max HP plus **160**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **9.3%** of Bailu's Max HP plus **195**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **9.8%** of Bailu's Max HP plus **218**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **10.1%** of Bailu's Max HP plus **242**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **10.5%** of Bailu's Max HP plus **259**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%.",
-        "Heals a single ally for **10.9%** of Bailu's Max HP plus **277**. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."
-      ]
+      "desc": "Heals a single ally for <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. Bailu then heals random allies <unbreak>#4[i]</unbreak> time(s). After each healing, HP restored from the next healing is reduced by <unbreak>#3[i]%</unbreak>.",
+      "params": [
+        [ 0.078, 78, 0.15, 2 ],
+        [ 0.082875, 124.8, 0.15, 2 ],
+        [ 0.08775, 159.9, 0.15, 2 ],
+        [ 0.092625, 195, 0.15, 2 ],
+        [ 0.0975, 218.4, 0.15, 2 ],
+        [ 0.1014, 241.8, 0.15, 2 ],
+        [ 0.1053, 259.35, 0.15, 2 ],
+        [ 0.1092, 276.9, 0.15, 2 ],
+        [ 0.1131, 294.45, 0.15, 2 ],
+        [ 0.117, 312, 0.15, 2 ],
+        [ 0.1209, 329.55, 0.15, 2 ],
+        [ 0.1248, 347.1, 0.15, 2 ],
+        [ 0.1287, 364.65, 0.15, 2 ],
+        [ 0.1326, 382.2, 0.15, 2 ],
+        [ 0.1365, 399.75, 0.15, 2 ]
+      ],
+      "energyGain": 30
     },
     {
       "name": "Felicitous Thunderleap",
       "tag": "Restore",
       "type": "Ultimate",
-      "desc": [
-        "Heals all allies for **9.0%** of Bailu's Max HP plus **90**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **9.6%** of Bailu's Max HP plus **144**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **10.1%** of Bailu's Max HP plus **185**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **10.7%** of Bailu's Max HP plus **225**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **11.3%** of Bailu's Max HP plus **252**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **11.7%** of Bailu's Max HP plus **279**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **12.2%** of Bailu's Max HP plus **299**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
-        "Heals all allies for **12.6%** of Bailu's Max HP plus **320**.\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\nThe effect of Invigoration can last for 2 turn(s). This effect cannot stack."
-      ]
+      "desc": "Heals all allies for <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>.\\nBailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.\\nThe effect of Invigoration can last for <unbreak>#3[i]</unbreak> turn(s). This effect cannot stack.",
+      "params": [
+        [ 0.09, 90, 2 ],
+        [ 0.095625, 144, 2 ],
+        [ 0.10125, 184.5, 2 ],
+        [ 0.106875, 225, 2 ],
+        [ 0.1125, 252, 2 ],
+        [ 0.117, 279, 2 ],
+        [ 0.1215, 299.25, 2 ],
+        [ 0.126, 319.5, 2 ],
+        [ 0.1305, 339.75, 2 ],
+        [ 0.135, 360, 2 ],
+        [ 0.1395, 380.25, 2 ],
+        [ 0.144, 400.5, 2 ],
+        [ 0.1485, 420.75, 2 ],
+        [ 0.153, 441, 2 ],
+        [ 0.1575, 461.25, 2 ]
+      ],
+      "energyNeeded": 100,
+      "energyGain": 5
     },
     {
       "name": "Gourdful of Elixir",
       "tag": "Restore",
       "type": "Talent",
-      "desc": [
-        "After an ally with Invigoration is hit, restores the ally's HP for **3.6%** of Bailu's Max HP plus **36**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **12%** of Bailu's Max HP plus **120** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **3.8%** of Bailu's Max HP plus **58**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **13%** of Bailu's Max HP plus **192** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **4.0%** of Bailu's Max HP plus **74**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **14%** of Bailu's Max HP plus **246** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **4.3%** of Bailu's Max HP plus **90**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **14%** of Bailu's Max HP plus **300** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **4.5%** of Bailu's Max HP plus **101**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **15%** of Bailu's Max HP plus **336** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **4.7%** of Bailu's Max HP plus **112**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **16%** of Bailu's Max HP plus **372** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **4.9%** of Bailu's Max HP plus **120**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **16%** of Bailu's Max HP plus **399** HP. This effect can be triggered 1 time per battle.",
-        "After an ally with Invigoration is hit, restores the ally's HP for **5.0%** of Bailu's Max HP plus **128**. This effect can trigger 2 time(s).\nWhen an ally receives a killing blow, they will not be **knocked down**. Bailu immediately heals the ally for **17%** of Bailu's Max HP plus **426** HP. This effect can be triggered 1 time per battle."
+      "desc": "After an ally with Invigoration is hit, restores the ally's HP for <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. This effect can trigger <unbreak>#5[i]</unbreak> time(s).\\nWhen an ally receives a killing blow, they will not be <u>knocked down</u>. Bailu immediately heals the ally for <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> HP. This effect can be triggered 1 time per battle.",
+      "params": [
+        [ 0.036, 36, 0.12, 120, 2 ],
+        [ 0.03825, 57.6, 0.1275, 192, 2 ],
+        [ 0.0405, 73.8, 0.135, 246, 2 ],
+        [ 0.04275, 90, 0.1425, 300, 2 ],
+        [ 0.045, 100.8, 0.15, 336, 2 ],
+        [ 0.0468, 111.6, 0.156, 372, 2 ],
+        [ 0.0486, 119.7, 0.162, 399, 2 ],
+        [ 0.0504, 127.8, 0.168, 426, 2 ],
+        [ 0.0522, 135.9, 0.174, 453, 2 ],
+        [ 0.054, 144, 0.18, 480, 2 ],
+        [ 0.0558, 152.1, 0.186, 507, 2 ],
+        [ 0.0576, 160.2, 0.192, 534, 2 ],
+        [ 0.0594, 168.3, 0.198, 561, 2 ],
+        [ 0.0612, 176.4, 0.204, 588, 2 ],
+        [ 0.063, 184.5, 0.21, 615, 2 ]
       ]
     },
     {
       "name": "Saunter in the Rain",
-      "tag": "Support",
+      "tag": "Restore",
       "type": "Technique",
-      "desc": [
-        "After using Technique, at the start of the next battle, all allies are granted Invigoration for 2 turn(s)."
+      "desc": "After Technique is used, at the start of the next battle, all allies are granted Invigoration for <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [
+        [ 2 ]
       ]
     }
   ],
   "eidolons": [
     {
       "name": "Ambrosial Aqua",
-      "desc": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra Energy for this target."
+      "desc": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates <unbreak>#1[i]</unbreak> extra Energy for this target.",
+      "params": [ 8 ]
     },
     {
       "name": "Sylphic Slumber",
-      "desc": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s)."
+      "desc": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.15, 2 ]
     },
     {
       "name": "Omniscient Opulence",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
     },
     {
       "name": "Evil Excision",
-      "desc": "Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s)."
+      "desc": "Every healing provided by the Skill makes the recipient deal <unbreak>#1[i]%</unbreak> more DMG for <unbreak>#3[i]</unbreak> turn(s). This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
+      "params": [ 0.1, 3, 2 ]
     },
     {
       "name": "Waning Worries",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
     },
     {
       "name": "Drooling Drop of Draconic Divinity",
-      "desc": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle."
+      "desc": "Bailu can heal allies who received a killing blow <unbreak>#1[i]</unbreak> more time(s) in a single battle.",
+      "params": [ 1 ]
     }
   ],
   "skillTree": [
     {
       "name": "Qihuang Analects",
-      "desc": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by 10% for 2 turns.",
+      "desc": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turns.",
+      "params": [ 0.1, 2 ],
       "minAsc": 2,
       "children": [
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 5.0%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.05 ],
           "minAsc": 2,
           "children": [
             {
               "name": "HP Boost",
-              "desc": "Max HP increases by 4.0%",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
               "minAsc": 3,
               "children": [
                 {
                   "name": "Effect RES Boost",
-                  "desc": "Effect RES increases by 4.0%",
+                  "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
                   "minAsc": 3
                 }
               ]
@@ -233,22 +279,26 @@
     },
     {
       "name": "Vidyadhara Ichor Lines",
-      "desc": "Invigoration can trigger 1 more time(s).",
+      "desc": "Invigoration can trigger <unbreak>#1[i]</unbreak> more time(s).",
+      "params": [ 1 ],
       "minAsc": 4,
       "children": [
         {
           "name": "HP Boost",
-          "desc": "Max HP increases by 6.0%",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 4,
           "children": [
             {
               "name": "DEF Boost",
-              "desc": "DEF increases by 7.5%",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.075 ],
               "minAsc": 5,
               "children": [
                 {
                   "name": "HP Boost",
-                  "desc": "Max HP increases by 6.0%",
+                  "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
                   "minAsc": 5
                 }
               ]
@@ -259,28 +309,33 @@
     },
     {
       "name": "Aquatic Benediction",
-      "desc": "Characters with Invigoration receive 10% less DMG.",
+      "desc": "Characters with Invigoration receive <unbreak>#1[i]%</unbreak> less DMG.",
+      "params": [ 0.1 ],
       "minAsc": 6,
       "children": [
         {
           "name": "Effect RES Boost",
-          "desc": "Effect RES increases by 6.0%",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
           "minAsc": 6
         },
         {
           "name": "DEF Boost",
-          "desc": "DEF increases by 10.0%",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.1 ],
           "minLevel": 75
         }
       ]
     },
     {
       "name": "HP Boost",
-      "desc": "Max HP increases by 4.0%"
+      "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
     },
     {
       "name": "HP Boost",
-      "desc": "Max HP increases by 8.0%",
+      "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.08 ],
       "minLevel": 80
     }
   ]

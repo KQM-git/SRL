@@ -3,11 +3,13 @@
   "faction": "Antimatter Legion",
   "variants": [
     {
+      "source": "Voidranger: Trampler",
       "attack": 18,
       "def": 210,
       "hp": 1023,
       "speed": 100,
       "toughness": 300,
+      "effectResBase": 0.2,
       "weaknesses": [
         "Physical",
         "Wind",
@@ -41,6 +43,56 @@
           "name": "War Trample",
           "type": "Ability",
           "desc": "Deals minor Quantum DMG to a single target and units adjacent to the target."
+        },
+        {
+          "name": "Spiral Arrow",
+          "type": "Ability",
+          "desc": "Locks on to a single target. Cast End of Bow to this target in the next action."
+        }
+      ]
+    },
+    {
+      "name": "Voidranger: Trampler (Bug)",
+      "source": "Voidranger: Trampler (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 120,
+      "toughness": 420,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "End of Bow",
+          "type": "Ability",
+          "desc": "Deals massive Quantum DMG to a single target, with a high chance to inflict Entanglement.",
+          "threat": true
+        },
+        {
+          "name": "Unreal Projection",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target."
+        },
+        {
+          "name": "Rule of Force",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target."
+        },
+        {
+          "name": "War Trample",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target and units adjacent to the target."
         },
         {
           "name": "Spiral Arrow",
