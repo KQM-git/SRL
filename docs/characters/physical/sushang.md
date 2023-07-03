@@ -102,3 +102,7 @@ import Eidolon from '@site/src/components/char/Eidolon'
 
 </TabItem>
 </Tabs>
+
+## Evidence Vault
+
+<Card item={require('../../evidence/characters/physical/sushang.md')} />
