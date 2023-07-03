@@ -9,10 +9,10 @@
 ## Ability Mechanics
 ### Finding:
 
-**By:** @bobrokot
-**Added:** <Version date="2023-05-17" />
-****Last tested:** <VersionHl date="2023-05-16" />**
-[Discussion](https://hsr-tickets.keqingmains.com/transcripts/dmg-reduction-before-shields)
+**By:** @daitobyte, @falkyn, @okarin_42, @neirodtheseal  
+**Added:** <Version date="2023-06-01" />  
+**Last tested:** <VersionHl date="2023-05-01" />  
+[Discussion](https://hsr-tickets.keqingmains.com/transcripts/tingyun-skill-talent-info)
 
 **Finding**
 The targeted ally, not Tingyun herself is considered to 'own' the Additional Lightning Damage from Tingyun's Benediction buff. This notably results in Benediction damage scaling off not just ATK, but off the ally's other stats, such as Crit Rate, Crit Damage, and Lightning DMG%.
@@ -34,6 +34,8 @@ https://docs.google.com/spreadsheets/d/18swR7bqRVjG6RI0FHuKryU5OZ9Cs9q5OwP3PG1Gt
 
 **Significance:**
 Discourages building Crit, and DMG%, as well as more ATK than is needed to reach the cap for Benediction on Tingyun instead of support stats like speed that are more encouraged. Incentivizes running Tingyun with a Lighning damage dealer (i.e. Jing Yuan, Serval) to take advantage of Benediction damage scaling off of their Lightning DMG%.
+
+
 
 ## Trace Mechanics
 
