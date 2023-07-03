@@ -18,6 +18,8 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Champion of Streetwise Boxing" />
 
+Test
+
 ### Eagle of Twilight Line
 
 <Relic relic="Eagle of Twilight Line" />
