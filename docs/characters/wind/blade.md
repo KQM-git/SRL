@@ -1,8 +1,7 @@
 ---
 description: |-
-  A swordsman who abandoned his body to become a blade. Birth name unknown.
-  He pledges loyalty to "Destiny's Slave," and possesses a terrifying self-healing ability.
-  Blade wields an ancient sword riddled with cracks, just like his body and his mind.
+  A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade.
+  Pledges loyalty to "Destiny's Slave," and possesses a terrifying self-healing ability.
 ---
 
 import char from '@site/src/data/characters/Blade.json'
