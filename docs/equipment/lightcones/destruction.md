@@ -13,6 +13,10 @@ import destruction from '@site/src/data/lightcones/Destruction.json'
 
 <Lightcone lightcone="Something Irreplaceable" lightcones={destruction} />
 
+### The Unreachable Side
+
+<Lightcone lightcone="The Unreachable Side" lightcones={destruction} />
+
 ## 4 Stars
 
 ### A Secret Vow
