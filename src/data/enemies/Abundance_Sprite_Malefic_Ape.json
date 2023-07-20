@@ -1,0 +1,44 @@
+{
+  "name": "Abundance Sprite: Malefic Ape",
+  "faction": "The Xianzhou Luofu",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1116,
+      "speed": 144,
+      "toughness": 360,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Wrathful Roar",
+          "type": "Ability",
+          "desc": "Gains 3 stacks of Gusto and marks a random target for Monitoring. Until Gusto is exhausted, any target that uses their Skill will become the new Monitored target.",
+          "threat": true
+        },
+        {
+          "name": "Simian Strike",
+          "type": "Ability",
+          "desc": "Consumes 1 stack of Gusto and deals Quantum DMG to a Monitored target."
+        },
+        {
+          "name": "Fiery Majesty",
+          "type": "Ability",
+          "desc": "Increases DMG dealt. This DMG boosting effect is stackable."
+        }
+      ]
+    }
+  ]
+}

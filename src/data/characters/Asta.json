@@ -255,7 +255,7 @@
   "skillTree": [
     {
       "name": "Sparks",
-      "desc": "Asta's Basic ATK has a <unbreak>#1[i]%</unbreak> base chance to Burn enemies for <unbreak>#2[i]</unbreak> turn(s).\\nBurned enemies take Fire DoT equal to <unbreak>#3[i]%</unbreak> of DMG dealt by Asta's Basic ATK at the start of each turn.",
+      "desc": "Asta's Basic ATK has a <unbreak>#1[i]%</unbreak> base chance to Burn an enemy target for <unbreak>#2[i]</unbreak> turn(s).\\nBurned enemies take Fire DoT equal to <unbreak>#3[i]%</unbreak> of DMG dealt by Asta's Basic ATK at the start of each turn.",
       "params": [ 0.8, 3, 0.5 ],
       "minAsc": 2,
       "children": [

@@ -160,7 +160,7 @@
       "name": "Death Wish",
       "tag": "AoE",
       "type": "Ultimate",
-      "desc": "Removes <unbreak>#2[i]</unbreak> <u>buff(s)</u> from all enemies and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luocha's ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "desc": "Removes <unbreak>#2[i]</unbreak> <u>buff(s)</u> from all enemies and deals all enemies Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower.",
       "params": [
         [ 1.2, 1 ],
         [ 1.28, 1 ],

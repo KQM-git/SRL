@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 description: |-
-  A cultivator who longs to revive the ancient mysteries of the Abundance, and to guide the Xianzhou natives back on the liberating path of immortality.
+  A cultivator who longs to revive the ancient mysteries of Abundance, and to guide the Xianzhou natives back on the liberating path of immortality.
   Now, their wish has been fulfilled. Gifted by the power of the ancient miracle and using it as both weapon and armor, they managed to touch on the secret of immortality.
 ---
 

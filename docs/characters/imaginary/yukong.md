@@ -1,6 +1,7 @@
 ---
 description: |-
-  Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she's been buried under mountains of paperwork.
+  Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot.
+  Since heading up the commission, she's been buried under mountains of paperwork.
 ---
 
 import char from '@site/src/data/characters/Yukong.json'

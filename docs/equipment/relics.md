@@ -42,6 +42,14 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Knight of Purity Palace" />
 
+### Longevous Disciple
+
+<Relic relic="Longevous Disciple" />
+
+### Messenger Traversing Hackerspace
+
+<Relic relic="Messenger Traversing Hackerspace" />
+
 ### Musketeer of Wild Wheat
 
 <Relic relic="Musketeer of Wild Wheat" />
@@ -64,6 +72,10 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Belobog of the Architects" />
 
+### Broken Keel
+
+<Relic relic="Broken Keel" />
+
 ### Celestial Differentiator
 
 <Relic relic="Celestial Differentiator" />
@@ -79,6 +91,10 @@ import Relic from '@site/src/components/relics/Relic'
 ### Pan-Galactic Commercial Enterprise
 
 <Relic relic="Pan-Galactic Commercial Enterprise" />
+
+### Rutilant Arena
+
+<Relic relic="Rutilant Arena" />
 
 ### Space Sealing Station
 
