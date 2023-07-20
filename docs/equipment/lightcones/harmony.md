@@ -44,3 +44,7 @@ import harmony from '@site/src/data/lightcones/Harmony.json'
 ### Meshing Cogs
 
 <Lightcone lightcone="Meshing Cogs" lightcones={harmony} />
+
+## Evidence Vault
+
+<Card item={require('../../evidence/equipment/lightcones.md')} />
