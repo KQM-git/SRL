@@ -136,7 +136,7 @@
       "name": "Emboldening Salvo",
       "tag": "Support",
       "type": "Skill",
-      "desc": "Obtains <unbreak>#1[i]</unbreak> stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, and every time an ally's turn ends, Yukong loses 1 stack of \"Roaring Bowstrings.\"\\nWhen it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
+      "desc": "Obtains <unbreak>#1[i]</unbreak> stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, and every time an ally's turn (including Yukong's) ends, Yukong loses 1 stack of \"Roaring Bowstrings.\"\\nWhen it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed.",
       "params": [
         [ 2, 0.4 ],
         [ 2, 0.44 ],
@@ -225,12 +225,12 @@
     },
     {
       "name": "Skyward Command",
-      "desc": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional <unbreak>#1[i]</unbreak> energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong casts her Ultimate.",
+      "desc": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional <unbreak>#1[i]</unbreak> energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong uses her Ultimate.",
       "params": [ 5 ]
     },
     {
       "name": "Torrential Fusillade",
-      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>. Basic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
       "params": []
     },
     {
@@ -240,7 +240,7 @@
     },
     {
       "name": "August Deadshot",
-      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>. Talent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
       "params": []
     },
     {

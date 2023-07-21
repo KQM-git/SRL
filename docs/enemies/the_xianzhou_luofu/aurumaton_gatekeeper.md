@@ -14,10 +14,27 @@ import enemy from '@site/src/data/enemies/Aurumaton_Gatekeeper.json'
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
 import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
-## Stats
+## Variants
+
+<Tabs queryString="variant">
+<TabItem value='1' label='Aurumaton Gatekeeper'>
+
+<h2>Stats</h2>
 
 <EnemyMisc enemy={enemy} variant={0} />
 
-## Skills
+<h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={0} />
+</TabItem>
+<TabItem value='2' label='Aurumaton Gatekeeper (Error)'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={1} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={1} />
+</TabItem>
+</Tabs>

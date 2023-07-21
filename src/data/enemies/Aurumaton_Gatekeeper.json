@@ -3,6 +3,7 @@
   "faction": "The Xianzhou Luofu",
   "variants": [
     {
+      "source": "Aurumaton Gatekeeper",
       "attack": 18,
       "def": 210,
       "hp": 930,
@@ -42,6 +43,46 @@
           "name": "Restraint",
           "type": "Ability",
           "desc": "Deals Imaginary DMG to a single target."
+        }
+      ]
+    },
+    {
+      "name": "Aurumaton Gatekeeper (Error)",
+      "source": "Aurumaton Gatekeeper (Error)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 120,
+      "toughness": 300,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Lightning",
+        "Wind",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Imaginary": 0.4
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Track Down",
+          "type": "Ability",
+          "desc": "Deals massive Imaginary DMG to the locked-on single target, with a high chance of inflicting Imprisonment on the attacked target.",
+          "threat": true
+        },
+        {
+          "name": "Penal Code",
+          "type": "Talent",
+          "desc": "Sanction Rate level increases when allies use Skills or Ultimates to attack. When Sanction Rate reaches its level cap, this unit enters Sanction Mode: Punisher, locks on to 3 targets, and summons Entranced Ingenium: Illumination Dragonfish."
+        },
+        {
+          "name": "Dread",
+          "type": "Ability",
+          "desc": "Increases Sanction Rate level and deals minor Imaginary DMG to all targets. Has a high chance to inflict Weaken on the targets."
         }
       ]
     }

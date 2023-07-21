@@ -2,7 +2,7 @@
 sidebar_position: 2
 description: |-
   A member of the Disciples of Sanctus Medicus, the secret sect that hid within the Xianzhou Luofu. 
-  With medicine, purify the heart. With elixir, transform one's body. They long to revive the ancient mysteries of the Abundance, hoping to spur Xianzhou natives towards their next stage of evolution.
+  With medicine, purify the heart. With elixir, transform one's body. They long to revive the ancient mysteries of Abundance, hoping to spur Xianzhou natives towards their next stage of evolution.
 ---
 
 import enemy from '@site/src/data/enemies/Disciples_of_Sanctus_Medicus_Internal_Alchemist.json'

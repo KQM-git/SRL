@@ -52,3 +52,7 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 ### Void
 
 <Lightcone lightcone="Void" lightcones={nihility} />
+
+## Evidence Vault
+
+<Card item={require('../../evidence/equipment/lightcones.md')} />

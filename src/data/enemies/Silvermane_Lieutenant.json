@@ -99,9 +99,9 @@
     {
       "name": "Silvermane Lieutenant (Complete)",
       "source": "Silvermane Lieutenant (Complete)",
-      "attack": 18,
+      "attack": 19.999998,
       "def": 210,
-      "hp": 558,
+      "hp": 418.5,
       "speed": 144,
       "toughness": 180,
       "effectResBase": 0.2,

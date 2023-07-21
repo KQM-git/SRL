@@ -216,8 +216,8 @@
     "desc": "Each time you enter the following domain, lose #1[i]% of all Cosmic Fragment(s) currently in your possession.",
     "params": [ 0.05 ]
   },
-  "Punklorde mentality": {
-    "name": "Punklorde mentality",
+  "Punklorde Mentality": {
+    "name": "Punklorde Mentality",
     "desc": "Upon entering battle, there is a #1[i]% fixed chance to add to all enemies #2[i] Weakness(es) of the same Type(s) as allies currently on the field. These Weakness(es) last(s) for #3[i] turn(s).",
     "params": [ 1, 1, 3 ]
   },

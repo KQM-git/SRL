@@ -1,16 +1,31 @@
-### Champion Set Stacks
+---
+search: false
+sidebar_position: 2000
+---
+
+# Relics
+
+**Main Page:**
+
+<Card item={require('../../equipment/relics.md')} />
+
+## General Mechanics
+
+Relics are currently being theorytested, see [#relic-basic-mechanics](https://discord.com/channels/1089339185611145297/1102261441257545788) in our [Discord](https://discord.gg/kqmstarrail) for progress and submissions.
+
+## Champion Set Stacks
 
 **By:** Unknown, @soul_fish, @skylarke, @menor, @elnawawi  
 **Added:** <Version date="2023-06-05" />  
 **Last tested:** <VersionHl date="2023-06-05" />  
 [Discussion](https://hsr-tickets.keqingmains.com/transcripts/champion-set-stacks)
 
-## Finding: ##
+**Finding:**  
 The Champion of Streetwise Boxing increases stacks upon taking damage and characters' attacks (up to 5 stacks).
 The following are considered by the game to be attacks: "follow-up attacks" (often from talents), basic attacks, and skills/ults/techniques in which the character can directly deal damage. This applies even if the attack doesn't do damage due to external means.
 The following are not considered by the game to be attacks: "additional damage", indirect damage, skills/ults that don't deal damage, break damage, break effects, DoTs, and initial hits.
 
-## Evidence: ##
+**Evidence:**  
 Counts as an "Attack"
 * Follow-up attacks
 * March follow-up (https://youtu.be/fy88_rKBPkw?t=26)
@@ -42,5 +57,5 @@ Does not count as an "Attack"
 * Sampo's wind shear (https://youtu.be/KAjem9Q_PZo?t=52)
 * Initial hit (https://youtu.be/rM9KAXbUH4E?)
 
-## Significance: ##
+**Significance:**  
 Insight into what the game considers to be an 'attack'. Srsim use.

@@ -3,6 +3,7 @@
   "faction": "The Xianzhou Luofu",
   "variants": [
     {
+      "source": "Abundant Ebon Deer",
       "attack": 18,
       "def": 210,
       "hp": 1023,
@@ -73,6 +74,94 @@
           "type": "Ability",
           "desc": "Increases DEF. Toughness cannot be reduced.",
           "phases": [ 2 ]
+        }
+      ]
+    },
+    {
+      "name": "Abundant Ebon Deer (Complete)",
+      "source": "Abundant Ebon Deer (Complete)",
+      "attack": 18,
+      "def": 210,
+      "hp": 697.5,
+      "speed": 144,
+      "toughness": 420,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 0.5,
+        "Imprisonment": 0.5
+      },
+      "skills": [
+        {
+          "name": "Flamboyant Gore",
+          "type": "Ability",
+          "desc": "Uses this ability immediately when there are 2 Lavish Fruits on the field. Deals massive Lightning DMG to all targets. Deals more damage for every Ambrosial Arbor Branch on the field. After the ability is used, remove all Twigs of Lavish Fruits on the field.",
+          "phases": [ 3 ],
+          "threat": true
+        },
+        {
+          "name": "Wavering Bleat",
+          "type": "Ability",
+          "desc": "Deals Lightning DMG to a single target.",
+          "phases": [ 1, 2, 3 ]
+        },
+        {
+          "name": "Caress of Wind",
+          "type": "Ability",
+          "desc": "Deals Wind DMG to all targets.",
+          "phases": [ 1, 2, 3 ]
+        },
+        {
+          "name": "Hardy Leaf Sheath",
+          "type": "Ability",
+          "desc": "Increases DEF. Toughness cannot be reduced.",
+          "phases": [ 3 ]
+        },
+        {
+          "name": "Everlife",
+          "type": "Ability",
+          "desc": "Immediately restores HP and gains 1 stack of Synwood Renewal.",
+          "phases": [ 2 ]
+        },
+        {
+          "name": "Pedicel: Ivy Allure",
+          "type": "Ability",
+          "desc": "Summons 2 Ambrosial Arbor Branch \"Twig of Wintry Wind.\"",
+          "phases": [ 1 ]
+        },
+        {
+          "name": "Pedicel: Willow Sprig",
+          "type": "Ability",
+          "desc": "Summons 2 Ambrosial Arbor Branch \"Twig of Marple Leaf.\"",
+          "phases": [ 1 ]
+        },
+        {
+          "name": "Pedicel: Hazel Lush",
+          "type": "Ability",
+          "desc": "Summons 2 Ambrosial Arbor Branch \"Twig of Marple Leaf,\" 1 Ambrosial Arbor Branch \"Twig of Wintry Wind,\" and 1 Ambrosial Arbor Branch \"Twig of Glorious Blooms.\"",
+          "phases": [ 2 ]
+        },
+        {
+          "name": "Pedicel: Entwined Vines",
+          "type": "Ability",
+          "desc": "Summons 2 Ambrosial Arbor Branch \"Twig of Lavish Fruits\", 1 Ambrosial Arbor Branch \"Twig of Marple Leaf\", and 1 Ambrosial Arbor Branch \"Twig of Wintry Wind\".",
+          "phases": [ 3 ]
+        },
+        {
+          "name": "Vigor Overflow",
+          "type": "Talent",
+          "desc": "For every buff the Abundant Ebon Deer gains, the DMG dealt by the Abundant Ebon Deer and all Ambrosial Arbor Branches increases by a small amount.",
+          "phases": [ 1, 2, 3 ]
         }
       ]
     }

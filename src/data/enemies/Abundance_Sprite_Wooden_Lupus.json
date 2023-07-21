@@ -1,0 +1,38 @@
+{
+  "name": "Abundance Sprite: Wooden Lupus",
+  "faction": "The Xianzhou Luofu",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 186,
+      "speed": 100,
+      "toughness": 90,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Wolf Predation",
+          "type": "Ability",
+          "desc": "Deals Lightning DMG to a single target, with a high chance to Shock the target."
+        },
+        {
+          "name": "Rallying Howl",
+          "type": "Ability",
+          "desc": "Summons 1 Shadow Jackhyena with the same Current HP as itself."
+        }
+      ]
+    }
+  ]
+}
