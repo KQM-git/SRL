@@ -1,0 +1,82 @@
+{
+  "name": "Abundance Lotus",
+  "faction": "Antimatter Legion/Phantylia the Undying",
+  "variants": [
+    {
+      "source": "Abundance Flower (Phase 1)",
+      "attack": 18,
+      "def": 210,
+      "hp": 125.55,
+      "speed": 120,
+      "toughness": 60,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Samsara",
+          "type": "Ability",
+          "desc": "Reduces the target's Skill Point by 1."
+        },
+        {
+          "name": "Mend",
+          "type": "Talent",
+          "desc": "At the start of each turn, restores HP."
+        },
+        {
+          "name": "Moksha",
+          "type": "Talent",
+          "desc": "After suffering a killing blow, recovers 3 Skill Points of the target."
+        }
+      ]
+    },
+    {
+      "source": "Abundance Flower (Phase 3)",
+      "attack": 18,
+      "def": 210,
+      "hp": 125.55,
+      "speed": 120,
+      "toughness": 60,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Samsara",
+          "type": "Ability",
+          "desc": "Reduces the target's Skill Point by 1."
+        },
+        {
+          "name": "Mend",
+          "type": "Talent",
+          "desc": "At the start of each turn, restores HP."
+        },
+        {
+          "name": "Moksha",
+          "type": "Talent",
+          "desc": "After suffering a killing blow, recovers 3 Skill Points of the target."
+        }
+      ]
+    }
+  ]
+}

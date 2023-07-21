@@ -1,0 +1,98 @@
+{
+  "name": "Destruction Lotus",
+  "faction": "Antimatter Legion/Phantylia the Undying",
+  "variants": [
+    {
+      "source": "Destruction Flower (Phase 2)",
+      "attack": 18,
+      "def": 210,
+      "hp": 697.5,
+      "speed": 100,
+      "toughness": 120,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Lightning",
+        "Quantum",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Wind": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 0.5
+      },
+      "skills": [
+        {
+          "name": "Havoc",
+          "type": "Ability",
+          "desc": "Deals Lightning DMG to a single target based on a percentage of their Max HP. This DMG ignores the target's DEF.",
+          "threat": true
+        },
+        {
+          "name": "Black Prana's Snare",
+          "type": "Ability",
+          "desc": "High chance of inflicting Prana-Siphon to a single target."
+        },
+        {
+          "name": "Bloom",
+          "type": "Talent",
+          "desc": "When in the Bloom status, uses Havoc during the next action. When the Destruction Lotus is Weakness Broken, defeated, or having the Bloom dispelled while in Bloom, Phantylia the Undying receives increased DMG and have their action delayed."
+        },
+        {
+          "name": "Repose",
+          "type": "Talent",
+          "desc": "After suffering a killing blow, enters Repose."
+        }
+      ]
+    },
+    {
+      "source": "Destruction Flower (Phase 3)",
+      "attack": 18,
+      "def": 210,
+      "hp": 697.5,
+      "speed": 100,
+      "toughness": 120,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Lightning",
+        "Quantum",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Wind": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 0.5
+      },
+      "skills": [
+        {
+          "name": "Havoc",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a target based on a percentage of their Max HP. This DMG ignores the target's DEF.",
+          "threat": true
+        },
+        {
+          "name": "Black Prana's Snare",
+          "type": "Ability",
+          "desc": "High chance of inflicting Prana-Siphon to a single target."
+        },
+        {
+          "name": "Bloom",
+          "type": "Talent",
+          "desc": "When in the Bloom status, uses Havoc during the next action. When the Destruction Lotus is Weakness Broken, defeated, or having the Bloom dispelled while in Bloom, Phantylia the Undying receives increased DMG and have their action delayed."
+        },
+        {
+          "name": "Repose",
+          "type": "Talent",
+          "desc": "After suffering a killing blow, enters Repose."
+        }
+      ]
+    }
+  ]
+}
