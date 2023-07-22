@@ -7,7 +7,8 @@
 ## Basic Mechanics
 
 ## Ability Mechanics
-### Finding:
+
+### Tingyun Skill Talent Info
 
 **By:** @daitobyte, @falkyn, @okarin_42, @neirodtheseal  
 **Added:** <Version date="2023-06-01" />  
