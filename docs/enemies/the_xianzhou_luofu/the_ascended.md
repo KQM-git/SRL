@@ -13,10 +13,27 @@ import enemy from '@site/src/data/enemies/The_Ascended.json'
 import EnemyMisc from '@site/src/components/enemy/EnemyMisc'
 import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
-## Stats
+## Variants
+
+<Tabs queryString="variant">
+<TabItem value='1' label='The Ascended'>
+
+<h2>Stats</h2>
 
 <EnemyMisc enemy={enemy} variant={0} />
 
-## Skills
+<h2>Skills</h2>
 
 <EnemySkills enemy={enemy} variant={0} />
+</TabItem>
+<TabItem value='2' label='Master of the Disciples of Sanctus Medicus'>
+
+<h2>Stats</h2>
+
+<EnemyMisc enemy={enemy} variant={1} />
+
+<h2>Skills</h2>
+
+<EnemySkills enemy={enemy} variant={1} />
+</TabItem>
+</Tabs>
