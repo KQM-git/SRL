@@ -3,6 +3,57 @@
   "faction": "The Xianzhou Luofu",
   "variants": [
     {
+      "source": "The Ascended",
+      "attack": 18,
+      "def": 210,
+      "hp": 1023,
+      "speed": 120,
+      "toughness": 420,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Lightning"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Wind": 0.4,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Black Prana's Snare",
+          "type": "Ability",
+          "desc": "Has a high chance for all targets to become afflicted with Prana-Siphon.",
+          "threat": true
+        },
+        {
+          "name": "Rite of Great Arbor Metamorphosis",
+          "type": "Ability",
+          "desc": "Continuously deal Wind DMG to a random target, with a high chance to cause Wind Shear."
+        },
+        {
+          "name": "Guiding Vulturnus",
+          "type": "Ability",
+          "desc": "Deals Wind DMG to the targeted and adjacent allies, with a high chance to cause Wind Shear."
+        },
+        {
+          "name": "Arboreal Thorns",
+          "type": "Ability",
+          "desc": "Deals Wind DMG to a single target, with a high chance to cause Wind Shear."
+        },
+        {
+          "name": "Rite of Subduing Prana",
+          "type": "Ability",
+          "desc": "Enters Japa. Cast \"Black Prana's Snare\" on all targets during the next action."
+        }
+      ]
+    },
+    {
+      "name": "Master of the Disciples of Sanctus Medicus",
+      "source": "Master of the Disciples of Sanctus Medicus",
       "attack": 18,
       "def": 210,
       "hp": 1023,
