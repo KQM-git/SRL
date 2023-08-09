@@ -105,4 +105,4 @@ import Eidolon from '@site/src/components/char/Eidolon'
 
 ## Evidence Vault
 
-<Card item={require('../../evidence/characters/lightning/luka.md')} />
+<Card item={require('../../evidence/characters/physical/luka.md')} />
