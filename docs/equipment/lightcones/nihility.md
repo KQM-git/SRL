@@ -13,6 +13,10 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 
 <Lightcone lightcone="In the Name of the World" lightcones={nihility} />
 
+### Patience Is All You Need
+
+<Lightcone lightcone="Patience Is All You Need" lightcones={nihility} />
+
 ## 4 Stars
 
 ### Before the Tutorial Mission Starts
