@@ -1,7 +1,7 @@
 ---
 description: |-
   A member of the Stellaron Hunters. A dashing, collected, and professional beauty.
-  Used the enchantment of Spirit Whisper to set up {NICKNAME} to absorb the Stellaron.
+  Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron.
   Her hobby is shopping for and organizing her collection of coats.
 ---
 
