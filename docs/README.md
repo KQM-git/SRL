@@ -10,9 +10,9 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-**Most Recent Characters:** [Blade](/characters/wind/blade)
+**Most Recent Characters:** [Kafka](/characters/lightning/kafka) | [Luka](/characters/physical/luka)
 
-**Most Recent Light Cones:** [The Unreachable Side](equipment/lightcones/destruction#the-unreachable-side)
+**Most Recent Light Cones:** [Patience Is All You Need](equipment/lightcones/nihility#patience-is-all-you-need)
 
 ## Data Status
 
