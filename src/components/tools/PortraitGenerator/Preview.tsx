@@ -7,10 +7,14 @@ import { PortraitIcon } from '.'
 const framePad = 36 // Padding around portrait frame
 const portraitPad = 12 // Padding around image
 const spacing = 29 // Spacing between portrait frames
-const portraitSize = 128
+const portraitSize = 128 // 256 for GI, 128 for HSR
 const elementalSizeMultiplier = 1 / 4
 const lineOffset = 3
 const bottomOffset = 20 // Padding from bottom of frame from portrait for text
+const noteExtraWidth = 10
+const noteHeight = 25
+const noteFont = "bold 17px \"Arial\""
+const nameFont = "bold 17px \"Arial\""
 
 export default function Preview({ active, remove, background, portraitPadding, names }: { active: PortraitIcon[], remove: (i: number) => void, background: boolean, portraitPadding: boolean, names: boolean }) {
   const canvasRef = useRef(null as HTMLCanvasElement)
@@ -45,8 +49,6 @@ export default function Preview({ active, remove, background, portraitPadding, n
     }
     roundRect(ctx, 0, 0, totalWidth, totalHeight, 19)
 
-    ctx.font = "bold 17px \"Arial\""
-    ctx.textAlign = "center"
     for (let i = 0; i < active.length; i++) {
       const leftBorder = effectiveFramePad + i * (frameSize + spacing)
       ctx.fillStyle = "#0B0923"
@@ -94,6 +96,7 @@ function loadImage(path: string): Promise<HTMLImageElement> {
   return new Promise((resolve) => {
     const img = new Image()
     img.src = path
+    img.crossOrigin = "anonymous"
     img.onload = () => resolve(img)
   })
 }
@@ -144,8 +147,27 @@ async function drawIcon(ctx: CanvasRenderingContext2D, icon: PortraitIcon, x: nu
     // Draw singular
     drawImg(ctx, icon, baseImage, x, y, size)
 
-    if (names) {
+    if (icon.note) {
+      const noteX = x + portraitPad/2 + size
+      const noteY = y - portraitPad/2
+
+      ctx.font = noteFont
+      ctx.textAlign = "center"
+      ctx.textBaseline = "middle"
+
+      const w = ctx.measureText(icon.note).width + noteExtraWidth
+      ctx.fillStyle = "#47446B"
+      roundRect(ctx, noteX - w, noteY, w, noteHeight)
+
       ctx.fillStyle = "#FFFFFF"
+      ctx.fillText(icon.note, noteX - w / 2, noteY + noteHeight / 2)
+    }
+
+    if (names) {
+      ctx.font = nameFont
+      ctx.textAlign = "center"
+      ctx.fillStyle = "#FFFFFF"
+      ctx.textBaseline = "alphabetic"
       // ctx.fillText(icon.name, x + size / 2, y + size + 34)
       wrapText(ctx, icon.name, x + size / 2, y + size + 34, 180, 20)
         .forEach(([text, x, y]) => ctx.fillText(text, x, y))
@@ -155,9 +177,9 @@ async function drawIcon(ctx: CanvasRenderingContext2D, icon: PortraitIcon, x: nu
 
 async function drawImg(ctx: CanvasRenderingContext2D, icon: PortraitIcon, baseImage: HTMLImageElement, x: number, y: number, size: number) {
   ctx.drawImage(baseImage, x, y, size, size)
-  if (icon.elementIcon) {
-    const elementImage = await loadImage(icon.elementIcon.path)
-    ctx.drawImage(elementImage, x, y, size * elementalSizeMultiplier, size * elementalSizeMultiplier)
+  if (icon.elementalIcon) {
+    const elementalImage = await loadImage(icon.elementalIcon.path)
+    ctx.drawImage(elementalImage, x, y, size * elementalSizeMultiplier, size * elementalSizeMultiplier)
   }
 }
 

@@ -13,10 +13,11 @@ export interface PortraitIcon {
   name: string
   path: string
   full?: boolean
-  elementIcon?: {
+  elementalIcon?: {
     name: string
     path: string
   }
+  note?: string
   others?: PortraitIcon[]
 }
 
@@ -147,7 +148,14 @@ export default function PortraitGenerator({
   const matches = findFuzzyBestCandidates(allIcons.map(x => x.name), search, 8)
   const searchMatches = search.length == 0 ? [] : matches.flatMap(m => allIcons.filter(x => m == x.name)).filter((v, i, a) => a.indexOf(v) == i)
 
-  function add(icon: PortraitIcon, multi: boolean) {
+  function add(icon: PortraitIcon, multi: boolean, note: boolean) {
+    if (note) {
+      const note = prompt("Note text", "E1+")
+      icon = {
+        ...icon,
+        note
+      }
+    }
     if (multi) {
       if (!active[active.length - 1]) {
         setActive([icon])
@@ -187,7 +195,7 @@ export default function PortraitGenerator({
     <label>
       Quick input: <input type="text" value={search} onChange={e => setSearch(e.target.value)} onKeyDown={e => {
         if (e.key == "Enter" && searchMatches.length > 0) {
-          add(searchMatches[0], e.shiftKey)
+          add(searchMatches[0], e.shiftKey, e.altKey)
           setSearch("")
           return
         }
