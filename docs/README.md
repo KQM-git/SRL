@@ -10,15 +10,15 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-**Most Recent Characters:** [Luocha](/characters/imaginary/luocha) | [Yukong](/characters/imaginary/yukong)
+**Most Recent Characters:** [Kafka](/characters/lightning/kafka) | [Luka](/characters/physical/luka)
 
-**Most Recent Light Cones:** [Echoes of the Coffin](equipment/lightcones/abundance#echoes-of-the-coffin)
+**Most Recent Light Cones:** [Patience Is All You Need](equipment/lightcones/nihility#patience-is-all-you-need)
 
 ## Data Status
 
 As Star Rail has only just released, our theorycrafting team is still in the process of getting game data set up on the SRL. Below you will see a list of what we are working on porting over:
 
-* Characters - WIP
+* Characters - complete
   * Base Stats - complete
   * Abilities - complete
   * Traces - complete

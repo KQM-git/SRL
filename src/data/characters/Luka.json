@@ -1,0 +1,373 @@
+{
+  "name": "Luka",
+  "damageType": "Physical",
+  "baseType": "Nihility",
+  "star": 4,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 79.2,
+      "attackAdd": 3.96,
+      "hpBase": 124.8,
+      "hpAdd": 6.24,
+      "defenseBase": 66,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 110.88,
+      "attackAdd": 3.96,
+      "hpBase": 174.72,
+      "hpAdd": 6.24,
+      "defenseBase": 92.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 142.56,
+      "attackAdd": 3.96,
+      "hpBase": 224.64,
+      "hpAdd": 6.24,
+      "defenseBase": 118.8,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 174.24,
+      "attackAdd": 3.96,
+      "hpBase": 274.56,
+      "hpAdd": 6.24,
+      "defenseBase": 145.2,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 205.92,
+      "attackAdd": 3.96,
+      "hpBase": 324.48,
+      "hpAdd": 6.24,
+      "defenseBase": 171.6,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 237.6,
+      "attackAdd": 3.96,
+      "hpBase": 374.4,
+      "hpAdd": 6.24,
+      "defenseBase": 198,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 269.28,
+      "attackAdd": 3.96,
+      "hpBase": 424.32,
+      "hpAdd": 6.24,
+      "defenseBase": 224.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 103,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Direct Punch",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luka's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Lacerating Fist",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luka's ATK to a single enemy target. In addition, there is a <unbreak>#2[i]%</unbreak> <u>base chance</u> to inflict Bleed on them, lasting for <unbreak>#5[i]</unbreak> turn(s).\\nWhile Bleeding, the enemy will take <unbreak>#3[f1]%</unbreak> of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Luka's ATK.",
+      "params": [
+        [ 0.6, 1, 0.24, 1.3, 3 ],
+        [ 0.66, 1, 0.24, 1.43, 3 ],
+        [ 0.72, 1, 0.24, 1.56, 3 ],
+        [ 0.78, 1, 0.24, 1.69, 3 ],
+        [ 0.84, 1, 0.24, 1.82, 3 ],
+        [ 0.9, 1, 0.24, 2.015, 3 ],
+        [ 0.975, 1, 0.24, 2.275, 3 ],
+        [ 1.05, 1, 0.24, 2.6, 3 ],
+        [ 1.125, 1, 0.24, 2.99, 3 ],
+        [ 1.2, 1, 0.24, 3.38, 3 ],
+        [ 1.26, 1, 0.24, 3.549, 3 ],
+        [ 1.32, 1, 0.24, 3.718, 3 ],
+        [ 1.38, 1, 0.24, 3.887, 3 ],
+        [ 1.44, 1, 0.24, 4.056, 3 ],
+        [ 1.5, 1, 0.24, 4.225, 3 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
+    },
+    {
+      "name": "Coup de Grâce",
+      "tag": "Single Target",
+      "type": "Ultimate",
+      "desc": "Receives <unbreak>#5[i]</unbreak> stack(s) of Fighting Will, with a <unbreak>#2[i]%</unbreak> <u>base chance</u> to increase a single enemy target's DMG received by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> for <unbreak>#4[i]</unbreak> turn(s). Then, deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luka's ATK to the target.",
+      "params": [
+        [ 1.98, 1, 0.12, 3, 2 ],
+        [ 2.112, 1, 0.128, 3, 2 ],
+        [ 2.244, 1, 0.136, 3, 2 ],
+        [ 2.376, 1, 0.144, 3, 2 ],
+        [ 2.508, 1, 0.152, 3, 2 ],
+        [ 2.64, 1, 0.16, 3, 2 ],
+        [ 2.805, 1, 0.17, 3, 2 ],
+        [ 2.97, 1, 0.18, 3, 2 ],
+        [ 3.135, 1, 0.19, 3, 2 ],
+        [ 3.3, 1, 0.2, 3, 2 ],
+        [ 3.432, 1, 0.208, 3, 2 ],
+        [ 3.564, 1, 0.216, 3, 2 ],
+        [ 3.696, 1, 0.224, 3, 2 ],
+        [ 3.828, 1, 0.232, 3, 2 ],
+        [ 3.96, 1, 0.24, 3, 2 ]
+      ],
+      "energyNeeded": 130,
+      "energyGain": 5,
+      "toughness": {
+        "Target": 90
+      }
+    },
+    {
+      "name": "Flying Sparks",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives <unbreak>#1[i]</unbreak> stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "params": [
+        [ 1, 0.68 ],
+        [ 1, 0.697 ],
+        [ 1, 0.714 ],
+        [ 1, 0.731 ],
+        [ 1, 0.748 ],
+        [ 1, 0.765 ],
+        [ 1, 0.78625 ],
+        [ 1, 0.8075 ],
+        [ 1, 0.82875 ],
+        [ 1, 0.85 ],
+        [ 1, 0.867 ],
+        [ 1, 0.884 ],
+        [ 1, 0.901 ],
+        [ 1, 0.918 ],
+        [ 1, 0.935 ]
+      ]
+    },
+    {
+      "name": "Anticipator",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to a random single enemy with a <unbreak>#2[i]%</unbreak> <u>base chance</u> to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will.",
+      "params": [
+        [ 0.5, 1 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "Sky-Shatter Fist",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Luka's ATK to a single enemy target.\\nThen, uses Rising Uppercut to deal 1 hit, dealing Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Luka's ATK to the single enemy target.",
+      "params": [
+        [ 0.1, 0.4 ],
+        [ 0.12, 0.48 ],
+        [ 0.14, 0.56 ],
+        [ 0.16, 0.64 ],
+        [ 0.18, 0.72 ],
+        [ 0.2, 0.8 ],
+        [ 0.22, 0.88 ],
+        [ 0.24, 0.96 ],
+        [ 0.26, 1.04 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 60
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Fighting Endlessly",
+      "desc": "When Luka takes action, if the target enemy is Bleeding, increases DMG dealt by Luka by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.15, 2 ]
+    },
+    {
+      "name": "The Enemy is Weak, I am Strong",
+      "desc": "If the Skill hits an enemy target with Physical Weakness, gain <unbreak>#1[i]</unbreak> stack(s) of Fighting Will.",
+      "params": [ 1 ]
+    },
+    {
+      "name": "Born for the Ring",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Never Turning Back",
+      "desc": "For every stack of Fighting Will obtained, increases ATK by <unbreak>#1[i]%</unbreak>, stacking up to <unbreak>#2[i]</unbreak> time(s).",
+      "params": [ 0.05, 4 ]
+    },
+    {
+      "name": "The Spirit of Wildfire",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "A Champion's Applause",
+      "desc": "After the Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG 1 time equal to <unbreak>#1[i]%</unbreak> of the original DMG for every hit of Direct Punch already unleashed during the current Enhanced Basic ATK.",
+      "params": [ 0.08 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Kinetic Overload",
+      "desc": "When the Skill is used, immediately dispels <unbreak>#1[i]</unbreak> buff from the enemy target.",
+      "params": [ 1 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.05 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cycle Braking",
+      "desc": "For every stack of Fighting Will obtained, additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 3 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "Effect Hit Rate Boost",
+              "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crush Fighting Will",
+      "desc": "When using Enhanced Basic ATK, every hit Direct Punch deals has a <unbreak>#1[i]%</unbreak> fixed chance for Luka to use 1 additional hit. This effect does not apply to additional hits generated in this way.",
+      "params": [ 0.5 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.075 ],
+          "minAsc": 6
+        },
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minLevel": 80
+        }
+      ]
+    }
+  ]
+}

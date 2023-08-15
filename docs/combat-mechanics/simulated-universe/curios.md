@@ -168,9 +168,9 @@ Curios are special items in the Simulated Universe that provide players with dif
 
 <Curio curio="Perpetual Motion Cuckoo Clock" />
 
-## Punklorde mentality
+## Punklorde Mentality
 
-<Curio curio="Punklorde mentality" />
+<Curio curio="Punklorde Mentality" />
 
 ## Beacon Coloring Paste
 

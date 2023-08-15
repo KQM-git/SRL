@@ -1,6 +1,6 @@
 ---
 description: |-
-  A secretarial officer for the Silvermane Guards.
+  An intelligence officer for the Silvermane Guards.
   She has a serious personality and is revered by other members of the Silvermane Guards.
 ---
 

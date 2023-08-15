@@ -1,0 +1,35 @@
+{
+  "name": "Flying Sword",
+  "faction": "The Xianzhou Luofu/Cloud Knight Lieutenant: Yanqing",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 139.5,
+      "speed": 100,
+      "toughness": 30,
+      "effectResBase": 0,
+      "weaknesses": [
+        "Lightning",
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.4,
+        "Quantum": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 1
+      },
+      "skills": [
+        {
+          "name": "Jadecarve Strike",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target."
+        }
+      ]
+    }
+  ]
+}

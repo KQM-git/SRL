@@ -52,3 +52,7 @@ import theHunt from '@site/src/data/lightcones/The_Hunt.json'
 ### Darting Arrow
 
 <Lightcone lightcone="Darting Arrow" lightcones={theHunt} />
+
+## Evidence Vault
+
+<Card item={require('../../evidence/equipment/lightcones.md')} />

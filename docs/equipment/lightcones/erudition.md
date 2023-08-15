@@ -48,3 +48,7 @@ import erudition from '@site/src/data/lightcones/Erudition.json'
 ### Sagacity
 
 <Lightcone lightcone="Sagacity" lightcones={erudition} />
+
+## Evidence Vault
+
+<Card item={require('../../evidence/equipment/lightcones.md')} />
