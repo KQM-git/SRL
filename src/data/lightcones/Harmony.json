@@ -253,7 +253,7 @@
     ],
     "superimposition": {
       "name": "Fleet Triumph",
-      "desc": "After the wearer uses attacks or gets hit, additionally regenerates <color=#f29e38ff><unbreak>#1[i]</unbreak></color> Energy. This effect can only be triggered 1 time per turn.",
+      "desc": "After the wearer uses attacks or gets hit, additionally regenerates <color=#f29e38ff><unbreak>#1[i]</unbreak></color> Energy. This effect cannot be repeatedly triggered in a single turn.",
       "params": [
         [ 4 ],
         [ 5 ],
@@ -517,7 +517,7 @@
     ],
     "superimposition": {
       "name": "Old Photo",
-      "desc": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer attacks, additionally regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy. This effect can only be triggered 1 time per turn.",
+      "desc": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer attacks, additionally regenerates <color=#f29e38ff><unbreak>#2[i]</unbreak></color> Energy. This effect cannot be repeatedly triggered in a single turn.",
       "params": [
         [ 0.28, 4 ],
         [ 0.35, 5 ],

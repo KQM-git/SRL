@@ -188,7 +188,7 @@
       "name": "Seven Layers, One Arrow",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "Basic ATK additionally deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by <unbreak>#2[i]%</unbreak>. This effect can be triggered again in <unbreak>#3[i]</unbreak> turn(s).",
+      "desc": "Basic ATK additionally deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by <unbreak>#2[i]%</unbreak>. This effect can be triggered again after <unbreak>#3[i]</unbreak> turn(s).",
       "params": [
         [ 0.4, 1, 1 ],
         [ 0.44, 1, 1 ],
@@ -252,7 +252,7 @@
   "skillTree": [
     {
       "name": "Archerion",
-      "desc": "Yukong can resist 1 debuff application for 1 time. This effect can be triggered again in <unbreak>#1[i]</unbreak> turn(s).",
+      "desc": "Yukong can resist 1 debuff application for 1 time. This effect can be triggered again after <unbreak>#1[i]</unbreak> turn(s).",
       "params": [ 2 ],
       "minAsc": 2,
       "children": [

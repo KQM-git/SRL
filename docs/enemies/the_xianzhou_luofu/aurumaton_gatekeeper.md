@@ -27,7 +27,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='2' label='Aurumaton Gatekeeper (Error)'>
+<TabItem value='2' label='Aurumaton Gatekeeper (Bug)'>
 
 <h2>Stats</h2>
 

@@ -188,7 +188,7 @@
       "name": "Cycle of Life",
       "tag": "Restore",
       "type": "Talent",
-      "desc": "When Abyss Flower reaches <unbreak>#1[i]</unbreak> stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy.\\nWhen any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Luocha's ATK plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>.\\nThe Field's effect lasts for <unbreak>#3[i]</unbreak> turns. When Luocha is knocked down, the Field will be dispelled.",
+      "desc": "When Abyss Flower reaches <unbreak>#1[i]</unbreak> stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy.\\nWhen any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Luocha's ATK plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>.\\nThe Field's effect lasts for <unbreak>#3[i]</unbreak> turns. When Luocha is <u>knocked down</u>, the Field will be dispelled.",
       "params": [
         [ 2, 0.12, 2, 60 ],
         [ 2, 0.1275, 2, 96 ],

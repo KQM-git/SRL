@@ -88,9 +88,9 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Inert Salsotto" />
 
-### Pan-Galactic Commercial Enterprise
+### Pan-Cosmic Commercial Enterprise
 
-<Relic relic="Pan-Galactic Commercial Enterprise" />
+<Relic relic="Pan-Cosmic Commercial Enterprise" />
 
 ### Rutilant Arena
 

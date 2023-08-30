@@ -47,8 +47,8 @@
       ]
     },
     {
-      "name": "Aurumaton Gatekeeper (Error)",
-      "source": "Aurumaton Gatekeeper (Error)",
+      "name": "Aurumaton Gatekeeper (Bug)",
+      "source": "Aurumaton Gatekeeper (Bug)",
       "attack": 18,
       "def": 210,
       "hp": 1395,

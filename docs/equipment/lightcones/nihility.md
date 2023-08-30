@@ -39,6 +39,10 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 
 <Lightcone lightcone="Resolution Shines As Pearls of Sweat" lightcones={nihility} />
 
+### Solitary Healing
+
+<Lightcone lightcone="Solitary Healing" lightcones={nihility} />
+
 ### We Will Meet Again
 
 <Lightcone lightcone="We Will Meet Again" lightcones={nihility} />

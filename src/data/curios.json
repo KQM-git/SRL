@@ -11,7 +11,7 @@
   },
   "Warping Compound Eye": {
     "name": "Warping Compound Eye",
-    "desc": "When choosing a Blessing after winning a battle, level up all 1-star Blessings that appear.",
+    "desc": "When choosing Blessings after winning a battle, Enhance all 1-star Blessings that appear.",
     "params": [ 1 ]
   },
   "Fruit of the Alien Tree": {
@@ -36,7 +36,7 @@
   },
   "The Parchment That Always Eats": {
     "name": "The Parchment That Always Eats",
-    "desc": "Upon entering battle, all enemies receive DMG equal to #1[i]% of their respective Max HP.",
+    "desc": "Upon entering battle, all enemies receive a fixed amount of DMG equal to #1[i]% of their respective Max HP.",
     "params": [ 0.3, 5 ]
   },
   "The Doctor's Robe": {
@@ -51,7 +51,7 @@
   },
   "Faith Bond": {
     "name": "Faith Bond",
-    "desc": "Reduces the Cosmic Fragments required for leveling up Blessings, resetting Blessings, and resetting downed characters by #1[i]%.",
+    "desc": "Reduces the Cosmic Fragments required for Blessing Enhancement, Blessing Reset, and for resetting downed characters by #1[i]%.",
     "params": [ 0.3 ]
   },
   "Robe of The Beauty": {
@@ -61,7 +61,7 @@
   },
   "Gold Coin of Discord": {
     "name": "Gold Coin of Discord",
-    "desc": "Each time you enter the following domain, gain Cosmic Fragments equal to #1[i]% of the Cosmic Fragments currently in possession.",
+    "desc": "Upon entering a new domain, gain Cosmic Fragments equal to #1[i]% of the Cosmic Fragments currently in possession.",
     "params": [ 0.06 ]
   },
   "Void Wick Trimmer": {
@@ -76,7 +76,7 @@
   },
   "Entropic Die": {
     "name": "Entropic Die",
-    "desc": "Randomly levels up #1[i] Blessing(s) after obtaining this Curio.",
+    "desc": "Randomly Enhances #1[i] Blessing(s) immediately after obtaining this Curio.",
     "params": [ 2 ]
   },
   "Shining Trapezohedron Die": {
@@ -183,7 +183,7 @@
   },
   "Laurel Crown of Planar Shifts": {
     "name": "Laurel Crown of Planar Shifts",
-    "desc": "The current exploration will not terminate if your team is defeated in a non-boss battle. Instead, the battle will be considered as a victory, and all characters will recover HP up to their respective Max HP. After triggering this effect #1[i] time(s), this Curio will be destroyed.",
+    "desc": "The current exploration will not terminate if your team is defeated in battle outside of a final domain. Instead, the battle will be considered as a victory, and all characters will recover HP up to their respective Max HP. After triggering this effect #1[i] time(s), this Curio will be destroyed.",
     "params": [ 1 ]
   },
   "Space-Time Prism": {
@@ -191,8 +191,8 @@
     "desc": "Upon entering battle, increase all ally's Eidolon Resonance level by #1[i].",
     "params": [ 1 ]
   },
-  "Galactic Big Lotto": {
-    "name": "Galactic Big Lotto",
+  "Cosmic Big Lotto": {
+    "name": "Cosmic Big Lotto",
     "desc": "After destroying destructible objects, there is a small chance of receiving 1 Curio, but also a small chance of destroying this Curio and all characters losing #1[i]% of their current HP.",
     "params": [ 0.99 ]
   },
@@ -213,7 +213,7 @@
   },
   "Perpetual Motion Cuckoo Clock": {
     "name": "Perpetual Motion Cuckoo Clock",
-    "desc": "Each time you enter the following domain, lose #1[i]% of all Cosmic Fragment(s) currently in your possession.",
+    "desc": "Upon entering a new domain, lose #1[i]% of all Cosmic Fragment(s) currently in possession.",
     "params": [ 0.05 ]
   },
   "Punklorde Mentality": {
@@ -223,17 +223,127 @@
   },
   "Beacon Coloring Paste": {
     "name": "Beacon Coloring Paste",
-    "desc": "When choosing a Blessing after winning a battle, randomly level up #1[i] Blessing(s) among the selection.",
+    "desc": "When choosing a Blessing after winning a battle, randomly Enhance #1[i] Blessing(s) among the selection.",
     "params": [ 1 ]
   },
   "IPC Cuckoo Clock": {
     "name": "IPC Cuckoo Clock",
-    "desc": "Cosmic Fragments required to level up and reset Blessings increase by #1[i]%.",
+    "desc": "Increases Cosmic Fragments required to Enhance and reset Blessings by #1[i]%.",
     "params": [ 0.25 ]
   },
   "Mechanical Cuckoo Clock": {
     "name": "Mechanical Cuckoo Clock",
     "desc": "Upon entering battle, consume #1[i] Skill Point.",
     "params": [ 2 ]
+  },
+  "Sealing Wax of Propagation": {
+    "name": "Sealing Wax of Propagation",
+    "desc": "Randomly gains 1 Blessing of Propagation after obtaining this Curio. When choosing your Blessings after winning a battle, there is an increased chance for Blessings of Propagation to appear.",
+    "params": []
+  },
+  "Triangular Drum-roll Device": {
+    "name": "Triangular Drum-roll Device",
+    "desc": "When choosing Paths for the first and second planes, you can additionally select #1[i] already Enhanced Blessing(s) for the corresponding Paths.",
+    "params": [ 1 ]
+  },
+  "Silver Coin of Discord": {
+    "name": "Silver Coin of Discord",
+    "desc": "Immediately gain Cosmic Fragments equal to #1[i]% of the Cosmic Fragments currently in possession.",
+    "params": [ 0.5 ]
+  },
+  "Broken Cuckoo Clock": {
+    "name": "Broken Cuckoo Clock",
+    "desc": "Additionally consume a certain amount of Cosmic Fragments while you have the IPC Cuckoo Clock to obtain this Curio and immediately obtain #2[i] Cosmic Fragment(s).",
+    "params": [ 499, 999 ]
+  },
+  "Family Ties": {
+    "name": "Family Ties",
+    "desc": "Increase all allies' DMG by #1[i]% for every Curio that has been destroyed.",
+    "params": [ 0.3 ]
+  },
+  "Medal of the Gloryblood Era": {
+    "name": "Medal of the Gloryblood Era",
+    "desc": "Immediately gain #1[i] random 3-star Blessing(s). The next time you enter an Occurrence domain, no occurrence will be triggered. This Curio will be destroyed after the effect is triggered #2[i] time(s).",
+    "params": [ 1, 1 ]
+  },
+  "Black Hole Trap": {
+    "name": "Black Hole Trap",
+    "desc": "You will obtain #1[i] Cosmic Fragments for each ally whose HP is at max when winning a battle.",
+    "params": [ 10 ]
+  },
+  "Interastral Big Lotto": {
+    "name": "Interastral Big Lotto",
+    "desc": "After destroying destructible objects, there is a small chance of receiving 1 random Blessing, but also a small chance of destroying this Curio and causing all team members to lose all Energy and Technique Points.",
+    "params": []
+  },
+  "Fissured Cuckoo Clock": {
+    "name": "Fissured Cuckoo Clock",
+    "desc": "Character's ATK decreases by #1[i]%.",
+    "params": [ 0.05 ]
+  },
+  "Typical Genius Society Gossip": {
+    "name": "Typical Genius Society Gossip",
+    "desc": "After obtaining this Curio, Cosmic Fragments obtained will increase by #1[i]%, but Blessings will no longer be obtained after combat",
+    "params": [ 1 ]
+  },
+  "Tonic of Efficacious Chaos": {
+    "name": "Tonic of Efficacious Chaos",
+    "desc": "Increases DMG dealt by characters' Techniques by #1[i]%. Technique DMG further increases by #2[i]% of the Technique's respective character's Max HP.",
+    "params": [ 2, 2 ]
+  },
+  "Rubert Empire Mechanical Cogwheel": {
+    "name": "Rubert Empire Mechanical Cogwheel",
+    "desc": "You obtain #1[i] Cosmic Fragments each time you enter a domain. If the Cosmic Fragment total exceeds #2[i], then the Curio will be destroyed and all Cosmic Fragments will be lost.",
+    "params": [ 50, 500 ]
+  },
+  "Cavity System Model": {
+    "name": "Cavity System Model",
+    "desc": "Lose all currently possessed Cosmic Fragments. For every 100 Cosmic Fragments lost in this way, increases all characters' CRIT DMG by #1[i]%.",
+    "params": [ 0.24 ]
+  },
+  "**Tousled Detective**": {
+    "name": "**Tousled Detective**",
+    "desc": "When entering Combat: Swarm, Occurrence: Swarm, and Boss: Swarm domains, increases characters' DMG dealt by #1[i]% in the above domains.",
+    "params": [ 0.08 ]
+  },
+  "Fool's Mask": {
+    "name": "Fool's Mask",
+    "desc": "All Blessings in possession are swapped to random Blessings with their Enhancement levels retained, with a chance of being replaced by Blessings of higher rarity.",
+    "params": []
+  },
+  "Vile Mechanical Satellite #900": {
+    "name": "Vile Mechanical Satellite #900",
+    "desc": "Item prices in Transaction domains become #1[i]% of what they originally were.",
+    "params": [ 0.7 ]
+  },
+  "Spirit of the Knights of Beauty": {
+    "name": "Spirit of the Knights of Beauty",
+    "desc": "Gains #1[i] dice reroll(s) after obtaining this Curio.",
+    "params": [ 4 ]
+  },
+  "Illusory Automaton": {
+    "name": "Illusory Automaton",
+    "desc": "At the start of a character's turn, they restore HP equal to #1[i]% of their Max HP.",
+    "params": [ 0.2 ]
+  },
+  "A Pinch of Bearded Gunpowder": {
+    "name": "A Pinch of Bearded Gunpowder",
+    "desc": "Gains #1[i] cheat(s) after obtaining this Curio.",
+    "params": [ 1 ]
+  },
+  "Man-Made Meteorite": {
+    "name": "Man-Made Meteorite",
+    "desc": "Gains #1[i]–#2[i] random Blessings for the current Path after obtaining this Curio.",
+    "params": [ 1, 3 ]
+  },
+  "Thalan Toxi-Flame": {
+    "name": "Thalan Toxi-Flame",
+    "desc": "Upon entering battle, the character with the highest ATK consumes HP equal to #1[i]% of their Max HP at the start of each turn. At the same time, their SPD increases by #2[i]%, up to #3[i] times.",
+    "params": [ 0.24, 0.05, 5 ]
+  },
+  "The Pinkest Collision": {
+    "name": "The Pinkest Collision",
+    "desc": "Upon entering battle, all allies' Break Effect increases by #1[i]% for every Blessing of a different Path possessed.",
+    "params": [ 0.2 ]
   }
 }
