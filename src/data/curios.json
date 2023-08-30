@@ -36,7 +36,7 @@
   },
   "The Parchment That Always Eats": {
     "name": "The Parchment That Always Eats",
-    "desc": "Upon entering battle, all enemies receive a fixed amount of DMG equal to #1[i]% of their respective Max HP.",
+    "desc": "Upon entering battle, all enemies receive a set amount of DMG equal to #1[i]% of their respective Max HP.",
     "params": [ 0.3, 5 ]
   },
   "The Doctor's Robe": {

@@ -136,7 +136,7 @@
       "name": "Dracore Libre",
       "tag": "Enhance",
       "type": "Skill",
-      "desc": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.\\nEnhanced once, Beneficent Lotus becomes Transcendence.\\nEnhanced twice, Beneficent Lotus becomes Divine Spear.\\nEnhanced 3 times, Beneficent Lotus becomes Fulgurant Leap.\\nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of \"Outroar\" is gained before every hit. Each stack of \"Outroar\" increases Dan Heng • Imbibitor Lunae's CRIT DMG by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>, for a max of <unbreak>#2[i]</unbreak> stacks. These stacks last until the end of his turn.",
+      "desc": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.\\nEnhanced once, Beneficent Lotus becomes Transcendence.\\nEnhanced twice, Beneficent Lotus becomes Divine Spear.\\nEnhanced thrice, Beneficent Lotus becomes Fulgurant Leap.\\nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>, for a max of <unbreak>#2[i]</unbreak> stacks. These stacks last until the end of his turn.",
       "params": [
         [ 0.06, 4 ],
         [ 0.066, 4 ],
@@ -159,7 +159,7 @@
       "name": "Azure's Aqua Ablutes All",
       "tag": "Blast",
       "type": "Ultimate",
-      "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains <unbreak>#3[i]</unbreak> Squama Sacrosancta.\\nIt's possible to hold up to <unbreak>#4[i]</unbreak> Squama Sacrosancta, which can be used to offset the consumption of Dan Heng • Imbibitor Lunae's skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
+      "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains <unbreak>#3[i]</unbreak> Squama Sacrosancta.\\nIt's possible to hold up to <unbreak>#4[i]</unbreak> Squama Sacrosancta, which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
       "params": [
         [ 1.8, 0.84, 2, 3 ],
         [ 1.92, 0.896, 2, 3 ],
@@ -327,7 +327,7 @@
     },
     {
       "name": "Zephyr's Bliss",
-      "desc": "The buff effect granted by \"Outroar\" lasts until the end of this character's next turn.",
+      "desc": "The buff effect granted by Outroar lasts until the end of this character's next turn.",
       "params": []
     },
     {
