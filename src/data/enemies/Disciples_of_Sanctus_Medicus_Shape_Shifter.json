@@ -42,7 +42,7 @@
         {
           "name": "Mara-Summon",
           "type": "Ability",
-          "desc": "Consumes HP to summon Mara-Struck Soldier"
+          "desc": "Consumes HP to summon Mara-Struck Soldiers"
         },
         {
           "name": "Vigor Draining",
@@ -52,8 +52,8 @@
       ]
     },
     {
-      "name": "Disciples of Sanctus Medicus: Shape Shifter (Error)",
-      "source": "Disciples of Sanctus Medicus: Shape Shifter (Error)",
+      "name": "Disciples of Sanctus Medicus: Shape Shifter (Bug)",
+      "source": "Disciples of Sanctus Medicus: Shape Shifter (Bug)",
       "attack": 18,
       "def": 210,
       "hp": 1581,

@@ -148,9 +148,9 @@ Curios are special items in the Simulated Universe that provide players with dif
 
 <Curio curio="Space-Time Prism" />
 
-## Galactic Big Lotto
+## Cosmic Big Lotto
 
-<Curio curio="Galactic Big Lotto" />
+<Curio curio="Cosmic Big Lotto" />
 
 ## Omniscient Capsule
 

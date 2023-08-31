@@ -26,7 +26,7 @@ import EnemySkills from '@site/src/components/enemy/EnemySkills'
 
 <EnemySkills enemy={enemy} variant={0} />
 </TabItem>
-<TabItem value='2' label='Disciples of Sanctus Medicus: Shape Shifter (Error)'>
+<TabItem value='2' label='Disciples of Sanctus Medicus: Shape Shifter (Bug)'>
 
 <h2>Stats</h2>
 

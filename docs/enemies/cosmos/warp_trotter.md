@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 description: An interdimensional creature lost in the stars. Docile in nature. Sweet in taste. Inedible. Spends most of its life feeding and fleeing. Travelers who encounter these creatures see them as good omens.
 ---
 

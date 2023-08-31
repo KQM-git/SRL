@@ -191,7 +191,7 @@
       "name": "Flying Sparks",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives <unbreak>#1[i]</unbreak> stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "desc": "After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives <unbreak>#1[i]</unbreak> stack of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will.",
       "params": [
         [ 1, 0.68 ],
         [ 1, 0.697 ],
@@ -295,7 +295,7 @@
               "minAsc": 3,
               "children": [
                 {
-                  "name": "ATK Boost",
+                  "name": "DEF Boost",
                   "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
                   "params": [ 0.05 ],
                   "minAsc": 3
@@ -343,7 +343,7 @@
       "minAsc": 6,
       "children": [
         {
-          "name": "ATK Boost",
+          "name": "DEF Boost",
           "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
           "params": [ 0.075 ],
           "minAsc": 6

@@ -11,7 +11,7 @@
   },
   "Warping Compound Eye": {
     "name": "Warping Compound Eye",
-    "desc": "When choosing a Blessing after winning a battle, level up all 1-star Blessings that appear.",
+    "desc": "When choosing Blessings after winning a battle, Enhance all 1-star Blessings that appear.",
     "params": [ 1 ]
   },
   "Fruit of the Alien Tree": {
@@ -36,7 +36,7 @@
   },
   "The Parchment That Always Eats": {
     "name": "The Parchment That Always Eats",
-    "desc": "Upon entering battle, all enemies receive DMG equal to #1[i]% of their respective Max HP.",
+    "desc": "Upon entering battle, all enemies receive a set amount of DMG equal to #1[i]% of their respective Max HP.",
     "params": [ 0.3, 5 ]
   },
   "The Doctor's Robe": {
@@ -51,7 +51,7 @@
   },
   "Faith Bond": {
     "name": "Faith Bond",
-    "desc": "Reduces the Cosmic Fragments required for leveling up Blessings, resetting Blessings, and resetting downed characters by #1[i]%.",
+    "desc": "Reduces the Cosmic Fragments required for Blessing Enhancement, Blessing Reset, and for resetting downed characters by #1[i]%.",
     "params": [ 0.3 ]
   },
   "Robe of The Beauty": {
@@ -61,7 +61,7 @@
   },
   "Gold Coin of Discord": {
     "name": "Gold Coin of Discord",
-    "desc": "Each time you enter the following domain, gain Cosmic Fragments equal to #1[i]% of the Cosmic Fragments currently in possession.",
+    "desc": "Upon entering a new domain, gain Cosmic Fragments equal to #1[i]% of the Cosmic Fragments currently in possession.",
     "params": [ 0.06 ]
   },
   "Void Wick Trimmer": {
@@ -76,7 +76,7 @@
   },
   "Entropic Die": {
     "name": "Entropic Die",
-    "desc": "Randomly levels up #1[i] Blessing(s) after obtaining this Curio.",
+    "desc": "Randomly Enhances #1[i] Blessing(s) immediately after obtaining this Curio.",
     "params": [ 2 ]
   },
   "Shining Trapezohedron Die": {
@@ -183,7 +183,7 @@
   },
   "Laurel Crown of Planar Shifts": {
     "name": "Laurel Crown of Planar Shifts",
-    "desc": "The current exploration will not terminate if your team is defeated in a non-boss battle. Instead, the battle will be considered as a victory, and all characters will recover HP up to their respective Max HP. After triggering this effect #1[i] time(s), this Curio will be destroyed.",
+    "desc": "The current exploration will not terminate if your team is defeated in battle outside of a final domain. Instead, the battle will be considered as a victory, and all characters will recover HP up to their respective Max HP. After triggering this effect #1[i] time(s), this Curio will be destroyed.",
     "params": [ 1 ]
   },
   "Space-Time Prism": {
@@ -191,8 +191,8 @@
     "desc": "Upon entering battle, increase all ally's Eidolon Resonance level by #1[i].",
     "params": [ 1 ]
   },
-  "Galactic Big Lotto": {
-    "name": "Galactic Big Lotto",
+  "Cosmic Big Lotto": {
+    "name": "Cosmic Big Lotto",
     "desc": "After destroying destructible objects, there is a small chance of receiving 1 Curio, but also a small chance of destroying this Curio and all characters losing #1[i]% of their current HP.",
     "params": [ 0.99 ]
   },
@@ -213,7 +213,7 @@
   },
   "Perpetual Motion Cuckoo Clock": {
     "name": "Perpetual Motion Cuckoo Clock",
-    "desc": "Each time you enter the following domain, lose #1[i]% of all Cosmic Fragment(s) currently in your possession.",
+    "desc": "Upon entering a new domain, lose #1[i]% of all Cosmic Fragment(s) currently in possession.",
     "params": [ 0.05 ]
   },
   "Punklorde Mentality": {
@@ -223,12 +223,12 @@
   },
   "Beacon Coloring Paste": {
     "name": "Beacon Coloring Paste",
-    "desc": "When choosing a Blessing after winning a battle, randomly level up #1[i] Blessing(s) among the selection.",
+    "desc": "When choosing a Blessing after winning a battle, randomly Enhance #1[i] Blessing(s) among the selection.",
     "params": [ 1 ]
   },
   "IPC Cuckoo Clock": {
     "name": "IPC Cuckoo Clock",
-    "desc": "Cosmic Fragments required to level up and reset Blessings increase by #1[i]%.",
+    "desc": "Increases Cosmic Fragments required to Enhance and reset Blessings by #1[i]%.",
     "params": [ 0.25 ]
   },
   "Mechanical Cuckoo Clock": {

@@ -1,0 +1,439 @@
+{
+  "name": "Dan Heng Imbibitor Lunae",
+  "damageType": "Imaginary",
+  "baseType": "Destruction",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 95.04,
+      "attackAdd": 4.752,
+      "hpBase": 168.96,
+      "hpAdd": 8.448,
+      "defenseBase": 49.5,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 133.056,
+      "attackAdd": 4.752,
+      "hpBase": 236.544,
+      "hpAdd": 8.448,
+      "defenseBase": 69.3,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 171.072,
+      "attackAdd": 4.752,
+      "hpBase": 304.128,
+      "hpAdd": 8.448,
+      "defenseBase": 89.1,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 209.088,
+      "attackAdd": 4.752,
+      "hpBase": 371.712,
+      "hpAdd": 8.448,
+      "defenseBase": 108.9,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 247.104,
+      "attackAdd": 4.752,
+      "hpBase": 439.296,
+      "hpAdd": 8.448,
+      "defenseBase": 128.7,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 285.12,
+      "attackAdd": 4.752,
+      "hpBase": 506.88,
+      "hpAdd": 8.448,
+      "defenseBase": 148.5,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 323.136,
+      "attackAdd": 4.752,
+      "hpBase": 574.464,
+      "hpAdd": 8.448,
+      "defenseBase": 168.3,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 102,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Beneficent Lotus",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Uses a 2-hit attack and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to a single enemy target.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Dracore Libre",
+      "tag": "Enhance",
+      "type": "Skill",
+      "desc": "Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill.\\nEnhanced once, Beneficent Lotus becomes Transcendence.\\nEnhanced twice, Beneficent Lotus becomes Divine Spear.\\nEnhanced thrice, Beneficent Lotus becomes Fulgurant Leap.\\nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>, for a max of <unbreak>#2[i]</unbreak> stacks. These stacks last until the end of his turn.",
+      "params": [
+        [ 0.06, 4 ],
+        [ 0.066, 4 ],
+        [ 0.072, 4 ],
+        [ 0.078, 4 ],
+        [ 0.084, 4 ],
+        [ 0.09, 4 ],
+        [ 0.0975, 4 ],
+        [ 0.105, 4 ],
+        [ 0.1125, 4 ],
+        [ 0.12, 4 ],
+        [ 0.126, 4 ],
+        [ 0.132, 4 ],
+        [ 0.138, 4 ],
+        [ 0.144, 4 ],
+        [ 0.15, 4 ]
+      ]
+    },
+    {
+      "name": "Azure's Aqua Ablutes All",
+      "tag": "Blast",
+      "type": "Ultimate",
+      "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains <unbreak>#3[i]</unbreak> Squama Sacrosancta.\\nIt's possible to hold up to <unbreak>#4[i]</unbreak> Squama Sacrosancta, which can be used to offset Dan Heng • Imbibitor Lunae's consumption of skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points.",
+      "params": [
+        [ 1.8, 0.84, 2, 3 ],
+        [ 1.92, 0.896, 2, 3 ],
+        [ 2.04, 0.952, 2, 3 ],
+        [ 2.16, 1.008, 2, 3 ],
+        [ 2.28, 1.064, 2, 3 ],
+        [ 2.4, 1.12, 2, 3 ],
+        [ 2.55, 1.19, 2, 3 ],
+        [ 2.7, 1.26, 2, 3 ],
+        [ 2.85, 1.33, 2, 3 ],
+        [ 3, 1.4, 2, 3 ],
+        [ 3.12, 1.456, 2, 3 ],
+        [ 3.24, 1.512, 2, 3 ],
+        [ 3.36, 1.568, 2, 3 ],
+        [ 3.48, 1.624, 2, 3 ],
+        [ 3.6, 1.68, 2, 3 ]
+      ],
+      "energyNeeded": 140,
+      "energyGain": 5,
+      "toughness": {
+        "Target": 60,
+        "Adjacent": 60
+      }
+    },
+    {
+      "name": "Righteous Heart",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>. This effect can stack up to <unbreak>#2[i]</unbreak> time(s), lasting until the end of his turn.",
+      "params": [
+        [ 0.05, 6 ],
+        [ 0.055, 6 ],
+        [ 0.06, 6 ],
+        [ 0.065, 6 ],
+        [ 0.07, 6 ],
+        [ 0.075, 6 ],
+        [ 0.08125, 6 ],
+        [ 0.0875, 6 ],
+        [ 0.09375, 6 ],
+        [ 0.1, 6 ],
+        [ 0.105, 6 ],
+        [ 0.11, 6 ],
+        [ 0.115, 6 ],
+        [ 0.12, 6 ],
+        [ 0.125, 6 ]
+      ]
+    },
+    {
+      "name": "Heaven-Quelling Prismadrakon",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for <unbreak>#2[i]</unbreak> seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to <unbreak>#3[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#1[i]</unbreak> Squama Sacrosancta.",
+      "params": [
+        [ 1, 20, 1.2 ]
+      ]
+    },
+    {
+      "name": "Transcendence",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Uses a 3-hit attack and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to a single enemy target.",
+      "params": [
+        [ 1.3 ],
+        [ 1.56 ],
+        [ 1.82 ],
+        [ 2.08 ],
+        [ 2.34 ],
+        [ 2.6 ],
+        [ 2.86 ],
+        [ 3.12 ],
+        [ 3.38 ],
+        [ 1.3 ],
+        [ 1.3 ],
+        [ 1.3 ],
+        [ 1.3 ],
+        [ 1.3 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
+    },
+    {
+      "name": "Cancel",
+      "tag": "Cancel",
+      "type": "Skill",
+      "desc": "Cancel Enhancement",
+      "params": [
+        []
+      ]
+    },
+    {
+      "name": "Divine Spear",
+      "tag": "Blast",
+      "type": "Basic ATK",
+      "desc": "Uses a 5-hit attack and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
+      "params": [
+        [ 1.9, 0.3 ],
+        [ 2.28, 0.36 ],
+        [ 2.66, 0.42 ],
+        [ 3.04, 0.48 ],
+        [ 3.42, 0.54 ],
+        [ 3.8, 0.6 ],
+        [ 4.18, 0.66 ],
+        [ 4.56, 0.72 ],
+        [ 4.94, 0.78 ],
+        [ 1.9, 0.3 ],
+        [ 1.9, 0.3 ],
+        [ 1.9, 0.3 ],
+        [ 1.9, 0.3 ],
+        [ 1.9, 0.3 ],
+        [ 1.9, 0.3 ]
+      ],
+      "energyGain": 35,
+      "toughness": {
+        "Target": 90,
+        "Adjacent": 30
+      }
+    },
+    {
+      "name": "Fulgurant Leap",
+      "tag": "Blast",
+      "type": "Basic ATK",
+      "desc": "Uses a 7-hit attack and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Dan Heng • Imbibitor Lunae's ATK to adjacent targets.",
+      "params": [
+        [ 2.5, 0.9 ],
+        [ 3, 1.08 ],
+        [ 3.5, 1.26 ],
+        [ 4, 1.44 ],
+        [ 4.5, 1.62 ],
+        [ 5, 1.8 ],
+        [ 5.5, 1.98 ],
+        [ 6, 2.16 ],
+        [ 6.5, 2.34 ],
+        [ 2.5, 0.9 ],
+        [ 2.5, 0.9 ],
+        [ 2.5, 0.9 ],
+        [ 2.5, 0.9 ],
+        [ 2.5, 0.9 ],
+        [ 2.5, 0.9 ]
+      ],
+      "energyGain": 40,
+      "toughness": {
+        "Target": 120,
+        "Adjacent": 60
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Tethered to Sky",
+      "desc": "Increases the stackable Righteous Heart count by <unbreak>#1[i]</unbreak>, and gains 1 extra stack of Righteous Heart for each hit during an attack.",
+      "params": [ 4 ]
+    },
+    {
+      "name": "Imperium On Cloud Nine",
+      "desc": "After using his Ultimate, Dan Heng • Imbibitor Lunae's action is Advanced Forward by <unbreak>100%</unbreak> and gains 1 extra Squama Sacrosancta.",
+      "params": []
+    },
+    {
+      "name": "Clothed in Clouds",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Zephyr's Bliss",
+      "desc": "The buff effect granted by Outroar lasts until the end of this character's next turn.",
+      "params": []
+    },
+    {
+      "name": "Fall is the Pride",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Reign, Returned",
+      "desc": "After any other ally uses their Ultimate, the Imaginary RES PEN of Dan Heng • Imbibitor Lunae's next Fulgurant Leap attack increases by <unbreak>#1[i]%</unbreak>. This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
+      "params": [ 0.2, 3 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Star Veil",
+      "desc": "At the start of the battle, immediately regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 15 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.027 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Imaginary",
+              "desc": "Imaginary DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "HP Boost",
+                  "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aqua Reign",
+      "desc": "Increases the chance to resist Crowd Control debuffs by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.35 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Imaginary",
+          "desc": "Imaginary DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "DMG Boost: Imaginary",
+                  "desc": "Imaginary DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.048 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jolt Anew",
+      "desc": "This character's CRIT DMG increases by <unbreak>#1[i]%</unbreak> when dealing DMG to enemy targets with Imaginary Weakness.",
+      "params": [ 0.24 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.053 ],
+              "minLevel": 75
+            },
+            {
+              "name": "DMG Boost: Imaginary",
+              "desc": "Imaginary DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Imaginary",
+      "desc": "Imaginary DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ]
+    }
+  ]
+}

@@ -192,7 +192,7 @@
       "name": "Gentle but Cruel",
       "tag": "Single Target",
       "type": "Talent",
-      "desc": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 <u>follow-up attack</u> and deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of her ATK to that target, with a <unbreak>#2[i]%</unbreak> base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for <unbreak>#3[i]</unbreak> turns. This effect can only be triggered 1 time per turn.",
+      "desc": "After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 <u>follow-up attack</u> and deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of her ATK to that target, with a <unbreak>#2[i]%</unbreak> <u>base chance</u> to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target, lasting for <unbreak>#3[i]</unbreak> turns. This effect can only be triggered 1 time per turn.",
       "params": [
         [ 0.42, 1, 2 ],
         [ 0.518, 1, 2 ],
@@ -322,7 +322,7 @@
     },
     {
       "name": "Thorns",
-      "desc": "The base chance for Ultimate, Technique, or the follow-up attack triggered by the Talent to inflict Shock increases by <unbreak>#1[i]%</unbreak>.",
+      "desc": "The base chance for target enemies to get Shocked by the Ultimate, the Technique, or the Talent-triggered follow-up attack increases by <unbreak>#1[i]%</unbreak>.",
       "params": [ 0.3 ],
       "minAsc": 6,
       "children": [

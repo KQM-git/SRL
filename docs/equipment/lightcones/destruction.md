@@ -5,6 +5,10 @@ import destruction from '@site/src/data/lightcones/Destruction.json'
 
 ## 5 Stars
 
+### Brighter Than the Sun
+
+<Lightcone lightcone="Brighter Than the Sun" lightcones={destruction} />
+
 ### On the Fall of an Aeon
 
 <Lightcone lightcone="On the Fall of an Aeon" lightcones={destruction} />

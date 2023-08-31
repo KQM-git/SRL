@@ -10,9 +10,9 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-**Most Recent Characters:** [Kafka](/characters/lightning/kafka) | [Luka](/characters/physical/luka)
+**Most Recent Characters:** [Dan Heng • Imbibitor Lunae](/characters/imaginary/dan-heng-•-imbibitor-lunae)
 
-**Most Recent Light Cones:** [Patience Is All You Need](equipment/lightcones/nihility#patience-is-all-you-need)
+**Most Recent Light Cones:** [Brighter Than the Sun](equipment/lightcones/destruction#brighter-than-the-sun) | [Solitary Healing](equipment/lightcones/nihility#solitary-healing)
 
 ## Data Status
 
