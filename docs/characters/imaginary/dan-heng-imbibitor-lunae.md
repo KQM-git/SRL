@@ -1,16 +1,16 @@
 ---
 description: |-
-  Dan Heng's true form from his Vidyadhara lineage carries the residual power left behind by his past incarnation, the Imbibitor Lunae.
-  Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that sinner.
+  A cold and reserved young man who is reticent about his past.
+  To avoid his kin, he decided to travel with the Astral Express.
 ---
 
-import char from '@site/src/data/characters/Dan_Heng_•_Imbibitor_Lunae.json'
+import char from '@site/src/data/characters/Dan_Heng_Imbibitor_Lunae.json'
 
 # Dan Heng • Imbibitor Lunae
 
 import Image from '@theme/IdealImage'
 
-<Image img={require('/img/characters/gacha/Dan_Heng_•_Imbibitor_Lunae.png')} alt="Dan Heng • Imbibitor Lunae's gacha art" />
+<Image img={require('/img/characters/gacha/Dan_Heng_Imbibitor_Lunae.png')} alt="Dan Heng • Imbibitor Lunae's gacha art" />
 <blockquote>{frontMatter.description}</blockquote>
 
 ## Resources
@@ -105,4 +105,4 @@ import Eidolon from '@site/src/components/char/Eidolon'
 
 ## Evidence Vault
 
-<Card item={require('../../evidence/characters/imaginary/dan-heng-•-imbibitor-lunae.md')} />
+<Card item={require('../../evidence/characters/imaginary/dan-heng-imbibitor-lunae.md')} />

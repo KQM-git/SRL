@@ -2,7 +2,7 @@
 
 **Main Page:**
 
-<Card item={require('../../../characters/imaginary/dan-heng-•-imbibitor-lunae.md')} />
+<Card item={require('../../../characters/imaginary/dan-heng-imbibitor-lunae.md')} />
 
 ## Basic Mechanics
 
