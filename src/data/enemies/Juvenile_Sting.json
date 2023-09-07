@@ -1,0 +1,43 @@
+{
+  "name": "Juvenile Sting",
+  "faction": "Cosmos",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 209.25,
+      "speed": 144,
+      "toughness": 90,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Quantum",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Wingflap",
+          "type": "Ability",
+          "desc": "Deals minor Wind DMG to a single target, with a high chance to inflict Wind Shear."
+        },
+        {
+          "name": "Meiotic Division",
+          "type": "Ability",
+          "desc": "Produces 1 spawn of itself. This effect can be triggered again after 2 turns."
+        },
+        {
+          "name": "Entomon Eulogy",
+          "type": "Talent",
+          "desc": "When receiving a killing blow, deals Wind DMG to all friendly units, with a high chance to slightly increase their DMG received."
+        }
+      ]
+    }
+  ]
+}

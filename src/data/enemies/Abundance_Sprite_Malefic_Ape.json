@@ -3,6 +3,7 @@
   "faction": "The Xianzhou Luofu",
   "variants": [
     {
+      "source": "Abundance Sprite: Malefic Ape",
       "attack": 18,
       "def": 210,
       "hp": 1116,
@@ -37,6 +38,47 @@
           "name": "Fiery Majesty",
           "type": "Ability",
           "desc": "Increases DMG dealt. This DMG boosting effect is stackable."
+        }
+      ]
+    },
+    {
+      "name": "Abundance Sprite: Malefic Ape (Bug)",
+      "source": "Abundance Sprite: Malefic Ape (Bug)",
+      "attack": 18,
+      "def": 210,
+      "hp": 1674,
+      "speed": 172,
+      "toughness": 360,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Simian Strike",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target.",
+          "threat": true
+        },
+        {
+          "name": "Wrathful Roar",
+          "type": "Ability",
+          "desc": "Locks onto a random target. Whenever any target uses their Skill, they will become the new lock-on target, and this unit gains 1 stack of Gusto. The next time this unit uses Simian Strike, consume all current Gusto stacks and increase this unit's ATK based on the number of stacks consumed. Accumulated Gusto stacks will be cleared when this unit has its Weakness Broken.",
+          "threat": true
+        },
+        {
+          "name": "Simian Howl",
+          "type": "Ability",
+          "desc": "Deals minor Quantum DMG to all targets."
         }
       ]
     }

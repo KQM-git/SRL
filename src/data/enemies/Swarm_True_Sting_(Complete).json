@@ -1,0 +1,79 @@
+{
+  "name": "Swarm: True Sting (Complete)",
+  "faction": "Cosmos",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 144,
+      "toughness": 540,
+      "effectResBase": 0.4,
+      "weaknesses": [
+        "Quantum",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2
+      },
+      "debuffRES": {
+        "Control Effects": 0.75
+      },
+      "skills": [
+        {
+          "name": "Swarm Onslaught",
+          "type": "Ability",
+          "desc": "Dispels all Crowd Control debuffs and Weakness Break affecting True Stings. Deals Wind DMG to the target, and causes the target to have a high chance of being inflicted with 1 stack of Wind Shear every time they take DMG.",
+          "phases": [ 2, 3 ],
+          "threat": true
+        },
+        {
+          "name": "Time to Battle",
+          "type": "Ability",
+          "desc": "Deals minor Wind DMG to a single target, with a high chance to inflict 2 stacks of Wind Shear.",
+          "phases": [ 1, 2, 3 ]
+        },
+        {
+          "name": "War Gear",
+          "type": "Ability",
+          "desc": "Deals minor Wind DMG to a single target. If the target is currently suffering from Wind Shear, Wind Shear immediately causes DMG 1 time.",
+          "phases": [ 1, 2, 3 ]
+        },
+        {
+          "name": "Cyclonic Swarm",
+          "type": "Ability",
+          "desc": "Deals Wind DMG to all targets, with a high chance to cause Wind Shear.",
+          "phases": [ 1, 2, 3 ]
+        },
+        {
+          "name": "Propagation",
+          "type": "Ability",
+          "desc": "Spawns True Stings.",
+          "phases": [ 1, 2, 3 ]
+        },
+        {
+          "name": "Ready Order",
+          "type": "Ability",
+          "desc": "Enters the Charge state. Uses Swarm Onslaught for the next action.",
+          "phases": [ 2, 3 ]
+        },
+        {
+          "name": "Transmission Pheromone",
+          "type": "Talent",
+          "desc": "Each time a True Sting is spawned, increases all True Stings' DMG dealt by 1 stack. Only 1 Transmission Pheromone effect can exist in battle at once.",
+          "phases": [ 1, 2, 3 ]
+        },
+        {
+          "name": "Entomon Eulogy",
+          "type": "Talent",
+          "desc": "When receiving a killing blow, deals Wind DMG to all friendly units, with a high chance to slightly increase their DMG received.",
+          "phases": [ 3 ]
+        }
+      ]
+    }
+  ]
+}
