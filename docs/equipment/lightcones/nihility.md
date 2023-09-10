@@ -17,6 +17,10 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 
 <Lightcone lightcone="Patience Is All You Need" lightcones={nihility} />
 
+### Solitary Healing
+
+<Lightcone lightcone="Solitary Healing" lightcones={nihility} />
+
 ## 4 Stars
 
 ### Before the Tutorial Mission Starts
@@ -38,10 +42,6 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 ### Resolution Shines As Pearls of Sweat
 
 <Lightcone lightcone="Resolution Shines As Pearls of Sweat" lightcones={nihility} />
-
-### Solitary Healing
-
-<Lightcone lightcone="Solitary Healing" lightcones={nihility} />
 
 ### We Will Meet Again
 
