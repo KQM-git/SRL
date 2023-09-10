@@ -183,3 +183,87 @@ Curios are special items in the Simulated Universe that provide players with dif
 ## Mechanical Cuckoo Clock
 
 <Curio curio="Mechanical Cuckoo Clock" />
+
+## Sealing Wax of Propagation
+
+<Curio curio="Sealing Wax of Propagation" />
+
+## Triangular Drum-roll Device
+
+<Curio curio="Triangular Drum-roll Device" />
+
+## Silver Coin of Discord
+
+<Curio curio="Silver Coin of Discord" />
+
+## Family Ties
+
+<Curio curio="Family Ties" />
+
+## Medal of the Gloryblood Era
+
+<Curio curio="Medal of the Gloryblood Era" />
+
+## Black Hole Trap
+
+<Curio curio="Black Hole Trap" />
+
+## Interastral Big Lotto
+
+<Curio curio="Interastral Big Lotto" />
+
+## Fissured Cuckoo Clock
+
+<Curio curio="Fissured Cuckoo Clock" />
+
+## Typical Genius Society Gossip
+
+<Curio curio="Typical Genius Society Gossip" />
+
+## Tonic of Efficacious Chaos
+
+<Curio curio="Tonic of Efficacious Chaos" />
+
+## Rubert Empire Mechanical Cogwheel
+
+<Curio curio="Rubert Empire Mechanical Cogwheel" />
+
+## Cavity System Model
+
+<Curio curio="Cavity System Model" />
+
+## Tousled Detective
+
+<Curio curio="Tousled Detective" />
+
+## Fool's Mask
+
+<Curio curio="Fool's Mask" />
+
+## Vile Mechanical Satellite #900
+
+<Curio curio="Vile Mechanical Satellite 900" />
+
+## Spirit of the Knights of Beauty
+
+<Curio curio="Spirit of the Knights of Beauty" />
+
+## Illusory Automaton
+
+<Curio curio="Illusory Automaton" />
+
+## A Pinch of Bearded Gunpowder
+
+<Curio curio="A Pinch of Bearded Gunpowder" />
+
+## Man-Made Meteorite
+
+<Curio curio="Man-Made Meteorite" />
+
+## Thalan Toxi-Flame
+
+<Curio curio="Thalan Toxi-Flame" />
+
+## The Pinkest Collision
+
+<Curio curio="The Pinkest Collision" />
