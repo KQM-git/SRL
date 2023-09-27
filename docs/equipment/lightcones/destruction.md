@@ -13,6 +13,10 @@ import destruction from '@site/src/data/lightcones/Destruction.json'
 
 <Lightcone lightcone="On the Fall of an Aeon" lightcones={destruction} />
 
+### She Already Shut Her Eyes
+
+<Lightcone lightcone="She Already Shut Her Eyes" lightcones={destruction} />
+
 ### Something Irreplaceable
 
 <Lightcone lightcone="Something Irreplaceable" lightcones={destruction} />
