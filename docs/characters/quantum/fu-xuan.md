@@ -1,6 +1,7 @@
 ---
 description: |-
-  
+  Head of the Divination Commission on the Luofu.
+  The person who uses the third eye and Matrix of Prescience to foretell the route of Xianzhou and the outcomes of events.
 ---
 
 import char from '@site/src/data/characters/Fu_Xuan.json'

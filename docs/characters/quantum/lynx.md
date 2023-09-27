@@ -1,6 +1,7 @@
 ---
 description: |-
-  
+  A Belobogian Snow Plains Explorer, and the youngest of the Landau siblings.
+  Calm and collected, with a strong drive for action. Often embarks on solo adventures to explore the snowy wilderness.
 ---
 
 import char from '@site/src/data/characters/Lynx.json'
