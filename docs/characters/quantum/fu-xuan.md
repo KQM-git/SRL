@@ -55,20 +55,14 @@ import Skill from '@site/src/components/char/Skill'
 import Trace from '@site/src/components/char/Trace'
 
 <Tabs queryString="trace">
-<TabItem value='a2' label='A2'>
-<Trace char={char} trace='a2' />
-
-</TabItem>
-<TabItem value='a4' label='A4'>
-<Trace char={char} trace='a4' />
-
-</TabItem>
 <TabItem value='a6' label='A6'>
 <Trace char={char} trace='a6' />
 
 </TabItem>
-<TabItem value='misc' label='Misc'>
+<TabItem value='misc' label='A2/A4/Misc'>
 <Trace char={char} trace='misc' />
+<Trace char={char} trace='a3' />
+<Trace char={char} trace='a5' />
 </TabItem>
 </Tabs>
 
