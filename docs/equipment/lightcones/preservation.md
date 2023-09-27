@@ -9,6 +9,10 @@ import preservation from '@site/src/data/lightcones/Preservation.json'
 
 <Lightcone lightcone="Moment of Victory" lightcones={preservation} />
 
+### She Already Shut Her Eyes
+
+<Lightcone lightcone="She Already Shut Her Eyes" lightcones={preservation} />
+
 ### Texture of Memories
 
 <Lightcone lightcone="Texture of Memories" lightcones={preservation} />

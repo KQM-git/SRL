@@ -1,0 +1,342 @@
+{
+  "name": "Lynx",
+  "damageType": "Quantum",
+  "baseType": "Abundance",
+  "star": 4,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 67.2,
+      "attackAdd": 3.36,
+      "hpBase": 144,
+      "hpAdd": 7.2,
+      "defenseBase": 75,
+      "defenseAdd": 3.75,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 94.08,
+      "attackAdd": 3.36,
+      "hpBase": 201.6,
+      "hpAdd": 7.2,
+      "defenseBase": 105,
+      "defenseAdd": 3.75,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 120.96,
+      "attackAdd": 3.36,
+      "hpBase": 259.2,
+      "hpAdd": 7.2,
+      "defenseBase": 135,
+      "defenseAdd": 3.75,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 147.84,
+      "attackAdd": 3.36,
+      "hpBase": 316.8,
+      "hpAdd": 7.2,
+      "defenseBase": 165,
+      "defenseAdd": 3.75,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 174.72,
+      "attackAdd": 3.36,
+      "hpBase": 374.4,
+      "hpAdd": 7.2,
+      "defenseBase": 195,
+      "defenseAdd": 3.75,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 201.6,
+      "attackAdd": 3.36,
+      "hpBase": 432,
+      "hpAdd": 7.2,
+      "defenseBase": 225,
+      "defenseAdd": 3.75,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 228.48,
+      "attackAdd": 3.36,
+      "hpBase": 489.6,
+      "hpAdd": 7.2,
+      "defenseBase": 255,
+      "defenseAdd": 3.75,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 100,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Ice Crampon Technique",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of this character's Max HP to a single enemy.",
+      "params": [
+        [ 0.25 ],
+        [ 0.3 ],
+        [ 0.35 ],
+        [ 0.4 ],
+        [ 0.45 ],
+        [ 0.5 ],
+        [ 0.55 ],
+        [ 0.6 ],
+        [ 0.65 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Salted Camping Cans",
+      "tag": "Restore",
+      "type": "Skill",
+      "desc": "Applies \"Survival Response\" to a single target ally and increases their Max HP by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for <unbreak>#3[i]</unbreak> turn(s).\\nRestores the target's HP by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color>.",
+      "params": [
+        [ 0.05, 50, 2, 0.08, 80, 5 ],
+        [ 0.0525, 80, 2, 0.085, 128, 5 ],
+        [ 0.055, 102.5, 2, 0.09, 164, 5 ],
+        [ 0.0575, 125, 2, 0.095, 200, 5 ],
+        [ 0.06, 140, 2, 0.1, 224, 5 ],
+        [ 0.0625, 155, 2, 0.104, 248, 5 ],
+        [ 0.065625, 166.25, 2, 0.108, 266, 5 ],
+        [ 0.06875, 177.5, 2, 0.112, 284, 5 ],
+        [ 0.071875, 188.75, 2, 0.116, 302, 5 ],
+        [ 0.075, 200, 2, 0.12, 320, 5 ],
+        [ 0.0775, 211.25, 2, 0.124, 338, 5 ],
+        [ 0.08, 222.5, 2, 0.128, 356, 5 ],
+        [ 0.0825, 233.75, 2, 0.132, 374, 5 ],
+        [ 0.085, 245, 2, 0.136, 392, 5 ],
+        [ 0.0875, 256.25, 2, 0.14, 410, 5 ]
+      ],
+      "energyGain": 30
+    },
+    {
+      "name": "Snowfield First Aid",
+      "tag": "Restore",
+      "type": "Ultimate",
+      "desc": "Dispels <unbreak>#1[i]</unbreak> <u>debuff(s)</u> from all allies and immediately restores their respective HP by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color>.",
+      "params": [
+        [ 1, 0.09, 90 ],
+        [ 1, 0.095625, 144 ],
+        [ 1, 0.10125, 184.5 ],
+        [ 1, 0.106875, 225 ],
+        [ 1, 0.1125, 252 ],
+        [ 1, 0.117, 279 ],
+        [ 1, 0.1215, 299.25 ],
+        [ 1, 0.126, 319.5 ],
+        [ 1, 0.1305, 339.75 ],
+        [ 1, 0.135, 360 ],
+        [ 1, 0.1395, 380.25 ],
+        [ 1, 0.144, 400.5 ],
+        [ 1, 0.1485, 420.75 ],
+        [ 1, 0.153, 441 ],
+        [ 1, 0.1575, 461.25 ]
+      ],
+      "energyNeeded": 100,
+      "energyGain": 5
+    },
+    {
+      "name": "Outdoor Survival Experience",
+      "tag": "Restore",
+      "type": "Talent",
+      "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for <unbreak>#1[i]</unbreak> turn(s), restoring the target ally's HP by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color> at the start of each their turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color>.",
+      "params": [
+        [ 2, 0.024, 24, 0.03, 30 ],
+        [ 2, 0.0255, 38.4, 0.031875, 48 ],
+        [ 2, 0.027, 49.2, 0.03375, 61.5 ],
+        [ 2, 0.0285, 60, 0.035625, 75 ],
+        [ 2, 0.03, 67.2, 0.0375, 84 ],
+        [ 2, 0.0312, 74.4, 0.039, 93 ],
+        [ 2, 0.0324, 79.8, 0.0405, 99.75 ],
+        [ 2, 0.0336, 85.2, 0.042, 106.5 ],
+        [ 2, 0.0348, 90.6, 0.0435, 113.25 ],
+        [ 2, 0.036, 96, 0.045, 120 ],
+        [ 2, 0.0372, 101.4, 0.0465, 126.75 ],
+        [ 2, 0.0384, 106.8, 0.048, 133.5 ],
+        [ 2, 0.0396, 112.2, 0.0495, 140.25 ],
+        [ 2, 0.0408, 117.6, 0.051, 147 ],
+        [ 2, 0.042, 123, 0.0525, 153.75 ]
+      ]
+    },
+    {
+      "name": "Chocolate Energy Bar",
+      "tag": "Restore",
+      "type": "Technique",
+      "desc": "After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [
+        [ 2 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Morning of Snow Hike",
+      "desc": "When healing allies with HP equal to or lower than <unbreak>#1[i]%</unbreak>, Lynx's Outgoing Healing increases by <unbreak>#2[i]%</unbreak>. This effect also works on continuous healing.",
+      "params": [ 0.5, 0.2 ]
+    },
+    {
+      "name": "Noon of Portable Furnace",
+      "desc": "A target with \"Survival Response\" can resist debuff application for <unbreak>#1[i]</unbreak> time(s).",
+      "params": [ 1 ]
+    },
+    {
+      "name": "Afternoon of Avalanche Beacon",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Dusk of Warm Campfire",
+      "desc": "When \"Survival Response\" is gained, increases the target's ATK by an amount equal to <unbreak>#1[f1]%</unbreak> of Lynx's Max HP for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.03, 1 ]
+    },
+    {
+      "name": "Night of Aurora Tea",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Dawn of Explorers' Chart",
+      "desc": "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to <unbreak>#1[f1]%</unbreak> of Lynx's Max HP and increases Effect RES by <unbreak>#2[i]%</unbreak>.",
+      "params": [ 0.06, 0.3 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Advance Surveying",
+      "desc": "After a target with \"Survival Response\" is hit, Lynx regenerates <unbreak>#1[i]</unbreak> Energy immediately.",
+      "params": [ 2 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.05 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "Effect RES Boost",
+                  "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exploration Techniques",
+      "desc": "Increases the chance to resist Crowd Control debuffs by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.35 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.075 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "HP Boost",
+                  "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Survival in the Extreme",
+      "desc": "Extends the duration of the continuous healing effect granted by Talent for <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [ 1 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6
+        },
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.1 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "HP Boost",
+      "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
+    },
+    {
+      "name": "HP Boost",
+      "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.08 ],
+      "minLevel": 80
+    }
+  ]
+}
