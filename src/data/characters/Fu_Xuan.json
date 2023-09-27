@@ -1,0 +1,345 @@
+{
+  "name": "Fu Xuan",
+  "damageType": "Quantum",
+  "baseType": "Preservation",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 63.36,
+      "attackAdd": 3.168,
+      "hpBase": 200.64,
+      "hpAdd": 10.032,
+      "defenseBase": 82.5,
+      "defenseAdd": 4.125,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 88.704,
+      "attackAdd": 3.168,
+      "hpBase": 280.896,
+      "hpAdd": 10.032,
+      "defenseBase": 115.5,
+      "defenseAdd": 4.125,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 114.048,
+      "attackAdd": 3.168,
+      "hpBase": 361.152,
+      "hpAdd": 10.032,
+      "defenseBase": 148.5,
+      "defenseAdd": 4.125,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 139.392,
+      "attackAdd": 3.168,
+      "hpBase": 441.408,
+      "hpAdd": 10.032,
+      "defenseBase": 181.5,
+      "defenseAdd": 4.125,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 164.736,
+      "attackAdd": 3.168,
+      "hpBase": 521.664,
+      "hpAdd": 10.032,
+      "defenseBase": 214.5,
+      "defenseAdd": 4.125,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 190.08,
+      "attackAdd": 3.168,
+      "hpBase": 601.92,
+      "hpAdd": 10.032,
+      "defenseBase": 247.5,
+      "defenseAdd": 4.125,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 100,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 215.424,
+      "attackAdd": 3.168,
+      "hpBase": 682.176,
+      "hpAdd": 10.032,
+      "defenseBase": 280.5,
+      "defenseAdd": 4.125,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 150,
+      "speedBase": 100,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Novaburst",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Fu Xuan's Max HP to a single enemy.",
+      "params": [
+        [ 0.25 ],
+        [ 0.3 ],
+        [ 0.35 ],
+        [ 0.4 ],
+        [ 0.45 ],
+        [ 0.5 ],
+        [ 0.55 ],
+        [ 0.6 ],
+        [ 0.65 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Known by Stars, Shown by Hearts",
+      "tag": "Defense",
+      "type": "Skill",
+      "desc": "Activates Matrix of Prescience, via which other team members will <u>Distribute</u> <unbreak>#1[i]%</unbreak> of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for <unbreak>#3[i]</unbreak> turn(s).\\nWhile affected by Matrix of Prescience, all team members gain the Knowledge effect, which increases their respective Max HP by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> of Fu Xuan's Max HP, and increases CRIT Rate by <color=#f29e38ff><unbreak>#5[f1]%</unbreak></color>.\\nWhen Fu Xuan is <u>knocked down</u>, the Matrix of Prescience will be dispelled.",
+      "params": [
+        [ 0.65, 0, 3, 0.03, 0.06 ],
+        [ 0.65, 0, 3, 0.033, 0.066 ],
+        [ 0.65, 0, 3, 0.036, 0.072 ],
+        [ 0.65, 0, 3, 0.039, 0.078 ],
+        [ 0.65, 0, 3, 0.042, 0.084 ],
+        [ 0.65, 0, 3, 0.045, 0.09 ],
+        [ 0.65, 0, 3, 0.04875, 0.0975 ],
+        [ 0.65, 0, 3, 0.0525, 0.105 ],
+        [ 0.65, 0, 3, 0.05625, 0.1125 ],
+        [ 0.65, 0, 3, 0.06, 0.12 ],
+        [ 0.65, 0, 3, 0.063, 0.126 ],
+        [ 0.65, 0, 3, 0.066, 0.132 ],
+        [ 0.65, 0, 3, 0.069, 0.138 ],
+        [ 0.65, 0, 3, 0.072, 0.144 ],
+        [ 0.65, 0, 3, 0.075, 0.15 ]
+      ],
+      "energyGain": 30
+    },
+    {
+      "name": "Woes of Many Morphed to One",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.",
+      "params": [
+        [ 0.6 ],
+        [ 0.64 ],
+        [ 0.68 ],
+        [ 0.72 ],
+        [ 0.76 ],
+        [ 0.8 ],
+        [ 0.85 ],
+        [ 0.9 ],
+        [ 0.95 ],
+        [ 1 ],
+        [ 1.04 ],
+        [ 1.08 ],
+        [ 1.12 ],
+        [ 1.16 ],
+        [ 1.2 ]
+      ],
+      "energyNeeded": 135,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "Bleak Breeds Bliss",
+      "tag": "Restore",
+      "type": "Talent",
+      "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> less DMG.\\nWhen Fu Xuan's current HP falls to <unbreak>#2[i]%</unbreak> of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts.",
+      "params": [
+        [ 0.1, 0.5, 0.8 ],
+        [ 0.108, 0.5, 0.81 ],
+        [ 0.116, 0.5, 0.82 ],
+        [ 0.124, 0.5, 0.83 ],
+        [ 0.132, 0.5, 0.84 ],
+        [ 0.14, 0.5, 0.85 ],
+        [ 0.15, 0.5, 0.8625 ],
+        [ 0.16, 0.5, 0.875 ],
+        [ 0.17, 0.5, 0.8875 ],
+        [ 0.18, 0.5, 0.9 ],
+        [ 0.188, 0.5, 0.91 ],
+        [ 0.196, 0.5, 0.92 ],
+        [ 0.204, 0.5, 0.93 ],
+        [ 0.212, 0.5, 0.94 ],
+        [ 0.22, 0.5, 0.95 ]
+      ]
+    },
+    {
+      "name": "Of Fortune Comes Fate",
+      "tag": "Defense",
+      "type": "Technique",
+      "desc": "After the Technique is used, all team members receive a Barrier, lasting for <unbreak>#1[i]</unbreak> seconds. This Barrier can block all enemy attacks, and the team will not enter battle when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 20, 2 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Dominus Pacis",
+      "desc": "The Knowledge effect increases CRIT DMG by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.3 ]
+    },
+    {
+      "name": "Optimus Felix",
+      "desc": "If any team member is struck by a killing blow while Matrix of Prescience is active, then all allies who were struck by a killing blow during this action will not be knocked down, and <unbreak>#1[i]%</unbreak> of their Max HP is immediately restored. This effect can trigger 1 time per battle.",
+      "params": [ 0.7 ]
+    },
+    {
+      "name": "Apex Nexus",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Fortuna Stellaris",
+      "desc": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 5 ]
+    },
+    {
+      "name": "Arbiter Primus",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Omnia Vita",
+      "desc": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. Fu Xuan's Ultimate DMG will increase by <unbreak>#1[i]%</unbreak> of this tally of HP loss.\\nThis tally is also capped at <unbreak>#2[i]%</unbreak> of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used.",
+      "params": [ 2, 1.2 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Liuren, the Sexagenary",
+      "desc": "If a target enemy applies Crowd Control debuffs to allies while the Matrix of Prescience is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. When Matrix of Prescience is activated again, the number of times this effect can be triggered will reset.",
+      "params": [],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
+              "minLevel": 75
+            },
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.053 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRIT Rate Boost",
+      "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.027 ],
+      "children": [
+        {
+          "name": "Taiyi, the Macrocosmic",
+          "desc": "When Matrix of Prescience is active, Fu Xuan will regenerate <unbreak>#1[i]</unbreak> extra Energy when she uses her Skill.",
+          "params": [ 20 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 2,
+              "children": [
+                {
+                  "name": "CRIT Rate Boost",
+                  "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.027 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dunjia, the Metamystic",
+          "desc": "When Fu Xuan's Ultimate is used, heals all other allies by an amount equal to <unbreak>#1[i]%</unbreak> of Fu Xuan's Max HP plus <unbreak>#2[i]</unbreak>.",
+          "params": [ 0.05, 133 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 4,
+              "children": [
+                {
+                  "name": "HP Boost",
+                  "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Effect RES Boost",
+      "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "minAsc": 3
+    },
+    {
+      "name": "CRIT Rate Boost",
+      "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "minAsc": 5
+    }
+  ]
+}
