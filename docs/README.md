@@ -10,9 +10,9 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-**Most Recent Characters:** [Dan Heng • Imbibitor Lunae](/characters/imaginary/dan-heng-imbibitor-lunae)
+**Most Recent Characters:** [Fu Xuan](/characters/quantum/fu-xuan) | [Lynx](/characters/quantum/lynx)
 
-**Most Recent Light Cones:** [Brighter Than the Sun](equipment/lightcones/destruction#brighter-than-the-sun) | [Solitary Healing](equipment/lightcones/nihility#solitary-healing)
+**Most Recent Light Cones:** [She Already Shut Her Eyes](equipment/lightcones/preservation#she-already-shut-her-eyes)
 
 ## Data Status
 
