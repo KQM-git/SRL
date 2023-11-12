@@ -92,6 +92,13 @@ $$
 \end{cases}
 $$
 
+## EXCEL
+
+$$
+\text{EXCEL: https://docs.google.com/spreadsheets/d/1xUeh2rwU7CzIlsfhUiVC7mBAynJSW2of/edit?usp=drive_link&ouid=108957846027468127337&rtpof=true&sd=true} \\
+\end{cases}
+$$
+
 ## Evidence Vault
 
 <Card item={require('../../evidence/combat-mechanics/damage/damage-formula.md')} />
