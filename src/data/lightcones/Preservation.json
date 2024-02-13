@@ -351,6 +351,94 @@
       ]
     }
   },
+  "Destiny's Threads Forewoven": {
+    "name": "Destiny's Threads Forewoven",
+    "baseType": "Preservation",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 16.8,
+        "attackAdd": 2.52,
+        "defenseBase": 21,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 36.96,
+        "attackAdd": 2.52,
+        "defenseBase": 46.2,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 63.84,
+        "attackAdd": 2.52,
+        "defenseBase": 79.8,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 90.72,
+        "attackAdd": 2.52,
+        "defenseBase": 113.4,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 117.6,
+        "attackAdd": 2.52,
+        "defenseBase": 147,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 144.48,
+        "attackAdd": 2.52,
+        "defenseBase": 180.6,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 171.36,
+        "attackAdd": 2.52,
+        "defenseBase": 214.2,
+        "defenseAdd": 3.15
+      }
+    ],
+    "superimposition": {
+      "name": "Insight",
+      "desc": "Increases the wearer's Effect RES by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. For every <unbreak>#2[i]</unbreak> of DEF the wearer has, increases the wearer's DMG dealt by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>, up to a maximum DMG increase of <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.",
+      "params": [
+        [ 0.12, 100, 0.008, 0.32 ],
+        [ 0.14, 100, 0.009, 0.36 ],
+        [ 0.16, 100, 0.01, 0.4 ],
+        [ 0.18, 100, 0.011, 0.44 ],
+        [ 0.2, 100, 0.012, 0.48 ]
+      ]
+    }
+  },
   "Landau's Choice": {
     "name": "Landau's Choice",
     "baseType": "Preservation",

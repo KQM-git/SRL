@@ -1,0 +1,350 @@
+{
+  "name": "Dr. Ratio",
+  "damageType": "Imaginary",
+  "baseType": "The Hunt",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 105.6,
+      "attackAdd": 5.28,
+      "hpBase": 142.56,
+      "hpAdd": 7.128,
+      "defenseBase": 62.7,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 147.84,
+      "attackAdd": 5.28,
+      "hpBase": 199.584,
+      "hpAdd": 7.128,
+      "defenseBase": 87.78,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 190.08,
+      "attackAdd": 5.28,
+      "hpBase": 256.608,
+      "hpAdd": 7.128,
+      "defenseBase": 112.86,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 232.32,
+      "attackAdd": 5.28,
+      "hpBase": 313.632,
+      "hpAdd": 7.128,
+      "defenseBase": 137.94,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 274.56,
+      "attackAdd": 5.28,
+      "hpBase": 370.656,
+      "hpAdd": 7.128,
+      "defenseBase": 163.02,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 316.8,
+      "attackAdd": 5.28,
+      "hpBase": 427.68,
+      "hpAdd": 7.128,
+      "defenseBase": 188.1,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 359.04,
+      "attackAdd": 5.28,
+      "hpBase": 484.704,
+      "hpAdd": 7.128,
+      "defenseBase": 213.18,
+      "defenseAdd": 3.135,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Mind is Might",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK to a single target enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Intellectual Midwifery",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK to a single target enemy.",
+      "params": [
+        [ 0.75 ],
+        [ 0.825 ],
+        [ 0.9 ],
+        [ 0.975 ],
+        [ 1.05 ],
+        [ 1.125 ],
+        [ 1.21875 ],
+        [ 1.3125 ],
+        [ 1.40625 ],
+        [ 1.5 ],
+        [ 1.575 ],
+        [ 1.65 ],
+        [ 1.725 ],
+        [ 1.8 ],
+        [ 1.875 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
+    },
+    {
+      "name": "Syllogistic Paradox",
+      "tag": "Single Target",
+      "type": "Ultimate",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's allies attack a target afflicted with Wiseman's Folly, Dr. Ratio launches his Talent's <u>follow-up attack</u> for 1 time against this target.\\nWiseman's Folly can be triggered for up to <unbreak>#2[i]</unbreak> times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
+      "params": [
+        [ 1.44, 2 ],
+        [ 1.536, 2 ],
+        [ 1.632, 2 ],
+        [ 1.728, 2 ],
+        [ 1.824, 2 ],
+        [ 1.92, 2 ],
+        [ 2.04, 2 ],
+        [ 2.16, 2 ],
+        [ 2.28, 2 ],
+        [ 2.4, 2 ],
+        [ 2.496, 2 ],
+        [ 2.592, 2 ],
+        [ 2.688, 2 ],
+        [ 2.784, 2 ],
+        [ 2.88, 2 ]
+      ],
+      "energyNeeded": 140,
+      "energyGain": 5,
+      "toughness": {
+        "Target": 90
+      }
+    },
+    {
+      "name": "Cogito, Ergo Sum",
+      "tag": "Single Target",
+      "type": "Talent",
+      "desc": "When using his Skill, Dr. Ratio has a <unbreak>#2[i]%</unbreak> <u>fixed chance</u> of launching a <u>follow-up attack</u> against his target for 1 time, dealing Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK. For each debuff the target enemy has, the <u>fixed chance</u> of launching <u>follow-up attack</u> increases by <unbreak>#3[i]%</unbreak>. If the target enemy is defeated before the <u>follow-up attack</u> triggers, the <u>follow-up attack</u> will be directed at a single random enemy instead.",
+      "params": [
+        [ 1.35, 0.4, 0.2 ],
+        [ 1.485, 0.4, 0.2 ],
+        [ 1.62, 0.4, 0.2 ],
+        [ 1.755, 0.4, 0.2 ],
+        [ 1.89, 0.4, 0.2 ],
+        [ 2.025, 0.4, 0.2 ],
+        [ 2.19375, 0.4, 0.2 ],
+        [ 2.3625, 0.4, 0.2 ],
+        [ 2.53125, 0.4, 0.2 ],
+        [ 2.7, 0.4, 0.2 ],
+        [ 2.835, 0.4, 0.2 ],
+        [ 2.97, 0.4, 0.2 ],
+        [ 3.105, 0.4, 0.2 ],
+        [ 3.24, 0.4, 0.2 ],
+        [ 3.375, 0.4, 0.2 ]
+      ],
+      "energyGain": 5,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Mold of Idolatry",
+      "tag": "Impair",
+      "type": "Technique",
+      "desc": "After using Technique, creates a dimension that Taunts nearby enemies, lasting for <unbreak>#1[i]</unbreak> second(s). After entering battle with enemies in this dimension, there is a <unbreak>#2[i]%</unbreak> <u>base chance</u> to reduce each single enemy target's SPD by <unbreak>#3[i]%</unbreak> for <unbreak>#4[i]</unbreak> turn(s). Only 1 dimension created by allies can exist at the same time.",
+      "params": [
+        [ 10, 1, 0.15, 2 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Pride Comes Before a Fall",
+      "desc": "The maximum stackable count for the Trace \"Summation\" increases by <unbreak>#1[i]</unbreak>. When a battle begins, immediately obtains <unbreak>#2[i]</unbreak> stacks of Summation. Needs to unlock Summation first.",
+      "params": [ 4, 4 ]
+    },
+    {
+      "name": "The Divine Is in the Details",
+      "desc": "When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Imaginary Additional DMG equal to <unbreak>#1[i]%</unbreak> of Dr. Ratio's ATK. This effect can be triggered for a maximum of <unbreak>#2[i]</unbreak> time(s) during each follow-up attack.",
+      "params": [ 0.2, 4 ]
+    },
+    {
+      "name": "Know Thyself",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Ignorance Is Blight",
+      "desc": "When triggering the Talent, additionally regenerates <unbreak>#1[i]</unbreak> Energy for Dr. Ratio.",
+      "params": [ 15 ]
+    },
+    {
+      "name": "Sic Itur Ad Astra",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Vincit Omnia Veritas",
+      "desc": "Additionally increases the triggerable count for Wiseman's Folly by <unbreak>#1[i]</unbreak>. The DMG dealt by the Talent's follow-up attack increases by <unbreak>#2[i]%</unbreak>.",
+      "params": [ 1, 0.5 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Summation",
+      "desc": "When Dr. Ratio uses his Skill, for every debuff on the target, his CRIT Rate increases by <unbreak>#1[f1]%</unbreak> and CRIT DMG by <unbreak>#2[i]%</unbreak>. This effect can stack up to <unbreak>#3[i]</unbreak> time(s).",
+      "params": [ 0.025, 0.05, 6 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.027 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inference",
+      "desc": "When Skill is used to attack an enemy target, there is a <unbreak>#1[i]%</unbreak> base chance to reduce the attacked target's Effect RES by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [ 1, 0.1, 2 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deduction",
+      "desc": "When dealing DMG to a target that has <unbreak>#1[i]</unbreak> or more debuff(s), for each debuff the target has, the DMG dealt by Dr. Ratio to this target increases by <unbreak>#2[i]%</unbreak>, up to a maximum increase of <unbreak>#3[i]%</unbreak>.",
+      "params": [ 3, 0.1, 0.5 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.075 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.053 ],
+              "minLevel": 75
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
+    },
+    {
+      "name": "DEF Boost",
+      "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.05 ],
+      "minAsc": 3
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.06 ],
+      "minAsc": 5
+    }
+  ]
+}

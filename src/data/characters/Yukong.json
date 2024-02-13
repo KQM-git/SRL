@@ -160,7 +160,7 @@
       "name": "Diving Kestrel",
       "tag": "Single Target",
       "type": "Ultimate",
-      "desc": "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and CRIT DMG by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. At the same time, deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yukong's ATK to a single enemy.",
+      "desc": "If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> and CRIT DMG by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. At the same time, deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yukong's ATK to a single enemy.",
       "params": [
         [ 2.28, 0.21, 0.39 ],
         [ 2.432, 0.217, 0.416 ],

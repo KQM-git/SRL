@@ -1,0 +1,351 @@
+{
+  "name": "Black Swan",
+  "damageType": "Wind",
+  "baseType": "Nihility",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 89.76,
+      "attackAdd": 4.488,
+      "hpBase": 147.84,
+      "hpAdd": 7.392,
+      "defenseBase": 66,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 125.664,
+      "attackAdd": 4.488,
+      "hpBase": 206.976,
+      "hpAdd": 7.392,
+      "defenseBase": 92.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 161.568,
+      "attackAdd": 4.488,
+      "hpBase": 266.112,
+      "hpAdd": 7.392,
+      "defenseBase": 118.8,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 197.472,
+      "attackAdd": 4.488,
+      "hpBase": 325.248,
+      "hpAdd": 7.392,
+      "defenseBase": 145.2,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 233.376,
+      "attackAdd": 4.488,
+      "hpBase": 384.384,
+      "hpAdd": 7.392,
+      "defenseBase": 171.6,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 269.28,
+      "attackAdd": 4.488,
+      "hpBase": 443.52,
+      "hpAdd": 7.392,
+      "defenseBase": 198,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 102,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 305.184,
+      "attackAdd": 4.488,
+      "hpBase": 502.656,
+      "hpAdd": 7.392,
+      "defenseBase": 224.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 102,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Percipience, Silent Dawn",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Black Swan's ATK to a single target enemy, with a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>base chance</u> of inflicting 1 stack of <u>Arcana</u> on the target. Additionally, when attacking a target that suffers Wind Shear, Bleed, Burn, or Shock, there is respectively a <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>base chance</u> of inflicting 1 extra stack of <u>Arcana</u> on the target.",
+      "params": [
+        [ 0.3, 0.5, 0.5 ],
+        [ 0.36, 0.53, 0.53 ],
+        [ 0.42, 0.56, 0.56 ],
+        [ 0.48, 0.59, 0.59 ],
+        [ 0.54, 0.62, 0.62 ],
+        [ 0.6, 0.65, 0.65 ],
+        [ 0.66, 0.68, 0.68 ],
+        [ 0.72, 0.71, 0.71 ],
+        [ 0.78, 0.74, 0.74 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Decadence, False Twilight",
+      "tag": "Blast",
+      "type": "Skill",
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Black Swan's ATK to a single target enemy and any adjacent targets. At the same time, there is a <unbreak>#2[i]%</unbreak> <u>base chance</u> of inflicting 1 stack of <u>Arcana</u> on the target enemy and the adjacent targets. Additionally, there is a <unbreak>#3[i]%</unbreak> <u>base chance</u> of reducing the DEF of the target enemy and the adjacent targets by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.45, 1, 1, 0.148, 3 ],
+        [ 0.495, 1, 1, 0.154, 3 ],
+        [ 0.54, 1, 1, 0.16, 3 ],
+        [ 0.585, 1, 1, 0.166, 3 ],
+        [ 0.63, 1, 1, 0.172, 3 ],
+        [ 0.675, 1, 1, 0.178, 3 ],
+        [ 0.73125, 1, 1, 0.1855, 3 ],
+        [ 0.7875, 1, 1, 0.193, 3 ],
+        [ 0.84375, 1, 1, 0.2005, 3 ],
+        [ 0.9, 1, 1, 0.208, 3 ],
+        [ 0.945, 1, 1, 0.214, 3 ],
+        [ 0.99, 1, 1, 0.22, 3 ],
+        [ 1.035, 1, 1, 0.226, 3 ],
+        [ 1.08, 1, 1, 0.232, 3 ],
+        [ 1.125, 1, 1, 0.238, 3 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60,
+        "Adjacent": 30
+      }
+    },
+    {
+      "name": "Bliss of Otherworld's Embrace",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Inflicts Epiphany on all enemies for <unbreak>#2[i]</unbreak> turn(s).\\nWhile afflicted with Epiphany, enemies take <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> increased DMG in their turn. Additionally, if enemies are also inflicted with <u>Arcana</u>, they are considered to be simultaneously afflicted with Wind Shear, Bleed, Burn, and Shock. After <u>Arcana</u> causes DMG at the start of each turn, its stacks are not reset. This non-reset effect of <u>Arcana</u> stacks can be triggered up to <unbreak>#4[i]</unbreak> time(s) for the duration of Epiphany. And the trigger count resets when Epiphany is applied again.\\nDeals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Black Swan's ATK to all enemies.",
+      "params": [
+        [ 0.72, 2, 0.15, 1 ],
+        [ 0.768, 2, 0.16, 1 ],
+        [ 0.816, 2, 0.17, 1 ],
+        [ 0.864, 2, 0.18, 1 ],
+        [ 0.912, 2, 0.19, 1 ],
+        [ 0.96, 2, 0.2, 1 ],
+        [ 1.02, 2, 0.2125, 1 ],
+        [ 1.08, 2, 0.225, 1 ],
+        [ 1.14, 2, 0.2375, 1 ],
+        [ 1.2, 2, 0.25, 1 ],
+        [ 1.248, 2, 0.26, 1 ],
+        [ 1.296, 2, 0.27, 1 ],
+        [ 1.344, 2, 0.28, 1 ],
+        [ 1.392, 2, 0.29, 1 ],
+        [ 1.44, 2, 0.3, 1 ]
+      ],
+      "energyNeeded": 120,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "Loom of Fate's Caprice",
+      "tag": "Impair",
+      "type": "Talent",
+      "desc": "Every time an enemy target receives DoT at the start of each turn, there is a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>base chance</u> for it to be inflicted with 1 stack of <u>Arcana</u>.\\nWhile afflicted with <u>Arcana</u>, enemy targets receive Wind DoT equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Black Swan's ATK at the start of each turn. Each stack of <u>Arcana</u> increases this DMG multiplier by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>. Then <u>Arcana</u> resets to 1 stack. <u>Arcana</u> can stack up to <unbreak>#8[i]</unbreak> times.\\nOnly when <u>Arcana</u> causes DMG at the start of an enemy target's turn, Black Swan triggers additional effects based on the number of <u>Arcana</u> stacks inflicted on the target:\\nWhen there are <unbreak>#4[i]</unbreak> or more <u>Arcana</u> stacks, deals Wind DoT equal to <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of Black Swan's ATK to adjacent targets, with a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>base chance</u> of inflicting 1 stack of <u>Arcana</u> on adjacent targets.\\nWhen there are <unbreak>#6[i]</unbreak> or more <u>Arcana</u> stacks, enables the current DoT dealt this time to ignore <unbreak>#7[i]%</unbreak> of the target's and adjacent targets' DEF.",
+      "params": [
+        [ 0.96, 0.5, 0.048, 3, 0.72, 7, 0.2, 50 ],
+        [ 1.1184, 0.515, 0.05592, 3, 0.8388, 7, 0.2, 50 ],
+        [ 1.2768, 0.53, 0.06384, 3, 0.9576, 7, 0.2, 50 ],
+        [ 1.4352, 0.545, 0.07176, 3, 1.0764, 7, 0.2, 50 ],
+        [ 1.5936, 0.56, 0.07968, 3, 1.1952, 7, 0.2, 50 ],
+        [ 1.752, 0.575, 0.0876, 3, 1.314, 7, 0.2, 50 ],
+        [ 1.896, 0.59375, 0.0948, 3, 1.422, 7, 0.2, 50 ],
+        [ 2.04, 0.6125, 0.102, 3, 1.53, 7, 0.2, 50 ],
+        [ 2.22, 0.63125, 0.111, 3, 1.665, 7, 0.2, 50 ],
+        [ 2.4, 0.65, 0.12, 3, 1.8, 7, 0.2, 50 ],
+        [ 2.52, 0.665, 0.126, 3, 1.89, 7, 0.2, 50 ],
+        [ 2.64, 0.68, 0.132, 3, 1.98, 7, 0.2, 50 ],
+        [ 2.76, 0.695, 0.138, 3, 2.07, 7, 0.2, 50 ],
+        [ 2.88, 0.71, 0.144, 3, 2.16, 7, 0.2, 50 ],
+        [ 3, 0.725, 0.15, 3, 2.25, 7, 0.2, 50 ]
+      ]
+    },
+    {
+      "name": "From Façade to Vérité",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "After this Technique is used, there is a <unbreak>#1[i]%</unbreak> <u>base chance</u> for each enemy to be inflicted with 1 stack of <u>Arcana</u> at the start of the next battle. For each successful application of <u>Arcana</u> on a target, inflicts another stack of <u>Arcana</u> on the same target. This process repeats until <u>Arcana</u> fails to be inflicted on this target. For each successive application of <u>Arcana</u> on a target, its <u>base chance</u> of success is equal to <unbreak>#2[i]%</unbreak> of the <u>base chance</u> of the previous successful infliction of <u>Arcana</u> on that target.",
+      "params": [
+        [ 1.5, 0.5 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Seven Pillars of Wisdom",
+      "desc": "While Black Swan is active in battle, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.25 ]
+    },
+    {
+      "name": "Weep Not For Me, My Lamb",
+      "desc": "When an enemy target afflicted with Arcana is defeated, there is a <unbreak>#1[i]%</unbreak> base chance of inflicting <unbreak>#2[i]</unbreak> stack(s) of Arcana on adjacent targets.",
+      "params": [ 1, 6 ]
+    },
+    {
+      "name": "As Above, So Below",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "In Tears We Gift",
+      "desc": "While in the Epiphany state, enemy targets have their Effect RES reduced by <unbreak>#1[i]%</unbreak>. And at the start of their turn or when they get defeated, Black Swan regenerates <unbreak>#2[i]</unbreak> Energy. This Energy Regeneration effect can only trigger up to 1 time while Epiphany lasts. And the trigger count resets when Epiphany is applied again.",
+      "params": [ 0.1, 8 ]
+    },
+    {
+      "name": "Linnutee Flyway",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Pantheon Merciful, Masses Pitiful",
+      "desc": "When an enemy target gets attacked by Black Swan's allies, Black Swan has a <unbreak>#2[i]%</unbreak> base chance of inflicting 1 stack of Arcana on the target.\\nEvery time Black Swan inflicts Arcana on an enemy target, there is a <unbreak>#1[i]%</unbreak> fixed chance to additionally increase the number of Arcana stacked this time by <unbreak>#3[i]</unbreak>.",
+      "params": [ 0.5, 0.65, 1 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Viscera's Disquiet",
+      "desc": "After using the Skill to attack a single target enemy that has Wind Shear, Bleed, Burn, or Shock, each of these debuffs respectively has a <unbreak>#1[i]%</unbreak> base chance of inflicting 1 extra stack of Arcana.",
+      "params": [ 0.65 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DMG Boost: Wind",
+          "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.032 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "Effect Hit Rate Boost",
+                  "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Goblet's Dredges",
+      "desc": "When an enemy target enters battle, there is a <unbreak>#1[i]%</unbreak> base chance for it to be inflicted with 1 stack of Arcana. Every time an enemy target receives DoT during a single attack by an ally, there is a <unbreak>#1[i]%</unbreak> base chance for the target to be inflicted with 1 stack of Arcana. The maximum number of stacks that can be inflicted during 1 single attack is <unbreak>#2[i]</unbreak>.",
+      "params": [ 0.65, 3 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DMG Boost: Wind",
+              "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.048 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Candleflame's Portent",
+      "desc": "Increases this unit's DMG by an amount equal to <unbreak>#1[i]%</unbreak> of Effect Hit Rate, up to a maximum DMG increase of <unbreak>#2[i]%</unbreak>.",
+      "params": [ 0.6, 0.72 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6
+        },
+        {
+          "name": "DMG Boost: Wind",
+          "desc": "Wind DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.064 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minLevel": 80
+        }
+      ]
+    }
+  ]
+}

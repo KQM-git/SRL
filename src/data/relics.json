@@ -191,6 +191,54 @@
     ],
     "pieces": 4
   },
+  "Pioneer Diver of Dead Waters": {
+    "name": "Pioneer Diver of Dead Waters",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases DMG dealt to enemies with debuff by <unbreak>#1[i]%</unbreak>.",
+        "params": [ 0.12 ]
+      },
+      {
+        "count": 4,
+        "desc": "Increases CRIT Rate by <unbreak>#1[i]%</unbreak>. The wearer deals <unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak> increased CRIT DMG to enemies with at least <unbreak>#4[i]</unbreak>/<unbreak>#5[i]</unbreak> debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by <unbreak>100%</unbreak>, lasting for <unbreak>#6[i]</unbreak> turn(s).",
+        "params": [ 0.04, 0.08, 0.12, 2, 3, 1 ]
+      }
+    ],
+    "pieces": 4
+  },
+  "Prisoner in Deep Confinement": {
+    "name": "Prisoner in Deep Confinement",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "ATK increases by <unbreak>#1[i]%</unbreak>.",
+        "params": [ 0.12 ]
+      },
+      {
+        "count": 4,
+        "desc": "For every DoT the target enemy is afflicted with, the wearer will ignore <unbreak>#1[i]%</unbreak> of its DEF when dealing DMG to it. This effect is valid for a max of <unbreak>#2[i]</unbreak> DoTs.",
+        "params": [ 0.06, 3 ]
+      }
+    ],
+    "pieces": 4
+  },
+  "The Ashblazing Grand Duke": {
+    "name": "The Ashblazing Grand Duke",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the DMG dealt by follow-up attacks by <unbreak>#1[i]%</unbreak>.",
+        "params": [ 0.2 ]
+      },
+      {
+        "count": 4,
+        "desc": "When the wearer uses follow-up attacks, increases the wearer's ATK by <unbreak>#1[i]%</unbreak> for every time the follow-up attack deals DMG. This effect can stack up to <unbreak>#2[i]</unbreak> time(s) and lasts for <unbreak>#3[i]</unbreak> turn(s). This effect is removed the next time the wearer uses a follow-up attack.",
+        "params": [ 0.06, 8, 3 ]
+      }
+    ],
+    "pieces": 4
+  },
   "Thief of Shooting Meteor": {
     "name": "Thief of Shooting Meteor",
     "bonuses": [
@@ -201,7 +249,7 @@
       },
       {
         "count": 4,
-        "desc": "Increases the wearer's Break Effect by <unbreak>#1[i]%</unbreak>. When the wearer inflicts Weakness Break on an enemy, regenerates <unbreak>#2[i]</unbreak> Energy.",
+        "desc": "Increases the wearer's Break Effect by <unbreak>#1[i]%</unbreak>. After the wearer inflicts Weakness Break on an enemy, regenerates <unbreak>#2[i]</unbreak> Energy.",
         "params": [ 0.16, 3 ]
       }
     ],
@@ -219,6 +267,22 @@
         "count": 4,
         "desc": "When attacking debuffed enemies, the wearer's CRIT Rate increases by <unbreak>#1[i]%</unbreak>, and their CRIT DMG increases by <unbreak>#2[i]%</unbreak> against Imprisoned enemies.",
         "params": [ 0.1, 0.2 ]
+      }
+    ],
+    "pieces": 4
+  },
+  "Watchmaker, Master of Dream Machinations": {
+    "name": "Watchmaker, Master of Dream Machinations",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases Break Effect by <unbreak>#1[i]%</unbreak>.",
+        "params": [ 0.16 ]
+      },
+      {
+        "count": 4,
+        "desc": "When the wearer uses their Ultimate on an ally, all allies' Break Effect increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s). This effect cannot be stacked.",
+        "params": [ 0.3, 2 ]
       }
     ],
     "pieces": 4
@@ -256,6 +320,17 @@
     ],
     "pieces": 2
   },
+  "Firmament Frontline: Glamoth": {
+    "name": "Firmament Frontline: Glamoth",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases the wearer's ATK by <unbreak>#1[i]%</unbreak>. When the wearer's SPD is equal to or higher than <unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>, the wearer deals <unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak> more DMG.",
+        "params": [ 0.12, 135, 160, 0.12, 0.18 ]
+      }
+    ],
+    "pieces": 2
+  },
   "Fleet of the Ageless": {
     "name": "Fleet of the Ageless",
     "bonuses": [
@@ -285,6 +360,17 @@
         "count": 2,
         "desc": "Increases the wearer's Effect Hit Rate by <unbreak>#1[i]%</unbreak>. Meanwhile, the wearer's ATK increases by an amount that is equal to <unbreak>#2[i]%</unbreak> of the current Effect Hit Rate, up to a maximum of <unbreak>#3[i]%</unbreak>.",
         "params": [ 0.1, 0.25, 0.25 ]
+      }
+    ],
+    "pieces": 2
+  },
+  "Penacony, Land of the Dreams": {
+    "name": "Penacony, Land of the Dreams",
+    "bonuses": [
+      {
+        "count": 2,
+        "desc": "Increases wearer's Energy Regeneration Rate by <unbreak>#1[i]%</unbreak>. Increases DMG by <unbreak>#2[i]%</unbreak> for all other allies that are of the same Type as the wearer.",
+        "params": [ 0.05, 0.1 ]
       }
     ],
     "pieces": 2

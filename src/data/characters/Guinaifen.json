@@ -1,0 +1,353 @@
+{
+  "name": "Guinaifen",
+  "damageType": "Fire",
+  "baseType": "Nihility",
+  "star": 4,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 79.2,
+      "attackAdd": 3.96,
+      "hpBase": 120,
+      "hpAdd": 6,
+      "defenseBase": 60,
+      "defenseAdd": 3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 106,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 110.88,
+      "attackAdd": 3.96,
+      "hpBase": 168,
+      "hpAdd": 6,
+      "defenseBase": 84,
+      "defenseAdd": 3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 106,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 142.56,
+      "attackAdd": 3.96,
+      "hpBase": 216,
+      "hpAdd": 6,
+      "defenseBase": 108,
+      "defenseAdd": 3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 106,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 174.24,
+      "attackAdd": 3.96,
+      "hpBase": 264,
+      "hpAdd": 6,
+      "defenseBase": 132,
+      "defenseAdd": 3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 106,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 205.92,
+      "attackAdd": 3.96,
+      "hpBase": 312,
+      "hpAdd": 6,
+      "defenseBase": 156,
+      "defenseAdd": 3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 106,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 237.6,
+      "attackAdd": 3.96,
+      "hpBase": 360,
+      "hpAdd": 6,
+      "defenseBase": 180,
+      "defenseAdd": 3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 106,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 269.28,
+      "attackAdd": 3.96,
+      "hpBase": 408,
+      "hpAdd": 6,
+      "defenseBase": 204,
+      "defenseAdd": 3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 106,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Standing Ovation",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Guinaifen's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Blazing Welcome",
+      "tag": "Blast",
+      "type": "Skill",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Guinaifen's ATK to a single enemy and Fire DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Guinaifen's ATK to any adjacent enemies, with a <unbreak>#3[i]%</unbreak> <u>base chance</u> to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Guinaifen's ATK at the beginning of each turn, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.6, 0.2, 1, 0.83904, 2 ],
+        [ 0.66, 0.22, 1, 0.92298, 2 ],
+        [ 0.72, 0.24, 1, 1.00692, 2 ],
+        [ 0.78, 0.26, 1, 1.09086, 2 ],
+        [ 0.84, 0.28, 1, 1.1748, 2 ],
+        [ 0.9, 0.3, 1, 1.30071, 2 ],
+        [ 0.975, 0.325, 1, 1.46859, 2 ],
+        [ 1.05, 0.35, 1, 1.67844, 2 ],
+        [ 1.125, 0.375, 1, 1.93026, 2 ],
+        [ 1.2, 0.4, 1, 2.18208, 2 ],
+        [ 1.26, 0.42, 1, 2.291202, 2 ],
+        [ 1.32, 0.44, 1, 2.400324, 2 ],
+        [ 1.38, 0.46, 1, 2.509446, 2 ],
+        [ 1.44, 0.48, 1, 2.618568, 2 ],
+        [ 1.5, 0.5, 1, 2.72769, 2 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60,
+        "Adjacent": 30
+      }
+    },
+    {
+      "name": "Watch This Showstopper",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produces DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of their original DMG.",
+      "params": [
+        [ 0.72, 0.72 ],
+        [ 0.768, 0.74 ],
+        [ 0.816, 0.76 ],
+        [ 0.864, 0.78 ],
+        [ 0.912, 0.8 ],
+        [ 0.96, 0.82 ],
+        [ 1.02, 0.845 ],
+        [ 1.08, 0.87 ],
+        [ 1.14, 0.895 ],
+        [ 1.2, 0.92 ],
+        [ 1.248, 0.94 ],
+        [ 1.296, 0.96 ],
+        [ 1.344, 0.98 ],
+        [ 1.392, 1 ],
+        [ 1.44, 1.02 ]
+      ],
+      "energyNeeded": 120,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "PatrAeon Benefits",
+      "tag": "Impair",
+      "type": "Talent",
+      "desc": "When Guinaifen is on the field, there is a <unbreak>#1[i]%</unbreak> <u>base chance</u> to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> increased DMG, which lasts for <unbreak>#5[i]</unbreak> turn(s) and can stack up to <unbreak>#6[i]</unbreak> time(s).",
+      "params": [
+        [ 1, 0, 0, 0.04, 3, 3 ],
+        [ 1, 0, 0, 0.043, 3, 3 ],
+        [ 1, 0, 0, 0.046, 3, 3 ],
+        [ 1, 0, 0, 0.049, 3, 3 ],
+        [ 1, 0, 0, 0.052, 3, 3 ],
+        [ 1, 0, 0, 0.055, 3, 3 ],
+        [ 1, 0, 0, 0.05875, 3, 3 ],
+        [ 1, 0, 0, 0.0625, 3, 3 ],
+        [ 1, 0, 0, 0.06625, 3, 3 ],
+        [ 1, 0, 0, 0.07, 3, 3 ],
+        [ 1, 0, 0, 0.073, 3, 3 ],
+        [ 1, 0, 0, 0.076, 3, 3 ],
+        [ 1, 0, 0, 0.079, 3, 3 ],
+        [ 1, 0, 0, 0.082, 3, 3 ],
+        [ 1, 0, 0, 0.085, 3, 3 ]
+      ]
+    },
+    {
+      "name": "Skill Showcase",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, deals DMG for <unbreak>#2[i]</unbreak> time(s), dealing Fire DMG equal to <unbreak>#1[i]%</unbreak> of Guinaifen's ATK to a random single enemy target each time, with a <unbreak>#3[i]%</unbreak> <u>base chance</u> of inflicting Firekiss on them.",
+      "params": [
+        [ 0.5, 4, 1 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Slurping Noodles During Handstand",
+      "desc": "When Skill is used, there is a <unbreak>#1[i]%</unbreak> base chance to reduce the attacked target enemy's Effect RES by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [ 1, 0.1, 2 ]
+    },
+    {
+      "name": "Brushing Teeth While Whistling",
+      "desc": "When an enemy target is being Burned, the DMG multiplier of the Burn status applied by her Basic ATK or Skill increases by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.4 ]
+    },
+    {
+      "name": "Smashing Boulder on Chest",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Blocking Pike with Neck",
+      "desc": "Every time the Burn status inflicted by Guinaifen causes DMG, Guinaifen regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 2 ]
+    },
+    {
+      "name": "Swallowing Sword to Stomach",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Catching Bullet with Hands",
+      "desc": "Increases the stackable Firekiss count by <unbreak>#1[i]</unbreak>.",
+      "params": [ 1 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "High Poles",
+      "desc": "Basic ATK has a <unbreak>#1[i]%</unbreak> base chance of inflicting an enemy with a Burn, equivalent to that of Skill.",
+      "params": [ 0.8 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "Break Enhance",
+          "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.053 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Fire",
+              "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "Effect Hit Rate Boost",
+                  "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.04 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bladed Hoop",
+      "desc": "When the battle begins, Guinaifen's action is advanced forward by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.25 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Fire",
+          "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "Break Enhance",
+              "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "DMG Boost: Fire",
+                  "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.048 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Walking on Knives",
+      "desc": "Deals <unbreak>#1[i]%</unbreak> more DMG to Burned enemies.",
+      "params": [ 0.2 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect Hit Rate Boost",
+          "desc": "Effect Hit Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6
+        },
+        {
+          "name": "Break Enhance",
+          "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.107 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Fire",
+      "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ],
+      "children": [
+        {
+          "name": "DMG Boost: Fire",
+          "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.064 ],
+          "minLevel": 80
+        }
+      ]
+    }
+  ]
+}
