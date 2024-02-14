@@ -1,0 +1,352 @@
+{
+  "name": "Misha",
+  "damageType": "Ice",
+  "baseType": "Destruction",
+  "star": 4,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 81.6,
+      "attackAdd": 4.08,
+      "hpBase": 172.8,
+      "hpAdd": 8.64,
+      "defenseBase": 54,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 96,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 114.24,
+      "attackAdd": 4.08,
+      "hpBase": 241.92,
+      "hpAdd": 8.64,
+      "defenseBase": 75.6,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 96,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 146.88,
+      "attackAdd": 4.08,
+      "hpBase": 311.04,
+      "hpAdd": 8.64,
+      "defenseBase": 97.2,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 96,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 179.52,
+      "attackAdd": 4.08,
+      "hpBase": 380.16,
+      "hpAdd": 8.64,
+      "defenseBase": 118.8,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 96,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 212.16,
+      "attackAdd": 4.08,
+      "hpBase": 449.28,
+      "hpAdd": 8.64,
+      "defenseBase": 140.4,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 96,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 244.8,
+      "attackAdd": 4.08,
+      "hpBase": 518.4,
+      "hpAdd": 8.64,
+      "defenseBase": 162,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 96,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 277.44,
+      "attackAdd": 4.08,
+      "hpBase": 587.52,
+      "hpAdd": 8.64,
+      "defenseBase": 183.6,
+      "defenseAdd": 2.7,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 125,
+      "speedBase": 96,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "E—Excuse Me, Please!",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Misha's ATK to a single target enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "R—Room Service!",
+      "tag": "Blast",
+      "type": "Skill",
+      "desc": "Increases the Hits Per Action for Misha's next Ultimate by <unbreak>#3[i]</unbreak> hit(s). Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Misha's ATK to a single target enemy, and Ice DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Misha's ATK to adjacent targets.",
+      "params": [
+        [ 1, 0.4, 1 ],
+        [ 1.1, 0.44, 1 ],
+        [ 1.2, 0.48, 1 ],
+        [ 1.3, 0.52, 1 ],
+        [ 1.4, 0.56, 1 ],
+        [ 1.5, 0.6, 1 ],
+        [ 1.625, 0.65, 1 ],
+        [ 1.75, 0.7, 1 ],
+        [ 1.875, 0.75, 1 ],
+        [ 2, 0.8, 1 ],
+        [ 2.1, 0.84, 1 ],
+        [ 2.2, 0.88, 1 ],
+        [ 2.3, 0.92, 1 ],
+        [ 2.4, 0.96, 1 ],
+        [ 2.5, 1, 1 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60,
+        "Adjacent": 30
+      }
+    },
+    {
+      "name": "G—Gonna Be Late!",
+      "tag": "Bounce",
+      "type": "Ultimate",
+      "desc": "Has <unbreak>#1[i]</unbreak> Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Misha's ATK to a single target enemy. Then, the rest of the hits each deals Ice DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Misha's ATK to a single random enemy. Just before each hit lands, there is a <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> <u>base chance</u> to Freeze the target, lasting for 1 turn.\\nWhile Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive <u>Additional Ice DMG</u> equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Misha's ATK.\\nThis Ultimate can possess up to <unbreak>#5[i]</unbreak> Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level.",
+      "params": [
+        [ 3, 0.36, 0.12, 0.18, 10 ],
+        [ 3, 0.384, 0.128, 0.192, 10 ],
+        [ 3, 0.408, 0.136, 0.204, 10 ],
+        [ 3, 0.432, 0.144, 0.216, 10 ],
+        [ 3, 0.456, 0.152, 0.228, 10 ],
+        [ 3, 0.48, 0.16, 0.24, 10 ],
+        [ 3, 0.51, 0.17, 0.255, 10 ],
+        [ 3, 0.54, 0.18, 0.27, 10 ],
+        [ 3, 0.57, 0.19, 0.285, 10 ],
+        [ 3, 0.6, 0.2, 0.3, 10 ],
+        [ 3, 0.624, 0.208, 0.312, 10 ],
+        [ 3, 0.648, 0.216, 0.324, 10 ],
+        [ 3, 0.672, 0.224, 0.336, 10 ],
+        [ 3, 0.696, 0.232, 0.348, 10 ],
+        [ 3, 0.72, 0.24, 0.36, 10 ]
+      ],
+      "energyNeeded": 100,
+      "energyGain": 5,
+      "toughness": {
+        "Target": 30,
+        "Bounce": 15
+      }
+    },
+    {
+      "name": "Horological Escapement",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers <unbreak>#2[i]</unbreak> more Hit(s) Per Action and Misha regenerates <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> Energy.",
+      "params": [
+        [ 1, 1 ],
+        [ 1.1, 1 ],
+        [ 1.2, 1 ],
+        [ 1.3, 1 ],
+        [ 1.4, 1 ],
+        [ 1.5, 1 ],
+        [ 1.625, 1 ],
+        [ 1.75, 1 ],
+        [ 1.875, 1 ],
+        [ 2, 1 ],
+        [ 2.1, 1 ],
+        [ 2.2, 1 ],
+        [ 2.3, 1 ],
+        [ 2.4, 1 ],
+        [ 2.5, 1 ]
+      ]
+    },
+    {
+      "name": "Wait, You Are So Beautiful!",
+      "tag": "Impair",
+      "type": "Technique",
+      "desc": "After using the Technique, creates a dimension that lasts for <unbreak>#1[i]</unbreak> seconds. Enemies caught in the dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by <unbreak>#2[i]</unbreak> hit(s). Only 1 dimension created by allies can exist at the same time.",
+      "params": [
+        [ 15, 2 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Whimsicality of Fancy",
+      "desc": "When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the current Ultimate by <unbreak>#1[i]</unbreak> hit(s), up to a maximum increase of <unbreak>#2[i]</unbreak> hit(s).",
+      "params": [ 1, 5 ]
+    },
+    {
+      "name": "Yearning of Youth",
+      "desc": "Before each hit of the Ultimate lands, there is a <unbreak>#3[i]%</unbreak> base chance of reducing the target's DEF by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.16, 3, 0.24 ]
+    },
+    {
+      "name": "Vestige of Happiness",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Visage of Kinship",
+      "desc": "Increases the DMG multiplier for each hit of the Ultimate by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.06 ]
+    },
+    {
+      "name": "Genesis of First Love",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Estrangement of Dream",
+      "desc": "When using the Ultimate, increases own DMG by <unbreak>#2[i]%</unbreak>, lasting until the end of the turn. In addition, the next time the Skill is used, recovers <unbreak>#1[i]</unbreak> Skill Point(s) for the team.",
+      "params": [ 1, 0.3 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Release",
+      "desc": "Before the Ultimate's first hit lands, increases the base chance of Freezing the target by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.8 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.05 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "CRIT Rate Boost",
+                  "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.027 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Interlock",
+      "desc": "When using the Ultimate, increases the Effect Hit Rate by <unbreak>#1[i]%</unbreak>, lasting until the end of the current Ultimate's action.",
+      "params": [ 0.6 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Ice",
+          "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.075 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "DMG Boost: Ice",
+                  "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.048 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transmission",
+      "desc": "When dealing DMG to Frozen enemies, increases CRIT DMG by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.3 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.1 ],
+              "minLevel": 75
+            },
+            {
+              "name": "DMG Boost: Ice",
+              "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Ice",
+      "desc": "Ice DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ]
+    }
+  ]
+}

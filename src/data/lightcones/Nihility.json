@@ -615,6 +615,94 @@
       ]
     }
   },
+  "It's Showtime": {
+    "name": "It's Showtime",
+    "baseType": "Nihility",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 48,
+        "hpAdd": 7.2,
+        "attackBase": 21.6,
+        "attackAdd": 3.24,
+        "defenseBase": 12,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 105.6,
+        "hpAdd": 7.2,
+        "attackBase": 47.52,
+        "attackAdd": 3.24,
+        "defenseBase": 26.4,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 182.4,
+        "hpAdd": 7.2,
+        "attackBase": 82.08,
+        "attackAdd": 3.24,
+        "defenseBase": 45.6,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 259.2,
+        "hpAdd": 7.2,
+        "attackBase": 116.64,
+        "attackAdd": 3.24,
+        "defenseBase": 64.8,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 336,
+        "hpAdd": 7.2,
+        "attackBase": 151.2,
+        "attackAdd": 3.24,
+        "defenseBase": 84,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 412.8,
+        "hpAdd": 7.2,
+        "attackBase": 185.76,
+        "attackAdd": 3.24,
+        "defenseBase": 103.2,
+        "defenseAdd": 1.8
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 489.6,
+        "hpAdd": 7.2,
+        "attackBase": 220.32,
+        "attackAdd": 3.24,
+        "defenseBase": 122.4,
+        "defenseAdd": 1.8
+      }
+    ],
+    "superimposition": {
+      "name": "Self-Amusement",
+      "desc": "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, stacking up to <unbreak>#2[i]</unbreak> time(s). This effect lasts for <unbreak>#3[i]</unbreak> turn(s). When the wearer's Effect Hit Rate is <unbreak>#4[i]%</unbreak> or higher, increases ATK by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>.",
+      "params": [
+        [ 0.06, 3, 1, 0.8, 0.2 ],
+        [ 0.07, 3, 1, 0.8, 0.24 ],
+        [ 0.08, 3, 1, 0.8, 0.28 ],
+        [ 0.09, 3, 1, 0.8, 0.32 ],
+        [ 0.1, 3, 1, 0.8, 0.36 ]
+      ]
+    }
+  },
   "Resolution Shines As Pearls of Sweat": {
     "name": "Resolution Shines As Pearls of Sweat",
     "baseType": "Nihility",
@@ -1055,6 +1143,94 @@
       ]
     }
   },
+  "Reforged Remembrance": {
+    "name": "Reforged Remembrance",
+    "baseType": "Nihility",
+    "stars": 5,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 48,
+        "hpAdd": 7.2,
+        "attackBase": 26.4,
+        "attackAdd": 3.96,
+        "defenseBase": 21,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 105.6,
+        "hpAdd": 7.2,
+        "attackBase": 58.08,
+        "attackAdd": 3.96,
+        "defenseBase": 46.2,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 182.4,
+        "hpAdd": 7.2,
+        "attackBase": 100.32,
+        "attackAdd": 3.96,
+        "defenseBase": 79.8,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 259.2,
+        "hpAdd": 7.2,
+        "attackBase": 142.56,
+        "attackAdd": 3.96,
+        "defenseBase": 113.4,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 336,
+        "hpAdd": 7.2,
+        "attackBase": 184.8,
+        "attackAdd": 3.96,
+        "defenseBase": 147,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 412.8,
+        "hpAdd": 7.2,
+        "attackBase": 227.04,
+        "attackAdd": 3.96,
+        "defenseBase": 180.6,
+        "defenseAdd": 3.15
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 489.6,
+        "hpAdd": 7.2,
+        "attackBase": 269.28,
+        "attackAdd": 3.96,
+        "defenseBase": 214.2,
+        "defenseAdd": 3.15
+      }
+    ],
+    "superimposition": {
+      "name": "Crystallize",
+      "desc": "Increases the wearer's Effect Hit Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to <unbreak>#4[i]</unbreak> time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and enables the DoT dealt to ignore <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of the target's DEF.",
+      "params": [
+        [ 0.4, 0.05, 0.072, 4 ],
+        [ 0.45, 0.06, 0.079, 4 ],
+        [ 0.5, 0.07, 0.086, 4 ],
+        [ 0.55, 0.08, 0.093, 4 ],
+        [ 0.6, 0.09, 0.1, 4 ]
+      ]
+    }
+  },
   "Solitary Healing": {
     "name": "Solitary Healing",
     "baseType": "Nihility",
@@ -1133,7 +1309,7 @@
     ],
     "superimposition": {
       "name": "Chaos Elixir",
-      "desc": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses their Ultimate, increases DoT dealt by the wearer by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates <color=#f29e38ff><unbreak>#4[i]</unbreak></color> Energy for the wearer.",
+      "desc": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses their Ultimate, increases DoT dealt by the wearer by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates <color=#f29e38ff><unbreak>#4[f1]</unbreak></color> Energy for the wearer.",
       "params": [
         [ 0.2, 0.24, 2, 4 ],
         [ 0.25, 0.3, 2, 4.5 ],

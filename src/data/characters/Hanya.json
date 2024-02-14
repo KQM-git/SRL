@@ -1,0 +1,347 @@
+{
+  "name": "Hanya",
+  "damageType": "Physical",
+  "baseType": "Harmony",
+  "star": 4,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 76.8,
+      "attackAdd": 3.84,
+      "hpBase": 124.8,
+      "hpAdd": 6.24,
+      "defenseBase": 48,
+      "defenseAdd": 2.4,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 107.52,
+      "attackAdd": 3.84,
+      "hpBase": 174.72,
+      "hpAdd": 6.24,
+      "defenseBase": 67.2,
+      "defenseAdd": 2.4,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 138.24,
+      "attackAdd": 3.84,
+      "hpBase": 224.64,
+      "hpAdd": 6.24,
+      "defenseBase": 86.4,
+      "defenseAdd": 2.4,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 168.96,
+      "attackAdd": 3.84,
+      "hpBase": 274.56,
+      "hpAdd": 6.24,
+      "defenseBase": 105.6,
+      "defenseAdd": 2.4,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 199.68,
+      "attackAdd": 3.84,
+      "hpBase": 324.48,
+      "hpAdd": 6.24,
+      "defenseBase": 124.8,
+      "defenseAdd": 2.4,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 230.4,
+      "attackAdd": 3.84,
+      "hpBase": 374.4,
+      "hpAdd": 6.24,
+      "defenseBase": 144,
+      "defenseAdd": 2.4,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 261.12,
+      "attackAdd": 3.84,
+      "hpBase": 424.32,
+      "hpAdd": 6.24,
+      "defenseBase": 163.2,
+      "defenseAdd": 2.4,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 110,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Oracle Brush",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Hanya's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Samsara, Locked",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Hanya's ATK to a single target enemy, then applies Burden to them.\\nFor every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered <unbreak>#2[i]</unbreak> times.",
+      "params": [
+        [ 1.2, 2 ],
+        [ 1.32, 2 ],
+        [ 1.44, 2 ],
+        [ 1.56, 2 ],
+        [ 1.68, 2 ],
+        [ 1.8, 2 ],
+        [ 1.95, 2 ],
+        [ 2.1, 2 ],
+        [ 2.25, 2 ],
+        [ 2.4, 2 ],
+        [ 2.52, 2 ],
+        [ 2.64, 2 ],
+        [ 2.76, 2 ],
+        [ 2.88, 2 ],
+        [ 3, 2 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
+    },
+    {
+      "name": "Ten-Lords' Decree, All Shall Obey",
+      "tag": "Enhance",
+      "type": "Ultimate",
+      "desc": "Increases the SPD of a target ally by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Hanya's SPD and increases the same target ally's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.36, 2, 0.15 ],
+        [ 0.384, 2, 0.155 ],
+        [ 0.408, 2, 0.16 ],
+        [ 0.432, 2, 0.165 ],
+        [ 0.456, 2, 0.17 ],
+        [ 0.48, 2, 0.175 ],
+        [ 0.51, 2, 0.18125 ],
+        [ 0.54, 2, 0.1875 ],
+        [ 0.57, 2, 0.19375 ],
+        [ 0.6, 2, 0.2 ],
+        [ 0.624, 2, 0.205 ],
+        [ 0.648, 2, 0.21 ],
+        [ 0.672, 2, 0.215 ],
+        [ 0.696, 2, 0.22 ],
+        [ 0.72, 2, 0.225 ]
+      ],
+      "energyNeeded": 140,
+      "energyGain": 5
+    },
+    {
+      "name": "Sanction",
+      "tag": "Support",
+      "type": "Talent",
+      "desc": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [
+        [ 0.15, 2 ],
+        [ 0.165, 2 ],
+        [ 0.18, 2 ],
+        [ 0.195, 2 ],
+        [ 0.21, 2 ],
+        [ 0.225, 2 ],
+        [ 0.24375, 2 ],
+        [ 0.2625, 2 ],
+        [ 0.28125, 2 ],
+        [ 0.3, 2 ],
+        [ 0.315, 2 ],
+        [ 0.33, 2 ],
+        [ 0.345, 2 ],
+        [ 0.36, 2 ],
+        [ 0.375, 2 ]
+      ]
+    },
+    {
+      "name": "Netherworld Judgment",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. After entering battle, applies Burden equivalent to that applied by the Skill to a random enemy.",
+      "params": [
+        []
+      ],
+      "toughness": {
+        "All": 60
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "One Heart",
+      "desc": "When an ally with Hanya's Ultimate's effect defeats an enemy, Hanya's action is Advanced Forward by <unbreak>#1[i]%</unbreak>. This effect can only be triggered <unbreak>#2[i]</unbreak> time(s) per turn.",
+      "params": [ 0.15, 1 ]
+    },
+    {
+      "name": "Two Views",
+      "desc": "After using the Skill, this character's SPD increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.2, 1 ]
+    },
+    {
+      "name": "Three Temptations",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Four Truths",
+      "desc": "The Ultimate's duration is additionally extended for <unbreak>#1[i]</unbreak> turn(s).",
+      "params": [ 1 ]
+    },
+    {
+      "name": "Five Skandhas",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Six Reverences",
+      "desc": "Increase the DMG Boost effect of the Talent by an additional <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.1 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Scrivener",
+      "desc": "Allies triggering Burden's Skill Point recovery effect have their ATK increased by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 0.1, 1 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "SPD Boost",
+          "desc": "SPD increases by <unbreak>#1[i]</unbreak>",
+          "params": [ 2 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Netherworld",
+      "desc": "If the trigger count for the Burden's Skill Point recovery effect is <unbreak>#1[i]</unbreak> or lower when an enemy with Burden is defeated, then additionally recovers <unbreak>#2[i]</unbreak> Skill Point(s).",
+      "params": [ 1, 1 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "SPD Boost",
+              "desc": "SPD increases by <unbreak>#1[i]</unbreak>",
+              "params": [ 3 ],
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reanimated",
+      "desc": "When Burden's Skill Point recovery effect is triggered, this character regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 2 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "SPD Boost",
+              "desc": "SPD increases by <unbreak>#1[i]</unbreak>",
+              "params": [ 4 ],
+              "minLevel": 75
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
+          "minAsc": 3
+        },
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 5
+        }
+      ]
+    }
+  ]
+}

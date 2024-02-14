@@ -185,7 +185,7 @@
       "name": "Outdoor Survival Experience",
       "tag": "Restore",
       "type": "Talent",
-      "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for <unbreak>#1[i]</unbreak> turn(s), restoring the target ally's HP by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color> at the start of each their turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color>.",
+      "desc": "When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for <unbreak>#1[i]</unbreak> turn(s), restoring the target ally's HP by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#3[i]</unbreak></color> at the start of each turn. If the target has \"Survival Response,\" the continuous healing effect additionally restores HP by an amount equal to <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> of Lynx's Max HP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color>.",
       "params": [
         [ 2, 0.024, 24, 0.03, 30 ],
         [ 2, 0.0255, 38.4, 0.031875, 48 ],

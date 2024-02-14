@@ -1,20 +1,26 @@
 {
   "Fire": [
     "Asta",
+    "Guinaifen",
     "Himeko",
     "Hook",
+    "Topaz & Numby",
     "Caelus (Fire)",
     "Stelle (Fire)"
   ],
   "Ice": [
     "Gepard",
     "Herta",
+    "Jingliu",
     "March 7th",
+    "Misha",
     "Pela",
+    "Ruan Mei",
     "Yanqing"
   ],
   "Imaginary": [
     "Dan Heng Imbibitor Lunae",
+    "Dr. Ratio",
     "Luocha",
     "Welt",
     "Yukong"
@@ -28,7 +34,9 @@
     "Tingyun"
   ],
   "Physical": [
+    "Argenti",
     "Clara",
+    "Hanya",
     "Luka",
     "Natasha",
     "Sushang",
@@ -40,12 +48,15 @@
     "Lynx",
     "Qingque",
     "Seele",
-    "Silver Wolf"
+    "Silver Wolf",
+    "Xueyi"
   ],
   "Wind": [
+    "Black Swan",
     "Blade",
     "Bronya",
     "Dan Heng",
+    "Huohuo",
     "Sampo"
   ]
 }

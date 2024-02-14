@@ -251,7 +251,7 @@
     },
     {
       "name": "Just Like This, Always...",
-      "desc": "Allies under the protection of the Shield granted by the Skill restores HP equal to <unbreak>#1[i]%</unbreak> of their Max HP plus <unbreak>#2[i]</unbreak> at the beginning of each turn.",
+      "desc": "Allies under the protection of the Shield granted by the Skill restore HP equal to <unbreak>#1[i]%</unbreak> of their Max HP plus <unbreak>#2[i]</unbreak> at the beginning of each turn.",
       "params": [ 0.04, 106 ]
     }
   ],

@@ -1,0 +1,372 @@
+{
+  "name": "Argenti",
+  "damageType": "Physical",
+  "baseType": "Erudition",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 100.32,
+      "attackAdd": 5.016,
+      "hpBase": 142.56,
+      "hpAdd": 7.128,
+      "defenseBase": 49.5,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 140.448,
+      "attackAdd": 5.016,
+      "hpBase": 199.584,
+      "hpAdd": 7.128,
+      "defenseBase": 69.3,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 180.576,
+      "attackAdd": 5.016,
+      "hpBase": 256.608,
+      "hpAdd": 7.128,
+      "defenseBase": 89.1,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 220.704,
+      "attackAdd": 5.016,
+      "hpBase": 313.632,
+      "hpAdd": 7.128,
+      "defenseBase": 108.9,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 260.832,
+      "attackAdd": 5.016,
+      "hpBase": 370.656,
+      "hpAdd": 7.128,
+      "defenseBase": 128.7,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 300.96,
+      "attackAdd": 5.016,
+      "hpBase": 427.68,
+      "hpAdd": 7.128,
+      "defenseBase": 148.5,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 341.088,
+      "attackAdd": 5.016,
+      "hpBase": 484.704,
+      "hpAdd": 7.128,
+      "defenseBase": 168.3,
+      "defenseAdd": 2.475,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 103,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Fleeting Fragrance",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Argenti's ATK to a single target enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Justice, Hereby Blooms",
+      "tag": "AoE",
+      "type": "Skill",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Argenti's ATK to all enemies.",
+      "params": [
+        [ 0.6 ],
+        [ 0.66 ],
+        [ 0.72 ],
+        [ 0.78 ],
+        [ 0.84 ],
+        [ 0.9 ],
+        [ 0.975 ],
+        [ 1.05 ],
+        [ 1.125 ],
+        [ 1.2 ],
+        [ 1.26 ],
+        [ 1.32 ],
+        [ 1.38 ],
+        [ 1.44 ],
+        [ 1.5 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "All": 30
+      }
+    },
+    {
+      "name": "For In This Garden, Supreme Beauty Bestows",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Consumes <unbreak>#2[i]</unbreak> Energy and deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Argenti's ATK to all enemies.",
+      "params": [
+        [ 0.96, 90 ],
+        [ 1.024, 90 ],
+        [ 1.088, 90 ],
+        [ 1.152, 90 ],
+        [ 1.216, 90 ],
+        [ 1.28, 90 ],
+        [ 1.36, 90 ],
+        [ 1.44, 90 ],
+        [ 1.52, 90 ],
+        [ 1.6, 90 ],
+        [ 1.664, 90 ],
+        [ 1.728, 90 ],
+        [ 1.792, 90 ],
+        [ 1.856, 90 ],
+        [ 1.92, 90 ]
+      ],
+      "energyNeeded": 90,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "Sublime Object",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by <unbreak>#1[i]</unbreak>, and grants him a stack of Apotheosis, increasing his CRIT Rate by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. This effect can stack up to <unbreak>#3[i]</unbreak> time(s).",
+      "params": [
+        [ 3, 0.01, 10 ],
+        [ 3, 0.0115, 10 ],
+        [ 3, 0.013, 10 ],
+        [ 3, 0.0145, 10 ],
+        [ 3, 0.016, 10 ],
+        [ 3, 0.0175, 10 ],
+        [ 3, 0.019375, 10 ],
+        [ 3, 0.02125, 10 ],
+        [ 3, 0.023125, 10 ],
+        [ 3, 0.025, 10 ],
+        [ 3, 0.0265, 10 ],
+        [ 3, 0.028, 10 ],
+        [ 3, 0.0295, 10 ],
+        [ 3, 0.031, 10 ],
+        [ 3, 0.0325, 10 ]
+      ]
+    },
+    {
+      "name": "Manifesto of Purest Virtue",
+      "tag": "Impair",
+      "type": "Technique",
+      "desc": "After using the Technique, enemies in a set area are inflicted with Daze for <unbreak>#1[i]</unbreak> second(s). Dazed enemies will not actively attack the team.\\nWhen attacking a Dazed enemy to enter combat, deals Physical DMG to all enemies equal to <unbreak>#2[i]%</unbreak> of Argenti's ATK and regenerates his Energy by <unbreak>#3[i]</unbreak>.",
+      "params": [
+        [ 10, 0.8, 15 ]
+      ]
+    },
+    {
+      "name": "Merit Bestowed in \"My\" Garden",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Consumes <unbreak>#4[i]</unbreak> Energy and deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Argenti's ATK to all enemies. And further deals DMG for <unbreak>#2[i]</unbreak> extra time(s), with each time dealing Physical DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Argenti's ATK to a random enemy.",
+      "params": [
+        [ 1.68, 6, 0.57, 180 ],
+        [ 1.792, 6, 0.608, 180 ],
+        [ 1.904, 6, 0.646, 180 ],
+        [ 2.016, 6, 0.684, 180 ],
+        [ 2.128, 6, 0.722, 180 ],
+        [ 2.24, 6, 0.76, 180 ],
+        [ 2.38, 6, 0.8075, 180 ],
+        [ 2.52, 6, 0.855, 180 ],
+        [ 2.66, 6, 0.9025, 180 ],
+        [ 2.8, 6, 0.95, 180 ],
+        [ 2.912, 6, 0.988, 180 ],
+        [ 3.024, 6, 1.026, 180 ],
+        [ 3.136, 6, 1.064, 180 ],
+        [ 3.248, 6, 1.102, 180 ],
+        [ 3.36, 6, 1.14, 180 ]
+      ],
+      "energyNeeded": 180,
+      "energyGain": 5,
+      "toughness": {
+        "All": 60
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "A Lacuna in Kingdom of Aesthetics",
+      "desc": "Each stack of Apotheosis additionally increases CRIT DMG by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.04 ]
+    },
+    {
+      "name": "Agate's Humility",
+      "desc": "If the number of enemies on the field equals to <unbreak>#1[i]</unbreak> or more when the Ultimate is used, ATK increases by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "params": [ 3, 0.4, 1 ]
+    },
+    {
+      "name": "Thorny Road's Glory",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Trumpet's Dedication",
+      "desc": "At the start of battle, gains <unbreak>#1[i]</unbreak> stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by <unbreak>#2[i]</unbreak>.",
+      "params": [ 2, 2 ]
+    },
+    {
+      "name": "Snow, From Somewhere in Cosmos",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "\"Your\" Resplendence",
+      "desc": "When using Ultimate, ignores <unbreak>#1[i]%</unbreak> of enemy targets' DEF.",
+      "params": [ 0.3 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Piety",
+      "desc": "At the start of a turn, immediately gains <unbreak>#1[i]</unbreak> stack(s) of Apotheosis.",
+      "params": [ 1 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DMG Boost: Physical",
+          "desc": "Physical DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.032 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3
+            },
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generosity",
+      "desc": "When enemy targets enter battle, immediately regenerates <unbreak>#1[i]</unbreak> Energy for self.",
+      "params": [ 2 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DMG Boost: Physical",
+              "desc": "Physical DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.048 ],
+              "minAsc": 5
+            },
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.06 ],
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Courage",
+      "desc": "Deals <unbreak>#2[i]%</unbreak> more DMG to enemies whose HP percentage is <unbreak>#1[i]%</unbreak> or less.",
+      "params": [ 0.5, 0.15 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6
+        },
+        {
+          "name": "DMG Boost: Physical",
+          "desc": "Physical DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.064 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.08 ],
+      "minLevel": 80
+    }
+  ]
+}

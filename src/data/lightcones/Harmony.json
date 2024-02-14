@@ -439,6 +439,94 @@
       ]
     }
   },
+  "Dreamville Adventure": {
+    "name": "Dreamville Adventure",
+    "baseType": "Harmony",
+    "stars": 4,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 43.2,
+        "hpAdd": 6.48,
+        "attackBase": 19.2,
+        "attackAdd": 2.88,
+        "defenseBase": 18,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 95.04,
+        "hpAdd": 6.48,
+        "attackBase": 42.24,
+        "attackAdd": 2.88,
+        "defenseBase": 39.6,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 164.16,
+        "hpAdd": 6.48,
+        "attackBase": 72.96,
+        "attackAdd": 2.88,
+        "defenseBase": 68.4,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 233.28,
+        "hpAdd": 6.48,
+        "attackBase": 103.68,
+        "attackAdd": 2.88,
+        "defenseBase": 97.2,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 302.4,
+        "hpAdd": 6.48,
+        "attackBase": 134.4,
+        "attackAdd": 2.88,
+        "defenseBase": 126,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 371.52,
+        "hpAdd": 6.48,
+        "attackBase": 165.12,
+        "attackAdd": 2.88,
+        "defenseBase": 154.8,
+        "defenseAdd": 2.7
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 440.64,
+        "hpAdd": 6.48,
+        "attackBase": 195.84,
+        "attackAdd": 2.88,
+        "defenseBase": 183.6,
+        "defenseAdd": 2.7
+      }
+    ],
+    "superimposition": {
+      "name": "Solidarity",
+      "desc": "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies' DMG for the same type of ability as used by the wearer by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
+      "params": [
+        [ 0.12 ],
+        [ 0.14 ],
+        [ 0.16 ],
+        [ 0.18 ],
+        [ 0.2 ]
+      ]
+    }
+  },
   "Memories of the Past": {
     "name": "Memories of the Past",
     "baseType": "Harmony",
@@ -788,6 +876,94 @@
         [ 0.14, 0.4, 1 ],
         [ 0.16, 0.45, 1 ],
         [ 0.18, 0.5, 1 ]
+      ]
+    }
+  },
+  "Past Self in Mirror": {
+    "name": "Past Self in Mirror",
+    "baseType": "Harmony",
+    "stars": 5,
+    "stats": [
+      {
+        "level": 0,
+        "maxLevel": 20,
+        "hpBase": 48,
+        "hpAdd": 7.2,
+        "attackBase": 24,
+        "attackAdd": 3.6,
+        "defenseBase": 24,
+        "defenseAdd": 3.6
+      },
+      {
+        "level": 1,
+        "maxLevel": 30,
+        "hpBase": 105.6,
+        "hpAdd": 7.2,
+        "attackBase": 52.8,
+        "attackAdd": 3.6,
+        "defenseBase": 52.8,
+        "defenseAdd": 3.6
+      },
+      {
+        "level": 2,
+        "maxLevel": 40,
+        "hpBase": 182.4,
+        "hpAdd": 7.2,
+        "attackBase": 91.2,
+        "attackAdd": 3.6,
+        "defenseBase": 91.2,
+        "defenseAdd": 3.6
+      },
+      {
+        "level": 3,
+        "maxLevel": 50,
+        "hpBase": 259.2,
+        "hpAdd": 7.2,
+        "attackBase": 129.6,
+        "attackAdd": 3.6,
+        "defenseBase": 129.6,
+        "defenseAdd": 3.6
+      },
+      {
+        "level": 4,
+        "maxLevel": 60,
+        "hpBase": 336,
+        "hpAdd": 7.2,
+        "attackBase": 168,
+        "attackAdd": 3.6,
+        "defenseBase": 168,
+        "defenseAdd": 3.6
+      },
+      {
+        "level": 5,
+        "maxLevel": 70,
+        "hpBase": 412.8,
+        "hpAdd": 7.2,
+        "attackBase": 206.4,
+        "attackAdd": 3.6,
+        "defenseBase": 206.4,
+        "defenseAdd": 3.6
+      },
+      {
+        "level": 6,
+        "maxLevel": 80,
+        "hpBase": 489.6,
+        "hpAdd": 7.2,
+        "attackBase": 244.8,
+        "attackAdd": 3.6,
+        "defenseBase": 244.8,
+        "defenseAdd": 3.6
+      }
+    ],
+    "superimposition": {
+      "name": "The Plum Fragrance In My Bones",
+      "desc": "Increases the wearer's Break Effect by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses their Ultimate, increases all allies' DMG by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). Should the wearer's Break Effect exceed or equal <unbreak>#4[i]%</unbreak>, 1 Skill Point will be recovered.\\nAt the start of each wave, all allies regenerate <color=#f29e38ff><unbreak>#5[f1]</unbreak></color> Energy immediately. Effects of the same type cannot stack.",
+      "params": [
+        [ 0.6, 0.24, 3, 1.5, 10 ],
+        [ 0.7, 0.28, 3, 1.5, 12.5 ],
+        [ 0.8, 0.32, 3, 1.5, 15 ],
+        [ 0.9, 0.36, 3, 1.5, 17.5 ],
+        [ 1, 0.4, 3, 1.5, 20 ]
       ]
     }
   }

@@ -1,0 +1,342 @@
+{
+  "name": "Ruan Mei",
+  "damageType": "Ice",
+  "baseType": "Harmony",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 89.76,
+      "attackAdd": 4.488,
+      "hpBase": 147.84,
+      "hpAdd": 7.392,
+      "defenseBase": 66,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 104,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 125.664,
+      "attackAdd": 4.488,
+      "hpBase": 206.976,
+      "hpAdd": 7.392,
+      "defenseBase": 92.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 104,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 161.568,
+      "attackAdd": 4.488,
+      "hpBase": 266.112,
+      "hpAdd": 7.392,
+      "defenseBase": 118.8,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 104,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 197.472,
+      "attackAdd": 4.488,
+      "hpBase": 325.248,
+      "hpAdd": 7.392,
+      "defenseBase": 145.2,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 104,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 233.376,
+      "attackAdd": 4.488,
+      "hpBase": 384.384,
+      "hpAdd": 7.392,
+      "defenseBase": 171.6,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 104,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 269.28,
+      "attackAdd": 4.488,
+      "hpBase": 443.52,
+      "hpAdd": 7.392,
+      "defenseBase": 198,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 104,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 305.184,
+      "attackAdd": 4.488,
+      "hpBase": 502.656,
+      "hpAdd": 7.392,
+      "defenseBase": 224.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 104,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Threading Fragrance",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Ruan Mei's ATK to a single target enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "String Sings Slow Swirls",
+      "tag": "Support",
+      "type": "Skill",
+      "desc": "After using her Skill, Ruan Mei gains Overtone, lasting for <unbreak>#3[i]</unbreak> turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> and Weakness Break Efficiency increases by <unbreak>#2[i]%</unbreak>.",
+      "params": [
+        [ 0.16, 0.5, 3 ],
+        [ 0.176, 0.5, 3 ],
+        [ 0.192, 0.5, 3 ],
+        [ 0.208, 0.5, 3 ],
+        [ 0.224, 0.5, 3 ],
+        [ 0.24, 0.5, 3 ],
+        [ 0.26, 0.5, 3 ],
+        [ 0.28, 0.5, 3 ],
+        [ 0.3, 0.5, 3 ],
+        [ 0.32, 0.5, 3 ],
+        [ 0.336, 0.5, 3 ],
+        [ 0.352, 0.5, 3 ],
+        [ 0.368, 0.5, 3 ],
+        [ 0.384, 0.5, 3 ],
+        [ 0.4, 0.5, 3 ]
+      ],
+      "energyGain": 30
+    },
+    {
+      "name": "Petals to Stream, Repose in Dream",
+      "tag": "Support",
+      "type": "Ultimate",
+      "desc": "Ruan Mei deploys a field that lasts for <unbreak>#2[i]</unbreak> turns. The field's duration decreases by 1 at the start of her turn.\\nWhile inside the field, all allies' All-Type RES PEN increases by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> and their attacks apply Thanatoplum Rebloom to the enemies hit.\\nWhen these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to <unbreak>#3[i]%</unbreak> of Ruan Mei's Break Effect plus <unbreak>#4[i]%</unbreak>, and dealing Break DMG equal to <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of Ruan Mei's Ice Break DMG.\\nEnemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.",
+      "params": [
+        [ 0.15, 2, 0.2, 0.1, 0.3 ],
+        [ 0.16, 2, 0.2, 0.1, 0.32 ],
+        [ 0.17, 2, 0.2, 0.1, 0.34 ],
+        [ 0.18, 2, 0.2, 0.1, 0.36 ],
+        [ 0.19, 2, 0.2, 0.1, 0.38 ],
+        [ 0.2, 2, 0.2, 0.1, 0.4 ],
+        [ 0.2125, 2, 0.2, 0.1, 0.425 ],
+        [ 0.225, 2, 0.2, 0.1, 0.45 ],
+        [ 0.2375, 2, 0.2, 0.1, 0.475 ],
+        [ 0.25, 2, 0.2, 0.1, 0.5 ],
+        [ 0.26, 2, 0.2, 0.1, 0.52 ],
+        [ 0.27, 2, 0.2, 0.1, 0.54 ],
+        [ 0.28, 2, 0.2, 0.1, 0.56 ],
+        [ 0.29, 2, 0.2, 0.1, 0.58 ],
+        [ 0.3, 2, 0.2, 0.1, 0.6 ]
+      ],
+      "energyNeeded": 130,
+      "energyGain": 5
+    },
+    {
+      "name": "Somatotypical Helix",
+      "tag": "Support",
+      "type": "Talent",
+      "desc": "Increases SPD by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> for the team (excluding this character). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of her Ice Break DMG.",
+      "params": [
+        [ 0.08, 0.6 ],
+        [ 0.082, 0.66 ],
+        [ 0.084, 0.72 ],
+        [ 0.086, 0.78 ],
+        [ 0.088, 0.84 ],
+        [ 0.09, 0.9 ],
+        [ 0.0925, 0.975 ],
+        [ 0.095, 1.05 ],
+        [ 0.0975, 1.125 ],
+        [ 0.1, 1.2 ],
+        [ 0.102, 1.26 ],
+        [ 0.104, 1.32 ],
+        [ 0.106, 1.38 ],
+        [ 0.108, 1.44 ],
+        [ 0.11, 1.5 ]
+      ]
+    },
+    {
+      "name": "Silken Serenade",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "After using the Technique, gains Silken Serenade. At the start of the next battle, automatically triggers the Skill for <unbreak>#1[i]</unbreak> time(s) without consuming Skill Points.\\nIn Simulated Universe, when Ruan Mei has Silken Serenade, the team actively attacking enemies will always be regarded as attacking their Weakness to enter battle, and this attack can reduce all enemies' Toughness regardless of Weakness types. When breaking Weakness, triggers Weakness Break Effect corresponding to the attacker's Type. For every Blessing in possession (up to a maximum of <unbreak>#4[i]</unbreak> Blessings), additionally increases the Toughness-Reducing DMG of this attack by <unbreak>#2[i]%</unbreak>. After breaking an enemy target's Weakness, additionally deals to the enemy target Break DMG equal to <unbreak>#3[i]%</unbreak> of Ruan Mei's Ice Break DMG.",
+      "params": [
+        [ 1, 1, 1, 20 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Neuronic Embroidery",
+      "desc": "While the Ultimate's field is deployed, the DMG dealt by all allies ignores <unbreak>#1[i]%</unbreak> of the target's DEF.",
+      "params": [ 0.2 ]
+    },
+    {
+      "name": "Reedside Promenade",
+      "desc": "With Ruan Mei on the field, all allies increase their ATK by <unbreak>#1[i]%</unbreak> when dealing DMG to enemies with Weakness Break.",
+      "params": [ 0.4 ]
+    },
+    {
+      "name": "Viridescent Pirouette",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Chatoyant Éclat",
+      "desc": "When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "params": [ 1, 3 ]
+    },
+    {
+      "name": "Languid Barrette",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Sash Cascade",
+      "desc": "Extends the duration of the Ultimate's field by <unbreak>#1[i]</unbreak> turn(s). The Talent's Break DMG multiplier additionally increases by <unbreak>#2[i]%</unbreak>.",
+      "params": [ 1, 2 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Inert Respiration",
+      "desc": "Increases Break Effect by <unbreak>#1[i]%</unbreak> for all allies.",
+      "params": [ 0.2 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "DEF Boost",
+          "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.05 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "Break Enhance",
+              "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.053 ],
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Days Wane, Thoughts Wax",
+      "desc": "Ruan Mei regenerates <unbreak>#1[i]</unbreak> Energy at the start of her turn.",
+      "params": [ 5 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "Break Enhance",
+          "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.075 ],
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Candle Lights on Still Waters",
+      "desc": "In battle, for every <unbreak>#2[i]%</unbreak> of Ruan Mei's Break Effect that exceeds <unbreak>#1[i]%</unbreak>, her Skill additionally increases allies' DMG by <unbreak>#3[i]%</unbreak>, up to a maximum of <unbreak>#4[i]%</unbreak>.",
+      "params": [ 1.2, 0.1, 0.06, 0.36 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "SPD Boost",
+          "desc": "SPD increases by <unbreak>#1[i]</unbreak>",
+          "params": [ 3 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "DEF Boost",
+              "desc": "DEF increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.1 ],
+              "minLevel": 75
+            },
+            {
+              "name": "Break Enhance",
+              "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.107 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Break Enhance",
+      "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.053 ],
+      "children": [
+        {
+          "name": "SPD Boost",
+          "desc": "SPD increases by <unbreak>#1[i]</unbreak>",
+          "params": [ 2 ],
+          "minAsc": 3
+        },
+        {
+          "name": "Break Enhance",
+          "desc": "Break Effect increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minAsc": 5
+        }
+      ]
+    }
+  ]
+}

@@ -185,7 +185,7 @@
       "name": "Gourdful of Elixir",
       "tag": "Restore",
       "type": "Talent",
-      "desc": "After an ally with Invigoration is hit, restores the ally's HP for <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. This effect can trigger <unbreak>#5[i]</unbreak> time(s).\\nWhen an ally receives a killing blow, they will not be <u>knocked down</u>. Bailu immediately heals the ally for <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> HP. This effect can be triggered 1 time per battle.",
+      "desc": "After an ally with Invigoration is hit, restores the ally's HP for <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. This effect can trigger <unbreak>#5[i]</unbreak> time(s).\\nWhen an ally receives a killing blow, they will not be <u>knocked down</u>. Bailu immediately heals the ally for <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Bailu's Max HP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> HP. This effect can be triggered 1 time per battle.",
       "params": [
         [ 0.036, 36, 0.12, 120, 2 ],
         [ 0.03825, 57.6, 0.1275, 192, 2 ],

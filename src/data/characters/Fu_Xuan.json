@@ -188,7 +188,7 @@
       "name": "Bleak Breeds Bliss",
       "tag": "Restore",
       "type": "Talent",
-      "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> less DMG.\\nWhen Fu Xuan's current HP falls to <unbreak>#2[i]%</unbreak> of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts.",
+      "desc": "While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> less DMG.\\nWhen Fu Xuan's current HP falls to <unbreak>#2[i]%</unbreak> of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect has 1 trigger count by default and can hold up to a maximum of 2 trigger counts.",
       "params": [
         [ 0.1, 0.5, 0.8 ],
         [ 0.108, 0.5, 0.81 ],

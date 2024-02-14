@@ -370,7 +370,7 @@
     },
     {
       "name": "Fighting Will",
-      "desc": "When using Skill or Ultimate \"Blowout: RIP Home Run\", DMG dealt to the target enemy is increased by <unbreak>#1[i]%</unbreak>.",
+      "desc": "When using Skill or Ultimate \"Blowout: RIP Home Run,\" DMG dealt to the target enemy is increased by <unbreak>#1[i]%</unbreak>.",
       "params": [ 0.25 ],
       "minAsc": 6,
       "children": [

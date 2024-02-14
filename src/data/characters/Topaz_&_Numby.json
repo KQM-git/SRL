@@ -1,0 +1,346 @@
+{
+  "name": "Topaz & Numby",
+  "damageType": "Fire",
+  "baseType": "The Hunt",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 84.48,
+      "attackAdd": 4.224,
+      "hpBase": 126.72,
+      "hpAdd": 6.336,
+      "defenseBase": 56.1,
+      "defenseAdd": 2.805,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 118.272,
+      "attackAdd": 4.224,
+      "hpBase": 177.408,
+      "hpAdd": 6.336,
+      "defenseBase": 78.54,
+      "defenseAdd": 2.805,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 152.064,
+      "attackAdd": 4.224,
+      "hpBase": 228.096,
+      "hpAdd": 6.336,
+      "defenseBase": 100.98,
+      "defenseAdd": 2.805,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 185.856,
+      "attackAdd": 4.224,
+      "hpBase": 278.784,
+      "hpAdd": 6.336,
+      "defenseBase": 123.42,
+      "defenseAdd": 2.805,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 219.648,
+      "attackAdd": 4.224,
+      "hpBase": 329.472,
+      "hpAdd": 6.336,
+      "defenseBase": 145.86,
+      "defenseAdd": 2.805,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 253.44,
+      "attackAdd": 4.224,
+      "hpBase": 380.16,
+      "hpAdd": 6.336,
+      "defenseBase": 168.3,
+      "defenseAdd": 2.805,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 287.232,
+      "attackAdd": 4.224,
+      "hpBase": 430.848,
+      "hpAdd": 6.336,
+      "defenseBase": 190.74,
+      "defenseAdd": 2.805,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 75,
+      "speedBase": 110,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Deficit...",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Topaz's ATK to a single enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Difficulty Paying?",
+      "tag": "Single Target",
+      "type": "Skill",
+      "desc": "Inflicts a single target enemy with a Proof of Debt status, increasing the DMG it takes from <u>follow-up attacks</u> by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Proof of Debt only takes effect on the most recent target it is applied to. If there are no enemies inflicted with Proof of Debt on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with Proof of Debt.\\nNumby deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a <u>follow-up attack</u>.",
+      "params": [
+        [ 0.75, 0.25 ],
+        [ 0.825, 0.275 ],
+        [ 0.9, 0.3 ],
+        [ 0.975, 0.325 ],
+        [ 1.05, 0.35 ],
+        [ 1.125, 0.375 ],
+        [ 1.21875, 0.40625 ],
+        [ 1.3125, 0.4375 ],
+        [ 1.40625, 0.46875 ],
+        [ 1.5, 0.5 ],
+        [ 1.575, 0.525 ],
+        [ 1.65, 0.55 ],
+        [ 1.725, 0.575 ],
+        [ 1.8, 0.6 ],
+        [ 1.875, 0.625 ]
+      ],
+      "energyGain": 30,
+      "toughness": {
+        "Target": 60
+      }
+    },
+    {
+      "name": "Turn a Profit!",
+      "tag": "Enhance",
+      "type": "Ultimate",
+      "desc": "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and CRIT DMG increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by <unbreak>#3[i]%</unbreak>. Numby exits the Windfall Bonanza! state after using <unbreak>#4[i]</unbreak> attacks.",
+      "params": [
+        [ 0.75, 0.125, 0.5, 2 ],
+        [ 0.825, 0.1375, 0.5, 2 ],
+        [ 0.9, 0.15, 0.5, 2 ],
+        [ 0.975, 0.1625, 0.5, 2 ],
+        [ 1.05, 0.175, 0.5, 2 ],
+        [ 1.125, 0.1875, 0.5, 2 ],
+        [ 1.21875, 0.203125, 0.5, 2 ],
+        [ 1.3125, 0.21875, 0.5, 2 ],
+        [ 1.40625, 0.234375, 0.5, 2 ],
+        [ 1.5, 0.25, 0.5, 2 ],
+        [ 1.575, 0.2625, 0.5, 2 ],
+        [ 1.65, 0.275, 0.5, 2 ],
+        [ 1.725, 0.2875, 0.5, 2 ],
+        [ 1.8, 0.3, 0.5, 2 ],
+        [ 1.875, 0.3125, 0.5, 2 ]
+      ],
+      "energyNeeded": 130,
+      "energyGain": 5
+    },
+    {
+      "name": "Trotter Market!?",
+      "tag": "Single Target",
+      "type": "Talent",
+      "desc": "Summons Numby at the start of battle. Numby has <unbreak>#1[i]</unbreak> SPD by default. When taking action, Numby launches <u>follow-up attacks</u> on a single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Topaz's ATK.\\nWhen enemies afflicted with Proof of Debt receive an ally's follow-up attacks, Numby's action is Advanced Forward by <unbreak>#3[i]%</unbreak>. The action Advance Forward effect cannot be triggered during Numby's own turn.\\nWhen Topaz is <u>downed</u>, Numby disappears.",
+      "params": [
+        [ 80, 0.75, 0.5 ],
+        [ 80, 0.825, 0.5 ],
+        [ 80, 0.9, 0.5 ],
+        [ 80, 0.975, 0.5 ],
+        [ 80, 1.05, 0.5 ],
+        [ 80, 1.125, 0.5 ],
+        [ 80, 1.21875, 0.5 ],
+        [ 80, 1.3125, 0.5 ],
+        [ 80, 1.40625, 0.5 ],
+        [ 80, 1.5, 0.5 ],
+        [ 80, 1.575, 0.5 ],
+        [ 80, 1.65, 0.5 ],
+        [ 80, 1.725, 0.5 ],
+        [ 80, 1.8, 0.5 ],
+        [ 80, 1.875, 0.5 ]
+      ],
+      "toughness": {
+        "Target": 60
+      }
+    },
+    {
+      "name": "Explicit Subsidy",
+      "tag": "Enhance",
+      "type": "Technique",
+      "desc": "Summons Numby when Topaz enters the overworld. Numby will automatically search for Basic Treasures and Trotters within a set radius.\\nUsing her Technique will regenerate <unbreak>#1[i]</unbreak> Energy for Topaz after Numby's first attack in the next battle.\\nIf Topaz is still in the team after using her Technique and defeating overworld enemies, a small bonus amount of credits will be added to the earned credits. A maximum of <unbreak>#2[i]</unbreak> bonus credits can be received per calendar day.\\nAfter using her Technique and defeating enemies in Simulated Universe, additionally receive a small amount of Cosmic Fragments with a small chance to obtain 1 random Curio.",
+      "params": [
+        [ 60, 10000 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Future Market",
+      "desc": "When enemies afflicted with Proof of Debt receive follow-up attacks, they will enter the Debtor state. This can take effect only once within a single attack.\\nThe Debtor state increases the CRIT DMG of follow-up attacks inflicted on the target enemies by <unbreak>#1[i]%</unbreak>, stacking up to <unbreak>#2[i]</unbreak> time(s). When Proof of Debt is removed, the Debtor state is also removed.",
+      "params": [ 0.25, 2 ]
+    },
+    {
+      "name": "Bona Fide Acquisition",
+      "desc": "After Numby takes action and launches an attack, Topaz regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 5 ]
+    },
+    {
+      "name": "Seize the Big and Free the Small",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Agile Operation",
+      "desc": "After Numby's turn begins, Topaz's action is Advanced Forward by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.2 ]
+    },
+    {
+      "name": "Inflationary Demand",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Incentive Mechanism",
+      "desc": "Numby's attack count during the Windfall Bonanza! state increases by <unbreak>#1[i]</unbreak>, and its Fire RES PEN increases by <unbreak>#2[i]%</unbreak> when it attacks.",
+      "params": [ 1, 0.1 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Overdraft",
+      "desc": "When Topaz uses Basic ATK to deal DMG, it will be considered as a follow-up attack.",
+      "params": [],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT Rate Boost",
+          "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.027 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "DMG Boost: Fire",
+              "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.032 ],
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial Turmoil",
+      "desc": "Increases Topaz & Numby's DMG dealt to enemy targets with Fire Weakness by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.15 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "DMG Boost: Fire",
+          "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stonks Market",
+      "desc": "After Numby uses an attack while in the Windfall Bonanza! state, Topaz additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 10 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "CRIT Rate Boost",
+              "desc": "CRIT Rate increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.053 ],
+              "minLevel": 75
+            },
+            {
+              "name": "DMG Boost: Fire",
+              "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.064 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DMG Boost: Fire",
+      "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.032 ]
+    },
+    {
+      "name": "HP Boost",
+      "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "minAsc": 3
+    },
+    {
+      "name": "DMG Boost: Fire",
+      "desc": "Fire DMG increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.048 ],
+      "minAsc": 5
+    }
+  ]
+}
