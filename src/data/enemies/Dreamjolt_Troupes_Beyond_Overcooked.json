@@ -1,0 +1,64 @@
+{
+  "name": "Dreamjolt Troupe's Beyond Overcooked",
+  "faction": "Dreamjolt Troupe",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1674,
+      "speed": 100,
+      "toughness": 480,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Fire",
+        "Lightning",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Flaming Stir-Fry",
+          "type": "Ability",
+          "desc": "Deals massive Fire DMG to all targets.",
+          "threat": true
+        },
+        {
+          "name": "Ladle Swirl",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to a single target."
+        },
+        {
+          "name": "Tornado Toss",
+          "type": "Ability",
+          "desc": "Deals minor Fire DMG to a single target and adjacent targets."
+        },
+        {
+          "name": "Ignite Stove",
+          "type": "Ability",
+          "desc": "Enters the Charge state. In the next action, uses Flaming Stir-Fry if Stove Heating has not reached a certain number of stacks, then clears all Stove Heating stacks."
+        },
+        {
+          "name": "Kitchen Mishap",
+          "type": "Ability",
+          "desc": "After entering the Charge state, deals massive Fire DMG to all friendly units and decreases this unit's DEF once Stove Heating has a certain number of stacks. Then, clears all Stove Heating stacks."
+        },
+        {
+          "name": "Flame-Forged Feast",
+          "type": "Talent",
+          "desc": "Immediately takes action when Stove Heating reaches a certain number of stacks, and uses Ignite Stove."
+        },
+        {
+          "name": "Inferno Stove",
+          "type": "Talent",
+          "desc": "When attacking, this unit has a chance to Slow the target. When this unit is attacked or takes DoT, gains 1 stack of Stove Heating."
+        }
+      ]
+    }
+  ]
+}

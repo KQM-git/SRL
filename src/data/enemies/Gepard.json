@@ -49,7 +49,7 @@
         {
           "name": "Siege Support",
           "type": "Ability",
-          "desc": "Summons Silvermane Gunners or Silvermane Cannoneer and Locks Onto a single target for all attacks."
+          "desc": "Summons Silvermane Gunners or Silvermane Cannoneers and Locks Onto a single target for all attacks."
         }
       ]
     },
@@ -119,13 +119,13 @@
         {
           "name": "Support",
           "type": "Talent",
-          "desc": "When the phase starts, immediately summons Silvermane Soldier or Silvermane Cannoneer.",
+          "desc": "When the phase starts, immediately summons Silvermane Soldiers or Silvermane Cannoneers.",
           "phases": [ 1 ]
         },
         {
           "name": "Support",
           "type": "Talent",
-          "desc": "When the phase starts, immediately summons Silvermane Cannoneer.",
+          "desc": "When the phase starts, immediately summons Silvermane Cannoneers.",
           "phases": [ 2 ]
         },
         {

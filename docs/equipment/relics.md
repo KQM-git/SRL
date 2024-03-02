@@ -10,6 +10,10 @@ import Relic from '@site/src/components/relics/Relic'
 
 ## Cavern Relics
 
+### The Ashblazing Grand Duke
+
+<Relic relic="The Ashblazing Grand Duke" />
+
 ### Band of Sizzling Thunder
 
 <Relic relic="Band of Sizzling Thunder" />
@@ -58,6 +62,14 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Passerby of Wandering Cloud" />
 
+### Pioneer Diver of Dead Waters
+
+<Relic relic="Pioneer Diver of Dead Waters" />
+
+### Prisoner in Deep Confinement
+
+<Relic relic="Prisoner in Deep Confinement" />
+
 ### Thief of Shooting Meteor
 
 <Relic relic="Thief of Shooting Meteor" />
@@ -65,6 +77,10 @@ import Relic from '@site/src/components/relics/Relic'
 ### Wastelander of Banditry Desert
 
 <Relic relic="Wastelander of Banditry Desert" />
+
+### Watchmaker, Master of Dream Machinations
+
+<Relic relic="Watchmaker, Master of Dream Machinations" />
 
 ## Planar Ornaments
 
@@ -80,6 +96,10 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Celestial Differentiator" />
 
+### Firmament Frontline: Glamoth
+
+<Relic relic="Firmament Frontline: Glamoth" />
+
 ### Fleet of the Ageless
 
 <Relic relic="Fleet of the Ageless" />
@@ -91,6 +111,10 @@ import Relic from '@site/src/components/relics/Relic'
 ### Pan-Cosmic Commercial Enterprise
 
 <Relic relic="Pan-Cosmic Commercial Enterprise" />
+
+### Penacony, Land of the Dreams
+
+<Relic relic="Penacony, Land of the Dreams" />
 
 ### Rutilant Arena
 

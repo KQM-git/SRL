@@ -44,7 +44,7 @@
         {
           "name": "Coordinated Reinforcement",
           "type": "Ability",
-          "desc": "Summons Silvermane Soldier or Silvermane Gunner"
+          "desc": "Summons Silvermane Soldiers or Silvermane Gunners"
         }
       ]
     },

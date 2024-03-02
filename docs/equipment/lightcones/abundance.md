@@ -15,6 +15,14 @@ import abundance from '@site/src/data/lightcones/Abundance.json'
 
 ## 4 Stars
 
+### Hey, Over Here
+
+<Lightcone lightcone="Hey, Over Here" lightcones={abundance} />
+
+### Night of Fright
+
+<Lightcone lightcone="Night of Fright" lightcones={abundance} />
+
 ### Perfect Timing
 
 <Lightcone lightcone="Perfect Timing" lightcones={abundance} />
@@ -34,6 +42,10 @@ import abundance from '@site/src/data/lightcones/Abundance.json'
 ### Warmth Shortens Cold Nights
 
 <Lightcone lightcone="Warmth Shortens Cold Nights" lightcones={abundance} />
+
+### What Is Real?
+
+<Lightcone lightcone="What Is Real" lightcones={abundance} />
 
 ## 3 Stars
 

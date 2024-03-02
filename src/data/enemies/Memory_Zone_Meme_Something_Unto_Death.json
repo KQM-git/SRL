@@ -1,0 +1,83 @@
+{
+  "name": "Memory Zone Meme \"Something Unto Death\"",
+  "faction": "Memory Zone Meme",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 2046,
+      "speed": 144,
+      "toughness": 720,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Fire",
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {
+        "Frozen": 0.5,
+        "Entanglement": 0.5
+      },
+      "skills": [
+        {
+          "name": "Fading Radiance",
+          "type": "Ability",
+          "desc": "Enters the Sunset state. Gains 1 stack each time a character uses Basic ATK, Skill, or Ultimate. When Sunset reaches 3 stacks, immediately uses Losing Eventide Light on the last-acting character. This effect is removed after using Losing Eventide Light once or after becoming Weakness Broken.",
+          "phases": [ 1 ],
+          "threat": true
+        },
+        {
+          "name": "Losing Eventide Light",
+          "type": "Ability",
+          "desc": "Immediately launches a killing blow on the last-acting character who used Basic ATK, Skill, or Ultimate, and inflicts Morbid Dream on them.",
+          "phases": [ 1 ],
+          "threat": true
+        },
+        {
+          "name": "Go Into That Good Night",
+          "type": "Ability",
+          "desc": "Enters the Nightfall state and locks onto the 2 characters who are due to act next. Uses Watery Dissolution in the next action.",
+          "phases": [ 2 ],
+          "threat": true
+        },
+        {
+          "name": "Watery Dissolution",
+          "type": "Ability",
+          "desc": "Immediately launches a killing blow on all locked-on targets and inflicts Morbid Dream on them. If there are no locked-on targets, launches a killing blow on 2 random characters and inflicts Morbid Dream on them.",
+          "phases": [ 2 ],
+          "threat": true
+        },
+        {
+          "name": "Funereal Kiss",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Sunken Rain",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to all targets.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Biting Obituary",
+          "type": "Ability",
+          "desc": "Greatly increases DMG dealt for 1 turn. This effect is removed when this unit becomes Weakness Broken.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Sad True Lover Never Find My Grave",
+          "type": "Talent",
+          "desc": "Whenever a target gets inflicted with Morbid Dream, summons a corresponding Sombrous Sepulcher. When all targets get inflicted with Morbid Dream or are knocked down, this battle will be considered a defeat.",
+          "phases": [ 1, 2 ]
+        }
+      ]
+    }
+  ]
+}

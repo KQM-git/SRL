@@ -1,0 +1,67 @@
+{
+  "name": "Stellaron Hunter: Sam",
+  "faction": "Stellaron Hunters",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 4650,
+      "speed": 120,
+      "toughness": 600,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Lightning",
+        "Quantum",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Wind": 0.2
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "DHGDR: Secondary Combustion",
+          "type": "Ability",
+          "desc": "Consumes HP to enter the Secondary Combustion state and dispels the Weakness Protected effect. Becomes significantly more powerful in this state, but all attacks consume HP.",
+          "threat": true
+        },
+        {
+          "name": "DHGDR: Supernova Overload",
+          "type": "Ability",
+          "desc": "Deals Fire DMG to all targets, with a high chance to Burn them.",
+          "threat": true
+        },
+        {
+          "name": "BHF: Fiery Advance",
+          "type": "Ability",
+          "desc": "Deals minor Fire DMG to a single target."
+        },
+        {
+          "name": "BHF: Heavenly Fire",
+          "type": "Ability",
+          "desc": "Deals minor Fire DMG to a single target and any adjacent targets."
+        },
+        {
+          "name": "BBHF: Scorched Earth",
+          "type": "Ability",
+          "desc": "Deals minor Fire DMG to all targets."
+        },
+        {
+          "name": "SGE: Molten Core",
+          "type": "Talent",
+          "desc": "After entering Secondary Combustion, Combusts both the area and targets' Skill Points. When consuming Combusted Skill Points, targets lose HP and additionally deal a set amount of Fire DMG equal to a certain percentage of the original DMG. When they receive healing from other characters, the amount of HP restored is massively reduced."
+        },
+        {
+          "name": "SGE: Molten Engine",
+          "type": "Talent",
+          "desc": "While in Secondary Combustion, Sam possesses Molten Energy. A corresponding amount of Molten Energy can be depleted upon being attacked with Skills using Skill Points. When Molten Energy is depleted or the unit is Weakness Broken, dispels Secondary Combustion. When Secondary Combustion is dispelled, Sam receives increased DMG, and recovers Skill Points back to full for the targets."
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,14 @@ import harmony from '@site/src/data/lightcones/Harmony.json'
 
 <Lightcone lightcone="But the Battle Isn't Over" lightcones={harmony} />
 
+### Earthly Escapade
+
+<Lightcone lightcone="Earthly Escapade" lightcones={harmony} />
+
+### Past Self in Mirror
+
+<Lightcone lightcone="Past Self in Mirror" lightcones={harmony} />
+
 ## 4 Stars
 
 ### Carve the Moon, Weave the Clouds
@@ -18,6 +26,10 @@ import harmony from '@site/src/data/lightcones/Harmony.json'
 ### Dance! Dance! Dance!
 
 <Lightcone lightcone="Dance! Dance! Dance!" lightcones={harmony} />
+
+### Dreamville Adventure
+
+<Lightcone lightcone="Dreamville Adventure" lightcones={harmony} />
 
 ### Memories of the Past
 

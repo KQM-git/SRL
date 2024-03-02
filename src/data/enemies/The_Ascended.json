@@ -82,7 +82,7 @@
         {
           "name": "Vitals Drained",
           "type": "Talent",
-          "desc": "When attacking targets in the Prana-Siphon state, the DMG dealt by this attack will be converted to Prana-Siphon and refresh the state's duration. A max HP cap exists for Prana-Siphon.",
+          "desc": "When attacking targets in the Prana-Siphon state, the DMG dealt by this attack will be converted to the extent of Max HP reduced by Prana-Siphon, and refresh Prana-Siphon's duration. Prana-Siphon can reduce Max HP by up to 50%.",
           "threat": true
         },
         {
@@ -105,7 +105,7 @@
     {
       "name": "Master of the Disciples of Sanctus Medicus",
       "source": "Master of the Disciples of Sanctus Medicus",
-      "attack": 18,
+      "attack": 14.999994,
       "def": 210,
       "hp": 1023,
       "speed": 120,

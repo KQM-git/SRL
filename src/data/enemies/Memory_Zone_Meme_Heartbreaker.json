@@ -1,0 +1,38 @@
+{
+  "name": "Memory Zone Meme \"Heartbreaker\"",
+  "faction": "Memory Zone Meme",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 130.2,
+      "speed": 100,
+      "toughness": 60,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Lightning"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Structural Deviation",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "Aegis of the Unyielding",
+          "type": "Talent",
+          "desc": "Enters the Safeguard state. When not Weakness Broken, reduces DMG received. Once Weakness is Broken, action will be delayed. After Weakness is Broken, increases DMG received."
+        }
+      ]
+    }
+  ]
+}

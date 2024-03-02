@@ -10,13 +10,11 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-**Most Recent Characters:** [Fu Xuan](/characters/quantum/fu-xuan) | [Lynx](/characters/quantum/lynx)
+**Most Recent Characters:** [Sparkle](/characters/quantum/sparkle)
 
-**Most Recent Light Cones:** [She Already Shut Her Eyes](equipment/lightcones/preservation#she-already-shut-her-eyes)
+**Most Recent Light Cones:** [Earthly Escapade](equipment/lightcones/harmony#earthly-escapade)
 
 ## Data Status
-
-As Star Rail has only just released, our theorycrafting team is still in the process of getting game data set up on the SRL. Below you will see a list of what we are working on porting over:
 
 * Characters - complete
   * Base Stats - complete
@@ -28,7 +26,7 @@ As Star Rail has only just released, our theorycrafting team is still in the pro
   * Relics - complete
     * Cavern Relics - complete
     * Planar Relics - complete
-  * Curio - complete
+  * Curio - complete (up to v1.3)
 * Enemy Data - WIP
   * Basic data - complete
   * Variants / checking - WIP

@@ -34,17 +34,17 @@
         {
           "name": "Oppressive Embrace",
           "type": "Ability",
-          "desc": "Imprisons a single target, and deals Physical DMG 1 time. When this unit has their Weakness Broken, dispels the Imprison status from the target."
+          "desc": "Restrains a single target, and deals Physical DMG 1 time. When this unit has their Weakness Broken, dispels the Restrain status from the target."
         },
         {
           "name": "Disabling Field",
           "type": "Ability",
-          "desc": "Deals Imprisoned targets Physical DMG equal to a percentage of their Max HP."
+          "desc": "Deals Restrained targets Physical DMG equal to a percentage of their Max HP."
         },
         {
           "name": "Overload Warning",
           "type": "Ability",
-          "desc": "Auxiliary Robot Arm Unit enters Overload mode and immediately removes Imprisonment from friendly units. When entering this mode, Auxiliary Robot Arm Unit will cast Controlled Blasting on its next action."
+          "desc": "Auxiliary Robot Arm Unit enters Overload mode and immediately removes Restrain status from friendly units. When entering this mode, Auxiliary Robot Arm Unit will cast Controlled Blasting in its next action."
         }
       ]
     },
@@ -82,17 +82,17 @@
         {
           "name": "Oppressive Embrace",
           "type": "Ability",
-          "desc": "Imprisons a single target, and deals Physical DMG 1 time. When this unit has their Weakness Broken or drops below a certain amount of HP, dispels the Imprison status from the target."
+          "desc": "Restrains a single target, and deals Physical DMG 1 time. When this unit has their Weakness Broken or drops below a certain amount of HP, dispels the Restrain status from the target."
         },
         {
           "name": "Disabling Field",
           "type": "Ability",
-          "desc": "Deals Physical DMG equal to a percentage of their Max HP to Imprisoned targets."
+          "desc": "Deals Physical DMG equal to a percentage of their Max HP to Restrained targets."
         },
         {
           "name": "Overload Warning",
           "type": "Ability",
-          "desc": "Auxiliary Robot Arm Unit enters Overload mode and immediately removes Imprisonment from friendly units. When entering this mode, Auxiliary Robot Arm Unit will cast Controlled Blasting on its next action."
+          "desc": "Auxiliary Robot Arm Unit enters Overload mode and immediately removes Restrain status from friendly units. When entering this mode, Auxiliary Robot Arm Unit will cast Controlled Blasting in its next action."
         }
       ]
     }

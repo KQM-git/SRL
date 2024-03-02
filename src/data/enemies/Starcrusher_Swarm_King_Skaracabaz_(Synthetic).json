@@ -1,0 +1,67 @@
+{
+  "name": "Starcrusher Swarm King: Skaracabaz (Synthetic)",
+  "faction": "The Swarm",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 2232,
+      "speed": 120,
+      "toughness": 540,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.4
+      },
+      "debuffRES": {
+        "Entanglement": 1
+      },
+      "skills": [
+        {
+          "name": "Ovum of Collapsed Star",
+          "type": "Ability",
+          "desc": "Deals massive Quantum DMG to all targets.",
+          "phases": [ 2 ],
+          "threat": true
+        },
+        {
+          "name": "Swarm King Cannon",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Radiating Venom",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target, with a high chance to inflict Entanglement. Also summons 1 Gnaw Sting.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Pyrolysis Death Beam",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target and units adjacent to the target.",
+          "phases": [ 1 ]
+        },
+        {
+          "name": "Carapace of Begotten Spawn",
+          "type": "Ability",
+          "desc": "Enter the Multiply state until the next action. During this time, DMG received is greatly reduced, and each attack taken will cause a Gnaw Sting to be summoned. If this unit is Weakness Broken while in the Multiply state, it will deal Toughness-Reducing DMG equal to this unit's Max Toughness to all friendly units and increase the DMG taken by all other friendly units besides the target themselves.",
+          "phases": [ 1 ]
+        },
+        {
+          "name": "Carapace of Nurtured Disaster",
+          "type": "Ability",
+          "desc": "Charges and enters the Multiply state until the next action, whereupon Ovum of Collapsed Star will be used on all targets. During the Multiply state, DMG received is greatly reduced, and each attack taken will cause a Gnaw Sting or Lesser Sting to be summoned. If this unit is Weakness Broken while in the Multiply state, it will deal Toughness-Reducing DMG equal to this unit's Max Toughness to all friendly units and increase the DMG taken by all other friendly units besides the target themselves.",
+          "phases": [ 2 ]
+        }
+      ]
+    }
+  ]
+}

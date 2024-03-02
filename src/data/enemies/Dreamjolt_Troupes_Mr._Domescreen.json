@@ -1,0 +1,48 @@
+{
+  "name": "Dreamjolt Troupe's Mr. Domescreen",
+  "faction": "Dreamjolt Troupe",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 255.75,
+      "speed": 100,
+      "toughness": 90,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Ice",
+        "Lightning",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Surprise Variety Show",
+          "type": "Ability",
+          "desc": "Regenerates Energy for a target. This ability can only be used while under the Surprise Channel state."
+        },
+        {
+          "name": "Startling Broadcast",
+          "type": "Ability",
+          "desc": "Deals minor Quantum DMG to all targets and causes all targets to lose Energy. This ability can only be used while under the Fright Channel state."
+        },
+        {
+          "name": "Channel Switch",
+          "type": "Ability",
+          "desc": "Switches the Surprise Channel status to the Fright Channel status."
+        },
+        {
+          "name": "Channel Crossover",
+          "type": "Talent",
+          "desc": "After being attacked, this unit will switch from the Surprise Channel status to the Fright Channel status, or vice versa."
+        }
+      ]
+    }
+  ]
+}

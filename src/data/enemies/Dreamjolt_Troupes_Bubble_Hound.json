@@ -1,0 +1,43 @@
+{
+  "name": "Dreamjolt Troupe's Bubble Hound",
+  "faction": "Dreamjolt Troupe",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 209.25,
+      "speed": 100,
+      "toughness": 90,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Physical",
+        "Lightning",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Drink Invite",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "Libation of Sweetness",
+          "type": "Talent",
+          "desc": "Upon taking a killing blow, deals Physical DMG to adjacent friendly units, increases their SPD, and inflicts them with Bleed."
+        },
+        {
+          "name": "Hearty Revelry",
+          "type": "Talent",
+          "desc": "Upon being attacked or taking DMG from DoT effects, gains a stack of SoulGlad Revel. Each stack increases DMG dealt."
+        }
+      ]
+    }
+  ]
+}

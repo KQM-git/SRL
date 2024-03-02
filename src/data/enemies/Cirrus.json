@@ -1,0 +1,36 @@
+{
+  "name": "Cirrus",
+  "faction": "The Xianzhou Luofu",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 100,
+      "toughness": 0,
+      "effectResBase": 1,
+      "weaknesses": [],
+      "dmgRES": {},
+      "debuffRES": {
+        "Control Effects": 1
+      },
+      "skills": [
+        {
+          "name": "Soulsplit",
+          "type": "Talent",
+          "desc": "Cannot be selected or attacked directly. Loses some HP when other enemies on the field are eliminated."
+        },
+        {
+          "name": "Rapid Gambit",
+          "type": "Ability",
+          "desc": "Causes all friendly units to immediately take action."
+        },
+        {
+          "name": "Hesitation",
+          "type": "Ability",
+          "desc": "Tries to use an ability, but nothing happens."
+        }
+      ]
+    }
+  ]
+}

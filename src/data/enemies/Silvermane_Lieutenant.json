@@ -42,7 +42,7 @@
         {
           "name": "Reinforcement",
           "type": "Ability",
-          "desc": "Summons Silvermane Soldier or Silvermane Gunner"
+          "desc": "Summons Silvermane Soldiers or Silvermane Gunners"
         }
       ]
     },
@@ -71,7 +71,7 @@
         {
           "name": "Rallying",
           "type": "Ability",
-          "desc": "Increases all friendly units' ATK and causes them to act immediately.",
+          "desc": "Increases ATK for all friendly units except Silvermane Lieutenant (Error) and causes them to act immediately.",
           "threat": true
         },
         {
@@ -92,7 +92,7 @@
         {
           "name": "Reinforcement",
           "type": "Ability",
-          "desc": "Summons Silvermane Soldier or Silvermane Gunner"
+          "desc": "Summons Silvermane Soldiers or Silvermane Gunners"
         }
       ]
     },

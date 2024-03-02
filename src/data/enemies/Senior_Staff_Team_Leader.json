@@ -1,0 +1,64 @@
+{
+  "name": "Senior Staff: Team Leader",
+  "faction": "Interastral Peace Corporation",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1488,
+      "speed": 120,
+      "toughness": 360,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Fire",
+        "Ice",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Work Culture Shock",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to all targets.",
+          "threat": true
+        },
+        {
+          "name": "Disciplined",
+          "type": "Ability",
+          "desc": "Deals minor Physical DMG to a single target."
+        },
+        {
+          "name": "Cost Reduction",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "In Training...",
+          "type": "Ability",
+          "desc": "Enters the Charge state. Uses Work Culture Shock in the next action."
+        },
+        {
+          "name": "720-Degree Review",
+          "type": "Ability",
+          "desc": "Seizes all Performance Points from Grunt: Field Personnel and Grunt: Security Personnel."
+        },
+        {
+          "name": "Team Building",
+          "type": "Ability",
+          "desc": "Summons Grunt: Field Personnel or Grunt: Security Personnel, then cause all Grunts: Field Personnel and Grunts: Security Personnel to acquire 1 Performance Point."
+        },
+        {
+          "name": "Performance Boost",
+          "type": "Talent",
+          "desc": "Receives 1 Performance Point after unleashing an attack. Performance Points can be seized by the attacker when this unit's Weakness is Broken or this unit receives a killing blow."
+        }
+      ]
+    }
+  ]
+}

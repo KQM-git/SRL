@@ -1,0 +1,33 @@
+{
+  "name": "Dreamjolt Troupe's Spring Loader",
+  "faction": "Dreamjolt Troupe",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 93,
+      "speed": 83,
+      "toughness": 30,
+      "effectResBase": 0,
+      "weaknesses": [
+        "Physical",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Throw Die",
+          "type": "Ability",
+          "desc": "Deals minor Physical DMG to a single target, with a chance to reduce the target's Effect RES."
+        }
+      ]
+    }
+  ]
+}

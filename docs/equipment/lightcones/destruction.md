@@ -9,6 +9,10 @@ import destruction from '@site/src/data/lightcones/Destruction.json'
 
 <Lightcone lightcone="Brighter Than the Sun" lightcones={destruction} />
 
+### I Shall Be My Own Sword
+
+<Lightcone lightcone="I Shall Be My Own Sword" lightcones={destruction} />
+
 ### On the Fall of an Aeon
 
 <Lightcone lightcone="On the Fall of an Aeon" lightcones={destruction} />
@@ -26,6 +30,14 @@ import destruction from '@site/src/data/lightcones/Destruction.json'
 ### A Secret Vow
 
 <Lightcone lightcone="A Secret Vow" lightcones={destruction} />
+
+### Flames Afar
+
+<Lightcone lightcone="Flames Afar" lightcones={destruction} />
+
+### Indelible Promise
+
+<Lightcone lightcone="Indelible Promise" lightcones={destruction} />
 
 ### Nowhere to Run
 

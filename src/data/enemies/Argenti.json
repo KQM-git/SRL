@@ -1,0 +1,62 @@
+{
+  "name": "Argenti",
+  "faction": "Cosmos",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1395,
+      "speed": 144,
+      "toughness": 480,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Physical",
+        "Fire",
+        "Ice"
+      ],
+      "dmgRES": {
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "Soul of Tenacity",
+          "type": "Ability",
+          "desc": "Casts a Soul of Beauty from one of the statues and causes the ability of the statue that cast the soul to be enhanced.",
+          "phases": [ 1, 2 ],
+          "threat": true
+        },
+        {
+          "name": "Hymn of Gorgeous Courage",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to all targets.",
+          "phases": [ 1, 2 ],
+          "threat": true
+        },
+        {
+          "name": "Piety",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Imbue Devotion",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target and units adjacent to the target.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Spear & Shield",
+          "type": "Ability",
+          "desc": "Randomly summons statues of \"Speartip,\" \"The Shield,\" and \"The Honored.\"",
+          "phases": [ 1, 2 ]
+        }
+      ]
+    }
+  ]
+}

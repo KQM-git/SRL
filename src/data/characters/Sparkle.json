@@ -1,0 +1,342 @@
+{
+  "name": "Sparkle",
+  "damageType": "Quantum",
+  "baseType": "Harmony",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 71.28,
+      "attackAdd": 3.564,
+      "hpBase": 190.08,
+      "hpAdd": 9.504,
+      "defenseBase": 66,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 99.792,
+      "attackAdd": 3.564,
+      "hpBase": 266.112,
+      "hpAdd": 9.504,
+      "defenseBase": 92.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 128.304,
+      "attackAdd": 3.564,
+      "hpBase": 342.144,
+      "hpAdd": 9.504,
+      "defenseBase": 118.8,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 156.816,
+      "attackAdd": 3.564,
+      "hpBase": 418.176,
+      "hpAdd": 9.504,
+      "defenseBase": 145.2,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 185.328,
+      "attackAdd": 3.564,
+      "hpBase": 494.208,
+      "hpAdd": 9.504,
+      "defenseBase": 171.6,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 213.84,
+      "attackAdd": 3.564,
+      "hpBase": 570.24,
+      "hpAdd": 9.504,
+      "defenseBase": 198,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 242.352,
+      "attackAdd": 3.564,
+      "hpBase": 646.272,
+      "hpAdd": 9.504,
+      "defenseBase": 224.4,
+      "defenseAdd": 3.3,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Monodrama",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Sparkle's ATK to a single target enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "energyGain": 20,
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Dreamdiver",
+      "tag": "Support",
+      "type": "Skill",
+      "desc": "Increases the CRIT DMG of a single target ally by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Sparkle's CRIT DMG plus <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). And at the same time, Advances Forward this ally's action by <unbreak>#4[i]%</unbreak>.\\nWhen Sparkle uses this ability on herself, the Action Advance effect will not trigger.",
+      "params": [
+        [ 0.12, 0.27, 1, 0.5 ],
+        [ 0.132, 0.288, 1, 0.5 ],
+        [ 0.144, 0.306, 1, 0.5 ],
+        [ 0.156, 0.324, 1, 0.5 ],
+        [ 0.168, 0.342, 1, 0.5 ],
+        [ 0.18, 0.36, 1, 0.5 ],
+        [ 0.195, 0.3825, 1, 0.5 ],
+        [ 0.21, 0.405, 1, 0.5 ],
+        [ 0.225, 0.4275, 1, 0.5 ],
+        [ 0.24, 0.45, 1, 0.5 ],
+        [ 0.252, 0.468, 1, 0.5 ],
+        [ 0.264, 0.486, 1, 0.5 ],
+        [ 0.276, 0.504, 1, 0.5 ],
+        [ 0.288, 0.522, 1, 0.5 ],
+        [ 0.3, 0.54, 1, 0.5 ]
+      ],
+      "energyGain": 30
+    },
+    {
+      "name": "The Hero with a Thousand Faces",
+      "tag": "Support",
+      "type": "Ultimate",
+      "desc": "Recovers <unbreak>#2[i]</unbreak> Skill Points for the team and grants all allies Cipher. For allies with Cipher, each stack of the DMG Boost effect provided by Sparkle's Talent additionally increases by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>, lasting for <unbreak>#4[i]</unbreak> turns.",
+      "params": [
+        [ 2, 4, 0.06, 2 ],
+        [ 2, 4, 0.064, 2 ],
+        [ 2, 4, 0.068, 2 ],
+        [ 2, 4, 0.072, 2 ],
+        [ 2, 4, 0.076, 2 ],
+        [ 2, 4, 0.08, 2 ],
+        [ 2, 4, 0.085, 2 ],
+        [ 2, 4, 0.09, 2 ],
+        [ 2, 4, 0.095, 2 ],
+        [ 2, 4, 0.1, 2 ],
+        [ 2, 4, 0.104, 2 ],
+        [ 2, 4, 0.108, 2 ],
+        [ 2, 4, 0.112, 2 ],
+        [ 2, 4, 0.116, 2 ],
+        [ 2, 4, 0.12, 2 ]
+      ],
+      "energyNeeded": 110,
+      "energyGain": 5
+    },
+    {
+      "name": "Red Herring",
+      "tag": "Support",
+      "type": "Talent",
+      "desc": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by <unbreak>#3[i]</unbreak>. Whenever an ally consumes 1 Skill Point, all allies' DMG dealt increases by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>. This effect lasts for <unbreak>#1[i]</unbreak> turn(s) and can stack up to <unbreak>#4[i]</unbreak> time(s).",
+      "params": [
+        [ 2, 0.03, 2, 3 ],
+        [ 2, 0.033, 2, 3 ],
+        [ 2, 0.036, 2, 3 ],
+        [ 2, 0.039, 2, 3 ],
+        [ 2, 0.042, 2, 3 ],
+        [ 2, 0.045, 2, 3 ],
+        [ 2, 0.04875, 2, 3 ],
+        [ 2, 0.0525, 2, 3 ],
+        [ 2, 0.05625, 2, 3 ],
+        [ 2, 0.06, 2, 3 ],
+        [ 2, 0.063, 2, 3 ],
+        [ 2, 0.066, 2, 3 ],
+        [ 2, 0.069, 2, 3 ],
+        [ 2, 0.072, 2, 3 ],
+        [ 2, 0.075, 2, 3 ]
+      ]
+    },
+    {
+      "name": "Unreliable Narrator",
+      "tag": "Support",
+      "type": "Technique",
+      "desc": "Using the Technique grants all allies Misdirect for <unbreak>#2[i]</unbreak> seconds. Characters with Misdirect will not be detected by enemies, and entering battle in the Misdirect state recovers <unbreak>#1[i]</unbreak> Skill Point(s) for the team.",
+      "params": [
+        [ 3, 20 ]
+      ]
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Suspension of Disbelief",
+      "desc": "The Cipher effect granted by the Ultimate lasts for 1 extra turn. All allies with Cipher have their ATK increased by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.4 ]
+    },
+    {
+      "name": "Purely Fictitious",
+      "desc": "Every stack of the Talent's effect allows allies to additionally ignore <unbreak>#1[i]%</unbreak> of the target's DEF when dealing DMG.",
+      "params": [ 0.08 ]
+    },
+    {
+      "name": "Pipedream",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Life Is a Gamble",
+      "desc": "The Ultimate recovers 1 more Skill Point. The Talent additionally increases the Max Skill Points by 1.",
+      "params": []
+    },
+    {
+      "name": "Parallax Truth",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Narrative Polysemy",
+      "desc": "The CRIT DMG Boost effect provided by the Skill additionally increases by an amount equal to <unbreak>#1[i]%</unbreak> of Sparkle's CRIT DMG. When Sparkle uses Skill, her Skill's CRIT DMG Boost effect will apply to all allies with Cipher. When Sparkle uses her Ultimate, any single ally who benefits from her Skill's CRIT DMG Boost will spread that effect to allies with Cipher.",
+      "params": [ 0.3 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Almanac",
+      "desc": "When using Basic ATK, additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
+      "params": [ 10 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT DMG Boost",
+          "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.053 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artificial Flower",
+      "desc": "The CRIT DMG Boost effect provided by the Skill will be extended until the start of the target's next turn.",
+      "params": [],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT DMG Boost",
+              "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
+              "minAsc": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nocturne",
+      "desc": "Increases all allies' ATK by <unbreak>#4[i]%</unbreak>. When there are 1/2/3 Quantum-Type allies in the team, increases Quantum-Type allies' ATK by <unbreak>#1[i]%</unbreak>/<unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak>.",
+      "params": [ 0.05, 0.15, 0.3, 0.15 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 6,
+          "children": [
+            {
+              "name": "CRIT DMG Boost",
+              "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.107 ],
+              "minLevel": 75
+            },
+            {
+              "name": "HP Boost",
+              "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
+              "minLevel": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HP Boost",
+      "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "children": [
+        {
+          "name": "Effect RES Boost",
+          "desc": "Effect RES increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.04 ],
+          "minAsc": 3
+        },
+        {
+          "name": "HP Boost",
+          "desc": "Max HP increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 5
+        }
+      ]
+    }
+  ]
+}
