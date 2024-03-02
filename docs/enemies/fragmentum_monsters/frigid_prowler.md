@@ -1,7 +1,7 @@
 ---
 sidebar_position: 15
 description: |-
-  A machine unit prowling in the Fragmentum. Undoubtedly, this monstrosity is not a human creation, but one imitated by the Fragmentum's twisted power.
+  A machine unit prowling in the Fragmentum. Undoubtedly, this monstrosity is not a human creation, but one that was born out of the perversion of the Fragmentum.
   Frigid Prowlers will attract Everwinter Shadewalkers and reduce its enemy's SPD and Ice RES.
 ---
 

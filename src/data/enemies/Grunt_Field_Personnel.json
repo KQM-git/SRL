@@ -1,0 +1,38 @@
+{
+  "name": "Grunt: Field Personnel",
+  "faction": "Interastral Peace Corporation",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 148.8,
+      "speed": 118,
+      "toughness": 60,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Fire",
+        "Ice"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Clock In",
+          "type": "Ability",
+          "desc": "Deals minor Physical DMG to a single target."
+        },
+        {
+          "name": "Performance Boost",
+          "type": "Talent",
+          "desc": "Receives 1 Performance Point after unleashing an attack. Performance Points can be seized by the attacker when this unit's Weakness is Broken or this unit receives a killing blow."
+        }
+      ]
+    }
+  ]
+}

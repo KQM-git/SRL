@@ -53,7 +53,7 @@
           "desc": "Deals Ice DMG to a single target and units adjacent to the target."
         },
         {
-          "name": "Verging Edge",
+          "name": "Qi Advance",
           "type": "Ability",
           "desc": "Enters the Charge state. Cast Cascading Laceration on all targets in the next action."
         }

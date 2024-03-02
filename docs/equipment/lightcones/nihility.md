@@ -17,6 +17,10 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 
 <Lightcone lightcone="Patience Is All You Need" lightcones={nihility} />
 
+### Reforged Remembrance
+
+<Lightcone lightcone="Reforged Remembrance" lightcones={nihility} />
+
 ### Solitary Healing
 
 <Lightcone lightcone="Solitary Healing" lightcones={nihility} />
@@ -38,6 +42,10 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 ### Good Night and Sleep Well
 
 <Lightcone lightcone="Good Night and Sleep Well" lightcones={nihility} />
+
+### It's Showtime
+
+<Lightcone lightcone="It's Showtime" lightcones={nihility} />
 
 ### Resolution Shines As Pearls of Sweat
 

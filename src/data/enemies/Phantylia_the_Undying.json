@@ -3,7 +3,7 @@
   "faction": "Antimatter Legion",
   "variants": [
     {
-      "attack": 18,
+      "attack": 14.999994,
       "def": 210,
       "hp": 1209,
       "speed": 120,

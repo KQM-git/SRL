@@ -1,0 +1,34 @@
+{
+  "name": "Lordly Trashcan",
+  "faction": "Cosmos",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 4650,
+      "speed": 144,
+      "toughness": 360,
+      "effectResBase": 0.1,
+      "weaknesses": [],
+      "dmgRES": {},
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "The Can's Trials",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "The Can's Tribulations",
+          "type": "Ability",
+          "desc": "Increases this unit's ATK. This effect is stackable and unremovable."
+        },
+        {
+          "name": "The Can's Creed",
+          "type": "Talent",
+          "desc": "When this unit is Weakness Broken, it will leave the battle. When attacked, Weaknesses corresponding to the attack's Type will be implanted, up to 2 Weaknesses."
+        }
+      ]
+    }
+  ]
+}

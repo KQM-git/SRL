@@ -1,0 +1,38 @@
+{
+  "name": "Gnaw Sting",
+  "faction": "The Swarm",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 209.25,
+      "speed": 118,
+      "toughness": 90,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Physical",
+        "Ice"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.4,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Horn Clash",
+          "type": "Ability",
+          "desc": "Deals Quantum DMG to a single target, prioritizing Entangled targets, and applies one extra stack of Entanglement."
+        },
+        {
+          "name": "Decay Eulogy",
+          "type": "Talent",
+          "desc": "When receiving a killing blow, deals Quantum DMG to all friendly units and increases their DMG received."
+        }
+      ]
+    }
+  ]
+}

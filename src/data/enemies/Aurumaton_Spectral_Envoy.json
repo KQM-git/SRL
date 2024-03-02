@@ -1,0 +1,54 @@
+{
+  "name": "Aurumaton Spectral Envoy",
+  "faction": "The Xianzhou Luofu",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1116,
+      "speed": 120,
+      "toughness": 300,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Physical",
+        "Lightning",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Heaven's Fall",
+          "type": "Ability",
+          "desc": "Deals massive Physical DMG to a single ally. If the target is afflicted with Strong Reverberation, they additionally take Physical DMG, and Strong Reverberation is then dispelled.",
+          "threat": true
+        },
+        {
+          "name": "Adjudicate",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        },
+        {
+          "name": "Subdue",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target and has a high chance to inflict Reverberation on the target. After targets afflicted with Reverberation receive an attack, they enter the Strong Reverberation state and then have the Reverberation state dispelled. Targets with Strong Reverberation cannot take action."
+        },
+        {
+          "name": "Revert Yin and Yang",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to all targets and has a chance to inflict Reverberation."
+        },
+        {
+          "name": "Soul Warrant",
+          "type": "Talent",
+          "desc": "When there are targets afflicted with Strong Reverberation on the field, lock on to those targets and during the next action, use Heaven's Fall on them."
+        }
+      ]
+    }
+  ]
+}

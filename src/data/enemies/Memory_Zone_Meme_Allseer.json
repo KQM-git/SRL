@@ -1,0 +1,33 @@
+{
+  "name": "Memory Zone Meme \"Allseer\"",
+  "faction": "Memory Zone Meme",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 93,
+      "speed": 100,
+      "toughness": 30,
+      "effectResBase": 0,
+      "weaknesses": [
+        "Ice",
+        "Lightning"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Glare of the Other",
+          "type": "Ability",
+          "desc": "Deals minor Quantum DMG to a single target and delays the attacked target's action."
+        }
+      ]
+    }
+  ]
+}

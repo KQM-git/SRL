@@ -23,6 +23,10 @@ import preservation from '@site/src/data/lightcones/Preservation.json'
 
 <Lightcone lightcone="Day One of My New Life" lightcones={preservation} />
 
+### Destiny's Threads Forewoven
+
+<Lightcone lightcone="Destiny's Threads Forewoven" lightcones={preservation} />
+
 ### Landau's Choice
 
 <Lightcone lightcone="Landau's Choice" lightcones={preservation} />

@@ -1,0 +1,49 @@
+{
+  "name": "Dreamjolt Troupe's Sweet Gorilla",
+  "faction": "Dreamjolt Troupe",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 1674,
+      "speed": 144,
+      "toughness": 300,
+      "effectResBase": 0.2,
+      "weaknesses": [
+        "Physical",
+        "Fire",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Wind": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Unlimited Free Drinks",
+          "type": "Ability",
+          "desc": "Deals 4 hits of Ice DMG to one random target. If the target has Shield, additionally deal Ice DMG to self with a high chance to decrease this unit's DEF.",
+          "threat": true
+        },
+        {
+          "name": "Limited Free Drinks",
+          "type": "Ability",
+          "desc": "Deals Ice DMG to a single target. If the target has Shield, additionally deal Ice DMG to this unit with a high chance to decrease this unit's DEF."
+        },
+        {
+          "name": "SoulGlad Party",
+          "type": "Ability",
+          "desc": "Summons 2 Bubble Hounds."
+        },
+        {
+          "name": "Celebration Fountain",
+          "type": "Ability",
+          "desc": "Enters the Charge stage and gains Toughness Protection. Uses Unlimited Free Drinks during the next action."
+        }
+      ]
+    }
+  ]
+}

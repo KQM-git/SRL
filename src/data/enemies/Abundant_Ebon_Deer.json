@@ -154,7 +154,7 @@
         {
           "name": "Pedicel: Entwined Vines",
           "type": "Ability",
-          "desc": "Summons 2 Ambrosial Arbor Branch \"Twig of Lavish Fruits\", 1 Ambrosial Arbor Branch \"Twig of Marple Leaf\", and 1 Ambrosial Arbor Branch \"Twig of Wintry Wind\".",
+          "desc": "Summons 2 Ambrosial Arbor Branch \"Twig of Lavish Fruits,\" 1 Ambrosial Arbor Branch \"Twig of Marple Leaf,\" and 1 Ambrosial Arbor Branch \"Twig of Wintry Wind.\"",
           "phases": [ 3 ]
         },
         {

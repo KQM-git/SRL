@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 description: |-
-  An automaton pieced together with Old World technology. Humans have tasked it with the most basic manual labors.
+  An automaton pieced together with Old World technology, tasked with replacing humans in performing the most basic forms of physical labor.
   In combat, Automaton Spiders are highly unstable, capable of exploding when damaged.
 ---
 

@@ -1,0 +1,33 @@
+{
+  "name": "Wraith Warden",
+  "faction": "The Xianzhou Luofu",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 139.5,
+      "speed": 120,
+      "toughness": 60,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Wind"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Sawing Evil",
+          "type": "Ability",
+          "desc": "Deals minor Physical DMG to a single target and has a chance to inflict Reverberation to the target. After targets afflicted with Reverberation receive an attack, they enter Strong Reverberation and then have Reverberation dispelled. Targets with Strong Reverberation cannot take action."
+        }
+      ]
+    }
+  ]
+}

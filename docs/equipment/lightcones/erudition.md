@@ -5,6 +5,10 @@ import erudition from '@site/src/data/lightcones/Erudition.json'
 
 ## 5 Stars
 
+### An Instant Before A Gaze
+
+<Lightcone lightcone="An Instant Before A Gaze" lightcones={erudition} />
+
 ### Before Dawn
 
 <Lightcone lightcone="Before Dawn" lightcones={erudition} />
@@ -26,6 +30,10 @@ import erudition from '@site/src/data/lightcones/Erudition.json'
 ### The Birth of the Self
 
 <Lightcone lightcone="The Birth of the Self" lightcones={erudition} />
+
+### The Day The Cosmos Fell
+
+<Lightcone lightcone="The Day The Cosmos Fell" lightcones={erudition} />
 
 ### The Seriousness of Breakfast
 

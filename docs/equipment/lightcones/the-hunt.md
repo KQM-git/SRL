@@ -5,6 +5,10 @@ import theHunt from '@site/src/data/lightcones/The_Hunt.json'
 
 ## 5 Stars
 
+### Baptism of Pure Thought
+
+<Lightcone lightcone="Baptism of Pure Thought" lightcones={theHunt} />
+
 ### Cruising in the Stellar Sea
 
 <Lightcone lightcone="Cruising in the Stellar Sea" lightcones={theHunt} />
@@ -17,7 +21,15 @@ import theHunt from '@site/src/data/lightcones/The_Hunt.json'
 
 <Lightcone lightcone="Sleep Like the Dead" lightcones={theHunt} />
 
+### Worrisome, Blissful
+
+<Lightcone lightcone="Worrisome, Blissful" lightcones={theHunt} />
+
 ## 4 Stars
+
+### Final Victor
+
+<Lightcone lightcone="Final Victor" lightcones={theHunt} />
 
 ### Only Silence Remains
 

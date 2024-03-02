@@ -54,7 +54,7 @@
         {
           "name": "Cruelty",
           "type": "Talent",
-          "desc": "When friendly units (apart from Kafka) or Dominated targets deal DMG to Shocked targets, unleash an extra Lightning ATK. This can only be triggered 1 time per turn."
+          "desc": "When friendly units (apart from Kafka) or Dominated targets attack the Shocked main target, unleash an extra Lightning attack. This can only be triggered 1 time per turn."
         }
       ]
     },
@@ -129,7 +129,7 @@
         {
           "name": "Cruelty",
           "type": "Talent",
-          "desc": "When friendly units (apart from Kafka) or Dominated targets deal DMG to Shocked targets, unleash an extra Lightning ATK.",
+          "desc": "When friendly units (apart from Kafka) or Dominated targets attack the Shocked main target, unleash an extra Lightning attack.",
           "phases": [ 1, 2, 3 ]
         },
         {
