@@ -9,6 +9,10 @@ import abundance from '@site/src/data/lightcones/Abundance.json'
 
 <Lightcone lightcone="Echoes of the Coffin" lightcones={abundance} />
 
+### Night of Fright
+
+<Lightcone lightcone="Night of Fright" lightcones={abundance} />
+
 ### Time Waits for No One
 
 <Lightcone lightcone="Time Waits for No One" lightcones={abundance} />
@@ -18,10 +22,6 @@ import abundance from '@site/src/data/lightcones/Abundance.json'
 ### Hey, Over Here
 
 <Lightcone lightcone="Hey, Over Here" lightcones={abundance} />
-
-### Night of Fright
-
-<Lightcone lightcone="Night of Fright" lightcones={abundance} />
 
 ### Perfect Timing
 
