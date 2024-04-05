@@ -1,0 +1,43 @@
+{
+  "name": "Dreamjolt Troupe's Winder Goon",
+  "faction": "Dreamjolt Troupe",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 162.75,
+      "speed": 80,
+      "toughness": 90,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Lightning",
+        "Quantum"
+      ],
+      "dmgRES": {
+        "Physical": 0.2,
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Wind": 0.2,
+        "Imaginary": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Set Alarm",
+          "type": "Ability",
+          "desc": "Enters the Charge state. Uses Wake-Up Alarm for the next action."
+        },
+        {
+          "name": "Wake-Up Alarm",
+          "type": "Ability",
+          "desc": "Causes all friendly units apart from this unit to immediately take action."
+        },
+        {
+          "name": "Wake-Up Punch",
+          "type": "Ability",
+          "desc": "Deals Physical DMG to a single target."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 11
 description: |-
   Penacony's service machinery that got out of control due to the emotional interference in the Dreamscape.
   Originally a delivery robot of SoulGlad, it is still dispensing sweetness after losing control, inviting everyone to taste this delicacy.

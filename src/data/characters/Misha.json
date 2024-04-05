@@ -193,7 +193,7 @@
       "name": "Horological Escapement",
       "tag": "Enhance",
       "type": "Talent",
-      "desc": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers <unbreak>#2[i]</unbreak> more Hit(s) Per Action and Misha regenerates <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> Energy.",
+      "desc": "For every 1 Skill Point allies consume, Misha's next Ultimate delivers <unbreak>#2[i]</unbreak> more Hit(s) Per Action, and Misha regenerates <color=#f29e38ff><unbreak>#1[f1]</unbreak></color> Energy.",
       "params": [
         [ 1, 1 ],
         [ 1.1, 1 ],

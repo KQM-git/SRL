@@ -232,7 +232,7 @@
     },
     {
       "name": "The Divine Is in the Details",
-      "desc": "When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Imaginary Additional DMG equal to <unbreak>#1[i]%</unbreak> of Dr. Ratio's ATK. This effect can be triggered for a maximum of <unbreak>#2[i]</unbreak> time(s) during each follow-up attack.",
+      "desc": "When his Talent's follow-up attack hits a target, for every debuff the target has, deals Imaginary Additional DMG equal to <unbreak>#1[i]%</unbreak> of Dr. Ratio's ATK. This effect can be triggered for a maximum of <unbreak>#2[i]</unbreak> time(s) during each follow-up attack.",
       "params": [ 0.2, 4 ]
     },
     {

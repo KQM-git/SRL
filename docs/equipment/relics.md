@@ -108,6 +108,10 @@ import Relic from '@site/src/components/relics/Relic'
 
 <Relic relic="Inert Salsotto" />
 
+### Izumo Gensei and Takama Divine Realm
+
+<Relic relic="Izumo Gensei and Takama Divine Realm" />
+
 ### Pan-Cosmic Commercial Enterprise
 
 <Relic relic="Pan-Cosmic Commercial Enterprise" />
@@ -119,6 +123,10 @@ import Relic from '@site/src/components/relics/Relic'
 ### Rutilant Arena
 
 <Relic relic="Rutilant Arena" />
+
+### Sigonia, the Unclaimed Desolation
+
+<Relic relic="Sigonia, the Unclaimed Desolation" />
 
 ### Space Sealing Station
 

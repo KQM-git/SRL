@@ -28,28 +28,28 @@
         {
           "name": "Fading Radiance",
           "type": "Ability",
-          "desc": "Enters the Sunset state. Gains 1 stack each time a character uses Basic ATK, Skill, or Ultimate. When Sunset reaches 3 stacks, immediately uses Losing Eventide Light on the last-acting character. This effect is removed after using Losing Eventide Light once or after becoming Weakness Broken.",
+          "desc": "Enters the Sunset state. Gains 1 stack each time a character uses Basic ATK, Skill, or Ultimate. When Sunset reaches 3 stacks, immediately use Losing Eventide Light on the last-acting target. This effect is removed after using Losing Eventide Light once or after becoming Weakness Broken.",
           "phases": [ 1 ],
           "threat": true
         },
         {
           "name": "Losing Eventide Light",
           "type": "Ability",
-          "desc": "Immediately launches a killing blow on the last-acting character who used Basic ATK, Skill, or Ultimate, and inflicts Morbid Dream on them.",
+          "desc": "Immediately launches a killing blow on the last-acting target who used Basic ATK, Skill, or Ultimate, and inflicts Morbid Dream on them.",
           "phases": [ 1 ],
           "threat": true
         },
         {
           "name": "Go Into That Good Night",
           "type": "Ability",
-          "desc": "Enters the Nightfall state and locks onto the 2 characters who are due to act next. Uses Watery Dissolution in the next action.",
+          "desc": "Enters the Nightfall state, regenerates energy for all targets, and locks onto the 2 targets who are due to act next. Uses Watery Dissolution in the next action.",
           "phases": [ 2 ],
           "threat": true
         },
         {
           "name": "Watery Dissolution",
           "type": "Ability",
-          "desc": "Immediately launches a killing blow on all locked-on targets and inflicts Morbid Dream on them. If there are no locked-on targets, launches a killing blow on 2 random characters and inflicts Morbid Dream on them.",
+          "desc": "Immediately launches a killing blow on all locked-on targets and inflicts Morbid Dream on them. If there are no locked-on targets, launches a killing blow on 2 random targets and inflicts Morbid Dream on them.",
           "phases": [ 2 ],
           "threat": true
         },

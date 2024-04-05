@@ -293,7 +293,7 @@
     },
     {
       "name": "Nocturne",
-      "desc": "Increases all allies' ATK by <unbreak>#4[i]%</unbreak>. When there are 1/2/3 Quantum-Type allies in the team, increases Quantum-Type allies' ATK by <unbreak>#1[i]%</unbreak>/<unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak>.",
+      "desc": "Increases all allies' ATK by <unbreak>#4[i]%</unbreak>. When there are 1/2/3 Quantum-Type allies in the team, additionally increases Quantum-Type allies' ATK by <unbreak>#1[i]%</unbreak>/<unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak>.",
       "params": [ 0.05, 0.15, 0.3, 0.15 ],
       "minAsc": 6,
       "children": [

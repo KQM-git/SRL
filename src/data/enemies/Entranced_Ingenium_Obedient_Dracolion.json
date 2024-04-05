@@ -25,7 +25,7 @@
         {
           "name": "Lion's Roar",
           "type": "Ability",
-          "desc": "Deals Ice DMG to a single target."
+          "desc": "Deals minor Fire DMG to a single target, with a chance to Weaken them."
         }
       ]
     }
