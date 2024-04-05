@@ -1,0 +1,33 @@
+{
+  "name": "Memory Zone Meme \"Something In The Mirror\"",
+  "faction": "Memory Zone Meme",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 148.8,
+      "speed": 120,
+      "toughness": 60,
+      "effectResBase": 0.1,
+      "weaknesses": [
+        "Physical",
+        "Wind",
+        "Imaginary"
+      ],
+      "dmgRES": {
+        "Fire": 0.2,
+        "Ice": 0.2,
+        "Lightning": 0.2,
+        "Quantum": 0.2
+      },
+      "debuffRES": {},
+      "skills": [
+        {
+          "name": "Mirror Cognition",
+          "type": "Ability",
+          "desc": "Transforms into other friendly units and copies their abilities. After the transformation, this unit's Base Stats are inherited."
+        }
+      ]
+    }
+  ]
+}

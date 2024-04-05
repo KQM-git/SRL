@@ -239,7 +239,7 @@
     },
     {
       "name": "In Tears We Gift",
-      "desc": "While in the Epiphany state, enemy targets have their Effect RES reduced by <unbreak>#1[i]%</unbreak>. And at the start of their turn or when they get defeated, Black Swan regenerates <unbreak>#2[i]</unbreak> Energy. This Energy Regeneration effect can only trigger up to 1 time while Epiphany lasts. And the trigger count resets when Epiphany is applied again.",
+      "desc": "While in the Epiphany state, enemy targets have their Effect RES reduced by <unbreak>#1[i]%</unbreak> and Black Swan regenerates <unbreak>#2[i]</unbreak> Energy at the start of these targets' turns or when they are defeated. This Energy Regeneration effect can only trigger up to 1 time while Epiphany lasts. The trigger count is reset when Epiphany is applied again.",
       "params": [ 0.1, 8 ]
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "name": "Goblet's Dredges",
-      "desc": "When an enemy target enters battle, there is a <unbreak>#1[i]%</unbreak> base chance for it to be inflicted with 1 stack of Arcana. Every time an enemy target receives DoT during a single attack by an ally, there is a <unbreak>#1[i]%</unbreak> base chance for the target to be inflicted with 1 stack of Arcana. The maximum number of stacks that can be inflicted during 1 single attack is <unbreak>#2[i]</unbreak>.",
+      "desc": "When an enemy target enters battle, there is a <unbreak>#1[i]%</unbreak> base chance for it to be inflicted with 1 stack of Arcana.\\nEvery time an enemy target receives DoT during a single attack by an ally, there is a <unbreak>#1[i]%</unbreak> base chance for the target to be inflicted with 1 stack of Arcana. The maximum number of stacks that can be inflicted during 1 single attack is <unbreak>#2[i]</unbreak>.",
       "params": [ 0.65, 3 ],
       "minAsc": 4,
       "children": [

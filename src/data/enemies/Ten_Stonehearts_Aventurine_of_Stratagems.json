@@ -1,0 +1,79 @@
+{
+  "name": "Ten Stonehearts: Aventurine of Stratagems",
+  "faction": "Interastral Peace Corporation",
+  "variants": [
+    {
+      "attack": 18,
+      "def": 210,
+      "hp": 2232,
+      "speed": 120,
+      "toughness": 450,
+      "effectResBase": 0.3,
+      "weaknesses": [
+        "Physical",
+        "Ice",
+        "Lightning"
+      ],
+      "dmgRES": {
+        "Wind": 0.2,
+        "Quantum": 0.2,
+        "Imaginary": 0.4
+      },
+      "debuffRES": {
+        "Control Effects": 0.5
+      },
+      "skills": [
+        {
+          "name": "Time For A Bet",
+          "type": "Ability",
+          "desc": "Summons \"All or Nothing\" and makes a single target enter the Gamble. Every time an \"All or Nothing\" is attacked by a target that is in the Gamble, the target will receive a random number between 1 and 6. After a target that is in the Gamble has finished their turn, targets with numbers lower than \"Aventurine of Stratagems\" are considered to have lost the Gamble and will be attacked, while those with a number higher than \"Aventurine of Stratagems\" are considered to have won the Gamble and will have their Ultimate activated. At the same time, targets that have not entered the Gamble are afflicted with the \"Look, Don't Speak\" status, which is dispelled when the Gamble ends.",
+          "phases": [ 1 ],
+          "threat": true
+        },
+        {
+          "name": "Big Spenders' Mad Party",
+          "type": "Ability",
+          "desc": "Summons \"All or Nothing\" and makes all targets enter the gamble. Every time an \"All or Nothing\" is attacked, the target that launched the attack will receive a random number between 1 and 6. The next time \"Aventurine of Stratagems\" takes a turn, targets with numbers lower than \"Aventurine of Stratagems\" are considered to have lost the bet and will be attacked, while targets with numbers higher than \"Aventurine of Stratagems\" are considered to have won the bet and will have their Ultimates activated.",
+          "phases": [ 2 ],
+          "threat": true
+        },
+        {
+          "name": "Heavy Stakes",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a single target.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Distributed Investment",
+          "type": "Ability",
+          "desc": "Deals successive minor Imaginary DMG to random targets.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "Points Fountain",
+          "type": "Ability",
+          "desc": "Deals minor Imaginary DMG to all targets and reduce all targets' Energy.",
+          "phases": [ 1, 2 ]
+        },
+        {
+          "name": "The Loser's Time Is Over",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to a target that lost the Gamble, with a high chance of inflicting Imprisonment on the attacked target.",
+          "phases": [ 1 ]
+        },
+        {
+          "name": "The Winner Takes It All",
+          "type": "Ability",
+          "desc": "Deals Imaginary DMG to all targets that lost the Gamble, with a high chance of inflicting Imprisonment on the attacked targets.",
+          "phases": [ 2 ]
+        },
+        {
+          "name": "Stratagems' Wagering",
+          "type": "Talent",
+          "desc": "Every time a target wins the Gamble, they receive the \"Favored by Fortune\" effect that increases their DMG dealt. Every time a target loses the Gamble, they receive the \"Down on Your Luck\" effect that increases DMG taken.",
+          "phases": [ 1, 2 ]
+        }
+      ]
+    }
+  ]
+}

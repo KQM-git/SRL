@@ -1,0 +1,451 @@
+{
+  "name": "Acheron",
+  "damageType": "Lightning",
+  "baseType": "Nihility",
+  "star": 5,
+  "stats": [
+    {
+      "level": 0,
+      "maxLevel": 20,
+      "attackBase": 95.04,
+      "attackAdd": 4.752,
+      "hpBase": 153.12,
+      "hpAdd": 7.656,
+      "defenseBase": 59.4,
+      "defenseAdd": 2.97,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 1,
+      "maxLevel": 30,
+      "attackBase": 133.056,
+      "attackAdd": 4.752,
+      "hpBase": 214.368,
+      "hpAdd": 7.656,
+      "defenseBase": 83.16,
+      "defenseAdd": 2.97,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 2,
+      "maxLevel": 40,
+      "attackBase": 171.072,
+      "attackAdd": 4.752,
+      "hpBase": 275.616,
+      "hpAdd": 7.656,
+      "defenseBase": 106.92,
+      "defenseAdd": 2.97,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 3,
+      "maxLevel": 50,
+      "attackBase": 209.088,
+      "attackAdd": 4.752,
+      "hpBase": 336.864,
+      "hpAdd": 7.656,
+      "defenseBase": 130.68,
+      "defenseAdd": 2.97,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 4,
+      "maxLevel": 60,
+      "attackBase": 247.104,
+      "attackAdd": 4.752,
+      "hpBase": 398.112,
+      "hpAdd": 7.656,
+      "defenseBase": 154.44,
+      "defenseAdd": 2.97,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 5,
+      "maxLevel": 70,
+      "attackBase": 285.12,
+      "attackAdd": 4.752,
+      "hpBase": 459.36,
+      "hpAdd": 7.656,
+      "defenseBase": 178.2,
+      "defenseAdd": 2.97,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    },
+    {
+      "level": 6,
+      "maxLevel": 80,
+      "attackBase": 323.136,
+      "attackAdd": 4.752,
+      "hpBase": 520.608,
+      "hpAdd": 7.656,
+      "defenseBase": 201.96,
+      "defenseAdd": 2.97,
+      "crate": 0.05,
+      "cdmg": 0.5,
+      "aggro": 100,
+      "speedBase": 101,
+      "speedAdd": 0
+    }
+  ],
+  "skills": [
+    {
+      "name": "Trilateral Wiltcross",
+      "tag": "Single Target",
+      "type": "Basic ATK",
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Acheron's ATK to a single target enemy.",
+      "params": [
+        [ 0.5 ],
+        [ 0.6 ],
+        [ 0.7 ],
+        [ 0.8 ],
+        [ 0.9 ],
+        [ 1 ],
+        [ 1.1 ],
+        [ 1.2 ],
+        [ 1.3 ]
+      ],
+      "toughness": {
+        "Target": 30
+      }
+    },
+    {
+      "name": "Octobolt Flash",
+      "tag": "Blast",
+      "type": "Skill",
+      "desc": "Gains <unbreak>#3[i]</unbreak> point(s) of Slashed Dream. Inflicts <unbreak>#3[i]</unbreak> stack(s) of Crimson Knot on a single target enemy, dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Acheron's ATK to this target, as well as Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Acheron's ATK to adjacent targets.",
+      "params": [
+        [ 0.8, 0.3, 1 ],
+        [ 0.88, 0.33, 1 ],
+        [ 0.96, 0.36, 1 ],
+        [ 1.04, 0.39, 1 ],
+        [ 1.12, 0.42, 1 ],
+        [ 1.2, 0.45, 1 ],
+        [ 1.3, 0.4875, 1 ],
+        [ 1.4, 0.525, 1 ],
+        [ 1.5, 0.5625, 1 ],
+        [ 1.6, 0.6, 1 ],
+        [ 1.68, 0.63, 1 ],
+        [ 1.76, 0.66, 1 ],
+        [ 1.84, 0.69, 1 ],
+        [ 1.92, 0.72, 1 ],
+        [ 2, 0.75, 1 ]
+      ],
+      "toughness": {
+        "Target": 60,
+        "Adjacent": 30
+      }
+    },
+    {
+      "name": "Slashed Dream Cries in Red",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "Sequentially unleash Rainblade 3 times and Stygian Resurge 1 time, dealing Lightning DMG up to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of Acheron's ATK to a single target enemy, as well as Lightning DMG up to <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> of Acheron's ATK to other targets.\\n\\nRainblade: Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Acheron's ATK to a single target enemy and removes up to 3 stacks of Crimson Knot from the target. When Crimson Knot is removed, immediately deals Lightning DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Acheron's ATK to all enemies. For every stack of Crimson Knot removed, this DMG Multiplier is additionally increased, up to a maximum of <color=#f29e38ff><unbreak>#5[f1]%</unbreak></color>.\\n\\nStygian Resurge: Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Acheron's ATK to all enemies and remove all Crimson Knots.\\nCrimson Knot cannot be applied to enemies during the Ultimate.",
+      "params": [
+        [ 0.144, 0.09, 0.72, 9, 0.36, 2.232, 1.8 ],
+        [ 0.1536, 0.096, 0.768, 9, 0.384, 2.3808, 1.92 ],
+        [ 0.1632, 0.102, 0.816, 9, 0.408, 2.5296, 2.04 ],
+        [ 0.1728, 0.108, 0.864, 9, 0.432, 2.6784, 2.16 ],
+        [ 0.1824, 0.114, 0.912, 9, 0.456, 2.8272, 2.28 ],
+        [ 0.192, 0.12, 0.96, 9, 0.48, 2.976, 2.4 ],
+        [ 0.204, 0.1275, 1.02, 9, 0.51, 3.162, 2.55 ],
+        [ 0.216, 0.135, 1.08, 9, 0.54, 3.348, 2.7 ],
+        [ 0.228, 0.1425, 1.14, 9, 0.57, 3.534, 2.85 ],
+        [ 0.24, 0.15, 1.2, 9, 0.6, 3.72, 3 ],
+        [ 0.2496, 0.156, 1.248, 9, 0.624, 3.8688, 3.12 ],
+        [ 0.2592, 0.162, 1.296, 9, 0.648, 4.0176, 3.24 ],
+        [ 0.2688, 0.168, 1.344, 9, 0.672, 4.1664, 3.36 ],
+        [ 0.2784, 0.174, 1.392, 9, 0.696, 4.3152, 3.48 ],
+        [ 0.288, 0.18, 1.44, 9, 0.72, 4.464, 3.6 ]
+      ],
+      "energyNeeded": 9
+    },
+    {
+      "name": "Atop Rainleaf Hangs Oneness",
+      "tag": "Enhance",
+      "type": "Talent",
+      "desc": "When Slashed Dream reaches <unbreak>#1[i]</unbreak> point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting until the end of the Ultimate.\\nWhen any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once per every ability usage.\\nAfter an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field.",
+      "params": [
+        [ 9, 0.1 ],
+        [ 9, 0.11 ],
+        [ 9, 0.12 ],
+        [ 9, 0.13 ],
+        [ 9, 0.14 ],
+        [ 9, 0.15 ],
+        [ 9, 0.1625 ],
+        [ 9, 0.175 ],
+        [ 9, 0.1875 ],
+        [ 9, 0.2 ],
+        [ 9, 0.21 ],
+        [ 9, 0.22 ],
+        [ 9, 0.23 ],
+        [ 9, 0.24 ],
+        [ 9, 0.25 ]
+      ]
+    },
+    {
+      "name": "Quadrivalent Ascendance",
+      "type": "Technique",
+      "desc": "Immediately attacks the enemy. At the start of each wave, gains Quadrivalent Ascendance, dealing Lightning DMG equal to <unbreak>#1[i]%</unbreak> of Acheron's ATK to all enemies and reducing Toughness of all enemies irrespective of Weakness Types. When Weakness is broken, triggers the Lightning Weakness Break effect.\\nQuadrivalent Ascendance: After using the Ultimate, Acheron gains <unbreak>#2[i]</unbreak> point(s) of Slashed Dream and inflicts <unbreak>#2[i]</unbreak> stack(s) of Crimson Knot on a single random enemy.\\nIf attacking a normal enemy, immediately defeats them without entering combat. When not hitting enemies, no Technique Points are consumed.",
+      "params": [
+        [ 2, 1 ]
+      ],
+      "toughness": {
+        "All": 60
+      }
+    },
+    {
+      "name": "Rainblade",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "",
+      "params": [
+        [ 0.144, 0.09, 0.72 ],
+        [ 0.1536, 0.096, 0.768 ],
+        [ 0.1632, 0.102, 0.816 ],
+        [ 0.1728, 0.108, 0.864 ],
+        [ 0.1824, 0.114, 0.912 ],
+        [ 0.192, 0.12, 0.96 ],
+        [ 0.204, 0.1275, 1.02 ],
+        [ 0.216, 0.135, 1.08 ],
+        [ 0.228, 0.1425, 1.14 ],
+        [ 0.24, 0.15, 1.2 ],
+        [ 0.2496, 0.156, 1.248 ],
+        [ 0.2592, 0.162, 1.296 ],
+        [ 0.2688, 0.168, 1.344 ],
+        [ 0.2784, 0.174, 1.392 ],
+        [ 0.288, 0.18, 1.44 ]
+      ],
+      "toughness": {
+        "All": 15
+      }
+    },
+    {
+      "name": "Rainblade",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "",
+      "params": [
+        [ 0.144, 0.09, 0.72 ],
+        [ 0.1536, 0.096, 0.768 ],
+        [ 0.1632, 0.102, 0.816 ],
+        [ 0.1728, 0.108, 0.864 ],
+        [ 0.1824, 0.114, 0.912 ],
+        [ 0.192, 0.12, 0.96 ],
+        [ 0.204, 0.1275, 1.02 ],
+        [ 0.216, 0.135, 1.08 ],
+        [ 0.228, 0.1425, 1.14 ],
+        [ 0.24, 0.15, 1.2 ],
+        [ 0.2496, 0.156, 1.248 ],
+        [ 0.2592, 0.162, 1.296 ],
+        [ 0.2688, 0.168, 1.344 ],
+        [ 0.2784, 0.174, 1.392 ],
+        [ 0.288, 0.18, 1.44 ]
+      ],
+      "toughness": {
+        "All": 15
+      }
+    },
+    {
+      "name": "Rainblade",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "",
+      "params": [
+        [ 0.144, 0.09, 0.72 ],
+        [ 0.1536, 0.096, 0.768 ],
+        [ 0.1632, 0.102, 0.816 ],
+        [ 0.1728, 0.108, 0.864 ],
+        [ 0.1824, 0.114, 0.912 ],
+        [ 0.192, 0.12, 0.96 ],
+        [ 0.204, 0.1275, 1.02 ],
+        [ 0.216, 0.135, 1.08 ],
+        [ 0.228, 0.1425, 1.14 ],
+        [ 0.24, 0.15, 1.2 ],
+        [ 0.2496, 0.156, 1.248 ],
+        [ 0.2592, 0.162, 1.296 ],
+        [ 0.2688, 0.168, 1.344 ],
+        [ 0.2784, 0.174, 1.392 ],
+        [ 0.288, 0.18, 1.44 ]
+      ],
+      "toughness": {
+        "All": 15
+      }
+    },
+    {
+      "name": "Stygian Resurge",
+      "tag": "AoE",
+      "type": "Ultimate",
+      "desc": "",
+      "params": [
+        [ 0.72 ],
+        [ 0.768 ],
+        [ 0.816 ],
+        [ 0.864 ],
+        [ 0.912 ],
+        [ 0.96 ],
+        [ 1.02 ],
+        [ 1.08 ],
+        [ 1.14 ],
+        [ 1.2 ],
+        [ 1.248 ],
+        [ 1.296 ],
+        [ 1.344 ],
+        [ 1.392 ],
+        [ 1.44 ]
+      ],
+      "toughness": {
+        "All": 15
+      }
+    }
+  ],
+  "eidolons": [
+    {
+      "name": "Silenced Sky Spake Sooth",
+      "desc": "CRIT Rate increases by <unbreak>#1[i]%</unbreak> when dealing DMG to debuffed enemies.",
+      "params": [ 0.18 ]
+    },
+    {
+      "name": "Mute Thunder in Still Tempest",
+      "desc": "The number of Nihility characters required for the Trace \"The Abyss\" to achieve its highest possible effect is reduced by 1. When this unit's turn starts, gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the enemy with the most Crimson Knot stacks.",
+      "params": []
+    },
+    {
+      "name": "Frost Bites in Death",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Shrined Fire for Mirrored Soul",
+      "desc": "When enemy targets enter combat, afflict them with the Ultimate DMG Vulnerable Vulnerability state, increasing the amount of Ultimate DMG they take by <unbreak>#1[i]%</unbreak>.",
+      "params": [ 0.08 ]
+    },
+    {
+      "name": "Strewn Souls on Erased Earths",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "params": []
+    },
+    {
+      "name": "Apocalypse, the Emancipator",
+      "desc": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by <unbreak>#1[i]%</unbreak>. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can reduce enemy toughness regardless of Weakness Types. When Weakness is broken, triggers the Lightning Weakness Break effect.",
+      "params": [ 0.2 ]
+    }
+  ],
+  "skillTree": [
+    {
+      "name": "Red Oni",
+      "desc": "When battle starts, immediately gains <unbreak>#1[i]</unbreak> point(s) of Slashed Dream and applies <unbreak>#1[i]</unbreak> stack(s) of Crimson Knot to a random enemy. When Slashed Dream reaches its upper limit, for every point of Slashed Dream that exceeds the limit, gains 1 stack of Quadrivalent Ascendance. Increases the maximum stackable count for Quadrivalent Ascendance to <unbreak>#2[i]</unbreak>.",
+      "params": [ 5, 3 ],
+      "minAsc": 2,
+      "children": [
+        {
+          "name": "CRIT DMG Boost",
+          "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.053 ],
+          "minAsc": 2,
+          "children": [
+            {
+              "name": "ATK Boost",
+              "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.04 ],
+              "minAsc": 3,
+              "children": [
+                {
+                  "name": "DMG Boost: Lightning",
+                  "desc": "Lightning DMG increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.032 ],
+                  "minAsc": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Abyss",
+      "desc": "When there are 1 or 2 Nihility characters other than Acheron in the team, the DMG dealt by Acheron's Basic ATK, Skill, and Ultimate increases to <unbreak>#1[i]%</unbreak> or <unbreak>#2[i]%</unbreak> of the original DMG respectively.",
+      "params": [ 1.15, 1.6 ],
+      "minAsc": 4,
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.06 ],
+          "minAsc": 4,
+          "children": [
+            {
+              "name": "CRIT DMG Boost",
+              "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+              "params": [ 0.08 ],
+              "minAsc": 5,
+              "children": [
+                {
+                  "name": "ATK Boost",
+                  "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+                  "params": [ 0.06 ],
+                  "minAsc": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thunder Core",
+      "desc": "When the Rainblade from Acheron's Ultimate hits enemy targets with Crimson Knot, her DMG increases by <unbreak>#1[i]%</unbreak>, stacking up to <unbreak>#2[i]</unbreak> time(s) and lasting for <unbreak>#3[i]</unbreak> turn(s). And when Stygian Resurge triggers, additionally deals DMG for <unbreak>#4[i]</unbreak> times. Each time deals Lightning DMG equal to <unbreak>#5[i]%</unbreak> of Acheron's ATK to a single random enemy and is viewed as part of the Ultimate DMG.",
+      "params": [ 0.3, 3, 3, 6, 0.25 ],
+      "minAsc": 6,
+      "children": [
+        {
+          "name": "DMG Boost: Lightning",
+          "desc": "Lightning DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.048 ],
+          "minAsc": 6
+        },
+        {
+          "name": "CRIT DMG Boost",
+          "desc": "CRIT DMG increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.107 ],
+          "minLevel": 75
+        }
+      ]
+    },
+    {
+      "name": "ATK Boost",
+      "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+      "params": [ 0.04 ],
+      "children": [
+        {
+          "name": "ATK Boost",
+          "desc": "ATK increases by <unbreak>#1[f1]%</unbreak>",
+          "params": [ 0.08 ],
+          "minLevel": 80
+        }
+      ]
+    }
+  ]
+}

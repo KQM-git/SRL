@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 14
 description: |-
   An entity that bears certain cognitions formed from an accruement of subconscious fragments in the Memory Zone.
   Life is parceled in impenetrable barriers, obstructing the intrusion of the alien. But beneath that ironclad shell, there is a region both nameless and fragile.

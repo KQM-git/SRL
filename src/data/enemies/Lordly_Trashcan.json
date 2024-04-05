@@ -21,7 +21,7 @@
         {
           "name": "The Can's Tribulations",
           "type": "Ability",
-          "desc": "Increases this unit's ATK. This effect is stackable and unremovable."
+          "desc": "Increases this unit's ATK. This effect is stackable and unremoveable."
         },
         {
           "name": "The Can's Creed",

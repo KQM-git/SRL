@@ -5,6 +5,10 @@ import nihility from '@site/src/data/lightcones/Nihility.json'
 
 ## 5 Stars
 
+### Along the Passing Shore
+
+<Lightcone lightcone="Along the Passing Shore" lightcones={nihility} />
+
 ### Incessant Rain
 
 <Lightcone lightcone="Incessant Rain" lightcones={nihility} />

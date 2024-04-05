@@ -51,7 +51,7 @@
         {
           "name": "Flame-Forged Feast",
           "type": "Talent",
-          "desc": "Immediately takes action when Stove Heating reaches a certain number of stacks, and uses Ignite Stove."
+          "desc": "While not under the Charge state, upon reaching a certain number of Stove Heating stacks, immediately takes action and uses Ignite Stove."
         },
         {
           "name": "Inferno Stove",

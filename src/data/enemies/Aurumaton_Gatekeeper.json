@@ -32,7 +32,7 @@
         {
           "name": "Farewell Etiquette",
           "type": "Talent",
-          "desc": "The Sanction Rate level increases when your team uses Skills or Ultimates. When the Sanction Rate reaches its level cap, enters Sanction mode and summons Entranced Ingenium: Illumination Dragonfish."
+          "desc": "The Sanction Rate level increases when your team uses Skills or Ultimates to attack. When the Sanction Rate reaches its level cap, enters Sanction mode and summons Entranced Ingenium: Illumination Dragonfish."
         },
         {
           "name": "Dread",

@@ -30,7 +30,7 @@
         {
           "name": "Startling Broadcast",
           "type": "Ability",
-          "desc": "Deals minor Quantum DMG to all targets and causes all targets to lose Energy. This ability can only be used while under the Fright Channel state."
+          "desc": "Deals minor Quantum DMG to all targets and causes all targets' Energy to be reduced. This ability can only be used while in the Fright Channel state."
         },
         {
           "name": "Channel Switch",

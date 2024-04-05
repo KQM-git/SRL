@@ -1,5 +1,5 @@
 ---
-sidebar_position: 15
+sidebar_position: 13
 description: |-
   Penacony's service machinery that got out of control due to the emotional interference in the Dreamscape.
   Originally a culinary robot, it is still breathing fire for grilling ingredients after losing control, intending to burn the diners to crisps.

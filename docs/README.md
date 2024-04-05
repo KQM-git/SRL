@@ -10,9 +10,9 @@ The SRL is organized so that each page has a corresponding Evidence Vault. The E
 
 ## Quick Links
 
-**Most Recent Characters:** [Sparkle](/characters/quantum/sparkle)
+**Most Recent Characters:** [Acheron](/characters/lightning/acheron) | [Gallagher](/characters/fire/gallagher)
 
-**Most Recent Light Cones:** [Earthly Escapade](equipment/lightcones/harmony#earthly-escapade)
+**Most Recent Light Cones:** [Along the Passing Shore](equipment/lightcones/nihility#along-the-passing-shore)
 
 ## Data Status
 
