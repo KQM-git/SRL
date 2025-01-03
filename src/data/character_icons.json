@@ -7,7 +7,11 @@
     "Hook",
     "Topaz & Numby",
     "Caelus (Fire)",
-    "Stelle (Fire)"
+    "Stelle (Fire)",
+    "Firefly",
+    "Jiaoqiu",
+    "Lingsha",
+    "Fugue"
   ],
   "Ice": [
     "Gepard",
@@ -24,7 +28,13 @@
     "Dr. Ratio",
     "Luocha",
     "Welt",
-    "Yukong"
+    "Yukong",
+    "Aventurine",
+    "Caelus (Imaginary)",
+    "Stelle (Imaginary)",
+    "March 7th (The Hunt)",
+    "Rappa",
+    "Sunday"
   ],
   "Lightning": [
     "Acheron",
@@ -33,7 +43,8 @@
     "Jing Yuan",
     "Kafka",
     "Serval",
-    "Tingyun"
+    "Tingyun",
+    "Moze"
   ],
   "Physical": [
     "Argenti",
@@ -43,7 +54,10 @@
     "Natasha",
     "Sushang",
     "Caelus (Physical)",
-    "Stelle (Physical)"
+    "Stelle (Physical)",
+    "Robin",
+    "Boothill",
+    "Yunli"
   ],
   "Quantum": [
     "Fu Xuan",
@@ -52,7 +66,8 @@
     "Seele",
     "Silver Wolf",
     "Sparkle",
-    "Xueyi"
+    "Xueyi",
+    "Jade"
   ],
   "Wind": [
     "Black Swan",
@@ -60,6 +75,7 @@
     "Bronya",
     "Dan Heng",
     "Huohuo",
-    "Sampo"
+    "Sampo",
+    "Feixiao"
   ]
 }
