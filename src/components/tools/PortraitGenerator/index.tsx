@@ -225,7 +225,7 @@ export default function PortraitGenerator({
       })}
     </Tabs>
 
-    <h2>Elements</h2>
+    <h2>Types</h2>
     <CharSelector icons={elements} onClick={add} />
 
     <h2>Relics</h2>
@@ -252,7 +252,7 @@ export default function PortraitGenerator({
       })}
     </Tabs>
 
-    <h2>Combat Types</h2>
+    <h2>Paths</h2>
     <CharSelector icons={path} onClick={add} />
 
     <h2>Misc</h2>
