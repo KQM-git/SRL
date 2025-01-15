@@ -64,7 +64,10 @@ const path = [{
     path: "/img/path/Abundance.png",
 }, {
     name: "Nihility",
-    path: "/img/path/Nihility.png"
+    path: "/img/path/Nihility.png",
+  }, {
+    name: "Remembrance",
+    path: "/img/path/Remembrance.png"
   }]
 
 const localStorageKey = "portrait-generator-custom-icons"
