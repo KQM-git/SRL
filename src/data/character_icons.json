@@ -24,7 +24,8 @@
     "Yanqing",
     "Caelus (Ice)",
     "Stelle (Ice)",
-    "The Herta"
+    "The Herta",
+    "Evernight"
   ],
   "Imaginary": [
     "Dan Heng Imbibitor Lunae",
@@ -62,7 +63,10 @@
     "Stelle (Physical)",
     "Robin",
     "Boothill",
-    "Yunli"
+    "Yunli",
+    "Phainon",
+    "Hysilens",
+    "Dan Heng Permansor Terrae"
   ],
   "Quantum": [
     "Fu Xuan",
@@ -75,7 +79,8 @@
     "Jade",
     "Tribbie",
     "Castorice",
-    "Cipher"
+    "Cipher",
+    "Archer"
   ],
   "Wind": [
     "Black Swan",
@@ -86,6 +91,8 @@
     "Sampo",
     "Feixiao",
     "Anaxa",
-    "Hyacine"
+    "Hyacine",
+    "Saber",
+    "Cerydra"
   ]
 }
