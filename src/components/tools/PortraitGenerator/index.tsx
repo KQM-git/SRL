@@ -8,6 +8,8 @@ import TabItem from '@theme/TabItem'
 import Tabs from '@theme/Tabs'
 import { CheckboxInput } from '../../common/input/CheckboxInput'
 import filename from '@site/src/utils/filename'
+import MDXComponents from '@site/src/theme/MDXComponents'
+import MDXDetails from '@theme/MDXComponents/Details'
 
 export interface PortraitIcon {
   name: string
@@ -86,7 +88,7 @@ export default function PortraitGenerator({
   const [custom, setCustom] = useState([] as PortraitIcon[])
   const [background, setBackground] = useState(true)
   const [portraitPadding, setPortraitPadding] = useState(true)
-  const [names, setNames] = useState(true)
+  const [names, setNames] = useState(false)
   const [search, setSearch] = useState("")
 
   // Loading of custom icons
@@ -106,8 +108,12 @@ export default function PortraitGenerator({
 
   const iconsMisc = [
     {
-      name: "Fill slot",
+      name: "Flex",
       path: "/img/characters/abstract-user-flat-3-colored.svg",
+    },
+    {
+      name: "Healer",
+      path: "/img/characters/healer.png",
     },
   ]
 
@@ -213,7 +219,18 @@ export default function PortraitGenerator({
         icons={searchMatches}
         onClick={add}
       />}
-    </div>
+    </div><br/>
+
+    <h2>Settings</h2>
+    <label>
+      Use background: <CheckboxInput set={setBackground} value={background} />
+    </label> <br/>
+    <label>
+      Portrait padding: <CheckboxInput set={setPortraitPadding} value={portraitPadding} />
+    </label> <br/>
+    <label>
+      Add names text: <CheckboxInput set={setNames} value={names} />
+    </label> <br/><br/>
 
     <h2>Characters</h2>
     <Tabs>
@@ -228,8 +245,14 @@ export default function PortraitGenerator({
       })}
     </Tabs>
 
+    <h2>Paths</h2>
+    <CharSelector icons={path} onClick={add} />
+
     <h2>Types</h2>
     <CharSelector icons={elements} onClick={add} />
+
+    <h2>Misc</h2>
+    <CharSelector icons={iconsMisc} onClick={add} />
 
     <h2>Relics</h2>
     <Tabs>
@@ -255,12 +278,6 @@ export default function PortraitGenerator({
       })}
     </Tabs>
 
-    <h2>Paths</h2>
-    <CharSelector icons={path} onClick={add} />
-
-    <h2>Misc</h2>
-    <CharSelector icons={iconsMisc} onClick={add} />
-
     {custom.length > 0 && <>
       <h2>Custom</h2>
       <CharSelector icons={custom} onClick={add} onCtrlClick={icon => {
@@ -269,17 +286,6 @@ export default function PortraitGenerator({
         setCustom(custom.filter(x => x != icon))
       }} />
     </>}
-
-    <h2>Settings</h2>
-    <label>
-      Use background: <CheckboxInput set={setBackground} value={background} />
-    </label> <br/>
-    <label>
-      Portrait padding: <CheckboxInput set={setPortraitPadding} value={portraitPadding} />
-    </label> <br/>
-    <label>
-      Add names text: <CheckboxInput set={setNames} value={names} />
-    </label> <br/>
     <a href='#' onClick={e => {
       e.preventDefault()
       const name = prompt("Name", `Custom Icon`)
